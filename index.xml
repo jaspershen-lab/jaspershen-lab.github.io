@@ -5,9 +5,9 @@
     <link>https://jaspershen-lab.github.io/</link>
       <atom:link href="https://jaspershen-lab.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jasper Shen lab</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jaspershen-lab.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen-lab.github.io/media/logo_hu764fe0644dbad6ae855efae6e4c6d582_119473_300x300_fit_lanczos_3.png</url>
       <title>Jasper Shen lab</title>
       <link>https://jaspershen-lab.github.io/</link>
     </image>
@@ -32,14 +32,6 @@
       <link>https://jaspershen-lab.github.io/tour/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://jaspershen-lab.github.io/tour/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jaspershen-lab.github.io/research/</link>
-      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/research/</guid>
       <description></description>
     </item>
     
@@ -173,6 +165,14 @@ Figure 1: A fancy pie chart.
       <link>https://jaspershen-lab.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jaspershen-lab.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jaspershen-lab.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen-lab.github.io/research/</guid>
       <description></description>
     </item>
     
