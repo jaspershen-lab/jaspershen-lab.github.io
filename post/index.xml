@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News | Jasper Shen lab</title>
+    <title>News | Jasper Shen lab</title>
     <link>https://jaspershen-lab.github.io/post/</link>
       <atom:link href="https://jaspershen-lab.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Latest News</description>
+    <description>News</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://jaspershen-lab.github.io/media/logo_hu764fe0644dbad6ae855efae6e4c6d582_119473_300x300_fit_lanczos_3.png</url>
-      <title>Latest News</title>
+      <url>https://jaspershen-lab.github.io/media/logo_hubefe44d2b3c781a4276801a421c2138d_46335_300x300_fit_lanczos_3.png</url>
+      <title>News</title>
       <link>https://jaspershen-lab.github.io/post/</link>
     </image>
     
