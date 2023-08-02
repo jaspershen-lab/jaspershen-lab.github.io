@@ -173,7 +173,13 @@ Figure 1: A fancy pie chart.
       <link>https://jaspershen-lab.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jaspershen-lab.github.io/research/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;research&#34;&gt;Research&lt;/h1&gt;
+&lt;h2 id=&#34;mass-spectrometry&#34;&gt;Mass spectrometry&lt;/h2&gt;
+&lt;h2 id=&#34;microbiome&#34;&gt;Microbiome&lt;/h2&gt;
+&lt;h2 id=&#34;wearable&#34;&gt;Wearable&lt;/h2&gt;
+&lt;h2 id=&#34;aging&#34;&gt;Aging&lt;/h2&gt;
+&lt;h2 id=&#34;pregnancy&#34;&gt;Pregnancy&lt;/h2&gt;
+</description>
     </item>
     
     <item>
