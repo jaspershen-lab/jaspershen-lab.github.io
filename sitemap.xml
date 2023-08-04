@@ -26,6 +26,10 @@
     <lastmod>2023-08-04T12:12:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen-lab.github.io/all_software/</loc>
+    <lastmod>2023-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen-lab.github.io/tour/</loc>
     <lastmod>2023-08-02T00:08:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -114,14 +118,6 @@
     <lastmod>2023-08-04T12:12:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen-lab.github.io/all_software/tidymodels/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/all_software/tidymodels2/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen-lab.github.io/software/tidymodels/</loc>
     <lastmod>2023-08-04T12:12:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -130,27 +126,7 @@
     <lastmod>2023-08-04T12:12:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen-lab.github.io/tag/microbiome/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen-lab.github.io/software/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/all_software/tidyverse/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/all_software/tidyverse2/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/software/tidyverse/</loc>
-    <lastmod>2023-08-04T12:12:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/software/tidyverse2/</loc>
     <lastmod>2023-08-04T12:12:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -224,10 +200,6 @@
   </url><url>
     <loc>https://jaspershen-lab.github.io/publication/</loc>
     <lastmod>2023-08-03T17:07:48-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen-lab.github.io/all_software/</loc>
-    <lastmod>2023-08-03T22:27:11-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
