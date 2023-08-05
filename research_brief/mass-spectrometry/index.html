@@ -244,6 +244,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=143314205"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', '143314205', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -401,6 +440,8 @@
 
 
 
+  
+
 
 
 
@@ -511,7 +552,7 @@
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
         
         <ul class="navbar-nav d-md-inline-flex">
@@ -548,7 +589,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#research"><span>Research</span></a>
+            <a class="nav-link " href="/#research"><span>🔬 Research</span></a>
           </li>
 
           
@@ -585,7 +626,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#software"><span>Software</span></a>
+            <a class="nav-link " href="/#software"><span>🖥️ Software</span></a>
           </li>
 
           
@@ -622,7 +663,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#publication"><span>Publications</span></a>
+            <a class="nav-link " href="/#publication"><span>📃 Publications</span></a>
           </li>
 
           
@@ -659,7 +700,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#news"><span>News</span></a>
+            <a class="nav-link " href="/#news"><span>📰 News</span></a>
           </li>
 
           
@@ -696,7 +737,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#people"><span>Team</span></a>
+            <a class="nav-link " href="/#people"><span>👥 Team</span></a>
           </li>
 
           
@@ -733,7 +774,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#event"><span>Events</span></a>
+            <a class="nav-link " href="/#event"><span>🎫 Events</span></a>
           </li>
 
           
@@ -770,7 +811,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact"><span>📨 Contact</span></a>
           </li>
 
           
@@ -782,8 +823,6 @@
           
           
             
-              
-            
           
 
           
@@ -798,11 +837,18 @@
               
               
             
+            
+              
+              
+              
+                
+              
+              
             
           
 
           <li class="nav-item">
-            <a class="nav-link " href="https://github.com/jaspershen-lab" target="_blank" rel="noopener"><span><i class="fa-brands fa-github"></i></span></a>
+            <a class="nav-link " href="/#github"><span><i class="fa-brands fa-github"></i> GitHub</span></a>
           </li>
 
           
@@ -814,8 +860,6 @@
           
           
             
-              
-            
           
 
           
@@ -830,11 +874,18 @@
               
               
             
+            
+              
+              
+              
+                
+              
+              
             
           
 
           <li class="nav-item">
-            <a class="nav-link " href="https://twitter.com/elonmusk" target="_blank" rel="noopener"><span><i class="fa-brands fa-twitter"></i></span></a>
+            <a class="nav-link " href="/#twitter"><span><i class="fa-brands fa-twitter"></i> Twitter</span></a>
           </li>
 
           
@@ -1232,6 +1283,14 @@
 
 
 
+
+  
+  
+  
+
+  
+
+  
 
 
 

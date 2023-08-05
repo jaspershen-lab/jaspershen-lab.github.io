@@ -244,6 +244,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=143314205"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', '143314205', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -428,6 +467,8 @@
 
 
 
+  
+
 
 
 
@@ -538,7 +579,7 @@
 
       
       
-      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
         
         <ul class="navbar-nav d-md-inline-flex">
@@ -575,7 +616,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#research" data-target="#research"><span>Research</span></a>
+            <a class="nav-link " href="/#research" data-target="#research"><span>🔬 Research</span></a>
           </li>
 
           
@@ -612,7 +653,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#software" data-target="#software"><span>Software</span></a>
+            <a class="nav-link " href="/#software" data-target="#software"><span>🖥️ Software</span></a>
           </li>
 
           
@@ -649,7 +690,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#publication" data-target="#publication"><span>Publications</span></a>
+            <a class="nav-link " href="/#publication" data-target="#publication"><span>📃 Publications</span></a>
           </li>
 
           
@@ -686,7 +727,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#news" data-target="#news"><span>News</span></a>
+            <a class="nav-link " href="/#news" data-target="#news"><span>📰 News</span></a>
           </li>
 
           
@@ -723,7 +764,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#people" data-target="#people"><span>Team</span></a>
+            <a class="nav-link " href="/#people" data-target="#people"><span>👥 Team</span></a>
           </li>
 
           
@@ -760,7 +801,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#event" data-target="#event"><span>Events</span></a>
+            <a class="nav-link " href="/#event" data-target="#event"><span>🎫 Events</span></a>
           </li>
 
           
@@ -797,7 +838,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#contact" data-target="#contact"><span>📨 Contact</span></a>
           </li>
 
           
@@ -809,8 +850,6 @@
           
           
             
-              
-            
           
 
           
@@ -825,11 +864,18 @@
               
               
             
+            
+              
+              
+              
+                
+              
+              
             
           
 
           <li class="nav-item">
-            <a class="nav-link " href="https://github.com/jaspershen-lab" target="_blank" rel="noopener"><span><i class="fa-brands fa-github"></i></span></a>
+            <a class="nav-link " href="/#github" data-target="#github"><span><i class="fa-brands fa-github"></i> GitHub</span></a>
           </li>
 
           
@@ -841,8 +887,6 @@
           
           
             
-              
-            
           
 
           
@@ -857,11 +901,18 @@
               
               
             
+            
+              
+              
+              
+                
+              
+              
             
           
 
           <li class="nav-item">
-            <a class="nav-link " href="https://twitter.com/elonmusk" target="_blank" rel="noopener"><span><i class="fa-brands fa-twitter"></i></span></a>
+            <a class="nav-link " href="/#twitter" data-target="#twitter"><span><i class="fa-brands fa-twitter"></i> Twitter</span></a>
           </li>
 
           
@@ -1421,7 +1472,7 @@
 <div class="row featurette">
   
   <div class="col-md-12 section-heading">
-    <h1>Research <code>🔬</code></h1>
+    <h1>🔬 Research</h1>
     <p>👉 <a href="./research/">Detailed research can be found here</a></p>
   </div>
   
@@ -2041,7 +2092,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Software <code>🖥️</code></h1>
+          <h1 class="mb-0">🖥️ Software</h1>
           <p class="mt-1">👉 <a href="./all_software/">All software can be found here</a></p>
         </div>
       
@@ -2409,7 +2460,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Recent Publications <code>📃</code></h1>
+          <h1 class="mb-0">📃 Recent Publications</h1>
           <p class="mt-1">👉 <a href="./publication/">All publication can be found here</a></p>
         </div>
       
@@ -3061,7 +3112,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Latest News <code>📰</code></h1>
+          <h1 class="mb-0">📰 Latest News</h1>
           <p class="mt-1">👉 <a href="./post/">All news can be found here</a></p>
         </div>
       
@@ -3428,7 +3479,7 @@
 <div class="row justify-content-center people-widget">
   
     <div class="section-heading col-12 mb-3 text-center">
-      <h1 class="mb-0">Team <code>👥</code></h1>
+      <h1 class="mb-0">👥 Team</h1>
       <p class="mt-1">👉 <a href="./people/">All team member can be found here</a></p>
     </div>
   
@@ -4024,7 +4075,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Recent Events <code>🎫</code></h1>
+          <h1 class="mb-0">🎫 Recent Events</h1>
           <p class="mt-1">👉 <a href="./event/">All events can be found here</a></p>
         </div>
       
@@ -4384,161 +4435,6 @@
 
 
 
-<section id="section-tag_cloud" class="home-section wg-tag-cloud  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Popular Topics <code>🐳</code></h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="col-12 text-center">
-  
-
-  
-
-    
-    
-    
-    
-    
-    
-
-    <div class="tag-cloud">
-      
-        
-        
-        
-        <a href="/tag/mass-spectrometry/" style="font-size:2.2643002974495365rem">Mass Spectrometry</a>
-      
-        
-        
-        
-        <a href="/tag/microbiome/" style="font-size:1.5321501487247682rem">Microbiome</a>
-      
-        
-        
-        
-        <a href="/tag/plot/" style="font-size:0.8rem">plot</a>
-      
-        
-        
-        
-        <a href="/tag/r-markdown/" style="font-size:0.8rem">R Markdown</a>
-      
-        
-        
-        
-        <a href="/tag/regression/" style="font-size:0.8rem">regression</a>
-      
-        
-        
-        
-        <a href="/tag/source-themes/" style="font-size:1.960430530626175rem">Source Themes</a>
-      
-    </div>
-  
-
-</div>
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <section id="contact" class="home-section wg-contact  "  >
  <div class="home-section-bg " >
    
@@ -4550,7 +4446,7 @@
     
       
         <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Contact <code>📨</code></h1>
+          <h1 class="mb-0">📨 Contact</h1>
           
         </div>
       
@@ -4670,7 +4566,7 @@
     
     <li>
       <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
+      <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">Follow us on Twitter</a>
     </li>
     
     
@@ -4692,6 +4588,354 @@
 
   </ul>
 
+  
+
+</div>
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="github" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">😺 GitHub</h1>
+          <p class="mt-1">👉 <a href="https://github.com/jaspershen-lab" target="_blank" rel="noopener">GitHub can be found here</a></p>
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <img src="http://ghchart.rshah.org/jaspershen" alt="jaspershen-lab" width = "100%"/>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="twitter" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">🐦 Twitter</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <a class="twitter-timeline" data-height="800" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-tag_cloud" class="home-section wg-tag-cloud  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="col-12 text-center">
+  
+
+  
+
+    
+    
+    
+    
+    
+    
+
+    <div class="tag-cloud">
+      
+        
+        
+        
+        <a href="/tag/mass-spectrometry/" style="font-size:2.2643002974495365rem">Mass Spectrometry</a>
+      
+        
+        
+        
+        <a href="/tag/microbiome/" style="font-size:1.5321501487247682rem">Microbiome</a>
+      
+        
+        
+        
+        <a href="/tag/plot/" style="font-size:0.8rem">plot</a>
+      
+        
+        
+        
+        <a href="/tag/r-markdown/" style="font-size:0.8rem">R Markdown</a>
+      
+        
+        
+        
+        <a href="/tag/regression/" style="font-size:0.8rem">regression</a>
+      
+        
+        
+        
+        <a href="/tag/source-themes/" style="font-size:1.960430530626175rem">Source Themes</a>
+      
+    </div>
   
 
 </div>
