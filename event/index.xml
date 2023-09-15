@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🎫 Events | Shen lab</title>
-    <link>https://jaspershen-lab.github.io/event/</link>
-      <atom:link href="https://jaspershen-lab.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shen-lab.org/event/</link>
+      <atom:link href="https://shen-lab.org/event/index.xml" rel="self" type="application/rss+xml" />
     <description>🎫 Events</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://jaspershen-lab.github.io/media/logo_hu0088887dd93f04c1a60af99d4ad9465b_56122_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/media/logo_hu0088887dd93f04c1a60af99d4ad9465b_56122_300x300_fit_lanczos_3.png</url>
       <title>🎫 Events</title>
-      <link>https://jaspershen-lab.github.io/event/</link>
+      <link>https://shen-lab.org/event/</link>
     </image>
     
     <item>
       <title>Example Event</title>
-      <link>https://jaspershen-lab.github.io/event/example/</link>
+      <link>https://shen-lab.org/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/event/example/</guid>
+      <guid>https://shen-lab.org/event/example/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Example Event</title>
-      <link>https://jaspershen-lab.github.io/event/example2/</link>
+      <link>https://shen-lab.org/event/example2/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/event/example2/</guid>
+      <guid>https://shen-lab.org/event/example2/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -44,9 +44,9 @@
     
     <item>
       <title>Example Event</title>
-      <link>https://jaspershen-lab.github.io/event/example3/</link>
+      <link>https://shen-lab.org/event/example3/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/event/example3/</guid>
+      <guid>https://shen-lab.org/event/example3/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -59,9 +59,9 @@
     
     <item>
       <title>Example Event</title>
-      <link>https://jaspershen-lab.github.io/event/example4/</link>
+      <link>https://shen-lab.org/event/example4/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/event/example4/</guid>
+      <guid>https://shen-lab.org/event/example4/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
@@ -74,9 +74,9 @@
     
     <item>
       <title>Example Event</title>
-      <link>https://jaspershen-lab.github.io/event/example5/</link>
+      <link>https://shen-lab.org/event/example5/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen-lab.github.io/event/example5/</guid>
+      <guid>https://shen-lab.org/event/example5/</guid>
       <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;

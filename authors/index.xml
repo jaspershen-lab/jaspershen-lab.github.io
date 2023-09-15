@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Shen lab</title>
-    <link>https://jaspershen-lab.github.io/authors/</link>
-      <atom:link href="https://jaspershen-lab.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://shen-lab.org/authors/</link>
+      <atom:link href="https://shen-lab.org/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jaspershen-lab.github.io/media/logo_hu0088887dd93f04c1a60af99d4ad9465b_56122_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/media/logo_hu0088887dd93f04c1a60af99d4ad9465b_56122_300x300_fit_lanczos_3.png</url>
       <title>Authors</title>
-      <link>https://jaspershen-lab.github.io/authors/</link>
+      <link>https://shen-lab.org/authors/</link>
     </image>
     
   </channel>
