@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://shen-lab.org/sitemap.xml
