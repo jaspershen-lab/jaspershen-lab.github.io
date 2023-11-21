@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>We want you! | Shen lab</title>
+    <link>https://shen-lab.org/author/we-want-you/</link>
+      <atom:link href="https://shen-lab.org/author/we-want-you/index.xml" rel="self" type="application/rss+xml" />
+    <description>We want you!</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/we-want-you/avatar_hudb29f5e4ec73d0120eda152356210f37_500356_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>We want you!</title>
+      <link>https://shen-lab.org/author/we-want-you/</link>
+    </image>
+    
+  </channel>
+</rss>
