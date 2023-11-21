@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Si Wu | Shen lab</title>
+    <link>https://shen-lab.org/author/si-wu/</link>
+      <atom:link href="https://shen-lab.org/author/si-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Si Wu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Si Wu</title>
+      <link>https://shen-lab.org/author/si-wu/</link>
+    </image>
+    
+    <item>
+      <title>metID: an R package for automatable compound annotation for LC− MS-based data</title>
+      <link>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

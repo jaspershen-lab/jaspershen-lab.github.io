@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuping Cai | Shen lab</title>
+    <link>https://shen-lab.org/author/yuping-cai/</link>
+      <atom:link href="https://shen-lab.org/author/yuping-cai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuping Cai</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Yuping Cai</title>
+      <link>https://shen-lab.org/author/yuping-cai/</link>
+    </image>
+    
+    <item>
+      <title>Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and integration of large-scale metabolomics data using support vector regression</title>
+      <link>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kévin Contrepois | Shen lab</title>
+    <link>https://shen-lab.org/author/kevin-contrepois/</link>
+      <atom:link href="https://shen-lab.org/author/kevin-contrepois/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kévin Contrepois</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Kévin Contrepois</title>
+      <link>https://shen-lab.org/author/kevin-contrepois/</link>
+    </image>
+    
+    <item>
+      <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>
+      <link>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metID: an R package for automatable compound annotation for LC− MS-based data</title>
+      <link>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women</title>
+      <link>https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

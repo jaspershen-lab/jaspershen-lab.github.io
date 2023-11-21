@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Tibshirani | Shen lab</title>
+    <link>https://shen-lab.org/author/robert-tibshirani/</link>
+      <atom:link href="https://shen-lab.org/author/robert-tibshirani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert Tibshirani</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Robert Tibshirani</title>
+      <link>https://shen-lab.org/author/robert-tibshirani/</link>
+    </image>
+    
+    <item>
+      <title>Semi-supervised Cooperative Learning for Multiomics Data Fusion</title>
+      <link>https://shen-lab.org/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women</title>
+      <link>https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

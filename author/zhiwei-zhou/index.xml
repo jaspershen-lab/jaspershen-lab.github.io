@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhiwei Zhou | Shen lab</title>
+    <link>https://shen-lab.org/author/zhiwei-zhou/</link>
+      <atom:link href="https://shen-lab.org/author/zhiwei-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhiwei Zhou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Zhiwei Zhou</title>
+      <link>https://shen-lab.org/author/zhiwei-zhou/</link>
+    </image>
+    
+    <item>
+      <title>LipidIMMS Analyzer integrating multi-dimensional information to support lipid identification in ion mobility—mass spectrometry based lipidomics</title>
+      <link>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LipidCCS prediction of collision cross-section values for lipids with high precision to support ion mobility–mass spectrometry-based lipidomics</title>
+      <link>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

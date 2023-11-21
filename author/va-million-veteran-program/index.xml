@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VA Million Veteran Program | Shen lab</title>
+    <link>https://shen-lab.org/author/va-million-veteran-program/</link>
+      <atom:link href="https://shen-lab.org/author/va-million-veteran-program/index.xml" rel="self" type="application/rss+xml" />
+    <description>VA Million Veteran Program</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>VA Million Veteran Program</title>
+      <link>https://shen-lab.org/author/va-million-veteran-program/</link>
+    </image>
+    
+    <item>
+      <title>Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity</title>
+      <link>https://shen-lab.org/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

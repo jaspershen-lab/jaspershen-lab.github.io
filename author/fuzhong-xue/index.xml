@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fuzhong Xue | Shen lab</title>
+    <link>https://shen-lab.org/author/fuzhong-xue/</link>
+      <atom:link href="https://shen-lab.org/author/fuzhong-xue/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fuzhong Xue</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Fuzhong Xue</title>
+      <link>https://shen-lab.org/author/fuzhong-xue/</link>
+    </image>
+    
+    <item>
+      <title>A serum metabolomics analysis reveals a panel of screening metabolic biomarkers for esophageal squamous cell carcinoma</title>
+      <link>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The mediation effect of serum metabolites on the relationship between long-term smoking exposure and esophageal squamous cell carcinoma</title>
+      <link>https://shen-lab.org/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serum metabolomics analysis for the progression of esophageal squamous cell carcinoma</title>
+      <link>https://shen-lab.org/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serum metabolomics for early diagnosis of esophageal squamous cell carcinoma by UHPLC-QTOF/MS</title>
+      <link>https://shen-lab.org/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and integration of large-scale metabolomics data using support vector regression</title>
+      <link>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

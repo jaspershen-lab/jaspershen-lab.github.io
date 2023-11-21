@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zheng-Jiang Zhu | Shen lab</title>
+    <link>https://shen-lab.org/author/zheng-jiang-zhu/</link>
+      <atom:link href="https://shen-lab.org/author/zheng-jiang-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zheng-Jiang Zhu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Zheng-Jiang Zhu</title>
+      <link>https://shen-lab.org/author/zheng-jiang-zhu/</link>
+    </image>
+    
+    <item>
+      <title>metID: an R package for automatable compound annotation for LC− MS-based data</title>
+      <link>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetFlow: an interactive and integrated workflow for metabolomics data cleaning and differential metabolite discovery</title>
+      <link>https://shen-lab.org/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</link>
+      <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LipidIMMS Analyzer integrating multi-dimensional information to support lipid identification in ion mobility—mass spectrometry based lipidomics</title>
+      <link>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of a correlative strategy to discover colorectal tumor tissue derived metabolite biomarkers in plasma using untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</link>
+      <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LipidCCS prediction of collision cross-section values for lipids with high precision to support ion mobility–mass spectrometry-based lipidomics</title>
+      <link>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serum metabolomics for early diagnosis of esophageal squamous cell carcinoma by UHPLC-QTOF/MS</title>
+      <link>https://shen-lab.org/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and integration of large-scale metabolomics data using support vector regression</title>
+      <link>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</link>
+      <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeffrey M Spraggins | Shen lab</title>
+    <link>https://shen-lab.org/author/jeffrey-m-spraggins/</link>
+      <atom:link href="https://shen-lab.org/author/jeffrey-m-spraggins/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jeffrey M Spraggins</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <title>Jeffrey M Spraggins</title>
+      <link>https://shen-lab.org/author/jeffrey-m-spraggins/</link>
+    </image>
+    
+    <item>
+      <title>Advances and prospects for the Human BioMolecular Atlas Program (HuBMAP)</title>
+      <link>https://shen-lab.org/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</link>
+      <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
