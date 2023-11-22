@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Peng Gao | Shen lab</title>
+    <link>https://shen-lab.org/author/prof.-peng-gao/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-peng-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Peng Gao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/prof.-peng-gao/avatar_hu341f7fb1919ebf9d4454f59bfa2eb30c_68321_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Prof. Peng Gao</title>
+      <link>https://shen-lab.org/author/prof.-peng-gao/</link>
+    </image>
+    
+    <item>
+      <title>Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity</title>
+      <link>https://shen-lab.org/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</link>
+      <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>
+      <link>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
+      <link>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity</title>
+      <link>https://shen-lab.org/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

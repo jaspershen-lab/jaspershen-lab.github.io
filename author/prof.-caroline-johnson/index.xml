@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Caroline Johnson | Shen lab</title>
+    <link>https://shen-lab.org/author/prof.-caroline-johnson/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-caroline-johnson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Caroline Johnson</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/prof.-caroline-johnson/avatar_hu86fef025ff10a1eeaf460664009c02a7_26653_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Prof. Caroline Johnson</title>
+      <link>https://shen-lab.org/author/prof.-caroline-johnson/</link>
+    </image>
+    
+    <item>
+      <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>
+      <link>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

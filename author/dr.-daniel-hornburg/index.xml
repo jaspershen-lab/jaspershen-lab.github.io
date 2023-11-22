@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Daniel Hornburg | Shen lab</title>
+    <link>https://shen-lab.org/author/dr.-daniel-hornburg/</link>
+      <atom:link href="https://shen-lab.org/author/dr.-daniel-hornburg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr. Daniel Hornburg</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/dr.-daniel-hornburg/avatar_hu515484b38b0273dc622d3dee0ce1a944_31760_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Dr. Daniel Hornburg</title>
+      <link>https://shen-lab.org/author/dr.-daniel-hornburg/</link>
+    </image>
+    
+  </channel>
+</rss>

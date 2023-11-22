@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Yan Hong | Shen lab</title>
+    <link>https://shen-lab.org/author/dr.-yan-hong/</link>
+      <atom:link href="https://shen-lab.org/author/dr.-yan-hong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr. Yan Hong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/dr.-yan-hong/avatar_hu45d38ff4d4e74a740d7f10284ea7432f_1758691_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Dr. Yan Hong</title>
+      <link>https://shen-lab.org/author/dr.-yan-hong/</link>
+    </image>
+    
+    <item>
+      <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>
+      <link>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

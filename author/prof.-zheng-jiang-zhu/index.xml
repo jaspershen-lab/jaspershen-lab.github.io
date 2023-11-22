@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Zheng-Jiang Zhu | Shen lab</title>
+    <link>https://shen-lab.org/author/prof.-zheng-jiang-zhu/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-zheng-jiang-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Zheng-Jiang Zhu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/prof.-zheng-jiang-zhu/avatar_hub1c377cb92b3c9a8c67f3cb45ed791bd_308041_270x270_fill_lanczos_center_3.png</url>
+      <title>Prof. Zheng-Jiang Zhu</title>
+      <link>https://shen-lab.org/author/prof.-zheng-jiang-zhu/</link>
+    </image>
+    
+    <item>
+      <title>A serum metabolomics analysis reveals a panel of screening metabolic biomarkers for esophageal squamous cell carcinoma</title>
+      <link>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</link>
+      <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting the pathological response to neoadjuvant chemoradiation using untargeted metabolomics in locally advanced rectal cancer</title>
+      <link>https://shen-lab.org/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

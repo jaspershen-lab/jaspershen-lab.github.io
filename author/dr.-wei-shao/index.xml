@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Wei Shao | Shen lab</title>
+    <link>https://shen-lab.org/author/dr.-wei-shao/</link>
+      <atom:link href="https://shen-lab.org/author/dr.-wei-shao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr. Wei Shao</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/dr.-wei-shao/avatar_hu04516df682871f3124bf92a18ba9a5c8_12024_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Dr. Wei Shao</title>
+      <link>https://shen-lab.org/author/dr.-wei-shao/</link>
+    </image>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

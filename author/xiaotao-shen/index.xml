@@ -7,16 +7,40 @@
     <description>Xiaotao Shen</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/author/xiaotao-shen/avatar_hu846144a1688772c55b6ff1e2d799c124_1755639_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://shen-lab.org/author/xiaotao-shen/avatar_huff6d3fdd2b602e0b6516c196049f224f_1298964_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Xiaotao Shen</title>
       <link>https://shen-lab.org/author/xiaotao-shen/</link>
     </image>
+    
+    <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>https://shen-lab.org/event/2023-genetics-retreat/</link>
+      <pubDate>Thu, 21 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2023-genetics-retreat/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
       <link>https://shen-lab.org/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
       <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>https://shen-lab.org/event/2023-bamm/</link>
+      <pubDate>Fri, 08 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2023-bamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
+      <link>https://shen-lab.org/event/2023-casms/</link>
+      <pubDate>Tue, 29 Aug 2023 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2023-casms/</guid>
       <description></description>
     </item>
     
@@ -29,11 +53,28 @@
     </item>
     
     <item>
+      <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
+      <link>https://shen-lab.org/event/2023-asms/</link>
+      <pubDate>Tue, 06 Jun 2023 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2023-asms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Organism-wide, cell-type-specific secretome mapping of exercise training in mice</title>
       <link>https://shen-lab.org/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
+      <link>https://shen-lab.org/event/2023-stanford-postdoc-syposium/</link>
+      <pubDate>Wed, 08 Feb 2023 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2023-stanford-postdoc-syposium/</guid>
+      <description>&lt;p&gt;Abstract&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -45,10 +86,50 @@
     </item>
     
     <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/event/2022-casms/</link>
+      <pubDate>Thu, 20 Oct 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-casms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/event/2022-shandong_university/</link>
+      <pubDate>Sun, 09 Oct 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-shandong_university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>massDatabase utilities for the operation of the public compound and pathway database</title>
       <link>https://shen-lab.org/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/event/2022-stanford-genetics-retreat/</link>
+      <pubDate>Wed, 14 Sep 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-stanford-genetics-retreat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/event/2022-bamm/</link>
+      <pubDate>Thu, 08 Sep 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-bamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tidymass An Object-oriented Computational Framework for LC-MS Data Processing and Analysis</title>
+      <link>https://shen-lab.org/event/2022-acs-fall/</link>
+      <pubDate>Mon, 22 Aug 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-acs-fall/</guid>
       <description></description>
     </item>
     
@@ -85,6 +166,14 @@
     </item>
     
     <item>
+      <title>Tidymass An Object-oriented Computational Framework for LC-MS Data Processing and Analysis</title>
+      <link>https://shen-lab.org/event/2022-asms/</link>
+      <pubDate>Sun, 05 Jun 2022 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2022-asms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
       <link>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
@@ -109,6 +198,14 @@
     </item>
     
     <item>
+      <title>metID A R package for Automatable Compound Annotation for LC−MS-based Data</title>
+      <link>https://shen-lab.org/event/2021-asms/</link>
+      <pubDate>Sun, 31 Oct 2021 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2021-asms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity</title>
       <link>https://shen-lab.org/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
@@ -129,6 +226,14 @@
       <link>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoding links between the exposome and health outcomes by multi-omics analysis</title>
+      <link>https://shen-lab.org/event/2021-exposome_data_challenge_event_xiaotao/</link>
+      <pubDate>Thu, 29 Apr 2021 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2021-exposome_data_challenge_event_xiaotao/</guid>
       <description></description>
     </item>
     
@@ -206,10 +311,26 @@
     </item>
     
     <item>
+      <title>Metabolic Reaction Network-based Recursive Metabolite Identification for Untargeted Metabolomics</title>
+      <link>https://shen-lab.org/event/2018-metabolomics-conference/</link>
+      <pubDate>Sun, 24 Jun 2018 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2018-metabolomics-conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>LipidCCS prediction of collision cross-section values for lipids with high precision to support ion mobility–mass spectrometry-based lipidomics</title>
       <link>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and Integration of Large-Scale Mass Spectrometry-based Metabolomics Data Using Support Vector Regression</title>
+      <link>https://shen-lab.org/event/2016-asms/</link>
+      <pubDate>Fri, 22 Jul 2016 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2016-asms/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dr. Nasim Barapour | Shen lab</title>
+    <link>https://shen-lab.org/author/dr.-nasim-barapour/</link>
+      <atom:link href="https://shen-lab.org/author/dr.-nasim-barapour/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dr. Nasim Barapour</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/dr.-nasim-barapour/avatar_huf9d8aaa917ed1af7b8d4e072ed99acca_33624_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Dr. Nasim Barapour</title>
+      <link>https://shen-lab.org/author/dr.-nasim-barapour/</link>
+    </image>
+    
+    <item>
+      <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>
+      <link>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
