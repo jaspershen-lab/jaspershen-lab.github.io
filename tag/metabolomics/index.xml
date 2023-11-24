@@ -5,21 +5,12 @@
     <link>https://shen-lab.org/tag/metabolomics/</link>
       <atom:link href="https://shen-lab.org/tag/metabolomics/index.xml" rel="self" type="application/rss+xml" />
     <description>Metabolomics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
       <title>Metabolomics</title>
       <link>https://shen-lab.org/tag/metabolomics/</link>
     </image>
-    
-    <item>
-      <title>MetNormalizer</title>
-      <link>https://shen-lab.org/software/metnormalizer-project/</link>
-      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/software/metnormalizer-project/</guid>
-      <description>&lt;p&gt;&lt;code&gt;MetNormalizer&lt;/code&gt; is used to normalize large scale metabolomics data.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>deepPseudoMSI</title>
@@ -54,15 +45,6 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/software/metdna-project/</guid>
       <description>&lt;p&gt;MetDNA characterizes initial seed metabolites using a small tandem spectral library, and utilize their experimental MS2 spectra as surrogate spectra to annotate their reaction-paired neighbor metabolites which are subsequently served as the basis for recursive analysis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MetFlow</title>
-      <link>https://shen-lab.org/software/metflow-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/software/metflow-project/</guid>
-      <description>&lt;p&gt;We developed an interactive web server, namely, MetFlow, to provide an integrated and comprehensive workflow for metabolomics data cleaning and differential metabolite discovery.&lt;/p&gt;
 </description>
     </item>
     
