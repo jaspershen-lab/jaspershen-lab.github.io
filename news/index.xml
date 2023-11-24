@@ -5,7 +5,7 @@
     <link>https://shen-lab.org/news/</link>
       <atom:link href="https://shen-lab.org/news/index.xml" rel="self" type="application/rss+xml" />
     <description>📰 News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
       <title>📰 News</title>
@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Opportunities in Shen Lab</title>
+      <title>2023-11-23 Opportunities in Shen Lab</title>
       <link>https://shen-lab.org/news/2023-11-23-recruitment/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/news/2023-11-23-recruitment/</guid>
