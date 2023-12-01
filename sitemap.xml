@@ -15,7 +15,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/research/</loc>
-    <lastmod>2023-09-15T14:20:33-07:00</lastmod>
+    <lastmod>2023-11-30T14:55:07-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/news/2023-11-23-recruitment/</loc>
@@ -23,7 +23,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2023-11-23T20:33:39-08:00</lastmod>
+    <lastmod>2023-11-30T14:55:07-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/contact/</loc>
@@ -682,14 +682,6 @@
     <lastmod>2023-11-20T23:29:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication/preprint/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/tag/source-themes/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</loc>
     <lastmod>2023-11-20T23:29:17-08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -924,22 +916,6 @@
   </url><url>
     <loc>https://shen-lab.org/author/yuan-guo/</loc>
     <lastmod>2023-11-20T23:29:17-08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/journal-article/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/robert-ford/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication-type/1/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/conference-paper/</loc>
-    <lastmod>2023-08-04T23:34:21-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/admin/</loc>

@@ -52,14 +52,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>An example preprint / working paper</title>
-      <link>https://shen-lab.org/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/preprint/</guid>
-      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
