@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Chao Jiang | Shen Lab</title>
+    <link>https://shen-lab.org/author/prof.-chao-jiang/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-chao-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Chao Jiang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/author/prof.-chao-jiang/avatar_huf395fd4e711ade5d4c1a7064c9254d7d_138176_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Prof. Chao Jiang</title>
+      <link>https://shen-lab.org/author/prof.-chao-jiang/</link>
+    </image>
+    
+    <item>
+      <title>Generalized reporter score-based enrichment analysis for omics data</title>
+      <link>https://shen-lab.org/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
+      <link>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
