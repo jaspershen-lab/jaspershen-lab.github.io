@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeremy Leitz | Shen Lab</title>
+    <link>https://shen-lab.org/author/jeremy-leitz/</link>
+      <atom:link href="https://shen-lab.org/author/jeremy-leitz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jeremy Leitz</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Jeremy Leitz</title>
+      <link>https://shen-lab.org/author/jeremy-leitz/</link>
+    </image>
+    
+    <item>
+      <title>Structure and topography of the synaptic V-ATPase–synaptophysin complex</title>
+      <link>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
