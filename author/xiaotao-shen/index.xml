@@ -1,16 +1,197 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xiaotao Shen | Shen lab</title>
+    <title>Xiaotao SHEN | Shen Lab</title>
     <link>https://shen-lab.org/author/xiaotao-shen/</link>
       <atom:link href="https://shen-lab.org/author/xiaotao-shen/index.xml" rel="self" type="application/rss+xml" />
-    <description>Xiaotao Shen</description>
+    <description>Xiaotao SHEN</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://shen-lab.org/author/xiaotao-shen/avatar_hu081c4847caa82a1cb0bf025eb42819ec_449649_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>Xiaotao Shen</title>
+      <title>Xiaotao SHEN</title>
       <link>https://shen-lab.org/author/xiaotao-shen/</link>
     </image>
+    
+    <item>
+      <title>2024-06-05 Paper accepted in Nature</title>
+      <link>https://shen-lab.org/news/2024-6-5-nature/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/news/2024-6-5-nature/</guid>
+      <description>&lt;p&gt;Our paper Structure and topography of the synaptic V-ATPase–synaptophysin complex has been accepted for publication in Cell Host &amp;amp; Microbe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nature.com/articles/s41586-024-07610-x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;%22featured.jpg%22&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Structure and topography of the synaptic V-ATPase–synaptophysin complex</title>
+      <link>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>https://shen-lab.org/event/2024-asms/</link>
+      <pubDate>Sat, 01 Jun 2024 13:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/event/2024-asms/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_b53052ab6c2e74c885ad1fae975bdfa2.webp 400w,
+               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_89d9542397d7e2686a26f9993f22a456.webp 760w,
+               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_b53052ab6c2e74c885ad1fae975bdfa2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_3810850b4ac2fc48b7f3abf48fe9afa7.webp 400w,
+               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_4b1a9d4ba01f5c93c0d15cf8f25f985f.webp 760w,
+               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_3810850b4ac2fc48b7f3abf48fe9afa7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;570&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2024-04-10 Paper accepted in Cell Host &amp; Microbe</title>
+      <link>https://shen-lab.org/news/2024-4-10-cell-hose-microbe/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/news/2024-4-10-cell-hose-microbe/</guid>
+      <description>&lt;p&gt;Our paper on the role of the gut microbiota in the host human health has been accepted for publication in Cell Host &amp;amp; Microbe. Congratulations to the team!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1931312824000568?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;%22featured.jpg%22&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generalized reporter score-based enrichment analysis for omics data</title>
+      <link>https://shen-lab.org/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2024-03-27 Paper accepted in Briefings in Bioinformatics</title>
+      <link>https://shen-lab.org/news/2024-3-27-bib/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/news/2024-3-27-bib/</guid>
+      <description>&lt;p&gt;Our paper on the Generalized Reporter Score-based Analysis has been accepted for publication in Briefings in Bioinformatics. Congratulations to the team!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic.oup.com/bib/article/25/3/bbae116/7636146?login=true&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paper Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;%22featured.jpg%22&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>🔬 Research</title>
@@ -183,7 +364,7 @@
       <guid>https://shen-lab.org/news/2023-11-23-recruitment/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Join Shen Lab at Nanyang Technological University Singapore: Opportunities in Multi-Omics Research for Human Health&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We are thrilled to announce a range of open positions at Shen Lab, Nanyang Technological University, Singapore. Join our dynamic team, which is spearheading the field of multi-omics research. Our focus lies in developing groundbreaking algorithms and methods to integrate multi-omics data. We particularly emphasize research in microbiome and metabolome and their implications for human health, including aging and pregnancy-related diseases.&lt;/p&gt;
-&lt;p&gt;Dr. Xiaotao Shen has been honored with the esteemed &lt;a href=&#34;https://www.ntu.edu.sg/research/research-careers/nanyang-assistant-professorship-%28nap%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nanyang Assistant Professorship (NAP)&lt;/a&gt;. With the Presidential Young Professorship (PYP) at the National University of Singapore (NUS), they are among Singapore&amp;rsquo;s most prestigious awards, given to young researchers to establish and lead their research groups. This accolade ensures stable funding for the lab, providing a solid foundation for our research endeavors.&lt;/p&gt;
+&lt;p&gt;Dr. Xiaotao Shen has been honored with the esteemed Nanyang Assistant Professorship (NAP). The NAP scheme is awarded to outstanding early career scientists who are exceptional scholars in their field. One of Singapore’s most prestigious awards, this accolade ensures stable funding for the lab, providing a solid foundation for our research endeavors within a highly-ranked global university.”&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Current Openings:&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;laboratory-manager&#34;&gt;Laboratory Manager&lt;/h2&gt;
 &lt;p&gt;Join us as a laboratory manager, where you&amp;rsquo;ll play a crucial role in:&lt;/p&gt;
