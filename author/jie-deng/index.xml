@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jie Deng | Shen Lab</title>
+    <link>https://shen-lab.org/author/jie-deng/</link>
+      <atom:link href="https://shen-lab.org/author/jie-deng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jie Deng</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Jie Deng</title>
+      <link>https://shen-lab.org/author/jie-deng/</link>
+    </image>
+    
+    <item>
+      <title>Exploring the underlying molecular mechanisms of acute myocardial infarction after SARS-CoV-2 infection</title>
+      <link>https://shen-lab.org/publication/exploring-the-underlying-molecular-mechanisms-of-acute-myocardial-infarction-after-sars-cov-2-infection/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/exploring-the-underlying-molecular-mechanisms-of-acute-myocardial-infarction-after-sars-cov-2-infection/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
