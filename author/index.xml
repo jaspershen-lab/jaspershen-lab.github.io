@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shen Lab</title>
+    <link>https://shen-lab.org/author/</link>
+      <atom:link href="https://shen-lab.org/author/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shen Lab</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/avatar_hu8e80ff8c982f92fb456742272ac9eb80_3043899_270x270_fill_lanczos_center_3.png</url>
+      <title>Shen Lab</title>
+      <link>https://shen-lab.org/author/</link>
+    </image>
+    
+  </channel>
+</rss>
