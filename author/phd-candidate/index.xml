@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PhD Candidate | Shen Lab</title>
+    <link>https://shen-lab.org/author/phd-candidate/</link>
+      <atom:link href="https://shen-lab.org/author/phd-candidate/index.xml" rel="self" type="application/rss+xml" />
+    <description>PhD Candidate</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/phd-candidate/avatar_hu6086c98d9a61f5b78d6942ab9d51bb39_399594_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>PhD Candidate</title>
+      <link>https://shen-lab.org/author/phd-candidate/</link>
+    </image>
+    
+  </channel>
+</rss>
