@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yifei GE | Shen Lab</title>
+    <link>https://shen-lab.org/author/yifei-ge/</link>
+      <atom:link href="https://shen-lab.org/author/yifei-ge/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yifei GE</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/yifei-ge/avatar_huc334777183e9dd1871ae6155184ca31e_730046_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yifei GE</title>
+      <link>https://shen-lab.org/author/yifei-ge/</link>
+    </image>
+    
+  </channel>
+</rss>
