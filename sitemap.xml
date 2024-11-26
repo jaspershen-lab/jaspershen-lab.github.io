@@ -19,7 +19,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2024-09-30T10:50:12+08:00</lastmod>
+    <lastmod>2024-10-10T17:35:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/daniel-hornburg/</loc>
@@ -1213,6 +1213,9 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/author/feifan-zhang/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/author/jingxiang-zhang/</loc>
     <lastmod>2024-09-30T10:50:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1262,7 +1265,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sahana-rahim/</loc>
-    <lastmod>2024-09-30T10:50:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/vaisnavi-arumugam/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/we-want-you/</loc>
@@ -1274,7 +1279,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yifei-ge/</loc>
-    <lastmod>2024-09-30T10:50:12+08:00</lastmod>
+    <lastmod>2024-10-10T17:35:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yijiang-liu/</loc>
@@ -1282,6 +1287,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yiying-chen/</loc>
+    <lastmod>2024-10-10T17:35:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zijing-du/</loc>
