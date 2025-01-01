@@ -372,7 +372,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2024-12-22T13:24:37&#43;08:00">
+    <meta property="article:modified_time" content="2025-01-01T09:30:48&#43;08:00">
   
 
 
@@ -824,6 +824,8 @@
             </a>
             <div class="dropdown-menu">
               
+                <a class="dropdown-item" href="/photo-2025"><span>2025</span></a>
+              
                 <a class="dropdown-item" href="/photo-2024"><span>2024</span></a>
               
             </div>
@@ -1081,33 +1083,60 @@
 <div class="gallery">
   <div class="image-container">
     <img src="lab/lab-2024-12-19.jpg" alt="Dinner gathering with lab members" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">Dinner gathering with lab members</div>
+    <div class="caption">2024/12/19 Dinner gathering with lab members</div>
   </div>
   <div class="image-container">
     <img src="lab/2024-11-19-editor-visiting.jpg" alt="Editor visiting our lab" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">Editor visiting our lab</div>
+    <div class="caption">2024/11/19/Editor visiting our lab</div>
   </div>
   <div class="image-container">
     <img src="lab/2024-10-14-jingxiang-arrival.jpg" alt="Jingxiang's arrival at the lab" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">Jingxiang's arrival at the lab</div>
+    <div class="caption">2024/10/14 Jingxiang's arrival at the lab</div>
   </div>
   <div class="image-container">
     <img src="lab/2024-5-21-first-day-in-office.jpg" alt="First day in the new office" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">First day in the new office</div>
+    <div class="caption">2024/5/21 First day in the new office</div>
   </div>
   <div class="image-container">
     <img src="lab/2024-12-4-xiaotao.jpeg" alt="Xiaotao presenting research" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">Xiaotao presenting research</div>
+    <div class="caption">2024/12/4 Xiaotao presenting research</div>
   </div>
   <div class="image-container">
     <img src="lab/2024-11-2-aging-conference.jpeg" alt="Presentation at the Aging Conference" onclick="toggleZoom(this.parentElement)">
-    <div class="caption">Presentation at the Aging Conference</div>
+    <div class="caption">2024/11/2 Presentation at the Aging Conference</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-10-31-visiting westlake university.jpeg" alt="Visiting Westlake University" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">2024/10/31 Visiting Westlake University</div>
   </div>
 </div>
 <script>
+// Keep track of currently zoomed container
+let zoomedContainer = null;
+
 function toggleZoom(container) {
-  container.classList.toggle('zoomed');
+  // If this container is already zoomed, unzoom it
+  if (container.classList.contains('zoomed')) {
+    container.classList.remove('zoomed');
+    zoomedContainer = null;
+  } else {
+    // If another container is zoomed, unzoom it first
+    if (zoomedContainer) {
+      zoomedContainer.classList.remove('zoomed');
+    }
+    // Zoom this container
+    container.classList.add('zoomed');
+    zoomedContainer = container;
+  }
 }
+
+// Add ESC key listener
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape' && zoomedContainer) {
+    zoomedContainer.classList.remove('zoomed');
+    zoomedContainer = null;
+  }
+});
 </script>
 
   </div>
