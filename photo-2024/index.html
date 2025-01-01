@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: December 23, 2024 --><html lang="en-us" >
+<!-- Last Published: January 1, 2025 --><html lang="en-us" >
 
 
 <head>
@@ -320,7 +320,7 @@
 
   
 
-<meta name="description" content="" />
+<meta name="description" content="&mdash; date: &ldquo;2024-12-22&rdquo; sections: - block: markdown id: photo content: title: 📸 Lab Photos 2024 subtitle: &#39;&#39; text: |- # # # # 12/19/2024: lab dinner # # # # # # 11/19/2024: Editor visiting # # # # # # 10/14/2024: Jingxiang arrival # # # # # # 9/17/2024: lab dinner # # # # # # 5/21/2024: first day in the office # design: columns: &lsquo;1&rsquo; title: Photos type: landing ##https://www." />
 
 
 
@@ -363,7 +363,7 @@
 <meta property="og:site_name" content="Shen Lab" />
 <meta property="og:url" content="https://shen-lab.org/photo-2024/" />
 <meta property="og:title" content="Photos | Shen Lab" />
-<meta property="og:description" content="" /><meta property="og:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="&mdash; date: &ldquo;2024-12-22&rdquo; sections: - block: markdown id: photo content: title: 📸 Lab Photos 2024 subtitle: &#39;&#39; text: |- # # # # 12/19/2024: lab dinner # # # # # # 11/19/2024: Editor visiting # # # # # # 10/14/2024: Jingxiang arrival # # # # # # 9/17/2024: lab dinner # # # # # # 5/21/2024: first day in the office # design: columns: &lsquo;1&rsquo; title: Photos type: landing ##https://www." /><meta property="og:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -1016,35 +1016,100 @@
 
 
   <div class="col-12">
-    <hr>
-<figure>
-<center><img src="lab/lab-2024-12-19.jpg" alt="2024-12-19 lab dinner" width="60%"></center>
-<figcaption>12/19/2024: lab dinner</figcaption>
-</figure>
-<hr>
-<!-- figure2 -->
-<figure>
-<center><img src="lab/2024-11-19-editor-visiting.jpg" alt="mass-spec" width="60%"></center>
-<figcaption>11/19/2024: Editor visiting</figcaption>
-</figure>
-<hr>
-<!-- figure2 -->
-<figure>
-<center><img src="lab/2024-10-14-jingxiang-arrival.jpg" alt="mass-spec" width="60%"></center>
-<figcaption>10/14/2024: Jingxiang arrival</figcaption>
-</figure>
-<hr>
-<!-- figure3 -->
-<figure>
-<center><img src="lab/lab-dinner-2024-9-17.jpg" alt="mass-spec" width="60%"></center>
-<figcaption>9/17/2024: lab dinner</figcaption>
-</figure>
-<hr>
-<!-- figure3 -->
-<figure>
-<center><img src="lab/2024-5-21-first-day-in-office.jpg" alt="mass-spec" width="60%"></center>
-<figcaption>5/21/2024: first day in the office</figcaption>
-</figure>
+    <style>
+.gallery {
+  columns: 2;
+  column-gap: 10px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  display: block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.image-container:hover img {
+  border: 1px solid #000;
+}
+
+.image-container.zoomed img {
+  transform: scale(2);
+  z-index: 1000;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.caption {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.image-container:hover .caption {
+  display: block;
+}
+
+.image-container.zoomed .caption {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    columns: 1;
+  }
+}
+</style>
+<div class="gallery">
+  <div class="image-container">
+    <img src="lab/lab-2024-12-19.jpg" alt="Dinner gathering with lab members" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">Dinner gathering with lab members</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-11-19-editor-visiting.jpg" alt="Editor visiting our lab" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">Editor visiting our lab</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-10-14-jingxiang-arrival.jpg" alt="Jingxiang's arrival at the lab" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">Jingxiang's arrival at the lab</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-5-21-first-day-in-office.jpg" alt="First day in the new office" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">First day in the new office</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-12-4-xiaotao.jpeg" alt="Xiaotao presenting research" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">Xiaotao presenting research</div>
+  </div>
+  <div class="image-container">
+    <img src="lab/2024-11-2-aging-conference.jpeg" alt="Presentation at the Aging Conference" onclick="toggleZoom(this.parentElement)">
+    <div class="caption">Presentation at the Aging Conference</div>
+  </div>
+</div>
+<script>
+function toggleZoom(container) {
+  container.classList.toggle('zoomed');
+}
+</script>
+
   </div>
 
 
@@ -1188,7 +1253,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Shen Lab @ <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>
+    © 2025 Shen Lab @ <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>
   </p>
   
 
