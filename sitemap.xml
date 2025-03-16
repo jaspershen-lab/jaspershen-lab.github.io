@@ -23,7 +23,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-02-18T13:39:45+08:00</lastmod>
+    <lastmod>2025-02-28T07:28:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hanyah-zackriah/</loc>
@@ -55,7 +55,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/photo-2025/</loc>
-    <lastmod>2025-02-12T14:37:51+08:00</lastmod>
+    <lastmod>2025-02-28T07:28:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2024-12-04-enable-conference/</loc>
@@ -555,7 +555,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/team/</loc>
-    <lastmod>2024-07-02T15:47:50+08:00</lastmod>
+    <lastmod>2025-02-28T07:28:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/twitter/</loc>
@@ -1298,6 +1298,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shaoguang-li/</loc>
+    <lastmod>2025-02-28T07:28:08+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sundara-ganapathy-letchimanan/</loc>
@@ -1326,6 +1327,9 @@
   </url><url>
     <loc>https://shen-lab.org/author/yiying-chen/</loc>
     <lastmod>2025-01-24T19:35:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yuchen-shen/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zijing-du/</loc>
