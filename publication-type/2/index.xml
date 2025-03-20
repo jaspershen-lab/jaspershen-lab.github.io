@@ -5,12 +5,28 @@
     <link>https://shen-lab.org/publication-type/2/</link>
       <atom:link href="https://shen-lab.org/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>2</title>
       <link>https://shen-lab.org/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Application of Wearable Devices in Diabetes Management</title>
+      <link>https://shen-lab.org/publication/application-of-wearable-devices-in-diabetes-management/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/application-of-wearable-devices-in-diabetes-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Food recommendation towards personalized wellbeing</title>
+      <link>https://shen-lab.org/publication/food-recommendation-towards-personalized-wellbeing/</link>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/food-recommendation-towards-personalized-wellbeing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Nonlinear dynamics of multi-omics profiles during human aging</title>

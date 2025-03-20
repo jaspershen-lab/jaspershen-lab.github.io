@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honghua Yu | Shen Lab</title>
+    <link>https://shen-lab.org/author/honghua-yu/</link>
+      <atom:link href="https://shen-lab.org/author/honghua-yu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Honghua Yu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Honghua Yu</title>
+      <link>https://shen-lab.org/author/honghua-yu/</link>
+    </image>
+    
+    <item>
+      <title>Application of Wearable Devices in Diabetes Management</title>
+      <link>https://shen-lab.org/publication/application-of-wearable-devices-in-diabetes-management/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/application-of-wearable-devices-in-diabetes-management/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
