@@ -5,12 +5,20 @@
     <link>https://shen-lab.org/publication-type/2/</link>
       <atom:link href="https://shen-lab.org/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>2</title>
       <link>https://shen-lab.org/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Application of LLMs/Transformer-Based Models for Metabolite Annotation in Metabolomics</title>
+      <link>https://shen-lab.org/publication/application-of-llms-transformer-based-models-for-metabolite-annotation-in-metabolomics/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/application-of-llms-transformer-based-models-for-metabolite-annotation-in-metabolomics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Application of Wearable Devices in Diabetes Management</title>
