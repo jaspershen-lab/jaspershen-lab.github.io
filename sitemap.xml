@@ -23,7 +23,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-05-03T22:19:14+08:00</lastmod>
+    <lastmod>2025-05-04T08:34:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication_types/</loc>
@@ -1273,6 +1273,10 @@
     <loc>https://shen-lab.org/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/author/chi-fang-hsu/</loc>
+    <lastmod>2025-05-04T08:34:34+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/author/dr.-chuchu-wang/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1422,6 +1426,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuting-wang/</loc>
+    <lastmod>2025-05-04T08:34:34+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zijing-du/</loc>
