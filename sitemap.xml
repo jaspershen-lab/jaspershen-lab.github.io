@@ -15,11 +15,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication-type/2/</loc>
-    <lastmod>2025-07-18T20:28:08+08:00</lastmod>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/tidymass2/</loc>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-07-18T20:28:08+08:00</lastmod>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/tag/metabolomics/</loc>
@@ -27,7 +31,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication_types/</loc>
-    <lastmod>2025-07-18T20:28:08+08:00</lastmod>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/qiao-liu/</loc>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/siyu-he/</loc>
+    <lastmod>2025-07-18T20:31:18+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/</loc>
@@ -38,23 +50,11 @@
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication/tidymass2/</loc>
-    <lastmod>2025-07-18T20:28:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/software/tidymasshiny-project/</loc>
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/application-of-llms-transformer-based-models-for-metabolite/</loc>
-    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/qiao-liu/</loc>
-    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/siyu-he/</loc>
     <lastmod>2025-07-18T20:00:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
