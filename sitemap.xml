@@ -14,44 +14,76 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/publication-type/3/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/authors/</loc>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/caroline-h.-johnson/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/tag/metabolomics/</loc>
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication_types/</loc>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/renfu-lai/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/</loc>
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/author/sunny-wong/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/tags/</loc>
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/tidymass2/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/tidymasshiny-project/</loc>
     <lastmod>2025-06-27T19:38:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication-type/2/</loc>
+    <loc>https://shen-lab.org/author/xiao-wang/</loc>
     <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/xuebin-zhang/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/zinuo-huang/</loc>
+    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication-type/2/</loc>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/application-of-llms-transformer-based-models-for-metabolite/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication_types/</loc>
-    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/qiao-liu/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/siyu-he/</loc>
-    <lastmod>2025-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-18T20:00:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/application-of-wearable-devices-in-diabetes-management/</loc>
@@ -454,10 +486,6 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication-type/3/</loc>
-    <lastmod>2024-07-01T21:19:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -804,10 +832,6 @@
   </url><url>
     <loc>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</loc>
     <lastmod>2022-07-28T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/tidymass3/</loc>
-    <lastmod>2025-07-18T19:57:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2022-asms/</loc>
