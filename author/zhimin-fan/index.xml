@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhimin Fan | Shen Lab</title>
+    <link>https://shen-lab.org/author/zhimin-fan/</link>
+      <atom:link href="https://shen-lab.org/author/zhimin-fan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhimin Fan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Zhimin Fan</title>
+      <link>https://shen-lab.org/author/zhimin-fan/</link>
+    </image>
+    
+    <item>
+      <title>Metabolomics and proteomics reveal blocking argininosuccinate synthetase 1 alleviates colitis in mice</title>
+      <link>https://shen-lab.org/publication/metabolomics-and-proteomics-revealblocking-argininosuccinate-synthetase-1alleviates-colitis-in-mice/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolomics-and-proteomics-revealblocking-argininosuccinate-synthetase-1alleviates-colitis-in-mice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
