@@ -45,11 +45,20 @@
     </item>
     
     <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MAPA</title>
       <link>https://shen-lab.org/software/mapa/</link>
       <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/software/mapa/</guid>
-      <description></description>
+      <description>&lt;p&gt;MAPA is a software for pathway-enrichment analysis and enrichment result interpretation using Large Language Modes (LLMs) that turns complex multi-omics datasets into clear biological insight.&lt;/p&gt;
+</description>
     </item>
     
     <item>
