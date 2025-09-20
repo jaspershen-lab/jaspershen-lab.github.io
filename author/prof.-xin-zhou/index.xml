@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Xin Zhou | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/prof.-xin-zhou/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-xin-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Xin Zhou</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/prof.-xin-zhou/avatar_hue0c7f45ce0c502a486c8f4a6a1ad5513_31184_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Prof. Xin Zhou</title>
+      <link>https://shen-lab.org/author/prof.-xin-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear dynamics of multi-omics profiles during human aging</title>
+      <link>https://shen-lab.org/publication/nonlinear-dynamics-of-multi-omics-profiles-during-human-aging/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/nonlinear-dynamics-of-multi-omics-profiles-during-human-aging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
+      <link>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal interactions between levels of serum cytokine and the microbiome from four body sites</title>
+      <link>https://shen-lab.org/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

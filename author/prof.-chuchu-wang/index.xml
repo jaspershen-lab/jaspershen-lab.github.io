@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prof. Chuchu Wang | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/prof.-chuchu-wang/</link>
+      <atom:link href="https://shen-lab.org/author/prof.-chuchu-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prof. Chuchu Wang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/prof.-chuchu-wang/avatar_hu51215c0a8bbc964456e2ad085fdf2525_17439_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Prof. Chuchu Wang</title>
+      <link>https://shen-lab.org/author/prof.-chuchu-wang/</link>
+    </image>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlinear dynamics of multi-omics profiles during human aging</title>
+      <link>https://shen-lab.org/publication/nonlinear-dynamics-of-multi-omics-profiles-during-human-aging/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/nonlinear-dynamics-of-multi-omics-profiles-during-human-aging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure and topography of the synaptic V-ATPase–synaptophysin complex</title>
+      <link>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>
+      <link>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</link>
+      <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>massDatabase utilities for the operation of the public compound and pathway database</title>
+      <link>https://shen-lab.org/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://shen-lab.org/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>
+      <link>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
+      <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
