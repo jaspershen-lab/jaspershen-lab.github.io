@@ -14,12 +14,28 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/software/mapa/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tag/multi-omics/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tags/</loc>
+    <lastmod>2025-09-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/publication-type/2/</loc>
     <lastmod>2025-07-30T22:01:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-09-09T19:09:32+08:00</lastmod>
+    <lastmod>2025-09-20T13:04:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chengli-yu/</loc>
@@ -146,16 +162,8 @@
     <lastmod>2025-07-18T20:42:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/software/</loc>
-    <lastmod>2025-06-27T19:38:58+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/sunny-wong/</loc>
     <lastmod>2025-07-18T20:42:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/tags/</loc>
-    <lastmod>2025-06-27T19:38:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</loc>
@@ -283,7 +291,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/photo-2025/</loc>
-    <lastmod>2025-09-15T13:46:21+08:00</lastmod>
+    <lastmod>2025-09-20T13:04:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2024-12-04-enable-conference/</loc>
@@ -843,10 +851,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2022-bamm/</loc>
-    <lastmod>2024-07-01T21:19:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/tag/multi-omics/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -1550,7 +1554,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tong-wu/</loc>
-    <lastmod>2025-09-09T19:09:32+08:00</lastmod>
+    <lastmod>2025-09-20T13:04:36+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/vaisnavi-arumugam/</loc>
