@@ -14,6 +14,22 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/software/lagci-project/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tag/multi-omics/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tags/</loc>
+    <lastmod>2025-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/publication-type/3/</loc>
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -30,10 +46,6 @@
     <lastmod>2025-09-20T21:18:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/tag/multi-omics/</loc>
-    <lastmod>2025-09-20T21:18:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/nguan-soon-tan/</loc>
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,14 +56,6 @@
   </url><url>
     <loc>https://shen-lab.org/author/qianyi-zhou/</loc>
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/software/</loc>
-    <lastmod>2025-09-20T21:18:41+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/tags/</loc>
-    <lastmod>2025-09-20T21:18:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiao-wang/</loc>
@@ -1150,10 +1154,6 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/software/laggedcor-project/</loc>
-    <lastmod>2024-07-01T21:19:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/software/metid-project/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1437,6 +1437,10 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/author/dr.-hong-yan/</loc>
+    <lastmod>2024-07-01T21:19:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/author/dr.-nasim-barapour/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1450,10 +1454,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/dr.-songjie-chen/</loc>
-    <lastmod>2024-07-01T21:19:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/dr.-yan-hong/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

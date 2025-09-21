@@ -5,12 +5,21 @@
     <link>https://shen-lab.org/tag/multi-omics/</link>
       <atom:link href="https://shen-lab.org/tag/multi-omics/index.xml" rel="self" type="application/rss+xml" />
     <description>Multi-omics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>Multi-omics</title>
       <link>https://shen-lab.org/tag/multi-omics/</link>
     </image>
+    
+    <item>
+      <title>lagCI</title>
+      <link>https://shen-lab.org/software/lagci-project/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/lagci-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;lagCI&lt;/code&gt; combines sliding windows, LOESS smoothing and bootstrap correction to estimate robust lagged correlations, and identify the causal relationships between molecules.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MAPA</title>
@@ -27,15 +36,6 @@
       <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/software/tidymicrobiome-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;TidyMicrobiome&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for microbiome data using tidyverse principles.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>laggedCor</title>
-      <link>https://shen-lab.org/software/laggedcor-project/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/software/laggedcor-project/</guid>
-      <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     

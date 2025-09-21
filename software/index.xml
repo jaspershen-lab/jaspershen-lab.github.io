@@ -5,12 +5,21 @@
     <link>https://shen-lab.org/software/</link>
       <atom:link href="https://shen-lab.org/software/index.xml" rel="self" type="application/rss+xml" />
     <description>Softwares</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>Softwares</title>
       <link>https://shen-lab.org/software/</link>
     </image>
+    
+    <item>
+      <title>lagCI</title>
+      <link>https://shen-lab.org/software/lagci-project/</link>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/lagci-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;lagCI&lt;/code&gt; combines sliding windows, LOESS smoothing and bootstrap correction to estimate robust lagged correlations, and identify the causal relationships between molecules.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>MAPA</title>
@@ -26,7 +35,8 @@
       <link>https://shen-lab.org/software/tidymasshiny-project/</link>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/software/tidymasshiny-project/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;code&gt;TidyMassShiny&lt;/code&gt; is a Shiny application that provides an interactive interface for the TidyMass project, enabling users to perform comprehensive metabolomics data analysis and visualization with ease.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -53,15 +63,6 @@
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/software/deeppseudomsi-project/</guid>
       <description>&lt;p&gt;The &lt;code&gt;deepPseudoMSI&lt;/code&gt; project is the first method that convert LC-MS raw data to “images” and then process them using deep learning method for diagnosis.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>laggedCor</title>
-      <link>https://shen-lab.org/software/laggedcor-project/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/software/laggedcor-project/</guid>
-      <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     
