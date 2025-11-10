@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucie BENOIT | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/lucie-benoit/</link>
+      <atom:link href="https://shen-lab.org/author/lucie-benoit/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lucie BENOIT</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/lucie-benoit/avatar_hu30596e0049e0c3b93a26d983b6fc476a_186003_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Lucie BENOIT</title>
+      <link>https://shen-lab.org/author/lucie-benoit/</link>
+    </image>
+    
+  </channel>
+</rss>
