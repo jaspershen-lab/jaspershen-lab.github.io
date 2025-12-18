@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuxu PAN | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/yuxu-pan/</link>
+      <atom:link href="https://shen-lab.org/author/yuxu-pan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuxu PAN</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/yuxu-pan/avatar_hu3721a971863538691f1704115ee513ec_146181_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Yuxu PAN</title>
+      <link>https://shen-lab.org/author/yuxu-pan/</link>
+    </image>
+    
+  </channel>
+</rss>

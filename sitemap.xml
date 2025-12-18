@@ -35,7 +35,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-12-18T14:03:16+08:00</lastmod>
+    <lastmod>2025-12-18T14:07:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</loc>
@@ -1478,7 +1478,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jiramet-kinchagawat/</loc>
-    <lastmod>2025-12-18T14:03:16+08:00</lastmod>
+    <lastmod>2025-12-18T14:07:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kajal-agrawal/</loc>
@@ -1490,6 +1490,9 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lucie-benoit/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/meilun-li/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/minghang-li/</loc>
@@ -1605,7 +1608,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuanming-yang/</loc>
-    <lastmod>2025-12-18T13:45:28+08:00</lastmod>
+    <lastmod>2025-12-18T14:07:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuchen-shen/</loc>
@@ -1614,6 +1617,9 @@
   </url><url>
     <loc>https://shen-lab.org/author/yuting-wang/</loc>
     <lastmod>2025-12-18T14:03:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yuxu-pan/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zijing-du/</loc>
