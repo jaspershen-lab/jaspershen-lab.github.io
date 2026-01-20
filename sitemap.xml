@@ -14,6 +14,46 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/publication-type/2/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/authors/</loc>
+    <lastmod>2026-01-20T17:38:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/caroline-h.-johnson/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication_types/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/renfu-lai/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/sunny-wong/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/xiao-wang/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/xuebin-zhang/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/zinuo-huang/</loc>
+    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/software/lagci-project/</loc>
     <lastmod>2025-09-21T12:49:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,10 +74,6 @@
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2025-12-18T20:12:04+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</loc>
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -50,19 +86,7 @@
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication_types/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/qianyi-zhou/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/xiao-wang/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication-type/2/</loc>
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -170,36 +194,12 @@
     <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/caroline-h.-johnson/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/tag/metabolomics/</loc>
     <lastmod>2025-09-21T12:49:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/renfu-lai/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/sunny-wong/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/software/tidymasshiny-project/</loc>
     <lastmod>2025-09-21T12:49:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/xuebin-zhang/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/zinuo-huang/</loc>
-    <lastmod>2025-09-20T22:57:33+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/application-of-llms-transformer-based-models-for-metabolite/</loc>
@@ -1589,6 +1589,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiaoyu-xu/</loc>
+    <lastmod>2026-01-20T17:38:59+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xinyue-zhang/</loc>
