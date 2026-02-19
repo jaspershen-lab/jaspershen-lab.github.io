@@ -1,0 +1,2750 @@
+[
+  {
+    "city": "Stanford",
+    "country": "United States",
+    "lat": 37.4241,
+    "lng": -122.1661,
+    "count": 168,
+    "collaborators": [
+      {
+        "name": "Xin Zhou",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Wenyu Zhou",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Daniel Hornburg",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Si Wu",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "M Snyder",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Liang Liang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Brian Piening",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Songjie Chen",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Hannes Röst",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Robert Tibshirani",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Kévin Contrepois",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "M Snyder",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Michael Angelo",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "John W. Hickey",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Amir Bahmani",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Laren Becker",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Winston R. Becker",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Sean C. Bendall",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Keith Bettinger",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Marc Bossé",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Eugene C. Butcher",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Chiara Caraccio",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Derek Chen",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Daniel J. Cotter",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Monica Avina",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Alexander Honkala",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Faye Chleilat",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Shirley Jingyi Chen",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Kexin Cha",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Chenchen Zhu",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Xinyue Zhang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Liuyiqi Jiang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Andrew Brooks",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Meng Wang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Peng Gao",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Sophia Miryam Schüssler‐Fiorenza Rose",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Alessandra Celli",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Yanjiao Zhou",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Ryan Kellogg",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Daniel J. Panyard",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Nasim Bararpour",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Kevin Erazo Castillo",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Brittany Lee‐McMullen",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Alireza Delfarah",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Jessalyn M. Ubellacker",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Sara Ahadi",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Yael Rosenberg‐Hasson",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Ariel B. Ganz",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Basil Michael",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Ian Simms",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Wei Wei",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Nicholas M. Riley",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Xuchao Lyu",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Jing Guo",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "María Dolores Moya-Garzón",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Alan Sheng-Hwa Tung",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Veronica L. Li",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Amanda L. Wiggenhorn",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Chuchu Wang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Sai Zhang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Xin Zhou",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Richard G. Held",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Ruiqi Jian",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Lihua Jiang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Axel T. Brünger",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Annika K. Weimer",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Minyi Shi",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Wei Shao",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Songjie Chen",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Sai Zhang",
+        "institution": "Stanford Medicine"
+      },
+      {
+        "name": "Mirabela Rusu",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Paul Billing-Ross",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Mark M. Davis",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Michael P. Snyder",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Guangwen Wang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Shannon Rego",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Rene Hoffman",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Stephanie Nevins",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Xun Cheng",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Monika Avina",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Yee Hui Yeo",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Meng Zhao",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Jeung Lee",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Tae Hyung Kwon",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Seong-Geon Kim",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Walter G. Park",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Irene Sonu",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Michael J. Rosen",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Ivana Marić",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Ali Mahzarnia",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Samuel M. Lancaster",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Ronald J. Wong",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Jonathan D. Reiss",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "John A. Kerner",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Gary M. Shaw",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "David K. Stevenson",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Victoria Ward",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Gary L. Darmstadt",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Kailu Yang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Luis Esquivies",
+        "institution": "Stanford University"
+      }
+    ]
+  },
+  {
+    "city": "Beijing",
+    "country": "China",
+    "lat": 39.9108,
+    "lng": 116.3957,
+    "count": 37,
+    "collaborators": [
+      {
+        "name": "Xin Xiong",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Yandong Yin",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Zheng‐Jiang Zhu",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Zhiwei Zhou",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Jia Tu",
+        "institution": "University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Jia Tu",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Hao Li",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Xi Chen",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Wenhong Jiang",
+        "institution": "Peking University"
+      },
+      {
+        "name": "Xing Wang",
+        "institution": "Peking University"
+      },
+      {
+        "name": "Qiang Guo",
+        "institution": "Peking University"
+      },
+      {
+        "name": "Jia Liu",
+        "institution": "Capital Medical University"
+      },
+      {
+        "name": "Renchun Lai",
+        "institution": "Xiaomi (China)"
+      },
+      {
+        "name": "Yukuan Liu",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Xiaoping Xing",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Ruohong Wang",
+        "institution": "University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Yuping Cai",
+        "institution": "University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Zaijun Ma",
+        "institution": "University of Chinese Academy of Sciences"
+      },
+      {
+        "name": "Nan Liu",
+        "institution": "Chinese Academy of Sciences"
+      },
+      {
+        "name": "Xin Zhang",
+        "institution": "Ministry of Agriculture and Rural Affairs"
+      },
+      {
+        "name": "Wenhong Jiang",
+        "institution": "Center for Life Sciences"
+      },
+      {
+        "name": "Xing Wang",
+        "institution": "Center for Life Sciences"
+      }
+    ]
+  },
+  {
+    "city": "Jinan",
+    "country": "China",
+    "lat": 36.6683,
+    "lng": 116.9972,
+    "count": 35,
+    "collaborators": [
+      {
+        "name": "Jialin Wang",
+        "institution": "Shandong Tumor Hospital"
+      },
+      {
+        "name": "Tao Zhang",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Jia Liu",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Yawen Sun",
+        "institution": "Shandong Tumor Hospital"
+      },
+      {
+        "name": "Lu Wang",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Yingjun Liu",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Xiaoyun Gong",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Yanxun Liu",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Fuzhong Xue",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Jialin Wang",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Xia Li",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Mengke Wei",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Jiali Lv",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Yawen Sun",
+        "institution": "Shandong First Medical University"
+      },
+      {
+        "name": "Jialin Wang",
+        "institution": "Shandong First Medical University"
+      },
+      {
+        "name": "Bingbing Fan",
+        "institution": "Shandong University"
+      },
+      {
+        "name": "Xia Li",
+        "institution": "Shandong Tumor Hospital"
+      },
+      {
+        "name": "Guangshuai Zhou",
+        "institution": "Shandong University"
+      }
+    ]
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "lat": 1.2921,
+    "lng": 103.8474,
+    "count": 28,
+    "collaborators": [
+      {
+        "name": "Yijiang Liu",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Grace Lai–Hung Wong",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Jingxiang Zhang",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Ying Ge",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Feifan Zhang",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Xiaole Yin",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Zhiquan Song",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Minso Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Juhwan Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Ji Yoon Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Soh Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Chi Wei Ong",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Leonard W. T. Ng",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Gun Ho Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Sang Hoon Chae",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Kewin Tien Ho Siah",
+        "institution": "National University Hospital"
+      },
+      {
+        "name": "Dean Ho",
+        "institution": "National University of Singapore"
+      },
+      {
+        "name": "Shang Wei Song",
+        "institution": "National University of Singapore"
+      },
+      {
+        "name": "Juha Song",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Kuo Chao Yew",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Munho Kim",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Hen‐Wei Huang",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Sunny H. Wong",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Yun Ge",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Nguan Soon Tan",
+        "institution": "Nanyang Technological University"
+      },
+      {
+        "name": "Chuchu Wang",
+        "institution": "Nanyang Technological University"
+      }
+    ]
+  },
+  {
+    "city": "Pittsburgh",
+    "country": "United States",
+    "lat": 40.4435,
+    "lng": -79.9683,
+    "count": 27,
+    "collaborators": [
+      {
+        "name": "Ziv Bar‐Joseph",
+        "institution": "Carnegie Mellon University"
+      },
+      {
+        "name": "Michael J. Becich",
+        "institution": "University of Pittsburgh"
+      },
+      {
+        "name": "Kathy Benninger",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "David Betancur",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Sunteasja Billings",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Philip D. Blood",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Karl Burke",
+        "institution": "University of Pittsburgh"
+      },
+      {
+        "name": "Ivan Cao-Berg",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Megan Carroll",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Hao Chen",
+        "institution": "Carnegie Mellon University"
+      },
+      {
+        "name": "Kenneth B. Chiacchia",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Aaron Cruz",
+        "institution": "University of Pittsburgh"
+      },
+      {
+        "name": "Christopher Csonka",
+        "institution": "Pittsburgh Supercomputing Center"
+      },
+      {
+        "name": "Yuri E. Nikiforov",
+        "institution": "University of Pittsburgh Medical Center"
+      }
+    ]
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "lat": 31.2334,
+    "lng": 121.4648,
+    "count": 27,
+    "collaborators": [
+      {
+        "name": "Ruohong Wang",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Yuping Cai",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Zaijun Ma",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Nan Liu",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Zheng‐Jiang Zhu",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Yuan Guo",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Jia Tu",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Lei Chen",
+        "institution": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Huixun Jia",
+        "institution": "Fudan University Shanghai Cancer Center"
+      },
+      {
+        "name": "Yun Guan",
+        "institution": "Shanghai Medical College of Fudan University"
+      },
+      {
+        "name": "Meimei Xu",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Miao Mo",
+        "institution": "Shanghai Medical College of Fudan University"
+      },
+      {
+        "name": "Li Xie",
+        "institution": "Shanghai Jiao Tong University"
+      },
+      {
+        "name": "Jing Yuan",
+        "institution": "Fudan University Shanghai Cancer Center"
+      },
+      {
+        "name": "Zhen Zhang",
+        "institution": "Fudan University Shanghai Cancer Center"
+      },
+      {
+        "name": "Sanjun Cai",
+        "institution": "Shanghai Medical College of Fudan University"
+      },
+      {
+        "name": "Ji Zhu",
+        "institution": "Fudan University Shanghai Cancer Center"
+      },
+      {
+        "name": "Zhuozhong Wang",
+        "institution": "Shanghai Institute of Organic Chemistry"
+      },
+      {
+        "name": "Qian-Yi Zhou",
+        "institution": "Fudan University"
+      },
+      {
+        "name": "Xin Zhou",
+        "institution": "Fudan University"
+      }
+    ]
+  },
+  {
+    "city": "Cambridge",
+    "country": "United States",
+    "lat": 42.3751,
+    "lng": -71.1056,
+    "count": 20,
+    "collaborators": [
+      {
+        "name": "Nils Gehlenborg",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "Ioannis S. Vlachos",
+        "institution": "Broad Institute"
+      },
+      {
+        "name": "Karol S. Balderrama",
+        "institution": "Broad Institute"
+      },
+      {
+        "name": "Fei Chen",
+        "institution": "Broad Institute"
+      },
+      {
+        "name": "Lisa Choy",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "John M. Conroy",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "Himanish Basu",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "Wentao Huang",
+        "institution": "Whitehead Institute for Biomedical Research"
+      },
+      {
+        "name": "Peng Gao",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "Erik K. Alexander",
+        "institution": "Harvard University"
+      },
+      {
+        "name": "Wentao Huang",
+        "institution": "Massachusetts Institute of Technology"
+      }
+    ]
+  },
+  {
+    "city": "Hangzhou",
+    "country": "China",
+    "lat": 30.2888,
+    "lng": 120.1636,
+    "count": 15,
+    "collaborators": [
+      {
+        "name": "Chao Jiang",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Lihua Jiang",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Ruiqi Jian",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Peng Chen",
+        "institution": "First Affiliated Hospital Zhejiang University"
+      },
+      {
+        "name": "Qiong Chen",
+        "institution": "First Affiliated Hospital Zhejiang University"
+      },
+      {
+        "name": "Zinuo Huang",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Yuchen Shen",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Qiong Chen",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Boliang Zhang",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Peng Chen",
+        "institution": "Zhejiang University"
+      },
+      {
+        "name": "Jiajun Huang",
+        "institution": "Zhejiang University"
+      }
+    ]
+  },
+  {
+    "city": "Philadelphia",
+    "country": "United States",
+    "lat": 39.9524,
+    "lng": -75.1636,
+    "count": 15,
+    "collaborators": [
+      {
+        "name": "Liming Pei",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Kyung Jin Ahn",
+        "institution": "Philadelphia University"
+      },
+      {
+        "name": "Alessia Angelin",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Huajun Bai",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Shovik Bandyopadhyay",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Kurt T. Barnhart",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Kenneth Bedi",
+        "institution": "University of Pennsylvania"
+      },
+      {
+        "name": "Susan J. Mandel",
+        "institution": "University of Pennsylvania"
+      }
+    ]
+  },
+  {
+    "city": "Chevy Chase",
+    "country": "United States",
+    "lat": 39.0029,
+    "lng": -77.0712,
+    "count": 14,
+    "collaborators": [
+      {
+        "name": "Chuchu Wang",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Carolyn R. Bertozzi",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Jeremy Leitz",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Kailu Yang",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Luis Esquivies",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Mark M. Davis",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "M Snyder",
+        "institution": "Howard Hughes Medical Institute"
+      },
+      {
+        "name": "Richard G. Held",
+        "institution": "Howard Hughes Medical Institute"
+      }
+    ]
+  },
+  {
+    "city": "Gainesville",
+    "country": "United States",
+    "lat": 29.6516,
+    "lng": -82.3248,
+    "count": 14,
+    "collaborators": [
+      {
+        "name": "Leandro Balzano",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Samuel Border",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Maigan A. Brusko",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Elizabeth A. Butterworth",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Martha Campbell‐Thompson",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Jing Chen",
+        "institution": "University of Florida"
+      },
+      {
+        "name": "Sai Zhang",
+        "institution": "University of Florida"
+      }
+    ]
+  },
+  {
+    "city": "Nashville",
+    "country": "United States",
+    "lat": 36.1659,
+    "lng": -86.7844,
+    "count": 14,
+    "collaborators": [
+      {
+        "name": "Jeffrey M. Spraggins",
+        "institution": "Vanderbilt University"
+      },
+      {
+        "name": "Jamie Allen",
+        "institution": "Vanderbilt University"
+      },
+      {
+        "name": "David M. Anderson",
+        "institution": "Vanderbilt University"
+      },
+      {
+        "name": "Maya Brewer",
+        "institution": "Vanderbilt University Medical Center"
+      },
+      {
+        "name": "Richard M. Caprioli",
+        "institution": "Vanderbilt University"
+      },
+      {
+        "name": "Kelly A. Clouthier",
+        "institution": "Vanderbilt University Medical Center"
+      },
+      {
+        "name": "Madeline E. Colley",
+        "institution": "Vanderbilt University"
+      }
+    ]
+  },
+  {
+    "city": "Richland",
+    "country": "United States",
+    "lat": 46.2857,
+    "lng": -119.2845,
+    "count": 14,
+    "collaborators": [
+      {
+        "name": "Ernesto Nakayasu",
+        "institution": "Pacific Northwest National Laboratory"
+      },
+      {
+        "name": "Weijun Qian",
+        "institution": "Pacific Northwest National Laboratory"
+      },
+      {
+        "name": "Mowei Zhou",
+        "institution": "Pacific Northwest National Laboratory"
+      },
+      {
+        "name": "Christopher Anderton",
+        "institution": "Pacific Northwest National Laboratory"
+      },
+      {
+        "name": "Lisa Bramer",
+        "institution": "Environmental Molecular Sciences Laboratory"
+      },
+      {
+        "name": "Kristin Burnum-Johnson",
+        "institution": "Environmental Molecular Sciences Laboratory"
+      },
+      {
+        "name": "Gérémy Clair",
+        "institution": "Pacific Northwest National Laboratory"
+      }
+    ]
+  },
+  {
+    "city": "Bar Harbor",
+    "country": "United States",
+    "lat": 44.3876,
+    "lng": -68.2039,
+    "count": 13,
+    "collaborators": [
+      {
+        "name": "Paul Robson",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Elise T. Courtois",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Xin Zhou",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Jethro S. Johnson",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Daniel Spakowicz",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Thi Dong Binh Tran",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Hoan Nguyen",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Erica Sodergren",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "George M. Weinstock",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Lina Kozhaya",
+        "institution": "Jackson Laboratory"
+      },
+      {
+        "name": "Derya Unutmaz",
+        "institution": "Jackson Laboratory"
+      }
+    ]
+  },
+  {
+    "city": "Nanjing",
+    "country": "China",
+    "lat": 32.0588,
+    "lng": 118.7753,
+    "count": 13,
+    "collaborators": [
+      {
+        "name": "Shuai Lü",
+        "institution": "China Pharmaceutical University"
+      },
+      {
+        "name": "Changjun Wang",
+        "institution": "China Pharmaceutical University"
+      },
+      {
+        "name": "Ye Zhang",
+        "institution": "China Pharmaceutical University"
+      },
+      {
+        "name": "Wei Peng",
+        "institution": "Jiangsu Province Hospital"
+      },
+      {
+        "name": "Yujiao Yan",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Junzhi Zhang",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Shusheng Yin",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Tong‐Tong Liu",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Qiongzi He",
+        "institution": "Jiangsu Province Hospital"
+      },
+      {
+        "name": "Xi Guo",
+        "institution": "China Pharmaceutical University"
+      },
+      {
+        "name": "Chengli Yu",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Yongming Li",
+        "institution": "Nanjing University of Chinese Medicine"
+      },
+      {
+        "name": "Yi Xu",
+        "institution": "Jiangsu Province Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Harbin",
+    "country": "China",
+    "lat": 45.75,
+    "lng": 126.65,
+    "count": 12,
+    "collaborators": [
+      {
+        "name": "Binbin Cui",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Fan Zhang",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Yue Yang",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Zhong Li",
+        "institution": "Third Affiliated Hospital of Harbin Medical University"
+      },
+      {
+        "name": "Weiwei Zhao",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Yuanyuan Zhang",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Kui Deng",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Zhiwei Rong",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Kai Yang",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Xiwen Yu",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Kang Li",
+        "institution": "Harbin Medical University"
+      },
+      {
+        "name": "Peng Han",
+        "institution": "Third Affiliated Hospital of Harbin Medical University"
+      }
+    ]
+  },
+  {
+    "city": "Siena",
+    "country": "Italy",
+    "lat": 43.3266,
+    "lng": 11.3295,
+    "count": 9,
+    "collaborators": [
+      {
+        "name": "Simone Furini",
+        "institution": "University of Siena"
+      },
+      {
+        "name": "Elisa Frullanti",
+        "institution": "University of Siena"
+      },
+      {
+        "name": "Francesca Fava",
+        "institution": "Azienda Ospedaliera Universitaria Senese"
+      },
+      {
+        "name": "Alessandra Renieri",
+        "institution": "Azienda Ospedaliera Universitaria Senese"
+      },
+      {
+        "name": "Alessandra Renieri",
+        "institution": "University of Siena"
+      },
+      {
+        "name": "Furio Pacini",
+        "institution": "University of Siena"
+      }
+    ]
+  },
+  {
+    "city": "Wuxi",
+    "country": "China",
+    "lat": 31.5689,
+    "lng": 120.2886,
+    "count": 9,
+    "collaborators": [
+      {
+        "name": "Guanhua Qiao",
+        "institution": "State Key Laboratory of Food Science and Technology"
+      },
+      {
+        "name": "Nana Zhang",
+        "institution": "Jiangnan University"
+      },
+      {
+        "name": "Xidong Jiao",
+        "institution": "State Key Laboratory of Food Science and Technology"
+      },
+      {
+        "name": "Wenwei Lu",
+        "institution": "Jiangnan University"
+      },
+      {
+        "name": "Daming Fan",
+        "institution": "State Key Laboratory of Food Science and Technology"
+      },
+      {
+        "name": "Jianxin Zhao",
+        "institution": "Jiangnan University"
+      },
+      {
+        "name": "Hao Zhang",
+        "institution": "State Key Laboratory of Food Science and Technology"
+      },
+      {
+        "name": "Wei Chen",
+        "institution": "Jiangnan University"
+      },
+      {
+        "name": "Jinlin Zhu",
+        "institution": "Jiangnan University"
+      }
+    ]
+  },
+  {
+    "city": "Boulder",
+    "country": "United States",
+    "lat": 40.015,
+    "lng": -105.2706,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Daniel J. Adams",
+        "institution": "University of Colorado Boulder"
+      },
+      {
+        "name": "Tamara Basta",
+        "institution": "University of Colorado Boulder"
+      },
+      {
+        "name": "Lucas Hampton",
+        "institution": "University of Colorado Boulder"
+      },
+      {
+        "name": "Michael H. B. Stowell",
+        "institution": "University of Colorado Boulder"
+      }
+    ]
+  },
+  {
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "lat": 22.2783,
+    "lng": 114.1747,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Yan Hong",
+        "institution": "Hong Kong Baptist University"
+      },
+      {
+        "name": "Sizhe Chen",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Yun Wang",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Ye Peng",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Hein Min Tun",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Francis Ka Leung Chan",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Siew Chien Ng",
+        "institution": "Chinese University of Hong Kong"
+      },
+      {
+        "name": "Qi Su",
+        "institution": "Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "city": "Houma",
+    "country": "United States",
+    "lat": 29.5958,
+    "lng": -90.7195,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Meng Zhao",
+        "institution": "Cardiovascular Institute of the South"
+      },
+      {
+        "name": "Katrin J. Svensson",
+        "institution": "Cardiovascular Institute of the South"
+      },
+      {
+        "name": "M Snyder",
+        "institution": "Cardiovascular Institute of the South"
+      },
+      {
+        "name": "Jonathan Z. Long",
+        "institution": "Cardiovascular Institute of the South"
+      },
+      {
+        "name": "Sai Zhang",
+        "institution": "Cardiovascular Institute of the South"
+      },
+      {
+        "name": "Philip S. Tsao",
+        "institution": "Cardiovascular Institute of the South"
+      }
+    ]
+  },
+  {
+    "city": "Niskayuna",
+    "country": "United States",
+    "lat": 42.7798,
+    "lng": -73.8457,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Fiona Ginty",
+        "institution": "GE Global Research (United States)"
+      },
+      {
+        "name": "Chrystal Chadwick",
+        "institution": "GE Global Research (United States)"
+      },
+      {
+        "name": "Sanghee Cho",
+        "institution": "GE Global Research (United States)"
+      },
+      {
+        "name": "Alex D. Corwin",
+        "institution": "GE Global Research (United States)"
+      }
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "lat": 41.3888,
+    "lng": 2.159,
+    "count": 7,
+    "collaborators": [
+      {
+        "name": "Léa Maître",
+        "institution": "Universitat Pompeu Fabra"
+      },
+      {
+        "name": "Jean-Baptiste Guimbaud",
+        "institution": "Universitat Pompeu Fabra"
+      },
+      {
+        "name": "Nuria Güil-Oumrait",
+        "institution": "Universitat Pompeu Fabra"
+      },
+      {
+        "name": "Paula Petrone",
+        "institution": "Barcelona Institute for Global Health"
+      },
+      {
+        "name": "Martine Vrijheid",
+        "institution": "Universitat Pompeu Fabra"
+      },
+      {
+        "name": "Xavier Basagaña",
+        "institution": "Universitat Pompeu Fabra"
+      },
+      {
+        "name": "Juan R. Gonzalez",
+        "institution": "Universitat Pompeu Fabra"
+      }
+    ]
+  },
+  {
+    "city": "Sheffield",
+    "country": "United Kingdom",
+    "lat": 53.383,
+    "lng": -1.4659,
+    "count": 7,
+    "collaborators": [
+      {
+        "name": "Johnathan Cooper‐Knock",
+        "institution": "University of Sheffield"
+      },
+      {
+        "name": "Calum Harvey",
+        "institution": "University of Sheffield"
+      },
+      {
+        "name": "Thomas Julian",
+        "institution": "University of Sheffield"
+      }
+    ]
+  },
+  {
+    "city": "Boston",
+    "country": "United States",
+    "lat": 42.3522,
+    "lng": -71.0749,
+    "count": 6,
+    "collaborators": [
+      {
+        "name": "John K. Snyder",
+        "institution": "Boston University"
+      },
+      {
+        "name": "Norman CY. Lee",
+        "institution": "Boston University"
+      },
+      {
+        "name": "Angela Chen",
+        "institution": "Beth Israel Deaconess Medical Center"
+      },
+      {
+        "name": "Gerard M. Doherty",
+        "institution": "Boston Medical Center"
+      },
+      {
+        "name": "Gregory W. Randolph",
+        "institution": "Massachusetts General Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Chicago",
+    "country": "United States",
+    "lat": 41.85,
+    "lng": -87.65,
+    "count": 6,
+    "collaborators": [
+      {
+        "name": "Alexandra Naba",
+        "institution": "University of Illinois Chicago"
+      },
+      {
+        "name": "Constadina Arvanitis",
+        "institution": "Robert H. Lurie Comprehensive Cancer Center of Northwestern University"
+      },
+      {
+        "name": "Orlando DeLeon",
+        "institution": "University of Illinois Chicago"
+      },
+      {
+        "name": "Eugene B. Chang",
+        "institution": "University of Illinois Chicago"
+      }
+    ]
+  },
+  {
+    "city": "Evanston",
+    "country": "United States",
+    "lat": 42.0411,
+    "lng": -87.6901,
+    "count": 6,
+    "collaborators": [
+      {
+        "name": "Neil L. Kelleher",
+        "institution": "Northwestern University"
+      },
+      {
+        "name": "Huiping Liu",
+        "institution": "Northwestern University"
+      },
+      {
+        "name": "Michael A. Caldwell",
+        "institution": "Northwestern University"
+      }
+    ]
+  },
+  {
+    "city": "St Louis",
+    "country": "United States",
+    "lat": 38.6273,
+    "lng": -90.1979,
+    "count": 6,
+    "collaborators": [
+      {
+        "name": "Sanjay Jain",
+        "institution": "Washington University in St. Louis"
+      },
+      {
+        "name": "Yiing Lin",
+        "institution": "Washington University in St. Louis"
+      },
+      {
+        "name": "Kristin Conlon",
+        "institution": "Washington University in St. Louis"
+      }
+    ]
+  },
+  {
+    "city": "Xi'an",
+    "country": "China",
+    "lat": 34.2684,
+    "lng": 108.9469,
+    "count": 6,
+    "collaborators": [
+      {
+        "name": "Enrui Xie",
+        "institution": "Second Affiliated Hospital of Xi'an Jiaotong University"
+      },
+      {
+        "name": "Zixuan Xing",
+        "institution": "Second Affiliated Hospital of Xi'an Jiaotong University"
+      },
+      {
+        "name": "Yixuan Duan",
+        "institution": "Second Affiliated Hospital of Xi'an Jiaotong University"
+      },
+      {
+        "name": "Yue Zhang",
+        "institution": "Xi'an Jiaotong University"
+      },
+      {
+        "name": "Fanpu Ji",
+        "institution": "Second Affiliated Hospital of Xi'an Jiaotong University"
+      },
+      {
+        "name": "Jie Deng",
+        "institution": "Second Affiliated Hospital of Xi'an Jiaotong University"
+      }
+    ]
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "lat": 55.6759,
+    "lng": 12.5655,
+    "count": 5,
+    "collaborators": [
+      {
+        "name": "Marie-Louise Hee Rasmussen",
+        "institution": "Statens Serum Institut"
+      },
+      {
+        "name": "Line Skotte",
+        "institution": "Statens Serum Institut"
+      },
+      {
+        "name": "Bjarke Feenstra",
+        "institution": "Statens Serum Institut"
+      },
+      {
+        "name": "Mads Melbye",
+        "institution": "University of Copenhagen"
+      },
+      {
+        "name": "Steffen H. Raun",
+        "institution": "University of Copenhagen"
+      }
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.7143,
+    "lng": -74.006,
+    "count": 5,
+    "collaborators": [
+      {
+        "name": "Brent R. Stockwell",
+        "institution": "Columbia University"
+      },
+      {
+        "name": "Laura Clarke",
+        "institution": "New York Genome Center"
+      },
+      {
+        "name": "R. Michael Tuttle",
+        "institution": "Memorial Sloan Kettering Cancer Center"
+      }
+    ]
+  },
+  {
+    "city": "Rochester",
+    "country": "United States",
+    "lat": 43.3281,
+    "lng": -80.5864,
+    "count": 5,
+    "collaborators": [
+      {
+        "name": "Gautam Bandyopadhyay",
+        "institution": "University of Rochester Medical Center"
+      },
+      {
+        "name": "Anthony Corbett",
+        "institution": "University of Rochester Medical Center"
+      },
+      {
+        "name": "Keith C. Bible",
+        "institution": "Mayo Clinic"
+      }
+    ]
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "count": 5,
+    "collaborators": [
+      {
+        "name": "Cheng Wang",
+        "institution": "University of California, San Francisco"
+      },
+      {
+        "name": "Jingjing Li",
+        "institution": "Parker Institute for Cancer Immunotherapy"
+      },
+      {
+        "name": "Laura L. Jelliffe‐Pawlowski",
+        "institution": "University of California, San Francisco"
+      },
+      {
+        "name": "Larry Rand",
+        "institution": "University of California, San Francisco"
+      }
+    ]
+  },
+  {
+    "city": "Berkeley",
+    "country": "United States",
+    "lat": 37.8716,
+    "lng": -122.2728,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Hanyah Zackriah",
+        "institution": "University of California, Berkeley"
+      },
+      {
+        "name": "Larry Rand",
+        "institution": "University of California, Berkeley"
+      }
+    ]
+  },
+  {
+    "city": "Birmingham",
+    "country": "United States",
+    "lat": 33.5207,
+    "lng": -86.8025,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Christine A. Curcio",
+        "institution": "University of Alabama at Birmingham"
+      },
+      {
+        "name": "Dongfeng Cao",
+        "institution": "University of Alabama at Birmingham"
+      }
+    ]
+  },
+  {
+    "city": "Bloomington",
+    "country": "United States",
+    "lat": 39.1653,
+    "lng": -86.5264,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Daniel Bolin",
+        "institution": "Indiana University Bloomington"
+      },
+      {
+        "name": "Andreas Bueckle",
+        "institution": "Indiana University Bloomington"
+      }
+    ]
+  },
+  {
+    "city": "Delft",
+    "country": "The Netherlands",
+    "lat": 52.0067,
+    "lng": 4.3556,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Joana P. Gonçalves",
+        "institution": "Delft University of Technology"
+      },
+      {
+        "name": "Raf Van de Plas",
+        "institution": "Delft University of Technology"
+      }
+    ]
+  },
+  {
+    "city": "Hefei",
+    "country": "China",
+    "lat": 31.8639,
+    "lng": 117.2808,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Bo Jiang",
+        "institution": "Anhui University"
+      },
+      {
+        "name": "Si Chen",
+        "institution": "Anhui University"
+      },
+      {
+        "name": "Beibei Wang",
+        "institution": "Anhui University"
+      },
+      {
+        "name": "Bin Luo",
+        "institution": "Anhui University"
+      }
+    ]
+  },
+  {
+    "city": "Palo Alto",
+    "country": "United States",
+    "lat": 37.4044,
+    "lng": -122.1409,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Cuiping Pan",
+        "institution": "VA Palo Alto Health Care System"
+      },
+      {
+        "name": "Jina Song",
+        "institution": "VA Palo Alto Health Care System"
+      },
+      {
+        "name": "Philip S. Tsao",
+        "institution": "VA Palo Alto Health Care System"
+      }
+    ]
+  },
+  {
+    "city": "San Diego",
+    "country": "United States",
+    "lat": 32.7157,
+    "lng": -117.1647,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Louise C. Laurent",
+        "institution": "University of California San Diego"
+      },
+      {
+        "name": "Riccardo Calandrelli",
+        "institution": "University of California San Diego"
+      }
+    ]
+  },
+  {
+    "city": "Santa Cruz",
+    "country": "United States",
+    "lat": 36.9741,
+    "lng": -122.0308,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Cecilia Cisar",
+        "institution": "University of California, Santa Cruz"
+      },
+      {
+        "name": "Kimberley Czupil",
+        "institution": "University of California, Santa Cruz"
+      }
+    ]
+  },
+  {
+    "city": "Utrecht",
+    "country": "The Netherlands",
+    "lat": 52.0908,
+    "lng": 5.1222,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Ilia Sarah Timpanaro",
+        "institution": "University Medical Center Utrecht"
+      },
+      {
+        "name": "Kevin Kenna",
+        "institution": "University Medical Center Utrecht"
+      }
+    ]
+  },
+  {
+    "city": "Zoucheng",
+    "country": "China",
+    "lat": 35.4006,
+    "lng": 116.9656,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Deli Zhao",
+        "institution": "Zoucheng People's Hospital"
+      },
+      {
+        "name": "Lihong Zhao",
+        "institution": "Zoucheng People's Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Cincinnati",
+    "country": "United States",
+    "lat": 39.1086,
+    "lng": -84.5117,
+    "count": 3,
+    "collaborators": [
+      {
+        "name": "Li Chen",
+        "institution": "Scripps (United States)"
+      },
+      {
+        "name": "David L. Steward",
+        "institution": "University of Cincinnati"
+      }
+    ]
+  },
+  {
+    "city": "Kunming",
+    "country": "China",
+    "lat": 25.0389,
+    "lng": 102.7183,
+    "count": 3,
+    "collaborators": [
+      {
+        "name": "Yue Yuan",
+        "institution": "Kunming Medical University"
+      },
+      {
+        "name": "Yinglei Miao",
+        "institution": "Kunming Medical University"
+      },
+      {
+        "name": "Yang Sun",
+        "institution": "Kunming Medical University"
+      }
+    ]
+  },
+  {
+    "city": "Milwaukee",
+    "country": "United States",
+    "lat": 43.0389,
+    "lng": -87.9065,
+    "count": 3,
+    "collaborators": [
+      {
+        "name": "Peter Chou",
+        "institution": "Marquette University"
+      },
+      {
+        "name": "Liang Liang",
+        "institution": "Medical College of Wisconsin"
+      }
+    ]
+  },
+  {
+    "city": "Tianjin",
+    "country": "China",
+    "lat": 39.1422,
+    "lng": 117.1767,
+    "count": 3,
+    "collaborators": [
+      {
+        "name": "Han Li",
+        "institution": "Nankai University"
+      },
+      {
+        "name": "Yongkang Li",
+        "institution": "Nankai University"
+      },
+      {
+        "name": "Shengquan Chen",
+        "institution": "Nankai University"
+      }
+    ]
+  },
+  {
+    "city": "Wuhan",
+    "country": "China",
+    "lat": 30.5833,
+    "lng": 114.2667,
+    "count": 3,
+    "collaborators": [
+      {
+        "name": "Chu Tang",
+        "institution": "South Central Minzu University"
+      },
+      {
+        "name": "Yu Chen",
+        "institution": "South Central Minzu University"
+      },
+      {
+        "name": "Shun Bai",
+        "institution": "South Central Minzu University"
+      }
+    ]
+  },
+  {
+    "city": "Austin",
+    "country": "United States",
+    "lat": 30.2672,
+    "lng": -97.7431,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Demi Awosika-Olumo",
+        "institution": "The University of Texas at Austin"
+      }
+    ]
+  },
+  {
+    "city": "Baltimore",
+    "country": "United States",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Lyla Atta",
+        "institution": "Johns Hopkins University"
+      }
+    ]
+  },
+  {
+    "city": "Baton Rouge",
+    "country": "United States",
+    "lat": 30.4433,
+    "lng": -91.1875,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Adriana Gaitan Espinoza",
+        "institution": "Louisiana State University Agricultural Center"
+      }
+    ]
+  },
+  {
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "lat": 52.2,
+    "lng": 0.1167,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "A Caron",
+        "institution": "European Bioinformatics Institute"
+      }
+    ]
+  },
+  {
+    "city": "Chapel Hill",
+    "country": "United States",
+    "lat": 35.9132,
+    "lng": -79.0558,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "James S. Hagood",
+        "institution": "University of North Carolina at Chapel Hill"
+      }
+    ]
+  },
+  {
+    "city": "Davis",
+    "country": "United States",
+    "lat": 38.5449,
+    "lng": -121.7405,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Peter J. Havel",
+        "institution": "University of California, Davis"
+      },
+      {
+        "name": "Sean H. Adams",
+        "institution": "University of California, Davis"
+      }
+    ]
+  },
+  {
+    "city": "Denver",
+    "country": "United States",
+    "lat": 39.7392,
+    "lng": -104.9847,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Bryan R. Haugen",
+        "institution": "University of Colorado Denver"
+      },
+      {
+        "name": "William W. Hay",
+        "institution": "University of Colorado Denver"
+      }
+    ]
+  },
+  {
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "lat": 23.7731,
+    "lng": 90.3689,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Samir K. Saha",
+        "institution": "Child Health Research Foundation"
+      },
+      {
+        "name": "Kumanan Wilson",
+        "institution": "Child Health Research Foundation"
+      }
+    ]
+  },
+  {
+    "city": "Harare",
+    "country": "Zimbabwe",
+    "lat": -17.8277,
+    "lng": 31.0534,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Hilda Mujuru",
+        "institution": "University of Zimbabwe"
+      },
+      {
+        "name": "Gwendoline Chimhini",
+        "institution": "University of Zimbabwe"
+      }
+    ]
+  },
+  {
+    "city": "Indianapolis",
+    "country": "United States",
+    "lat": 39.7684,
+    "lng": -86.158,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Daria Barwinska",
+        "institution": "Indiana University – Purdue University Indianapolis"
+      }
+    ]
+  },
+  {
+    "city": "Jiangyin",
+    "country": "China",
+    "lat": 31.9087,
+    "lng": 120.274,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Jingjie Zhou",
+        "institution": "Jiangyin People's Hospital"
+      },
+      {
+        "name": "Haibing Hua",
+        "institution": "Jiangyin People's Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Kaifeng",
+    "country": "China",
+    "lat": 34.7986,
+    "lng": 114.3074,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Xiao Wang",
+        "institution": "Henan University"
+      },
+      {
+        "name": "Xuebin Zhang",
+        "institution": "Henan University"
+      }
+    ]
+  },
+  {
+    "city": "Little Rock",
+    "country": "United States",
+    "lat": 34.8126,
+    "lng": -92.4751,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Andrea J. Radtke",
+        "institution": "Advanced Tissue (United States)"
+      }
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Joseph E. Ebinger",
+        "institution": "Cedars-Sinai Medical Center"
+      },
+      {
+        "name": "Susan Cheng",
+        "institution": "Cedars-Sinai Medical Center"
+      }
+    ]
+  },
+  {
+    "city": "Martinsried",
+    "country": "Germany",
+    "lat": 48.1073,
+    "lng": 11.452,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Wolfgang Baumeister",
+        "institution": "Max Planck Institute of Biochemistry"
+      }
+    ]
+  },
+  {
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9127,
+    "lng": 10.7461,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Avnish Singh Jat",
+        "institution": "Høyskolen Kristiania"
+      },
+      {
+        "name": "Tor‐Morten Grønli",
+        "institution": "Høyskolen Kristiania"
+      }
+    ]
+  },
+  {
+    "city": "Pasadena",
+    "country": "United States",
+    "lat": 34.1478,
+    "lng": -118.1445,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Long Cai",
+        "institution": "California Institute of Technology"
+      }
+    ]
+  },
+  {
+    "city": "Seattle",
+    "country": "United States",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Shin Lin",
+        "institution": "University of Washington"
+      }
+    ]
+  },
+  {
+    "city": "Stony Brook",
+    "country": "United States",
+    "lat": 40.9257,
+    "lng": -73.1409,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Lu Chen",
+        "institution": "Stony Brook University"
+      }
+    ]
+  },
+  {
+    "city": "Washington D.C.",
+    "country": "United States",
+    "lat": 38.9177,
+    "lng": -77.0276,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Leonard Wartofsky",
+        "institution": "MedStar Washington Hospital Center"
+      },
+      {
+        "name": "Nicole Martinez‐Martin",
+        "institution": "Ethics and Public Policy Center"
+      }
+    ]
+  },
+  {
+    "city": "Columbus",
+    "country": "United States",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Daniel Spakowicz",
+        "institution": "The Ohio State University"
+      }
+    ]
+  },
+  {
+    "city": "Daejeon",
+    "country": "South Korea",
+    "lat": 36.3491,
+    "lng": 127.3849,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Sang Hun Lee",
+        "institution": "Hanbat National University"
+      }
+    ]
+  },
+  {
+    "city": "Durham",
+    "country": "United States",
+    "lat": 35.994,
+    "lng": -78.8986,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Julie Ann Sosa",
+        "institution": "Duke University"
+      }
+    ]
+  },
+  {
+    "city": "Edinburgh",
+    "country": "United Kingdom",
+    "lat": 55.9633,
+    "lng": -3.2327,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "J. Kenneth Baillie",
+        "institution": "Western General Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Falls Church",
+    "country": "United States",
+    "lat": 38.8823,
+    "lng": -77.1711,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Wenyu Zhou",
+        "institution": "Stratford University"
+      }
+    ]
+  },
+  {
+    "city": "Guangzhou",
+    "country": "China",
+    "lat": 23.1167,
+    "lng": 113.25,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Zijing Du",
+        "institution": "Guangdong Provincial People's Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Gwangju",
+    "country": "South Korea",
+    "lat": 35.1547,
+    "lng": 126.9156,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Sunjae Lee",
+        "institution": "Gwangju Institute of Science and Technology"
+      }
+    ]
+  },
+  {
+    "city": "Houston",
+    "country": "United States",
+    "lat": 29.7633,
+    "lng": -95.3633,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Steven I. Sherman",
+        "institution": "The University of Texas MD Anderson Cancer Center"
+      }
+    ]
+  },
+  {
+    "city": "Kettering",
+    "country": "United Kingdom",
+    "lat": 52.394,
+    "lng": -0.721,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "K. G. M. M. Alberti",
+        "institution": "St Mary's Hospital"
+      }
+    ]
+  },
+  {
+    "city": "León",
+    "country": "Nicaragua",
+    "lat": 12.6286,
+    "lng": -87.1354,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Yanjiao Zhou",
+        "institution": "Universidad Cristiana Autónoma de Nicaragua"
+      }
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "lat": 51.5085,
+    "lng": -0.1257,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Marc Chadeau‐Hyam",
+        "institution": "MRC Centre for Environment and Health"
+      }
+    ]
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "lat": -37.814,
+    "lng": 144.9633,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Paul Zimmet",
+        "institution": "Monash University"
+      }
+    ]
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "lat": 25.7921,
+    "lng": -80.2131,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "George M. Weinstock",
+        "institution": "Jackson Memorial Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Nairobi",
+    "country": "Kenya",
+    "lat": -1.2833,
+    "lng": 36.8167,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Nancy A. Otieno",
+        "institution": "Kenya Medical Research Institute"
+      }
+    ]
+  },
+  {
+    "city": "New Haven",
+    "country": "United States",
+    "lat": 41.3081,
+    "lng": -72.9282,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Shana R. Leopold",
+        "institution": "Yale University"
+      }
+    ]
+  },
+  {
+    "city": "Ottawa",
+    "country": "Canada",
+    "lat": 45.4112,
+    "lng": -75.6981,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Steven Hawken",
+        "institution": "Ottawa Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Paris",
+    "country": "France",
+    "lat": 48.8534,
+    "lng": 2.3488,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Charline Warembourg",
+        "institution": "Inserm"
+      }
+    ]
+  },
+  {
+    "city": "Portland",
+    "country": "United States",
+    "lat": 45.5234,
+    "lng": -122.6762,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Kathryn G. Schuff",
+        "institution": "Oregon Health & Science University"
+      }
+    ]
+  },
+  {
+    "city": "Prague",
+    "country": "Czechia",
+    "lat": 50.088,
+    "lng": 14.4208,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Jethro S. Johnson",
+        "institution": "Institute of Rheumatology"
+      }
+    ]
+  },
+  {
+    "city": "Rahway",
+    "country": "United States",
+    "lat": 40.6082,
+    "lng": -74.2776,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Songjie Chen",
+        "institution": "Merck & Co., Inc., Rahway, NJ, USA (United States)"
+      }
+    ]
+  },
+  {
+    "city": "San Luis Obispo",
+    "country": "United States",
+    "lat": 35.2828,
+    "lng": -120.6596,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "M Gladding",
+        "institution": "California Polytechnic State University"
+      }
+    ]
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "lat": 37.566,
+    "lng": 126.9784,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Bong Jun",
+        "institution": "Konkuk University"
+      }
+    ]
+  },
+  {
+    "city": "Shaoxing",
+    "country": "China",
+    "lat": 30.0024,
+    "lng": 120.5786,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Chao Jiang",
+        "institution": "Shaoxing University"
+      }
+    ]
+  },
+  {
+    "city": "Shenzhen",
+    "country": "China",
+    "lat": 22.5455,
+    "lng": 114.0683,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Shangjin Tan",
+        "institution": "BGI Research"
+      }
+    ]
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "lat": 43.7001,
+    "lng": -79.4163,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Anna M. Sawka",
+        "institution": "University Health Network"
+      }
+    ]
+  },
+  {
+    "city": "Washington",
+    "country": "United States",
+    "lat": 38.8951,
+    "lng": -77.0364,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Jialin Wang",
+        "institution": "Zero to Three"
+      }
+    ]
+  },
+  {
+    "city": "Zagreb",
+    "country": "Croatia",
+    "lat": 45.8144,
+    "lng": 15.978,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Lin Lyu",
+        "institution": "Institute of Immunology"
+      }
+    ]
+  },
+  {
+    "city": "Zurich",
+    "country": "Switzerland",
+    "lat": 47.3667,
+    "lng": 8.55,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Dachuan Zhang",
+        "institution": "ETH Zurich"
+      }
+    ]
+  }
+]
