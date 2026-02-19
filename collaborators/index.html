@@ -2105,6 +2105,253 @@
 </section>
 
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">🌍 Collaborator Map</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="collab-map-wrap">
+  <div id="collaborator-map" class="collab-map"></div>
+</div>
+<style>
+  .collab-map-wrap { max-width: 1200px; margin: 0 auto; }
+  .collab-map { width: 100%; height: 560px; border-radius: 10px; border: 1px solid rgba(0,0,0,.12); }
+  .collab-tooltip { max-width: 360px; }
+  .collab-tooltip ul { margin: 6px 0 0; padding-left: 16px; }
+  .collab-tooltip li { margin: 2px 0; }
+  @media (max-width: 768px) { .collab-map { height: 420px; } }
+</style>
+<script>
+  (function () {
+    var fallbackData = [
+      { city: "Palo Alto", country: "USA", lat: 37.4419, lng: -122.1430, count: 3, collaborators: [
+        { name: "Prof. Michael SNYDER", institution: "Stanford University" },
+        { name: "Dr. Daniel Panyard", institution: "Stanford University" },
+        { name: "Dr. Nasim BARAPOUR", institution: "Stanford University" }
+      ]},
+      { city: "Gainesville", country: "USA", lat: 29.6516, lng: -82.3248, count: 2, collaborators: [
+        { name: "Prof. Sai ZHANG", institution: "University of Florida" },
+        { name: "Prof. Wei SHAO", institution: "University of Florida" }
+      ]},
+      { city: "New Haven", country: "USA", lat: 41.3083, lng: -72.9279, count: 1, collaborators: [
+        { name: "Prof. Caroline JOHNSON", institution: "Yale University" }
+      ]},
+      { city: "Hangzhou", country: "China", lat: 30.2741, lng: 120.1551, count: 1, collaborators: [
+        { name: "Prof. Chao Jiang", institution: "Zhejiang University" }
+      ]},
+      { city: "Singapore", country: "Singapore", lat: 1.3521, lng: 103.8198, count: 1, collaborators: [
+        { name: "Prof. Chuchu Wang", institution: "Nanyang Technological University Singapore" }
+      ]},
+      { city: "Redwood City", country: "USA", lat: 37.4852, lng: -122.2364, count: 1, collaborators: [
+        { name: "Dr. Daniel Hornburg", institution: "Seer" }
+      ]},
+      { city: "Hong Kong", country: "China", lat: 22.3193, lng: 114.1694, count: 1, collaborators: [
+        { name: "Dr. Hong YAN", institution: "Hong Kong Baptist University" }
+      ]},
+      { city: "Milwaukee", country: "USA", lat: 43.0389, lng: -87.9065, count: 1, collaborators: [
+        { name: "Prof. Liang LIANG", institution: "Medical College of Wisconsin" }
+      ]},
+      { city: "Cambridge", country: "USA", lat: 42.3736, lng: -71.1097, count: 1, collaborators: [
+        { name: "Prof. Peng GAO", institution: "Harvard University" }
+      ]},
+      { city: "Los Angeles", country: "USA", lat: 34.0522, lng: -118.2437, count: 1, collaborators: [
+        { name: "Dr. Ryan KELLOGG", institution: "RTHM" }
+      ]},
+      { city: "North Chicago", country: "USA", lat: 42.3256, lng: -87.8412, count: 1, collaborators: [
+        { name: "Dr. Si Wu", institution: "AbbVie" }
+      ]},
+      { city: "Rahway", country: "USA", lat: 40.6082, lng: -74.2776, count: 1, collaborators: [
+        { name: "Dr. Songjie Chen", institution: "Merck" }
+      ]},
+      { city: "Shanghai", country: "China", lat: 31.2304, lng: 121.4737, count: 1, collaborators: [
+        { name: "Prof. Xin ZHOU", institution: "Fudan University" }
+      ]},
+      { city: "Beijing", country: "China", lat: 39.9042, lng: 116.4074, count: 1, collaborators: [
+        { name: "Prof. Zheng-Jiang ZHU", institution: "Chinese Academy of Sciences" }
+      ]}
+    ];
+
+    function ensureLeaflet() {
+      if (window.L) return;
+      if (!document.querySelector("link[data-collab-leaflet='1']")) {
+        var css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.href = "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css";
+        css.setAttribute("data-collab-leaflet", "1");
+        document.head.appendChild(css);
+      }
+      if (!document.querySelector("script[data-collab-leaflet='1']")) {
+        var js = document.createElement("script");
+        js.src = "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js";
+        js.setAttribute("data-collab-leaflet", "1");
+        document.body.appendChild(js);
+      }
+    }
+
+    function drawMarkers(map, data) {
+      var maxCount = data.reduce(function (m, d) { return Math.max(m, d.count || 1); }, 1);
+      data.forEach(function (d) {
+        var ratio = (d.count || 1) / maxCount;
+        var radius = 8 + ratio * 22;
+        var popupRows = (d.collaborators || []).map(function (c) {
+          return "<li><strong>" + c.name + "</strong> (" + c.institution + ")</li>";
+        }).join("");
+        var popup = ""
+          + "<div class='collab-popup'>"
+          + "<div><strong>" + d.city + ", " + d.country + "</strong> (" + d.count + ")</div>"
+          + "<ul>" + popupRows + "</ul>"
+          + "</div>";
+
+        L.circleMarker([d.lat, d.lng], {
+          radius: radius,
+          color: "rgba(178,31,47,0.95)",
+          fillColor: "rgba(178,31,47,0.45)",
+          weight: 1.5,
+          fillOpacity: 0.5
+        }).bindTooltip(popup, {
+          direction: "top",
+          sticky: true,
+          opacity: 0.98,
+          className: "collab-tooltip"
+        }).addTo(map);
+      });
+    }
+
+    function initMap() {
+      if (!window.L) return false;
+      var el = document.getElementById("collaborator-map");
+      if (!el || el.dataset.ready === "1") return true;
+      el.dataset.ready = "1";
+
+      var map = L.map(el, {
+        zoomControl: true,
+        worldCopyJump: true
+      }).setView([20, 10], 2);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 8,
+        attribution: "&copy; OpenStreetMap contributors"
+      }).addTo(map);
+
+      fetch("/data/collaborator_city_map.json", { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error("no-json")); })
+        .then(function (data) {
+          if (!Array.isArray(data) || data.length === 0) throw new Error("empty-json");
+          drawMarkers(map, data);
+        })
+        .catch(function () {
+          drawMarkers(map, fallbackData);
+        });
+
+      return true;
+    }
+
+    ensureLeaflet();
+    if (!initMap()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries += 1;
+        if (initMap() || tries > 20) clearInterval(timer);
+      }, 250);
+    }
+  })();
+</script>
+
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
 
   </div>
 
