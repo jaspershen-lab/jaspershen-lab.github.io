@@ -5,12 +5,20 @@
     <link>https://shen-lab.org/author/liuyiqi-jiang/</link>
       <atom:link href="https://shen-lab.org/author/liuyiqi-jiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Liuyiqi Jiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>Liuyiqi Jiang</title>
       <link>https://shen-lab.org/author/liuyiqi-jiang/</link>
     </image>
+    
+    <item>
+      <title>MetaNet: a scalable and integrated tool for reproducible omics network analysis</title>
+      <link>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>

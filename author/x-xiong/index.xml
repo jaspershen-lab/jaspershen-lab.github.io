@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>X Xiong | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/x-xiong/</link>
+      <atom:link href="https://shen-lab.org/author/x-xiong/index.xml" rel="self" type="application/rss+xml" />
+    <description>X Xiong</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>X Xiong</title>
+      <link>https://shen-lab.org/author/x-xiong/</link>
+    </image>
+    
+    <item>
+      <title>Metabolic reaction network-based recursive metabolite identification for untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S Chen | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/s-chen/</link>
+      <atom:link href="https://shen-lab.org/author/s-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>S Chen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>S Chen</title>
+      <link>https://shen-lab.org/author/s-chen/</link>
+    </image>
+    
+    <item>
+      <title>Identification of antimicrobial peptides from ancient gut microbiomes</title>
+      <link>https://shen-lab.org/publication/identification-of-antimicrobial-peptides-from-ancient-gut-microbiomes/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/identification-of-antimicrobial-peptides-from-ancient-gut-microbiomes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multistage, multitask transformer-based framework for multi-disease diagnosis and prediction using personal proteomes</title>
+      <link>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal urine metabolic profiling and gestational age prediction in human pregnancy</title>
+      <link>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems and Methods for Evaluating Gestational Progress and Applications Thereof</title>
+      <link>https://shen-lab.org/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

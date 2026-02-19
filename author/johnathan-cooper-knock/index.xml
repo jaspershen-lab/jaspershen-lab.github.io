@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Johnathan Cooper-Knock | Shen Lab@NTU</title>
+    <title>Johnathan COOPER-KNOCK | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/johnathan-cooper-knock/</link>
       <atom:link href="https://shen-lab.org/author/johnathan-cooper-knock/index.xml" rel="self" type="application/rss+xml" />
-    <description>Johnathan Cooper-Knock</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <description>Johnathan COOPER-KNOCK</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
-      <title>Johnathan Cooper-Knock</title>
+      <title>Johnathan COOPER-KNOCK</title>
       <link>https://shen-lab.org/author/johnathan-cooper-knock/</link>
     </image>
+    
+    <item>
+      <title>A multistage, multitask transformer-based framework for multi-disease diagnosis and prediction using personal proteomes</title>
+      <link>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity</title>
