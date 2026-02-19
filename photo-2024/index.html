@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.f96227f520a91c2dfb327af2eac3e1c2.css" />
+  <link rel="stylesheet" href="/css/wowchemy.1817fe1a358a90fe54458fa6c2c82181.css" />
 
   
   
@@ -1006,9 +1006,9 @@
 }
 
 .gallery {
-  column-count: 2;
+  column-count: 3;
   column-gap: 10px;
-  column-fill: balance;  /* ✅ 尽量平衡两列 */
+  column-fill: balance;
 }
 
 .image-container {
@@ -1016,6 +1016,9 @@
   display: inline-block;
   margin-bottom: 10px;
   width: 100%;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 .image-container img {
@@ -1066,18 +1069,37 @@
   max-width: 90%;
   max-height: 75%;
   border-radius: 6px;
+  transition: transform 0.2s ease;
+  transform-origin: center center;
 }
 
 .lightbox .close,
 .lightbox .prev,
-.lightbox .next {
+.lightbox .next,
+.lightbox-toolbar button {
   position: absolute;
   color: white;
-  font-size: 30px;
-  padding: 10px;
+  font-size: 28px;
+  padding: 8px 10px;
   cursor: pointer;
   user-select: none;
   z-index: 10000;
+  background: transparent;
+  border: 0;
+  line-height: 1;
+}
+
+.lightbox-toolbar {
+  position: absolute;
+  top: 20px;
+  right: 72px;
+  display: flex;
+  gap: 8px;
+  z-index: 10000;
+}
+
+.lightbox-toolbar button {
+  position: static;
 }
 
 .lightbox .close {
@@ -1132,51 +1154,133 @@
     <div class="image-container"><img src="lab/2024-5-21-first-day-in-office.jpg" alt="2024/5/21 First day in the new office"><div class="caption">2024/5/21 First day in the new office</div></div>
   </div>
 </div>
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox">
-  <span class="close" onclick="closeLightbox()">&times;</span>
-  <span class="prev" onclick="changeImage(-1)">&#10094;</span>
-  <img id="lightbox-img" src="">
-  <div class="lightbox-caption" id="lightbox-caption"></div>
-  <span class="next" onclick="changeImage(1)">&#10095;</span>
-</div>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const images = document.querySelectorAll('.gallery img');
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const lightboxCaption = document.getElementById('lightbox-caption');
-  let currentIndex = 0;
+  const images = document.querySelectorAll(".gallery img");
 
-  images.forEach((img, index) => {
-    img.addEventListener('click', () => {
-      currentIndex = index;
-      showImage();
-      lightbox.style.display = 'flex';
-    });
-  });
+  const lightbox = document.createElement("div");
+  lightbox.className = "lightbox";
+  lightbox.id = "lightbox";
+  lightbox.innerHTML = `
+    <div class="lightbox-toolbar">
+      <button type="button" class="autoplay" aria-label="Toggle autoplay">▶</button>
+      <button type="button" class="zoom-in" aria-label="Zoom in">+</button>
+      <button type="button" class="zoom-out" aria-label="Zoom out">-</button>
+    </div>
+    <button type="button" class="close" aria-label="Close">&times;</button>
+    <button type="button" class="prev" aria-label="Previous image">&#10094;</button>
+    <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+    <button type="button" class="next" aria-label="Next image">&#10095;</button>
+  `;
+  document.body.appendChild(lightbox);
+
+  const lightboxImg = lightbox.querySelector("#lightbox-img");
+  const lightboxCaption = lightbox.querySelector("#lightbox-caption");
+  const closeBtn = lightbox.querySelector(".close");
+  const prevBtn = lightbox.querySelector(".prev");
+  const nextBtn = lightbox.querySelector(".next");
+  const zoomInBtn = lightbox.querySelector(".zoom-in");
+  const zoomOutBtn = lightbox.querySelector(".zoom-out");
+  const autoplayBtn = lightbox.querySelector(".autoplay");
+
+  let currentIndex = 0;
+  let zoomScale = 1;
+  let autoplayTimer = null;
+
+  function applyZoom() {
+    lightboxImg.style.transform = `scale(${zoomScale})`;
+  }
+
+  function resetZoom() {
+    zoomScale = 1;
+    applyZoom();
+  }
 
   function showImage() {
     lightboxImg.src = images[currentIndex].src;
     lightboxCaption.textContent = images[currentIndex].alt;
+    resetZoom();
   }
 
-  window.closeLightbox = function() {
-    lightbox.style.display = 'none';
+  function openLightbox(index) {
+    currentIndex = index;
+    showImage();
+    lightbox.style.display = "flex";
   }
 
-  window.changeImage = function(direction) {
+  function stopAutoplay() {
+    if (autoplayTimer) {
+      clearInterval(autoplayTimer);
+      autoplayTimer = null;
+    }
+    autoplayBtn.textContent = "▶";
+  }
+
+  function startAutoplay() {
+    stopAutoplay();
+    autoplayTimer = setInterval(() => {
+      changeImage(1);
+    }, 2500);
+    autoplayBtn.textContent = "||";
+  }
+
+  function toggleAutoplay() {
+    if (autoplayTimer) {
+      stopAutoplay();
+    } else {
+      startAutoplay();
+    }
+  }
+
+  function closeLightbox() {
+    stopAutoplay();
+    resetZoom();
+    lightbox.style.display = "none";
+  }
+
+  function changeImage(direction) {
     currentIndex += direction;
     if (currentIndex < 0) currentIndex = images.length - 1;
     if (currentIndex >= images.length) currentIndex = 0;
     showImage();
   }
 
-  document.addEventListener('keydown', (e) => {
-    if (lightbox.style.display === 'flex') {
-      if (e.key === 'ArrowLeft') changeImage(-1);
-      if (e.key === 'ArrowRight') changeImage(1);
-      if (e.key === 'Escape') closeLightbox();
+  function zoomIn() {
+    zoomScale = Math.min(3, zoomScale + 0.25);
+    applyZoom();
+  }
+
+  function zoomOut() {
+    zoomScale = Math.max(0.5, zoomScale - 0.25);
+    applyZoom();
+  }
+
+  images.forEach((img, index) => {
+    img.addEventListener("click", () => openLightbox(index));
+  });
+
+  closeBtn.addEventListener("click", closeLightbox);
+  prevBtn.addEventListener("click", () => changeImage(-1));
+  nextBtn.addEventListener("click", () => changeImage(1));
+  zoomInBtn.addEventListener("click", zoomIn);
+  zoomOutBtn.addEventListener("click", zoomOut);
+  autoplayBtn.addEventListener("click", toggleAutoplay);
+
+  lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) {
+      closeLightbox();
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (lightbox.style.display === "flex") {
+      if (e.key === "ArrowLeft") changeImage(-1);
+      if (e.key === "ArrowRight") changeImage(1);
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "+" || e.key === "=") zoomIn();
+      if (e.key === "-" || e.key === "_") zoomOut();
+      if (e.key === "a" || e.key === "A") toggleAutoplay();
     }
   });
 });
