@@ -1,0 +1,94 @@
+{
+  "publication_per_year": [
+    {
+      "year": 2011,
+      "count": 1
+    },
+    {
+      "year": 2016,
+      "count": 5
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2018,
+      "count": 3
+    },
+    {
+      "year": 2019,
+      "count": 3
+    },
+    {
+      "year": 2020,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 5
+    },
+    {
+      "year": 2022,
+      "count": 11
+    },
+    {
+      "year": 2023,
+      "count": 6
+    },
+    {
+      "year": 2024,
+      "count": 8
+    },
+    {
+      "year": 2025,
+      "count": 11
+    },
+    {
+      "year": 2026,
+      "count": 3
+    }
+  ],
+  "citation_per_year": [
+    {
+      "year": 2017,
+      "count": 32
+    },
+    {
+      "year": 2018,
+      "count": 68
+    },
+    {
+      "year": 2019,
+      "count": 113
+    },
+    {
+      "year": 2020,
+      "count": 153
+    },
+    {
+      "year": 2021,
+      "count": 262
+    },
+    {
+      "year": 2022,
+      "count": 313
+    },
+    {
+      "year": 2023,
+      "count": 405
+    },
+    {
+      "year": 2024,
+      "count": 650
+    },
+    {
+      "year": 2025,
+      "count": 1073
+    },
+    {
+      "year": 2026,
+      "count": 163
+    }
+  ]
+}
