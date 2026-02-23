@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaotao SHEN&#43; | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/xiaotao-shen-/</link>
+      <atom:link href="https://shen-lab.org/author/xiaotao-shen-/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaotao SHEN&#43;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Xiaotao SHEN&#43;</title>
+      <link>https://shen-lab.org/author/xiaotao-shen-/</link>
+    </image>
+    
+    <item>
+      <title>Distinct Gut Microbiome Signatures in Ethnically Diverse Populations within a Shared Urban Asian Geography</title>
+      <link>https://shen-lab.org/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insulin resistance modifies longitudinal multi-omics responses to habitual diet</title>
+      <link>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
