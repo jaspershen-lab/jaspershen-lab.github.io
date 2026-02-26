@@ -29,10 +29,18 @@
       }
     }
 
+    var donutOrder = ['PI', 'Researchers', 'Students', 'Co-supervised Students', 'Intern'];
     var donutData = parseMaybeDoubleEncodedJSON((root.querySelector('.team-stats-donut-data') || {}).textContent || '[]', [])
       .filter(function (d) { return Number(d.count || 0) > 0; })
       .map(function (d) {
         return { label: d.label, count: Number(d.count || 0), color: colors[d.label] || '#64748b' };
+      })
+      .sort(function (a, b) {
+        var ia = donutOrder.indexOf(a.label);
+        var ib = donutOrder.indexOf(b.label);
+        if (ia === -1) ia = 999;
+        if (ib === -1) ib = 999;
+        return ia - ib;
       });
     var barData = parseMaybeDoubleEncodedJSON((root.querySelector('.team-stats-bar-data') || {}).textContent || '[]', []);
     var svg = root.querySelector('.team-donut-svg');
@@ -46,10 +54,10 @@
     var donutAnimFrame = null;
     var barTimers = [];
     var startDelayTimer = null;
-    var DONUT_DURATION = 1600;
-    var COUNT_DURATION = 1400;
+    var DONUT_DURATION = 7000;
+    var COUNT_DURATION = 5000;
     var BAR_STAGGER = 60;
-    var DONUT_FADE_DURATION = 420;
+    var DONUT_FADE_DURATION = 900;
 
     function polar(cx, cy, r, deg) {
       var rad = (deg - 90) * Math.PI / 180;
@@ -89,16 +97,28 @@
       track.setAttribute('stroke-width', String(outer - inner));
       svg.appendChild(track);
       donutData.forEach(function (d, idx) {
-        var sweep = (d.count / total) * 360 * progress;
-        if (sweep <= 0.01) return;
-        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-        path.setAttribute('d', donutArcPath(cx, cy, outer + (idx === hoveredArc ? 10 : 0), inner, angle, angle + sweep));
-        path.setAttribute('fill', d.color);
-        path.addEventListener('mouseenter', function (e) { hoveredArc = idx; renderDonut(progress); positionTooltip(e, d.label + ': ' + d.count); });
-        path.addEventListener('mousemove', function (e) { positionTooltip(e, d.label + ': ' + d.count); });
-        path.addEventListener('mouseleave', function () { hoveredArc = -1; renderDonut(progress); hideTooltip(); });
-        svg.appendChild(path);
-        angle += sweep;
+        var sliceFrac = (d.count / total);
+        var startFrac = angle / 360;
+        var endFrac = startFrac + sliceFrac;
+        var localProgress = 0;
+        if (progress <= startFrac) {
+          localProgress = 0;
+        } else if (progress >= endFrac) {
+          localProgress = 1;
+        } else {
+          localProgress = (progress - startFrac) / Math.max(sliceFrac, 1e-6);
+        }
+        var sweep = sliceFrac * 360 * localProgress;
+        if (sweep > 0.01) {
+          var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          path.setAttribute('d', donutArcPath(cx, cy, outer + (idx === hoveredArc ? 10 : 0), inner, angle, angle + sweep));
+          path.setAttribute('fill', d.color);
+          path.addEventListener('mouseenter', function (e) { hoveredArc = idx; renderDonut(progress); positionTooltip(e, d.label + ': ' + d.count); });
+          path.addEventListener('mousemove', function (e) { positionTooltip(e, d.label + ': ' + d.count); });
+          path.addEventListener('mouseleave', function () { hoveredArc = -1; renderDonut(progress); hideTooltip(); });
+          svg.appendChild(path);
+        }
+        angle += sliceFrac * 360;
       });
       var hole = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       hole.setAttribute('cx', '160');
@@ -182,7 +202,7 @@
         var duration = DONUT_DURATION;
         function tick(ts) {
           var p = Math.min(1, (ts - startTs) / duration);
-          renderDonut(1 - Math.pow(1 - p, 3));
+          renderDonut(p);
           if (p < 1) donutAnimFrame = requestAnimationFrame(tick);
           else donutAnimFrame = null;
         }
