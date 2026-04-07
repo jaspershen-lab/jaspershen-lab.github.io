@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yulin LIAO | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/yulin-liao/</link>
+      <atom:link href="https://shen-lab.org/author/yulin-liao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yulin LIAO</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Yulin LIAO</title>
+      <link>https://shen-lab.org/author/yulin-liao/</link>
+    </image>
+    
+    <item>
+      <title>eBiota: Designing microbial communities from large seed pools with desired function using rapid optimization and deep learning</title>
+      <link>https://shen-lab.org/publication/ebiota-designing-microbial-communities-from-large-seed-pools-with-desired-function-using-rapid-optimization-and-deep-learning/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/ebiota-designing-microbial-communities-from-large-seed-pools-with-desired-function-using-rapid-optimization-and-deep-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

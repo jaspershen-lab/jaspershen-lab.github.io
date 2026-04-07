@@ -38,7 +38,7 @@
     },
     {
       "year": 2024,
-      "count": 8
+      "count": 7
     },
     {
       "year": 2025,
@@ -46,7 +46,7 @@
     },
     {
       "year": 2026,
-      "count": 6
+      "count": 8
     }
   ],
   "citation_per_year": [
@@ -76,19 +76,19 @@
     },
     {
       "year": 2023,
-      "count": 410
+      "count": 408
     },
     {
       "year": 2024,
-      "count": 653
+      "count": 612
     },
     {
       "year": 2025,
-      "count": 1067
+      "count": 811
     },
     {
       "year": 2026,
-      "count": 312
+      "count": 232
     }
   ]
 }
