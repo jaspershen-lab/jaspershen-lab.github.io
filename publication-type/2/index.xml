@@ -5,12 +5,20 @@
     <link>https://shen-lab.org/publication-type/2/</link>
       <atom:link href="https://shen-lab.org/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>2</title>
       <link>https://shen-lab.org/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Cross-body site microbial interactions influence the human plasma metabolome</title>
+      <link>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis</title>
@@ -57,6 +65,14 @@
       <link>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrated intraocular–plasma proteomics reveals conserved biomarkers for diabetic retinopathy progression: a multi-fluid biopsy study</title>
+      <link>https://shen-lab.org/publication/integrated-intraocular-plasma-proteomics-reveals-conserved-biomarkers-for-diabetic-retinopathy-progression-a-multi-fluid-biopsy-study/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/integrated-intraocular-plasma-proteomics-reveals-conserved-biomarkers-for-diabetic-retinopathy-progression-a-multi-fluid-biopsy-study/</guid>
       <description></description>
     </item>
     
