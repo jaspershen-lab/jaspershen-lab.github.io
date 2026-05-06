@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: April 22, 2026 --><html lang="en-us" >
+<!-- Last Published: May 6, 2026 --><html lang="en-us" >
 
 
 <head>
@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.999783c9ae0dcb3805c95b3ce4e5b1c6.css" />
+  <link rel="stylesheet" href="/css/wowchemy.6053f75696dfdb1de3697af20a06af4a.css" />
 
   
   
@@ -976,10 +976,6 @@
 
 
 
-
-
-
-
 <div class="row justify-content-center people-widget">
   
     <div class="section-heading col-12 mb-3 text-center">
@@ -998,16 +994,21 @@
     
     
     
-    
-
-    
-      <div class="col-md-12">
-        <h2 class="mb-4">Academia</h2>
-      </div>
-    
 
     
       
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-academia">
+          <span class="team-group-toggle__label">Academia</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-academia" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
       
       
       
@@ -1073,7 +1074,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1133,7 +1133,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -1199,7 +1198,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1259,7 +1257,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -1325,7 +1322,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1385,7 +1381,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -1451,7 +1446,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1511,7 +1505,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -1577,7 +1570,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1637,7 +1629,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -1703,7 +1694,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1766,7 +1756,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1826,6 +1815,8 @@
         </div>
       </div>
     
+
+    </div></div>
   
     
 
@@ -1834,16 +1825,21 @@
     
     
     
-    
-
-    
-      <div class="col-md-12">
-        <h2 class="mb-4">Industry</h2>
-      </div>
-    
 
     
       
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-industry">
+          <span class="team-group-toggle__label">Industry</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-industry" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
       
       
       
@@ -1909,7 +1905,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -1969,7 +1964,6 @@
         </div>
       </div>
     
-      
       
       
       
@@ -2035,7 +2029,6 @@
       
       
       
-      
         
       
       <div class="col-12 col-sm-auto people-person">
@@ -2095,8 +2088,26 @@
         </div>
       </div>
     
+
+    </div></div>
   
 </div>
+
+<script>
+(function () {
+  document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
+    if (toggle.dataset.ready === '1') return;
+    toggle.dataset.ready = '1';
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      var targetId = toggle.getAttribute('aria-controls');
+      var panel = targetId ? document.getElementById(targetId) : null;
+      toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      if (panel) panel.classList.toggle('is-collapsed', expanded);
+    });
+  });
+})();
+</script>
 
 
   
@@ -2464,6 +2475,7 @@
 
   
   <script src="/js/team_membership_stats.js"></script>
+  <script src="/js/team_collaboration_network.js"></script>
   
 </footer>
 

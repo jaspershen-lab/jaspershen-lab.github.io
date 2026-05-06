@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xin-Yue ZHANG | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/xin-yue-zhang/</link>
+      <atom:link href="https://shen-lab.org/author/xin-yue-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xin-Yue ZHANG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/xin-yue-zhang/avatar_hu4631b9b20b09b6e6642139625f3fdf4d_178668_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Xin-Yue ZHANG</title>
+      <link>https://shen-lab.org/author/xin-yue-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
+      <link>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
