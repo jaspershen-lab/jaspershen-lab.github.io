@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.14fa0a3272af545402174a18814baaad.css" />
+  <link rel="stylesheet" href="/css/wowchemy.17171e7dfbbfa68a02b4cb46fec901fe.css" />
 
   
   
@@ -1100,6 +1100,8 @@
 
   <div class="col-12">
     <section class="lab-hero" aria-label="Shen Lab at NTU">
+  <img class="lab-hero__photo" src="/media/group_photo3.png" alt="" aria-hidden="true">
+  <div class="lab-hero__shade" aria-hidden="true"></div>
   <div class="lab-hero__network" aria-hidden="true">
     <span></span><span></span><span></span><span></span><span></span><span></span>
   </div>
@@ -1669,7 +1671,6 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
-  
 
 
 
@@ -1677,107 +1678,85 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+<div class="research-universe" aria-label="Research universe">
+  <div class="research-universe__stage">
+    <svg class="research-universe__links" viewBox="0 0 1000 620" preserveAspectRatio="none" aria-hidden="true">
+      <defs>
+        <linearGradient id="researchUniverseLine" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#5eead4" stop-opacity="0.92" />
+          <stop offset="52%" stop-color="#38bdf8" stop-opacity="0.72" />
+          <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.76" />
+        </linearGradient>
+        <filter id="researchUniverseGlow">
+          <feGaussianBlur stdDeviation="5" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+      <path class="research-universe__orbit" d="M190 365 C310 210, 515 125, 820 250" />
+      <path class="research-universe__orbit" d="M220 200 C390 420, 575 475, 795 390" />
+      <path class="research-universe__orbit" d="M320 480 C430 325, 565 250, 710 145" />
+      <path class="research-universe__orbit" d="M500 115 C545 230, 540 355, 500 505" />
+      <path class="research-universe__link" d="M500 310 L190 365" />
+      <path class="research-universe__link" d="M500 310 L220 200" />
+      <path class="research-universe__link" d="M500 310 L320 480" />
+      <path class="research-universe__link" d="M500 310 L500 115" />
+      <path class="research-universe__link" d="M500 310 L710 145" />
+      <path class="research-universe__link" d="M500 310 L820 250" />
+    </svg>
 
-  
-  
-
-
-
-<div class="research-cards-grid">
-
-
-  <article class="research-card">
-    <a class="research-card__image-link" href="/research_brief/aging/">
-      <img class="research-card__image" src="/image/research-aging-modern.png" alt="Aging and Aging-Related Diseases" loading="lazy">
+    <a class="research-universe__node research-universe__node--core" style="--x: 50%; --y: 50%;" href="/research_brief/multi-omics/">
+      <span class="research-universe__icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Precision Medicine</span>
+      <span class="research-universe__tooltip">Integrating omics, wearable, clinical, and microbiome data to support individualized prediction and intervention.</span>
     </a>
-    <div class="research-card__body">
-      <div class="section-subheading article-title mb-0 mt-0 research-card__title">
-        <a href="/research_brief/aging/">Aging and Aging-Related Diseases</a>
-      </div>
-      <p class="research-card__text">
-        Aging is a complex biological process characterized by a gradual decline in physiological functions, which increases susceptibility to diseases and death. This process is influenced by a …...
-        <a class="research-card__more" href="/research_brief/aging/">Read more</a>
-      </p>
-    </div>
-  </article>
 
-
-
-  
-    
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-  <article class="research-card">
-    <a class="research-card__image-link" href="/research_brief/pregnancy/">
-      <img class="research-card__image" src="/image/research-pregnancy-modern.png" alt="Maternal and Child Health" loading="lazy">
+    <a class="research-universe__node" style="--x: 19%; --y: 59%;" href="/research_brief/multi-omics/">
+      <span class="research-universe__icon"><i class="fas fa-vial" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Metabolomics</span>
+      <span class="research-universe__tooltip">LC-MS workflows, metabolite annotation, pathway interpretation, and metabolic signatures of health and disease.</span>
     </a>
-    <div class="research-card__body">
-      <div class="section-subheading article-title mb-0 mt-0 research-card__title">
-        <a href="/research_brief/pregnancy/">Maternal and Child Health</a>
-      </div>
-      <p class="research-card__text">
-        Maternal and Child Health (MCH) is a critical public health domain focused on the health and well-being of mothers and children. Our lab&amp;rsquo;s research in Maternal and Child Health, …...
-        <a class="research-card__more" href="/research_brief/pregnancy/">Read more</a>
-      </p>
-    </div>
-  </article>
 
-
-
-  
-    
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-  <article class="research-card">
-    <a class="research-card__image-link" href="/research_brief/multi-omics/">
-      <img class="research-card__image" src="/image/research-multiomics-modern.png" alt="Multi-Omics Data Integration" loading="lazy">
+    <a class="research-universe__node" style="--x: 22%; --y: 32%;" href="/research_brief/multi-omics/">
+      <span class="research-universe__icon"><i class="fas fa-microscope" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Microbiome</span>
+      <span class="research-universe__tooltip">Microbial community dynamics across body sites and their interactions with host metabolism.</span>
     </a>
-    <div class="research-card__body">
-      <div class="section-subheading article-title mb-0 mt-0 research-card__title">
-        <a href="/research_brief/multi-omics/">Multi-Omics Data Integration</a>
-      </div>
-      <p class="research-card__text">
-        Our lab&amp;rsquo;s research focuses on integrating multi-omics and wearable data to advance the field of precision medicine, with a special emphasis on understanding the intricate interplay …...
-        <a class="research-card__more" href="/research_brief/multi-omics/">Read more</a>
-      </p>
-    </div>
-  </article>
 
+    <a class="research-universe__node" style="--x: 32%; --y: 77%;" href="/research_brief/multi-omics/">
+      <span class="research-universe__icon"><i class="fas fa-heartbeat" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Wearable</span>
+      <span class="research-universe__tooltip">Longitudinal physiology, lifestyle signals, and digital biomarkers for dense personal health monitoring.</span>
+    </a>
 
+    <a class="research-universe__node" style="--x: 50%; --y: 19%;" href="/research_brief/aging/">
+      <span class="research-universe__icon"><i class="fas fa-dna" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Aging</span>
+      <span class="research-universe__tooltip">Multi-omics and wearable models for biological aging, aging-related diseases, and predictive biomarkers.</span>
+    </a>
+
+    <a class="research-universe__node" style="--x: 71%; --y: 24%;" href="/research_brief/pregnancy/">
+      <span class="research-universe__icon"><i class="fas fa-baby" aria-hidden="true"></i></span>
+      <span class="research-universe__label">Pregnancy</span>
+      <span class="research-universe__tooltip">Maternal and child health, pregnancy omics, preterm birth risk, and real-time physiological monitoring.</span>
+    </a>
+
+    <a class="research-universe__node" style="--x: 82%; --y: 41%;" href="/research_brief/multi-omics/">
+      <span class="research-universe__icon"><i class="fas fa-brain" aria-hidden="true"></i></span>
+      <span class="research-universe__label">AI</span>
+      <span class="research-universe__tooltip">Machine learning and interpretable AI for multi-layer biological data integration and prediction.</span>
+    </a>
+  </div>
 </div>
 
+
+  
+    
+
+  
+    
 
   
 
@@ -1937,6 +1916,8 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+
+
   
   
   
@@ -1957,7 +1938,14 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   
 
 
-<article class="software-card">
+
+
+
+  
+  
+
+
+<article class="software-card" data-software-category="multi-omics">
   <a class="software-card__media" href="/software/lagci-project/">
     
       <img src="/software/lagci-project/featured_hu9bb80c87db6cab0c052df495ebd58aed_71594_760x0_resize_q75_h2_lanczos_3.webp" width="760" height="877" alt="lagCI" loading="lazy">
@@ -1965,11 +1953,17 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   </a>
   <div class="software-card__body">
     <div class="software-card__meta">
-      <span>Multi-omics</span>
-      <time datetime="2025-09-21">2025</time>
+      <span>Pipeline</span>
+      <span class="software-card__stars"><i class="fas fa-star" aria-hidden="true"></i> 18</span>
     </div>
     <h3 class="software-card__title"><a href="/software/lagci-project/">lagCI</a></h3>
     <p class="software-card__summary">lagCI combines sliding windows, LOESS smoothing and bootstrap correction to estimate robust lagged correlations, and identify the causal relationships …</p>
+    <div class="software-card__tags">
+      
+        <span>Multi-omics</span>
+      
+      <time datetime="2025-09-21">2025</time>
+    </div>
     <div class="software-card__actions">
       
         <a class="software-card__button" href="https://www.shen-lab.org/lagci-tutorial/" target="_blank" rel="noopener">
@@ -1995,6 +1989,8 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+
+
   
   
   
@@ -2017,7 +2013,14 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   
 
 
-<article class="software-card">
+
+
+
+  
+  
+
+
+<article class="software-card" data-software-category="multi-omics">
   <a class="software-card__media" href="/software/mapa/">
     
       <img src="/software/mapa/featured_hu27506c6ce4cc9403a4e5b59acd6c4642_237525_760x0_resize_q75_h2_lanczos_3.webp" width="760" height="877" alt="MAPA" loading="lazy">
@@ -2025,11 +2028,17 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   </a>
   <div class="software-card__body">
     <div class="software-card__meta">
-      <span>Multi-omics</span>
-      <time datetime="2025-09-20">2025</time>
+      <span>AI tool</span>
+      <span class="software-card__stars"><i class="fas fa-star" aria-hidden="true"></i> 28</span>
     </div>
     <h3 class="software-card__title"><a href="/software/mapa/">MAPA</a></h3>
     <p class="software-card__summary">MAPA is a software for pathway-enrichment analysis and enrichment result interpretation using Large Language Modes (LLMs) that turns complex …</p>
+    <div class="software-card__tags">
+      
+        <span>Multi-omics</span>
+      
+      <time datetime="2025-09-20">2025</time>
+    </div>
     <div class="software-card__actions">
       
         <a class="software-card__button" href="https://www.shen-lab.org/mapa-website/" target="_blank" rel="noopener">
@@ -2055,6 +2064,8 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+
+
   
   
   
@@ -2077,7 +2088,14 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   
 
 
-<article class="software-card">
+
+
+
+  
+  
+
+
+<article class="software-card" data-software-category="metabolomics">
   <a class="software-card__media" href="/software/tidymasshiny-project/">
     
       <img src="/software/tidymasshiny-project/featured_hu98f8c5c457d88b23cf7aa47d4cfc02b4_106210_760x0_resize_q75_h2_lanczos_3.webp" width="760" height="854" alt="TidyMassShiny" loading="lazy">
@@ -2085,11 +2103,17 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   </a>
   <div class="software-card__body">
     <div class="software-card__meta">
-      <span>Metabolomics</span>
-      <time datetime="2025-06-27">2025</time>
+      <span>Web app</span>
+      <span class="software-card__stars"><i class="fas fa-star" aria-hidden="true"></i> 21</span>
     </div>
     <h3 class="software-card__title"><a href="/software/tidymasshiny-project/">TidyMassShiny</a></h3>
     <p class="software-card__summary">TidyMassShiny is a Shiny application that provides an interactive interface for the TidyMass project, enabling users to perform comprehensive …</p>
+    <div class="software-card__tags">
+      
+        <span>Metabolomics</span>
+      
+      <time datetime="2025-06-27">2025</time>
+    </div>
     <div class="software-card__actions">
       
         <a class="software-card__button" href="https://www.tidymass.org/tidymassshiny-tutorial/" target="_blank" rel="noopener">
@@ -2115,6 +2139,8 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+
+
   
   
   
@@ -2137,7 +2163,14 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   
 
 
-<article class="software-card">
+
+
+
+  
+  
+
+
+<article class="software-card" data-software-category="multi-omics">
   <a class="software-card__media" href="/software/tidymicrobiome-project/">
     
       <img src="/software/tidymicrobiome-project/featured_hu576fe6476ead5b141091aef51da05481_77073_760x0_resize_q75_h2_lanczos_3.webp" width="760" height="877" alt="TidyMicrobiome" loading="lazy">
@@ -2145,11 +2178,17 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   </a>
   <div class="software-card__body">
     <div class="software-card__meta">
-      <span>Multi-omics</span>
-      <time datetime="2022-08-27">2022</time>
+      <span>R ecosystem</span>
+      <span class="software-card__stars"><i class="fas fa-star" aria-hidden="true"></i> 120&#43;</span>
     </div>
     <h3 class="software-card__title"><a href="/software/tidymicrobiome-project/">TidyMicrobiome</a></h3>
     <p class="software-card__summary">TidyMicrobiome project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for microbiome …</p>
+    <div class="software-card__tags">
+      
+        <span>Multi-omics</span>
+      
+      <time datetime="2022-08-27">2022</time>
+    </div>
     <div class="software-card__actions">
       
         <a class="software-card__button" href="https://www.tidymicrobiome.org/" target="_blank" rel="noopener">
@@ -2175,6 +2214,8 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
 
 
+
+
   
   
   
@@ -2197,7 +2238,14 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   
 
 
-<article class="software-card">
+
+
+
+  
+  
+
+
+<article class="software-card" data-software-category="others">
   <a class="software-card__media" href="/software/r_cookbook/">
     
       <img src="/software/r_cookbook/featured_hu166cace9c5df5fd4ff4aff0d792ba59d_27370_760x0_resize_q75_h2_lanczos_3.webp" width="760" height="760" alt="R cookbook" loading="lazy">
@@ -2205,11 +2253,17 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
   </a>
   <div class="software-card__body">
     <div class="software-card__meta">
-      <span>Others</span>
-      <time datetime="2020-03-22">2020</time>
+      <span>Resource</span>
+      <span class="software-card__stars"><i class="fas fa-star" aria-hidden="true"></i> 12</span>
     </div>
     <h3 class="software-card__title"><a href="/software/r_cookbook/">R cookbook</a></h3>
     <p class="software-card__summary">This is myself note book for R study.</p>
+    <div class="software-card__tags">
+      
+        <span>Others</span>
+      
+      <time datetime="2020-03-22">2020</time>
+    </div>
     <div class="software-card__actions">
       
         <a class="software-card__button" href="https://jaspershen.github.io/r_cookbook" target="_blank" rel="noopener">
@@ -3505,6 +3559,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -3670,6 +3725,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
 
@@ -3703,6 +3759,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -3774,6 +3831,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -3782,6 +3840,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -3853,6 +3912,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -3861,6 +3921,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -3913,6 +3974,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -3921,6 +3983,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -3992,6 +4055,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
 
@@ -4025,6 +4089,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4096,6 +4161,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4104,6 +4170,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4173,6 +4240,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4181,6 +4249,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4252,6 +4321,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4260,6 +4330,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4348,6 +4419,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4356,6 +4428,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4444,6 +4517,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4452,6 +4526,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4523,6 +4598,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4531,6 +4607,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4602,6 +4679,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
 
@@ -4635,6 +4713,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4672,6 +4751,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4680,6 +4760,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4700,6 +4781,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
       
@@ -4708,6 +4790,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4779,6 +4862,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 
           
         </div>
+        </div>
       </div>
     
 
@@ -4826,6 +4910,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
         
       
       <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card">
         
         
           
@@ -4879,6 +4964,7 @@ Positions Available are <strong>PhD Students, Postdoctoral Researchers, Research
 </ul>
 
           
+        </div>
         </div>
       </div>
     
