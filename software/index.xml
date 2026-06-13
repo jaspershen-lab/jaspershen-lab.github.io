@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwares | Shen Lab@NTU</title>
+    <title>Software | Shen Lab@NTU</title>
     <link>https://shen-lab.org/software/</link>
       <atom:link href="https://shen-lab.org/software/index.xml" rel="self" type="application/rss+xml" />
-    <description>Softwares</description>
+    <description>Software</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
-      <title>Softwares</title>
+      <title>Software</title>
       <link>https://shen-lab.org/software/</link>
     </image>
     
