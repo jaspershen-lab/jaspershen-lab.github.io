@@ -2330,18 +2330,694 @@
 
   <div class="col-12">
     <div class="collab-map-wrap">
+  <div class="collab-map-heading">
+    <div>
+      <p>Global collaboration network</p>
+      <h3>Collaborator Map</h3>
+    </div>
+    <span>Drag, zoom, and hover city nodes</span>
+  </div>
   <div id="collaborator-map" class="collab-map"></div>
+  <div id="collaborator-map-detail" class="collab-map-detail" aria-live="polite">
+    <div class="collab-map-detail__empty">
+      <i class="fas fa-location-dot" aria-hidden="true"></i>
+      <p>Click a city node to view collaborators in that region.</p>
+    </div>
+  </div>
 </div>
 <style>
-  .collab-map-wrap { max-width: 1200px; margin: 0 auto; }
-  .collab-map { width: 100%; height: 560px; border-radius: 10px; border: 1px solid rgba(0,0,0,.12); }
-  .collab-tooltip { max-width: 360px; }
-  .collab-tooltip ul { margin: 6px 0 0; padding-left: 16px; }
-  .collab-tooltip li { margin: 2px 0; }
-  @media (max-width: 768px) { .collab-map { height: 420px; } }
+  .collab-map-wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 26px;
+    background:
+      radial-gradient(circle at 10% 0%, rgba(20, 184, 166, 0.11), transparent 30%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(15, 23, 42, 0.035));
+    box-shadow: 0 20px 54px rgba(15, 23, 42, 0.10);
+  }
+
+  .collab-map-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.25rem 0.25rem 1rem;
+  }
+
+  .collab-map-heading p {
+    margin: 0 0 0.25rem;
+    color: #14b8a6;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-heading h3 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    font-weight: 900;
+    line-height: 0.98;
+  }
+
+  .collab-map-heading span {
+    color: rgba(148, 163, 184, 0.95);
+    font-size: 0.92rem;
+    font-weight: 800;
+  }
+
+  .collab-map {
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 22px;
+    background: #0b1220;
+  }
+
+  .collab-map .leaflet-tile-pane {
+    filter: saturate(0.88) contrast(1.03);
+  }
+
+  .collab-marker {
+    filter: drop-shadow(0 8px 18px rgba(2, 6, 23, 0.34));
+  }
+
+  .collab-tooltip {
+    max-width: 390px;
+    border: 0 !important;
+    border-radius: 16px !important;
+    background: rgba(15, 23, 42, 0.94) !important;
+    color: #f8fafc !important;
+    box-shadow: 0 20px 44px rgba(2, 6, 23, 0.28) !important;
+    padding: 0.8rem 0.95rem !important;
+  }
+
+  .collab-popup__title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.45rem;
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .collab-popup__title span {
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.16);
+    padding: 0.18rem 0.45rem;
+    color: #99f6e4;
+    font-size: 0.78rem;
+  }
+
+  .collab-tooltip ul {
+    display: grid;
+    gap: 0.35rem;
+    max-height: 220px;
+    overflow: auto;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .collab-tooltip li {
+    margin: 0;
+    color: rgba(226, 232, 240, 0.9);
+    line-height: 1.35;
+  }
+
+  .collab-tooltip strong {
+    color: #f8fafc;
+  }
+
+  .collab-map .leaflet-control-zoom a {
+    border-color: rgba(148, 163, 184, 0.2);
+    background: rgba(15, 23, 42, 0.86);
+    color: #e5eefc;
+  }
+
+  .collab-map .leaflet-control-attribution {
+    border-radius: 999px 0 0 0;
+    background: rgba(15, 23, 42, 0.72);
+    color: rgba(226, 232, 240, 0.78);
+  }
+
+  .collab-map .leaflet-control-attribution a {
+    color: #99f6e4;
+  }
+
+  .collab-map-detail {
+    margin-top: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.54);
+    padding: 1rem;
+  }
+
+  .collab-map-detail__empty {
+    display: grid;
+    min-height: 96px;
+    place-items: center;
+    align-content: center;
+    gap: 0.55rem;
+    color: rgba(100, 116, 139, 0.78);
+    text-align: center;
+  }
+
+  .collab-map-detail__empty i {
+    color: #14b8a6;
+    font-size: 1.5rem;
+  }
+
+  .collab-map-detail__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .collab-map-detail__header p {
+    margin: 0 0 0.25rem;
+    color: #14b8a6;
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-detail__header h4 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.8vw, 2.3rem);
+    font-weight: 900;
+    line-height: 1.05;
+  }
+
+  .collab-map-detail__count {
+    flex: 0 0 auto;
+    border: 1px solid rgba(20, 184, 166, 0.22);
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.09);
+    padding: 0.45rem 0.72rem;
+    color: #0f766e;
+    font-size: 0.86rem;
+    font-weight: 900;
+  }
+
+  .collab-map-detail__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .collab-map-detail__person {
+    display: grid;
+    gap: 0.25rem;
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.58);
+    padding: 0.8rem 0.9rem;
+  }
+
+  .collab-map-detail__person a,
+  .collab-map-detail__person button {
+    width: fit-content;
+    border: 0;
+    background: transparent;
+    color: #0f766e;
+    padding: 0;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .collab-map-detail__person a:hover,
+  .collab-map-detail__person button:hover {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .collab-map-detail__person span {
+    color: rgba(71, 85, 105, 0.82);
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .collab-map-detail__papers {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.45rem;
+    padding-top: 0.55rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.14);
+  }
+
+  .collab-map-detail__papers strong {
+    color: rgba(15, 23, 42, 0.92);
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-detail__papers ol {
+    display: grid;
+    gap: 0.38rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .collab-map-detail__papers li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    align-items: start;
+  }
+
+  .collab-map-detail__paper {
+    width: auto !important;
+    color: #334155 !important;
+    font-size: 0.86rem !important;
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+  }
+
+  .collab-map-detail__paper-year {
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.10);
+    padding: 0.12rem 0.38rem;
+    color: #0f766e !important;
+    font-size: 0.72rem !important;
+    font-weight: 900;
+  }
+
+  .collab-map-detail__more {
+    width: fit-content !important;
+    border-radius: 999px !important;
+    background: rgba(37, 99, 235, 0.10) !important;
+    padding: 0.26rem 0.58rem !important;
+    color: #2563eb !important;
+    font-size: 0.78rem !important;
+    font-weight: 900 !important;
+    text-decoration: none !important;
+  }
+
+  .collab-map-detail__more:hover {
+    background: rgba(37, 99, 235, 0.16) !important;
+    text-decoration: none !important;
+  }
+
+  .collab-map-detail__no-papers {
+    margin: 0;
+    color: rgba(100, 116, 139, 0.78);
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  .dark .collab-map-wrap {
+    border-color: rgba(148, 163, 184, 0.14);
+    background:
+      radial-gradient(circle at 8% 0%, rgba(45, 212, 191, 0.10), transparent 30%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(11, 18, 32, 0.96));
+    box-shadow: 0 22px 58px rgba(0, 0, 0, 0.24);
+  }
+
+  .dark .collab-map-detail {
+    border-color: rgba(148, 163, 184, 0.14);
+    background: rgba(15, 23, 42, 0.58);
+  }
+
+  .dark .collab-map-detail__person {
+    border-color: rgba(148, 163, 184, 0.13);
+    background: rgba(15, 23, 42, 0.62);
+  }
+
+  .dark .collab-map-detail__person a,
+  .dark .collab-map-detail__person button {
+    color: #99f6e4;
+  }
+
+  .dark .collab-map-detail__person span,
+  .dark .collab-map-detail__empty {
+    color: rgba(226, 232, 240, 0.72);
+  }
+
+  .dark .collab-map-detail__papers {
+    border-top-color: rgba(148, 163, 184, 0.16);
+  }
+
+  .dark .collab-map-detail__papers strong {
+    color: rgba(226, 232, 240, 0.92);
+  }
+
+  .dark .collab-map-detail__paper {
+    color: rgba(226, 232, 240, 0.9) !important;
+  }
+
+  .dark .collab-map-detail__no-papers {
+    color: rgba(226, 232, 240, 0.62);
+  }
+
+  @media (max-width: 768px) {
+    .collab-map-wrap { padding: 0.75rem; border-radius: 22px; }
+    .collab-map-heading { align-items: flex-start; flex-direction: column; }
+    .collab-map { height: 460px; border-radius: 18px; }
+    .collab-map-detail__header { align-items: flex-start; flex-direction: column; }
+    .collab-map-detail__list { grid-template-columns: 1fr; }
+  }
 </style>
 <script>
   (function () {
+    var profilePages = [{ name: "Sunny WONG", url: "/author/sunny-wong/" },{ name: "Caroline H. Johnson", url: "/author/caroline-h.-johnson/" },{ name: "Renfu Lai", url: "/author/renfu-lai/" },{ name: "Xiao WANG", url: "/author/xiao-wang/" },{ name: "Xuebin Zhang", url: "/author/xuebin-zhang/" },{ name: "Zinuo HUANG", url: "/author/zinuo-huang/" },{ name: "Alessandra CELLI", url: "/author/alessandra-celli/" },{ name: "Alexandre JOUSSET", url: "/author/alexandre-jousset/" },{ name: "Benjamin Chih Chiang LAM", url: "/author/benjamin-chih-chiang-lam/" },{ name: "Boliang ZHANG", url: "/author/boliang-zhang/" },{ name: "Bong-Hyun JUN", url: "/author/bong-hyun-jun/" },{ name: "Brian J LEE", url: "/author/brian-j-lee/" },{ name: "Caroline BEJIKIAN", url: "/author/caroline-bejikian/" },{ name: "Chen Peng", url: "/author/chen-peng/" },{ name: "Chenxiao SHEN", url: "/author/chenxiao-shen/" },{ name: "Chi Wei ONG", url: "/author/chi-wei-ong/" },{ name: "Ching-Yu CHENG", url: "/author/ching-yu-cheng/" },{ name: "Chun Pan CHEUNG", url: "/author/chun-pan-cheung/" },{ name: "Chun-Wie CHONG", url: "/author/chun-wie-chong/" },{ name: "Chunhui WANG", url: "/author/chunhui-wang/" },{ name: "Chunran LAI", url: "/author/chunran-lai/" },{ name: "Dalia PERELMA", url: "/author/dalia-perelma/" },{ name: "David RUBIN", url: "/author/david-rubin/" },{ name: "Dean HO", url: "/author/dean-ho/" },{ name: "Doris VANDEPUTTE", url: "/author/doris-vandeputte/" },{ name: "Dorrain Yanwen LOW", url: "/author/dorrain-yanwen-low/" },{ name: "Eugene B CHANG", url: "/author/eugene-b-chang/" },{ name: "Feng XIA", url: "/author/feng-xia/" },{ name: "Fenghao LIU", url: "/author/fenghao-liu/" },{ name: "Francis Ka Leung CHAN", url: "/author/francis-ka-leung-chan/" },{ name: "Gianluca IANIRO", url: "/author/gianluca-ianiro/" },{ name: "Gun KIM", url: "/author/gun-kim/" },{ name: "Haoyu ZHANG", url: "/author/haoyu-zhang/" },{ name: "Hein Min TUN", url: "/author/hein-min-tun/" },{ name: "HELIOS Study TEAM", url: "/author/helios-study-team/" },{ name: "Hen-Wei HUANG", url: "/author/hen-wei-huang/" },{ name: "Heyjun PARK", url: "/author/heyjun-park/" },{ name: "Honghua Yu", url: "/author/honghua-yu/" },{ name: "Huaiqiu ZHU", url: "/author/huaiqiu-zhu/" },{ name: "Huiqian KONG", url: "/author/huiqian-kong/" },{ name: "Irene SONU", url: "/author/irene-sonu/" },{ name: "Jason Xing KANG", url: "/author/jason-xing-kang/" },{ name: "Jessica YL CHING", url: "/author/jessica-yl-ching/" },{ name: "Jeung LEE", url: "/author/jeung-lee/" },{ name: "Ji Hong KIM", url: "/author/ji-hong-kim/" },{ name: "Jiaheng HOU", url: "/author/jiaheng-hou/" },{ name: "Jiahui CAO", url: "/author/jiahui-cao/" },{ name: "Jiajun HUANG", url: "/author/jiajun-huang/" },{ name: "Jiarui LIU", url: "/author/jiarui-liu/" },{ name: "Jiaxing HUANG", url: "/author/jiaxing-huang/" },{ name: "Jinyuan GUO", url: "/author/jinyuan-guo/" },{ name: "John Campbell CHAMBERS", url: "/author/john-campbell-chambers/" },{ name: "Jonathan Jin Yuan TEO", url: "/author/jonathan-jin-yuan-teo/" },{ name: "Joseph Jao Yiu SUNG", url: "/author/joseph-jao-yiu-sung/" },{ name: "Juha SONG", url: "/author/juha-song/" },{ name: "Juhwan KIM", url: "/author/juhwan-kim/" },{ name: "Kajal Rupesh AGRAWAL", url: "/author/kajal-rupesh-agrawal/" },{ name: "Kewin Tien Ho SIAH", url: "/author/kewin-tien-ho-siah/" },{ name: "Kuo Chao YEW", url: "/author/kuo-chao-yew/" },{ name: "Leonard Wei Tat NG", url: "/author/leonard-wei-tat-ng/" },{ name: "Liuyiqi Jiang", url: "/author/liuyiqi-jiang/" },{ name: "Louis HS LAU", url: "/author/louis-hs-lau/" },{ name: "Meijuan ZHOU", url: "/author/meijuan-zhou/" },{ name: "Michael J ROSEN", url: "/author/michael-j-rosen/" },{ name: "Min DAI", url: "/author/min-dai/" },{ name: "Mingguang HE", url: "/author/mingguang-he/" },{ name: "Minso KIM", url: "/author/minso-kim/" },{ name: "Mo LI", url: "/author/mo-li/" },{ name: "Munho KIM", url: "/author/munho-kim/" },{ name: "Nicole MARTINEZ-MARTIN", url: "/author/nicole-martinez-martin/" },{ name: "Niranjan NAGARAJAN", url: "/author/niranjan-nagarajan/" },{ name: "Orlando DELEON", url: "/author/orlando-deleon/" },{ name: "Peter X GENG", url: "/author/peter-x-geng/" },{ name: "Pranav BERRY", url: "/author/pranav-berry/" },{ name: "Qi SU", url: "/author/qi-su/" },{ name: "Qian GUO", url: "/author/qian-guo/" },{ name: "Qing QING", url: "/author/qing-qing/" },{ name: "Qinyi LI", url: "/author/qinyi-li/" },{ name: "Qiong Chen", url: "/author/qiong-chen/" },{ name: "Qixin ZHANG", url: "/author/qixin-zhang/" },{ name: "Rachel BATTERSBY", url: "/author/rachel-battersby/" },{ name: "Rashid N LUI", url: "/author/rashid-n-lui/" },{ name: "Renqiang LUO", url: "/author/renqiang-luo/" },{ name: "Renyou GAN", url: "/author/renyou-gan/" },{ name: "Sang Hoon CHAE", url: "/author/sang-hoon-chae/" },{ name: "Sang Hun LEE", url: "/author/sang-hun-lee/" },{ name: "Seong-Geon KIM", url: "/author/seong-geon-kim/" },{ name: "Seung-min PARK", url: "/author/seung-min-park/" },{ name: "Shang Wei SONG", url: "/author/shang-wei-song/" },{ name: "Shaohua GU", url: "/author/shaohua-gu/" },{ name: "Shaun Hong Chuen HOW", url: "/author/shaun-hong-chuen-how/" },{ name: "Shin Young PARK", url: "/author/shin-young-park/" },{ name: "Siew Chien NG", url: "/author/siew-chien-ng/" },{ name: "Sizhe CHEN", url: "/author/sizhe-chen/" },{ name: "Soh KIM", url: "/author/soh-kim/" },{ name: "Sonika TYAGI", url: "/author/sonika-tyagi/" },{ name: "Sophia Miryam Schussler FIORENZA", url: "/author/sophia-miryam-schussler-fiorenza/" },{ name: "Sunjae LEE", url: "/author/sunjae-lee/" },{ name: "Sunny H WONG", url: "/author/sunny-h-wong/" },{ name: "Sunny Hei WONG", url: "/author/sunny-hei-wong/" },{ name: "Tae Hyung KWON", url: "/author/tae-hyung-kwon/" },{ name: "Theresia Handayani MINA", url: "/author/theresia-handayani-mina/" },{ name: "Ting SU", url: "/author/ting-su/" },{ name: "Tong WANG", url: "/author/tong-wang/" },{ name: "Walter G PARK", url: "/author/walter-g-park/" },{ name: "Xianwen SHANG", url: "/author/xianwen-shang/" },{ name: "Xiaole YIN", url: "/author/xiaole-yin/" },{ name: "Xiaoping ZHU", url: "/author/xiaoping-zhu/" },{ name: "Xiaoqing JIANG", url: "/author/xiaoqing-jiang/" },{ name: "Xiayin ZHANG", url: "/author/xiayin-zhang/" },{ name: "Xikun ZHANG", url: "/author/xikun-zhang/" },{ name: "Xin WEI", url: "/author/xin-wei/" },{ name: "Xin ZHENG", url: "/author/xin-zheng/" },{ name: "Xingtong YU", url: "/author/xingtong-yu/" },{ name: "Xinrun YANG", url: "/author/xinrun-yang/" },{ name: "Yang SUN", url: "/author/yang-sun/" },{ name: "Yao LI", url: "/author/yao-li/" },{ name: "Ye PENG", url: "/author/ye-peng/" },{ name: "Yijun HU", url: "/author/yijun-hu/" },{ name: "Ying FANG", url: "/author/ying-fang/" },{ name: "Yinglei MIAO", url: "/author/yinglei-miao/" },{ name: "Yingzhou LU", url: "/author/yingzhou-lu/" },{ name: "Yisha LIN", url: "/author/yisha-lin/" },{ name: "Yiyan ZHOU", url: "/author/yiyan-zhou/" },{ name: "Yue YUAN", url: "/author/yue-yuan/" },{ name: "Yulin LIAO", url: "/author/yulin-liao/" },{ name: "Yun WANG", url: "/author/yun-wang/" },{ name: "Yusuf ALI", url: "/author/yusuf-ali/" },{ name: "Zhe WANG", url: "/author/zhe-wang/" },{ name: "Zhen LIU", url: "/author/zhen-liu/" },{ name: "Zhi Da SOH", url: "/author/zhi-da-soh/" },{ name: "Zhilu XU", url: "/author/zhilu-xu/" },{ name: "Zhimin JIANG", url: "/author/zhimin-jiang/" },{ name: "Zhiquan SONG", url: "/author/zhiquan-song/" },{ name: "Zhong WEI", url: "/author/zhong-wei/" },{ name: "Zhongyuan ZHANG", url: "/author/zhongyuan-zhang/" },{ name: "Zhuoting ZHU", url: "/author/zhuoting-zhu/" },{ name: "Ziqi XU", url: "/author/ziqi-xu/" },{ name: "Nguan Soon Tan", url: "/author/nguan-soon-tan/" },{ name: "Qianyi Zhou", url: "/author/qianyi-zhou/" },{ name: "Chengli Yu", url: "/author/chengli-yu/" },{ name: "Chenwen Wang", url: "/author/chenwen-wang/" },{ name: "Gang Cao", url: "/author/gang-cao/" },{ name: "Haibing Hua", url: "/author/haibing-hua/" },{ name: "Haijian Sun", url: "/author/haijian-sun/" },{ name: "Jingjie Zhou", url: "/author/jingjie-zhou/" },{ name: "Jinjun Shan", url: "/author/jinjun-shan/" },{ name: "Junzhi Zhang", url: "/author/junzhi-zhang/" },{ name: "Kang Ding", url: "/author/kang-ding/" },{ name: "Lu Wang", url: "/author/lu-wang/" },{ name: "Peng Wei", url: "/author/peng-wei/" },{ name: "Qiongzi He", url: "/author/qiongzi-he/" },{ name: "Shijia Liu", url: "/author/shijia-liu/" },{ name: "Shuai Lu", url: "/author/shuai-lu/" },{ name: "Shusheng Yin", url: "/author/shusheng-yin/" },{ name: "Tongtong Liu", url: "/author/tongtong-liu/" },{ name: "Wei Zhou", url: "/author/wei-zhou/" },{ name: "Weichen Xu", url: "/author/weichen-xu/" },{ name: "Xi Guo", url: "/author/xi-guo/" },{ name: "Ye Zhang", url: "/author/ye-zhang/" },{ name: "Yi Xu", url: "/author/yi-xu/" },{ name: "Yongming Li", url: "/author/yongming-li/" },{ name: "Yujiao Yan", url: "/author/yujiao-yan/" },{ name: "Zhimin Fan", url: "/author/zhimin-fan/" },{ name: "Zichen Luo", url: "/author/zichen-luo/" },{ name: "Qiao Liu", url: "/author/qiao-liu/" },{ name: "Siyu he", url: "/author/siyu-he/" },{ name: "Rinkoo Dalan", url: "/author/rinkoo-dalan/" },{ name: "Yong Wang", url: "/author/yong-wang/" },{ name: "Hanyah Zackriah", url: "/author/hanyah-zackriah/" },{ name: "Larry Rand", url: "/author/larry-rand/" },{ name: "Laura Jelliffe-Pawlowski", url: "/author/laura-jelliffe-pawlowski/" },{ name: "Monika Avina", url: "/author/monika-avina/" },{ name: "Dachuan Zhang", url: "/author/dachuan-zhang/" },{ name: "Daming Fan", url: "/author/daming-fan/" },{ name: "Guanhua Qiao", url: "/author/guanhua-qiao/" },{ name: "Hao Zhang", url: "/author/hao-zhang/" },{ name: "Jianxin Zhao", url: "/author/jianxin-zhao/" },{ name: "Jinlin Zhu", url: "/author/jinlin-zhu/" },{ name: "Nana Zhang", url: "/author/nana-zhang/" },{ name: "Wei Chen", url: "/author/wei-chen/" },{ name: "Wenwei Lu", url: "/author/wenwei-lu/" },{ name: "Xidong Jiao", url: "/author/xidong-jiao/" },{ name: "Ali MAHZARNIA", url: "/author/ali-mahzarnia/" },{ name: "David K STEVENSON", url: "/author/david-k-stevenson/" },{ name: "DK STEVENSON", url: "/author/dk-stevenson/" },{ name: "G CHIMHINI", url: "/author/g-chimhini/" },{ name: "Gary L DARMSTADT", url: "/author/gary-l-darmstadt/" },{ name: "Gary M SHAW", url: "/author/gary-m-shaw/" },{ name: "GL DARMSTADT", url: "/author/gl-darmstadt/" },{ name: "GM SHAW", url: "/author/gm-shaw/" },{ name: "Gwendoline CHIMHINI", url: "/author/gwendoline-chimhini/" },{ name: "H MUJURU", url: "/author/h-mujuru/" },{ name: "Han LI", url: "/author/han-li/" },{ name: "Hilda A MUJURU", url: "/author/hilda-a-mujuru/" },{ name: "I MARIC", url: "/author/i-maric/" },{ name: "Ivana MARIĆ", url: "/author/ivana-maric/" },{ name: "J REISS", url: "/author/j-reiss/" },{ name: "JA KERNER", url: "/author/ja-kerner/" },{ name: "John KERNER", url: "/author/john-kerner/" },{ name: "Johnathan COOPER-KNOCK", url: "/author/johnathan-cooper-knock/" },{ name: "Jonathan D REISS", url: "/author/jonathan-d-reiss/" },{ name: "K WILSON", url: "/author/k-wilson/" },{ name: "Kumanan WILSON", url: "/author/kumanan-wilson/" },{ name: "M SNYDER", url: "/author/m-snyder/" },{ name: "Michael P SNYDER", url: "/author/michael-p-snyder/" },{ name: "Mohammad Shameem HASSAN", url: "/author/mohammad-shameem-hassan/" },{ name: "N OTIENO", url: "/author/n-otieno/" },{ name: "Nancy A OTIENO", url: "/author/nancy-a-otieno/" },{ name: "RJ WONG", url: "/author/rj-wong/" },{ name: "Ronald J WONG", url: "/author/ronald-j-wong/" },{ name: "S HAWKEN", url: "/author/s-hawken/" },{ name: "S LANCASTER", url: "/author/s-lancaster/" },{ name: "Samir K SAHA", url: "/author/samir-k-saha/" },{ name: "Samuel LANCASTER", url: "/author/samuel-lancaster/" },{ name: "Shengquan CHEN", url: "/author/shengquan-chen/" },{ name: "SK SAHA", url: "/author/sk-saha/" },{ name: "Steven HAWKEN", url: "/author/steven-hawken/" },{ name: "V WARD", url: "/author/v-ward/" },{ name: "Victoria WARD", url: "/author/victoria-ward/" },{ name: "William HAY", url: "/author/william-hay/" },{ name: "WW HAY", url: "/author/ww-hay/" },{ name: "X SHEN", url: "/author/x-shen/" },{ name: "Xudong XING", url: "/author/xudong-xing/" },{ name: "Yongkang LI", url: "/author/yongkang-li/" },{ name: "Yukuan LIU", url: "/author/yukuan-liu/" },{ name: "Enrui Xie", url: "/author/enrui-xie/" },{ name: "Fanpu Ji", url: "/author/fanpu-ji/" },{ name: "Jie Deng", url: "/author/jie-deng/" },{ name: "Joseph E. Ebinger", url: "/author/joseph-e.-ebinger/" },{ name: "Susan Cheng", url: "/author/susan-cheng/" },{ name: "Yee Hui Yeo", url: "/author/yee-hui-yeo/" },{ name: "Yixuan Duan", url: "/author/yixuan-duan/" },{ name: "Yue Zhang", url: "/author/yue-zhang/" },{ name: "Zixuan Xing", url: "/author/zixuan-xing/" },{ name: "Axel T. Brunger", url: "/author/axel-t.-brunger/" },{ name: "Daniel J. Adams", url: "/author/daniel-j.-adams/" },{ name: "Jeremy Leitz", url: "/author/jeremy-leitz/" },{ name: "Kailu Yang", url: "/author/kailu-yang/" },{ name: "Lihua Jiang", url: "/author/lihua-jiang/" },{ name: "Lucas Hampton", url: "/author/lucas-hampton/" },{ name: "Luis Esquivies", url: "/author/luis-esquivies/" },{ name: "Michael H. B. Stowell", url: "/author/michael-h.-b.-stowell/" },{ name: "Qiang Guo", url: "/author/qiang-guo/" },{ name: "Richard Held", url: "/author/richard-held/" },{ name: "Ruiqi Jian", url: "/author/ruiqi-jian/" },{ name: "Tamara Basta", url: "/author/tamara-basta/" },{ name: "Wenhong Jiang", url: "/author/wenhong-jiang/" },{ name: "Wolfgang Baumeister", url: "/author/wolfgang-baumeister/" },{ name: "Xing Wang", url: "/author/xing-wang/" },{ name: "Shangjin Tan", url: "/author/shangjin-tan/" },{ name: "Alexander Honkala", url: "/author/alexander-honkala/" },{ name: "Andrew W Brooks", url: "/author/andrew-w-brooks/" },{ name: "Bo-Young Hong", url: "/author/bo-young-hong/" },{ name: "Chenchen Zhu", url: "/author/chenchen-zhu/" },{ name: "Daniel Hornburg", url: "/author/daniel-hornburg/" },{ name: "Daniel J Spakowicz", url: "/author/daniel-j-spakowicz/" },{ name: "Eddy J Bautista", url: "/author/eddy-j-bautista/" },{ name: "Erica Sodergren", url: "/author/erica-sodergren/" },{ name: "Faye Chleilat", url: "/author/faye-chleilat/" },{ name: "George M Weinstock", url: "/author/george-m-weinstock/" },{ name: "Hoan Nguyen", url: "/author/hoan-nguyen/" },{ name: "Jethro S Johnson", url: "/author/jethro-s-johnson/" },{ name: "Kévin Contrepois", url: "/author/kevin-contrepois/" },{ name: "Kexin Cha", url: "/author/kexin-cha/" },{ name: "Lei Chen", url: "/author/lei-chen/" },{ name: "Lin Lyu", url: "/author/lin-lyu/" },{ name: "Melissa Agnello", url: "/author/melissa-agnello/" },{ name: "Meng Wang", url: "/author/meng-wang/" },{ name: "Monica Avina", url: "/author/monica-avina/" },{ name: "Paula B Kavathas", url: "/author/paula-b-kavathas/" },{ name: "Shana Leopold", url: "/author/shana-leopold/" },{ name: "Shirley Jingyi Chen", url: "/author/shirley-jingyi-chen/" },{ name: "Sophia Miryam Schüssler-Fiorenza Rose", url: "/author/sophia-miryam-schussler-fiorenza-rose/" },{ name: "Thi Dong Binh Tran", url: "/author/thi-dong-binh-tran/" },{ name: "Wenyu Zhou", url: "/author/wenyu-zhou/" },{ name: "Yair Dorsett", url: "/author/yair-dorsett/" },{ name: "Yanjiao Zhou", url: "/author/yanjiao-zhou/" },{ name: "Mia GLADDING", url: "/author/mia-gladding/" },{ name: "Peter J HAVEL", url: "/author/peter-j-havel/" },{ name: "Sean H ADAMS", url: "/author/sean-h-adams/" },{ name: "Daisy Yi Ding", url: "/author/daisy-yi-ding/" },{ name: "Robert Tibshirani", url: "/author/robert-tibshirani/" },{ name: "Jeffrey M Spraggins", url: "/author/jeffrey-m-spraggins/" },{ name: "Liming Pei", url: "/author/liming-pei/" },{ name: "Michael Angelo", url: "/author/michael-angelo/" },{ name: "Sanjay Jain", url: "/author/sanjay-jain/" },{ name: "Alan Sheng-Hwa Tung", url: "/author/alan-sheng-hwa-tung/" },{ name: "Amanda L Wiggenhorn", url: "/author/amanda-l-wiggenhorn/" },{ name: "Carolyn R Bertozzi", url: "/author/carolyn-r-bertozzi/" },{ name: "Himanish Basu", url: "/author/himanish-basu/" },{ name: "Jing Guo", url: "/author/jing-guo/" },{ name: "Jonathan Z Long", url: "/author/jonathan-z-long/" },{ name: "Katrin J Svensson", url: "/author/katrin-j-svensson/" },{ name: "Maria Dolores Moya-Garzon", url: "/author/maria-dolores-moya-garzon/" },{ name: "Meng Zhao", url: "/author/meng-zhao/" },{ name: "Nicholas M Riley", url: "/author/nicholas-m-riley/" },{ name: "Steffen H Raun", url: "/author/steffen-h-raun/" },{ name: "Veronica L Li", url: "/author/veronica-l-li/" },{ name: "Wei Wei", url: "/author/wei-wei/" },{ name: "Wentao Huang", url: "/author/wentao-huang/" },{ name: "Xuchao Lyu", url: "/author/xuchao-lyu/" },{ name: "Alireza Delfarah", url: "/author/alireza-delfarah/" },{ name: "Ariel Ganz", url: "/author/ariel-ganz/" },{ name: "Basil Michael", url: "/author/basil-michael/" },{ name: "Brittany Lee-McMullen", url: "/author/brittany-lee-mcmullen/" },{ name: "Daniel J Panyard", url: "/author/daniel-j-panyard/" },{ name: "Ian Simms", url: "/author/ian-simms/" },{ name: "Jessalyn Ubellacker", url: "/author/jessalyn-ubellacker/" },{ name: "Kevin Erazo Castillo", url: "/author/kevin-erazo-castillo/" },{ name: "Sara Ahadi", url: "/author/sara-ahadi/" },{ name: "Yael Rosenberg-Hasson", url: "/author/yael-rosenberg-hasson/" },{ name: "Jürgen HOWALDT", url: "/author/jurgen-howaldt/" },{ name: "Michael SCHWARZ", url: "/author/michael-schwarz/" },{ name: "Charline Warembourg", url: "/author/charline-warembourg/" },{ name: "Exposome Data Challenge Participant Consortium", url: "/author/exposome-data-challenge-participant-consortium/" },{ name: "Jean-Baptiste Guimbaud", url: "/author/jean-baptiste-guimbaud/" },{ name: "Juan R Gonzalez", url: "/author/juan-r-gonzalez/" },{ name: "Léa Maitre", url: "/author/lea-maitre/" },{ name: "Marc Chadeau-Hyam", url: "/author/marc-chadeau-hyam/" },{ name: "Martine Vrijheid", url: "/author/martine-vrijheid/" },{ name: "Nuria Güil-Oumrait", url: "/author/nuria-guil-oumrait/" },{ name: "Paula Marcela Petrone", url: "/author/paula-marcela-petrone/" },{ name: "Xavier Basagaña", url: "/author/xavier-basagana/" },{ name: "Alessandra Renieri", url: "/author/alessandra-renieri/" },{ name: "Annika K Weimer", url: "/author/annika-k-weimer/" },{ name: "Calum Harvey", url: "/author/calum-harvey/" },{ name: "Derya Unutmaz", url: "/author/derya-unutmaz/" },{ name: "Elisa Frullanti", url: "/author/elisa-frullanti/" },{ name: "Francesca Fava", url: "/author/francesca-fava/" },{ name: "Ilia Sarah Timpanaro", url: "/author/ilia-sarah-timpanaro/" },{ name: "J Kenneth Baillie", url: "/author/j-kenneth-baillie/" },{ name: "Kevin P Kenna", url: "/author/kevin-p-kenna/" },{ name: "Lina Kozhaya", url: "/author/lina-kozhaya/" },{ name: "Mark M Davis", url: "/author/mark-m-davis/" },{ name: "Minyi Shi", url: "/author/minyi-shi/" },{ name: "Philip S Tsao", url: "/author/philip-s-tsao/" },{ name: "Simone Furini", url: "/author/simone-furini/" },{ name: "Thomas H Julian", url: "/author/thomas-h-julian/" },{ name: "Mirabela Rusu", url: "/author/mirabela-rusu/" },{ name: "George Weinstock", url: "/author/george-weinstock/" },{ name: "Jethro Johnson", url: "/author/jethro-johnson/" },{ name: "Zheng-Jiang Zhu", url: "/author/zheng-jiang-zhu/" },{ name: "Alan TUNG", url: "/author/alan-tung/" },{ name: "Cheng Wang", url: "/author/cheng-wang/" },{ name: "Cuiping Pan", url: "/author/cuiping-pan/" },{ name: "GEN-COVID Network", url: "/author/gen-covid-network/" },{ name: "Jina Song", url: "/author/jina-song/" },{ name: "Jingjing Li", url: "/author/jingjing-li/" },{ name: "Paul Billing-Ross", url: "/author/paul-billing-ross/" },{ name: "VA Million Veteran Program", url: "/author/va-million-veteran-program/" },{ name: "Guangwen Wang", url: "/author/guangwen-wang/" },{ name: "Rene Hoffman", url: "/author/rene-hoffman/" },{ name: "Stephanie Nevins", url: "/author/stephanie-nevins/" },{ name: "Xun Cheng", url: "/author/xun-cheng/" },{ name: "Bingbing Fan", url: "/author/bingbing-fan/" },{ name: "Deli Zhao", url: "/author/deli-zhao/" },{ name: "Fuzhong Xue", url: "/author/fuzhong-xue/" },{ name: "Jia Liu", url: "/author/jia-liu/" },{ name: "Jiali Lv", url: "/author/jiali-lv/" },{ name: "Jialin Wang", url: "/author/jialin-wang/" },{ name: "Mengke Wei", url: "/author/mengke-wei/" },{ name: "Tao Zhang", url: "/author/tao-zhang/" },{ name: "Xia Li", url: "/author/xia-li/" },{ name: "Yawen Sun", url: "/author/yawen-sun/" },{ name: "Guangshuai Zhou", url: "/author/guangshuai-zhou/" },{ name: "Lihong Zhao", url: "/author/lihong-zhao/" },{ name: "Bjarke Feenstra", url: "/author/bjarke-feenstra/" },{ name: "Brian Piening", url: "/author/brian-piening/" },{ name: "Hannes Röst", url: "/author/hannes-rost/" },{ name: "John K Snyder", url: "/author/john-k-snyder/" },{ name: "Line Skotte", url: "/author/line-skotte/" },{ name: "Mads Melbye", url: "/author/mads-melbye/" },{ name: "Marie-Louise Hee Rasmussen", url: "/author/marie-louise-hee-rasmussen/" },{ name: "Norman CY Lee", url: "/author/norman-cy-lee/" },{ name: "Nan Liu", url: "/author/nan-liu/" },{ name: "Ruohong Wang", url: "/author/ruohong-wang/" },{ name: "Xin Xiong", url: "/author/xin-xiong/" },{ name: "Yandong Yin", url: "/author/yandong-yin/" },{ name: "Yuping Cai", url: "/author/yuping-cai/" },{ name: "Zaijun Ma", url: "/author/zaijun-ma/" },{ name: "Jia Tu", url: "/author/jia-tu/" },{ name: "Xi Chen", url: "/author/xi-chen/" },{ name: "Zhiwei Zhou", url: "/author/zhiwei-zhou/" },{ name: "Binbin Cui", url: "/author/binbin-cui/" },{ name: "Fan Zhang", url: "/author/fan-zhang/" },{ name: "Kai Yang", url: "/author/kai-yang/" },{ name: "Kang Li", url: "/author/kang-li/" },{ name: "Kui Deng", url: "/author/kui-deng/" },{ name: "Peng Han", url: "/author/peng-han/" },{ name: "Weiwei Zhao", url: "/author/weiwei-zhao/" },{ name: "Xiwen Yu", url: "/author/xiwen-yu/" },{ name: "Yuanyuan Zhang", url: "/author/yuanyuan-zhang/" },{ name: "Yue Yang", url: "/author/yue-yang/" },{ name: "Zhiwei Rong", url: "/author/zhiwei-rong/" },{ name: "Zhong Li", url: "/author/zhong-li/" },{ name: "Zhuozhong Wang", url: "/author/zhuozhong-wang/" },{ name: "Huixun Jia", url: "/author/huixun-jia/" },{ name: "Ji Zhu", url: "/author/ji-zhu/" },{ name: "Jing Yuan", url: "/author/jing-yuan/" },{ name: "Li Xie", url: "/author/li-xie/" },{ name: "Meimei Xu", url: "/author/meimei-xu/" },{ name: "Miao Mo", url: "/author/miao-mo/" },{ name: "Sanjun Cai", url: "/author/sanjun-cai/" },{ name: "Yun Guan", url: "/author/yun-guan/" },{ name: "Zhen Zhang", url: "/author/zhen-zhang/" },{ name: "Tu Jia", url: "/author/tu-jia/" },{ name: "Zhou Zhiwei", url: "/author/zhou-zhiwei/" },{ name: "Zhu Zheng-Jiang", url: "/author/zhu-zheng-jiang/" },{ name: "Xiaoyun Gong", url: "/author/xiaoyun-gong/" },{ name: "Yanxun Liu", url: "/author/yanxun-liu/" },{ name: "Yingjun Liu", url: "/author/yingjun-liu/" },{ name: "Hao Li", url: "/author/hao-li/" },{ name: "Yuan Guo", url: "/author/yuan-guo/" },{ name: "Chi Fang HSU", url: "/author/chi-fang-hsu/" },{ name: "Chunlei ZHANG", url: "/author/chunlei-zhang/" },{ name: "Diyan LI", url: "/author/diyan-li/" },{ name: "Dr. Daniel Hornburg", url: "/author/dr.-daniel-hornburg/" },{ name: "Dr. Daniel Panyard", url: "/author/dr.-daniel-panyard/" },{ name: "Dr. Hong YAN", url: "/author/dr.-hong-yan/" },{ name: "Dr. Nasim BARAPOUR", url: "/author/dr.-nasim-barapour/" },{ name: "Dr. Ryan KELLOGG", url: "/author/dr.-ryan-kellogg/" },{ name: "Dr. Si Wu", url: "/author/dr.-si-wu/" },{ name: "Dr. Songjie Chen", url: "/author/dr.-songjie-chen/" },{ name: "Feifan ZHANG", url: "/author/feifan-zhang/" },{ name: "Fen PAN", url: "/author/fen-pan/" },{ name: "Hua ZHAO", url: "/author/hua-zhao/" },{ name: "Jaewon CHUNG", url: "/author/jaewon-chung/" },{ name: "Jingxiang ZHANG", url: "/author/jingxiang-zhang/" },{ name: "Jiramet KINCHAGAWAT", url: "/author/jiramet-kinchagawat/" },{ name: "Kajal AGRAWAL", url: "/author/kajal-agrawal/" },{ name: "Ke PANG", url: "/author/ke-pang/" },{ name: "Lucie BENOIT", url: "/author/lucie-benoit/" },{ name: "Meilun LI", url: "/author/meilun-li/" },{ name: "Minghang LI", url: "/author/minghang-li/" },{ name: "Prof. Caroline JOHNSON", url: "/author/prof.-caroline-johnson/" },{ name: "Prof. Chao Jiang", url: "/author/prof.-chao-jiang/" },{ name: "Prof. Chuchu Wang", url: "/author/prof.-chuchu-wang/" },{ name: "Prof. Liang LIANG", url: "/author/prof.-liang-liang/" },{ name: "Prof. Michael SNYDER", url: "/author/prof.-michael-snyder/" },{ name: "Prof. Peng GAO", url: "/author/prof.-peng-gao/" },{ name: "Prof. Sai ZHANG", url: "/author/prof.-sai-zhang/" },{ name: "Prof. Wei SHAO", url: "/author/prof.-wei-shao/" },{ name: "Prof. Xin ZHOU", url: "/author/prof.-xin-zhou/" },{ name: "Prof. Zheng-Jiang ZHU", url: "/author/prof.-zheng-jiang-zhu/" },{ name: "Qi QI", url: "/author/qi-qi/" },{ name: "Ruwen ZHOU", url: "/author/ruwen-zhou/" },{ name: "Sahana RAHIM", url: "/author/sahana-rahim/" },{ name: "Shaoguang LI", url: "/author/shaoguang-li/" },{ name: "Shenyu WANG", url: "/author/shenyu-wang/" },{ name: "Shuli ZHANG", url: "/author/shuli-zhang/" },{ name: "Shunpeng BAI", url: "/author/shunpeng-bai/" },{ name: "Sundara Ganapathy LETCHIMANAN", url: "/author/sundara-ganapathy-letchimanan/" },{ name: "Tong WU", url: "/author/tong-wu/" },{ name: "Vaisnavi ARUMUGAM", url: "/author/vaisnavi-arumugam/" },{ name: "We Need You", url: "/author/we-need-you/" },{ name: "We want you!", url: "/author/we-want-you/" },{ name: "Xiaotao SHEN", url: "/author/xiaotao-shen/" },{ name: "Xiaoyu XU", url: "/author/xiaoyu-xu/" },{ name: "Xin-Yue ZHANG", url: "/author/xin-yue-zhang/" },{ name: "Yifei GE", url: "/author/yifei-ge/" },{ name: "Yijiang LIU", url: "/author/yijiang-liu/" },{ name: "Yitong WU", url: "/author/yitong-wu/" },{ name: "Yiying CHEN", url: "/author/yiying-chen/" },{ name: "Yuanming YANG", url: "/author/yuanming-yang/" },{ name: "Yuchen SHEN", url: "/author/yuchen-shen/" },{ name: "Yuting WANG", url: "/author/yuting-wang/" },{ name: "Yuxu PAN", url: "/author/yuxu-pan/" },{ name: "Zijing DU", url: "/author/zijing-du/" },{ name: "Zirui QIANG", url: "/author/zirui-qiang/" }];
+
+    var publicationPages = [{
+            title: "LagCI Enables Inference of Temporal Causal Relationships from Dense Multi-Omic Time Series",
+            url: "/publication/lagci-enables-inference-of-temporal-causal-relationships-from-dense-multi-omic-time-series/",
+            year: "2026",
+            authors: ["Yifei GE","Shunpeng BAI","Zirui QIANG","Yijiang LIU","Yitong WU","Xiaotao Shen"]
+          },{
+            title: "Cross-body site microbial interactions influence the human plasma metabolome",
+            url: "/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/",
+            year: "2026",
+            authors: ["Jingxiang ZHANG","Chao JIANG","Xin ZHOU","Peng GAO","Sunny WONG","Michael SNYDER","Xiaotao Shen"]
+          },{
+            title: "TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis",
+            url: "/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/",
+            year: "2026",
+            authors: ["Xiao Wang","Yijiang Liu","Chao Jiang","Zinuo Huang","Hong Yan","Sunny Wong","Caroline H. Johnson","Jingxiang Zhang","Yifei Ge","Feifan Zhang","Renfu Lai","Peng Gao","Xuebin Zhang","Xiaotao Shen"]
+          },{
+            title: "The Expanding Landscape of Microbiota Medicine: Indications, Therapeutic Modalities, and the Path Towards Integrative Microbiome‐Targeting Healthcare",
+            url: "/publication/the-expanding-landscape-of-microbiota-medicine-indications-therapeutic-modalities-and-the-path-towards-integrative-microbiome-targeting-healthcare/",
+            year: "2026",
+            authors: ["Min DAI","Yisha LIN","Renyou GAN","Xiaotao Shen","Shin Young PARK","Sunjae LEE","Qi SU"]
+          },{
+            title: "MetaNet: a scalable and integrated tool for reproducible omics network analysis",
+            url: "/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/",
+            year: "2026",
+            authors: ["Chen PENG","Liuyiqi JIANG","Zinuo HUANG","Xin WEI","Xiaoping ZHU","Zhen LIU","Qiong CHEN","Xiaotao Shen","Peng GAO","Chao JIANG"]
+          },{
+            title: "Learning Multi-Relational Graph Representations for DNA Methylation-Based Biological Age Estimation",
+            url: "/publication/learning-multi-relational-graph-representations-for-dna-methylation-based-biological-age-estimation/",
+            year: "2026",
+            authors: ["Qing QING","Xikun ZHANG","Zhongyuan ZHANG","Jiarui LIU","Xingtong YU","Xiaotao Shen","Ziqi XU","Qixin ZHANG","Zhe WANG","Renqiang LUO"]
+          },{
+            title: "Kun-peng enables scalable and accurate pan-domain metagenomic classification",
+            url: "/publication/kun-peng-enables-scalable-and-accurate-pan-domain-metagenomic-classification/",
+            year: "2026",
+            authors: ["Qiong CHEN","Boliang ZHANG","Chen PENG","Jiajun HUANG","Zhen LIU","Xiaotao Shen","Chao JIANG"]
+          },{
+            title: "Integrated intraocular–plasma proteomics reveals conserved biomarkers for diabetic retinopathy progression: a multi-fluid biopsy study",
+            url: "/publication/integrated-intraocular-plasma-proteomics-reveals-conserved-biomarkers-for-diabetic-retinopathy-progression-a-multi-fluid-biopsy-study/",
+            year: "2026",
+            authors: ["Jiahui CAO","Fenghao LIU","Huiqian KONG","Chunran LAI","Zijing DU","Zhi Da SOH","Ting SU","Chenxiao SHEN","Qinyi LI","Ying FANG","Yijun HU","Xianwen SHANG","Xiaotao Shen","Mingguang HE","Ching-Yu CHENG","Zhuoting ZHU","Meijuan ZHOU","Xiayin ZHANG","Honghua YU"]
+          },{
+            title: "Insulin resistance modifies longitudinal multi-omics responses to habitual diet",
+            url: "/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/",
+            year: "2026",
+            authors: ["Heyjun PARK","Xiaotao Shen","Dalia PERELMA","Pranav BERRY","Yingzhou LU","Rachel BATTERSBY","Sophia Miryam Schussler FIORENZA","Alessandra CELLI","Caroline BEJIKIAN","Michael SNYDER"]
+          },{
+            title: "Identification of antimicrobial peptides from ancient gut microbiomes",
+            url: "/publication/identification-of-antimicrobial-peptides-from-ancient-gut-microbiomes/",
+            year: "2026",
+            authors: ["Sizhe CHEN","Yue YUAN","Yun WANG","Ye PENG","Hein Min TUN","Zhimin JIANG","Yinglei MIAO","Sunjae LEE","Xiaole YIN","Xiaotao Shen","Orlando DELEON","Eugene B CHANG","Francis Ka Leung CHAN","Yang SUN","Siew Chien NG","Qi SU"]
+          },{
+            title: "eBiota: Designing microbial communities from large seed pools with desired function using rapid optimization and deep learning",
+            url: "/publication/ebiota-designing-microbial-communities-from-large-seed-pools-with-desired-function-using-rapid-optimization-and-deep-learning/",
+            year: "2026",
+            authors: ["Xiaoqing JIANG","Jiaheng HOU","Haoyu ZHANG","Jinyuan GUO","Shaohua GU","Doris VANDEPUTTE","Yulin LIAO","Qian GUO","Xinrun YANG","Yiyan ZHOU","Peter X GENG","Chunhui WANG","Mo LI","Alexandre JOUSSET","Xiaotao Shen","Zhong WEI","Huaiqiu ZHU"]
+          },{
+            title: "Distinct Gut Microbiome Signatures in Ethnically Diverse Populations within a Shared Urban Asian Geography",
+            url: "/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/",
+            year: "2026",
+            authors: ["Ruwen ZHOU","Xiaotao Shen","Theresia Handayani MINA","Kajal Rupesh AGRAWAL","Dorrain Yanwen LOW","Jason Xing KANG","Jonathan Jin Yuan TEO","Shaun Hong Chuen HOW","Benjamin Chih Chiang LAM","Tong WANG","Chun-Wie CHONG","HELIOS Study TEAM","Joseph Jao Yiu SUNG","Niranjan NAGARAJAN","Yusuf ALI","John Campbell CHAMBERS","Sunny Hei WONG"]
+          },{
+            title: "Deployment of a cloud-based passive defecation monitoring system for continuous gut health monitoring",
+            url: "/publication/deployment-of-a-cloud-based-passive-defecation-monitoring-system-for-continuous-gut-health-monitoring/",
+            year: "2026",
+            authors: ["Zhiquan SONG","Minso KIM","Jeung LEE","Tae Hyung KWON","Juhwan KIM","Ji Hong KIM","Seong-Geon KIM","Soh KIM","Bong-Hyun JUN","Sang Hun LEE","Walter G PARK","Irene SONU","Michael J ROSEN","Chi Wei ONG","Xiaotao Shen","Leonard Wei Tat NG","Gun KIM","Sang Hoon CHAE","Kewin Tien Ho SIAH","Dean HO","Shang Wei SONG","Nicole MARTINEZ-MARTIN","Juha SONG","Kuo Chao YEW","Munho KIM","Hen-Wei HUANG","Sunny H WONG","Brian J LEE","Seung-min PARK"]
+          },{
+            title: "Bridging Sequence and Graph Structure for Epigenetic Age Prediction",
+            url: "/publication/bridging-sequence-and-graph-structure-for-epigenetic-age-prediction/",
+            year: "2026",
+            authors: ["Yao LI","Xikun ZHANG","Xiaotao Shen","Sonika TYAGI","Xin ZHENG","Jiaxing HUANG","Feng XIA"]
+          },{
+            title: "Artificial intelligence-driven donor-recipient gut microbiome matching for optimized fecal microbiota transplantation",
+            url: "/publication/artificial-intelligence-driven-donor-recipient-gut-microbiome-matching-for-optimized-fecal-microbiota-transplantation/",
+            year: "2026",
+            authors: ["Qi SU","Sizhe CHEN","Louis HS LAU","Rashid N LUI","Yun WANG","Zhilu XU","Chun Pan CHEUNG","Jessica YL CHING","Xiaotao Shen","Ye PENG","Hein Min TUN","Gianluca IANIRO","David RUBIN","Eugene B CHANG","Francis Ka Leung CHAN","Siew Chien NG"]
+          },{
+            title: "Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation",
+            url: "/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/",
+            year: "2025",
+            authors: ["Yifei Ge","Yijiang Liu","Feifan Zhang","Chao Jiang","Peng Gao","Nguan Soon Tan","Sai Zhang","Yuchen Shen","Qianyi Zhou","Xin Zhou","Xiao WANG","Chuchu Wang","Xiaotao Shen"]
+          },{
+            title: "Metabolomics and proteomics reveal blocking argininosuccinate synthetase 1 alleviates colitis in mice",
+            url: "/publication/metabolomics-and-proteomics-revealblocking-argininosuccinate-synthetase-1alleviates-colitis-in-mice/",
+            year: "2025",
+            authors: ["Shijia Liu","Haijian Sun","Zijing Du","Shuai Lu","Chenwen Wang","Ye Zhang","Zichen Luo","Lu Wang","Zhimin Fan","Peng Wei","Yujiao Yan","Junzhi Zhang","Shusheng Yin","Tongtong Liu","Qiongzi He","Xi Guo","Kang Ding","Jingjie Zhou","Haibing Hua","Chengli Yu","Weichen Xu","Jinjun Shan","Yongming Li","Yi Xu","Xiaotao Shen","Gang Cao","Wei Zhou"]
+          },{
+            title: "Application of LLMs/Transformer-Based Models for Metabolite Annotation in Metabolomics",
+            url: "/publication/application-of-llms-transformer-based-models-for-metabolite/",
+            year: "2025",
+            authors: ["Yijiang Liu","Feifan Zhang","Yifei Ge","Qiao Liu","Siyu he","Xiaotao Shen"]
+          },{
+            title: "Application of Wearable Devices in Diabetes Management",
+            url: "/publication/application-of-wearable-devices-in-diabetes-management/",
+            year: "2025",
+            authors: ["Zijing Du","Feifan Zhang","Yifei Ge","Yijiang Liu","Honghua Yu","Yong Wang","Rinkoo Dalan","Xiaotao Shen"]
+          },{
+            title: "Longitudinal Urine Metabolic Profiling and Gestational Age Prediction in Pregnancy",
+            url: "/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/",
+            year: "2025",
+            authors: ["Xiaotao Shen","Songjie Chen","Liang Liang","Monika Avina","Hanyah Zackriah","Laura Jelliffe-Pawlowski","Larry Rand","Michael Snyder"]
+          },{
+            title: "Food recommendation towards personalized wellbeing",
+            url: "/publication/food-recommendation-towards-personalized-wellbeing/",
+            year: "2025",
+            authors: ["Guanhua Qiao","Dachuan Zhang","Nana Zhang","Xiaotao Shen","Xidong Jiao","Wenwei Lu","Daming Fan","Jianxin Zhao","Hao Zhang","Wei Chen","Jinlin Zhu"]
+          },{
+            title: "Maternal lipidomic signatures of preterm and small-for-gestational-age newborn infants in low-and middle-income countries",
+            url: "/publication/maternal-lipidomic-signatures-of-preterm-and-small-for-gestational-age-newborn-infants-in-low-and-middle-income-countries/",
+            year: "2025",
+            authors: ["Ivana MARIĆ","Ali MAHZARNIA","Hilda A MUJURU","Gwendoline CHIMHINI","Samir K SAHA","Mohammad Shameem HASSAN","Nancy A OTIENO","Steven HAWKEN","Kumanan WILSON","Xiaotao Shen","Samuel LANCASTER","Ronald J WONG","Jonathan D REISS","John KERNER","Michael P SNYDER","William HAY","Gary M SHAW","David K STEVENSON","Victoria WARD","Gary L DARMSTADT"]
+          },{
+            title: "Longitudinal urine metabolic profiling and gestational age prediction in human pregnancy",
+            url: "/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/",
+            year: "2025",
+            authors: ["Xiaotao Shen","Songjie CHEN","Liang LIANG","Monika AVINA","Hanyah ZACKRIAH","Laura JELLIFFE-PAWLOWSKI","Larry RAND","Michael P SNYDER"]
+          },{
+            title: "Identification of Early and Mid-Pregnancy Maternal Lipidomics and Metabolomics Signatures of Preterm and Small-for-Gestational Age Infants from Low-and Middle-income Countries …",
+            url: "/publication/identification-of-early-and-mid-pregnancy-maternal-lipidomics-and-metabolomics-signatures-of-preterm-and-small-for-gestational-age-infants-from-low-and-middle-income-countries/",
+            year: "2025",
+            authors: ["I MARIC","H MUJURU","G CHIMHINI","SK SAHA","N OTIENO","S HAWKEN","K WILSON","X SHEN","S LANCASTER","RJ WONG","J REISS","JA KERNER","M SNYDER","WW HAY","GM SHAW","DK STEVENSON","V WARD","GL DARMSTADT"]
+          },{
+            title: "A multistage, multitask transformer-based framework for multi-disease diagnosis and prediction using personal proteomes",
+            url: "/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/",
+            year: "2025",
+            authors: ["Han LI","Yongkang LI","Yukuan LIU","Johnathan COOPER-KNOCK","Peng GAO","Xiaotao Shen","Shengquan CHEN","Xudong XING","Sai ZHANG"]
+          },{
+            title: "Exploring the underlying molecular mechanisms of acute myocardial infarction after SARS-CoV-2 infection",
+            url: "/publication/exploring-the-underlying-molecular-mechanisms-of-acute-myocardial-infarction-after-sars-cov-2-infection/",
+            year: "2024",
+            authors: ["Enrui Xie","Xiaotao Shen","Yee Hui Yeo","Zixuan Xing","Joseph E. Ebinger","Yixuan Duan","Yue Zhang","Susan Cheng","Fanpu Ji","Jie Deng"]
+          },{
+            title: "Structure and topography of the synaptic V-ATPase–synaptophysin complex",
+            url: "/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/",
+            year: "2024",
+            authors: ["Chuchu Wang","Wenhong Jiang","Jeremy Leitz","Kailu Yang","Luis Esquivies","Xing Wang","Xiaotao Shen","Richard Held","Daniel J. Adams","Tamara Basta","Lucas Hampton","Ruiqi Jian","Lihua Jiang","Michael H. B. Stowell","Wolfgang Baumeister","Qiang Guo","Axel T. Brunger"]
+          },{
+            title: "Generalized reporter score-based enrichment analysis for omics data",
+            url: "/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/",
+            year: "2024",
+            authors: ["Chen Peng","Qiong Chen","Shangjin Tan","Xiaotao Shen","Chao Jiang"]
+          },{
+            title: "Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease",
+            url: "/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/",
+            year: "2024",
+            authors: ["Xin Zhou","Xiaotao Shen","Jethro S Johnson","Daniel J Spakowicz","Melissa Agnello","Wenyu Zhou","Monica Avina","Alexander Honkala","Faye Chleilat","Shirley Jingyi Chen","Kexin Cha","Shana Leopold","Chenchen Zhu","Lei Chen","Lin Lyu","Daniel Hornburg","Si Wu","Xinyue Zhang","Chao Jiang","Liuyiqi Jiang","Lihua Jiang","Ruiqi Jian","Andrew W Brooks","Meng Wang","Kévin Contrepois","Peng Gao","Sophia Miryam Schüssler-Fiorenza Rose","Thi Dong Binh Tran","Hoan Nguyen","Alessandra Celli","Bo-Young Hong","Eddy J Bautista","Yair Dorsett","Paula B Kavathas","Yanjiao Zhou","Erica Sodergren","George M Weinstock","Michael Snyder"]
+          },{
+            title: "Kun-peng: an ultra-memory-efficient, fast, and accurate pan-domain taxonomic classifier for all",
+            url: "/publication/kun-peng-an-ultra-memory-efficient-fast-and-accurate-pan-domain-taxonomic-classifier-for-all/",
+            year: "2024",
+            authors: ["Qiong CHEN","Boliang ZHANG","Chen PENG","Jiajun HUANG","Xiaotao Shen","Chao JIANG"]
+          },{
+            title: "Interindividual variability in postprandial plasma fructose patterns in adults",
+            url: "/publication/interindividual-variability-in-postprandial-plasma-fructose-patterns-in-adults/",
+            year: "2024",
+            authors: ["Mia GLADDING","Xiaotao Shen","Michael P SNYDER","Peter J HAVEL","Sean H ADAMS"]
+          },{
+            title: "microbiomedataset A tidyverse-style framework for organizing and processing microbiome data",
+            url: "/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/",
+            year: "2023",
+            authors: ["Xiaotao Shen","Michael Snyder"]
+          },{
+            title: "Semi-supervised Cooperative Learning for Multiomics Data Fusion",
+            url: "/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/",
+            year: "2023",
+            authors: ["Daisy Yi Ding","Xiaotao Shen","Michael Snyder","Robert Tibshirani"]
+          },{
+            title: "Advances and prospects for the Human BioMolecular Atlas Program (HuBMAP)",
+            url: "/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/",
+            year: "2023",
+            authors: ["Sanjay Jain","Liming Pei","Jeffrey M Spraggins","Michael Angelo","Michael Snyder"]
+          },{
+            title: "Organism-wide, cell-type-specific secretome mapping of exercise training in mice",
+            url: "/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/",
+            year: "2023",
+            authors: ["Wei Wei","Nicholas M Riley","Xuchao Lyu","Xiaotao Shen","Jing Guo","Steffen H Raun","Meng Zhao","Maria Dolores Moya-Garzon","Himanish Basu","Alan Sheng-Hwa Tung","Veronica L Li","Wentao Huang","Amanda L Wiggenhorn","Katrin J Svensson","Michael Snyder","Carolyn R Bertozzi","Jonathan Z Long"]
+          },{
+            title: "Multi-omics microsampling for the profiling of lifestyle-associated changes in health",
+            url: "/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/",
+            year: "2023",
+            authors: ["Xiaotao Shen","Ryan Kellogg","Daniel J Panyard","Nasim Bararpour","Kevin Erazo Castillo","Brittany Lee-McMullen","Alireza Delfarah","Jessalyn Ubellacker","Sara Ahadi","Yael Rosenberg-Hasson","Ariel Ganz","Kévin Contrepois","Basil Michael","Ian Simms","Chuchu Wang","Daniel Hornburg","Michael Snyder"]
+          },{
+            title: "Systems and Methods for Evaluating Gestational Progress and Applications Thereof",
+            url: "/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/",
+            year: "2023",
+            authors: ["Jürgen HOWALDT","Michael SCHWARZ"]
+          },{
+            title: "Semi-supervised Cooperative Learning",
+            url: "/publication/semi-supervised-cooperative-learning/",
+            year: "2023",
+            authors: ["Daisy Yi DING","Xiaotao Shen","Michael SNYDER","Robert TIBSHIRANI"]
+          },{
+            title: "State-of-the-art methods for exposure-health studies: Results from the exposome data challenge event",
+            url: "/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/",
+            year: "2022",
+            authors: ["Léa Maitre","Jean-Baptiste Guimbaud","Charline Warembourg","Nuria Güil-Oumrait","Paula Marcela Petrone","Marc Chadeau-Hyam","Martine Vrijheid","Xavier Basagaña","Juan R Gonzalez","Exposome Data Challenge Participant Consortium"]
+          },{
+            title: "massDatabase utilities for the operation of the public compound and pathway database",
+            url: "/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/",
+            year: "2022",
+            authors: ["Xiaotao Shen","Chuchu Wang","Michael Snyder"]
+          },{
+            title: "Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity",
+            url: "/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/",
+            year: "2022",
+            authors: ["Sai Zhang","Johnathan Cooper-Knock","Annika K Weimer","Minyi Shi","Lina Kozhaya","Derya Unutmaz","Calum Harvey","Thomas H Julian","Simone Furini","Elisa Frullanti","Francesca Fava","Alessandra Renieri","Peng Gao","Xiaotao Shen","Ilia Sarah Timpanaro","Kevin P Kenna","J Kenneth Baillie","Mark M Davis","Philip S Tsao","Michael Snyder"]
+          },{
+            title: "Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine",
+            url: "/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/",
+            year: "2022",
+            authors: ["Xiaotao Shen","Wei Shao","Chuchu Wang","Liang Liang","Songjie Chen","Sai Zhang","Mirabela Rusu","Michael Snyder"]
+          },{
+            title: "TidyMass an object-oriented reproducible analysis framework for LC–MS data",
+            url: "/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/",
+            year: "2022",
+            authors: ["Xiaotao Shen","Hong Yan","Chuchu Wang","Peng Gao","Caroline Johnson","Michael Snyder"]
+          },{
+            title: "Precision environmental health monitoring by longitudinal exposome and multi-omics profiling",
+            url: "/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/",
+            year: "2022",
+            authors: ["Peng Gao","Xiaotao Shen","Xinyue Zhang","Chao Jiang","Sai Zhang","Xin Zhou","Sophia Miryam Schüssler-Fiorenza Rose","Michael Snyder"]
+          },{
+            title: "Longitudinal interactions between levels of serum cytokine and the microbiome from four body sites",
+            url: "/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/",
+            year: "2022",
+            authors: ["Xin Zhou","Xiaotao Shen","Jethro Johnson","Daniel J Spakowicz","Chenchen Zhu","Wenyu Zhou","Yanjiao Zhou","George Weinstock","Michael Snyder"]
+          },{
+            title: "metID: an R package for automatable compound annotation for LC− MS-based data",
+            url: "/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/",
+            year: "2022",
+            authors: ["Xiaotao Shen","Si Wu","Liang Liang","Songjie Chen","Kévin Contrepois","Zheng-Jiang Zhu","Michael Snyder"]
+          },{
+            title: "Organism-wide secretome mapping uncovers pathways of tissue crosstalk in exercise",
+            url: "/publication/organism-wide-secretome-mapping-uncovers-pathways-of-tissue-crosstalk-in-exercise/",
+            year: "2022",
+            authors: ["Wei WEI","Nicholas M RILEY","Xuchao LYU","Xiaotao Shen","Jing GUO","Meng ZHAO","Maria Dolores MOYA-GARZON","Himanish BASU","Alan TUNG","Veronica L LI","Wentao HUANG","Katrin J SVENSSON","Michael P SNYDER","Carolyn R BERTOZZI","Jonathan Z LONG"]
+          },{
+            title: "Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity",
+            url: "/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/",
+            year: "2021",
+            authors: ["Sai Zhang","Johnathan Cooper-Knock","Annika K Weimer","Calum Harvey","Thomas H Julian","Cheng Wang","Jingjing Li","Simone Furini","Elisa Frullanti","Francesca Fava","Alessandra Renieri","Cuiping Pan","Jina Song","Paul Billing-Ross","Peng Gao","Xiaotao Shen","Ilia Sarah Timpanaro","Kevin P Kenna","VA Million Veteran Program","GEN-COVID Network","Mark M Davis","Philip S Tsao","Michael Snyder"]
+          },{
+            title: "Integration and comparison of multi-omics profiles of NGLY1 deficiency plasma and cellular models to identify clinically relevant molecular phenotypes",
+            url: "/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/",
+            year: "2021",
+            authors: ["Songjie Chen","Guangwen Wang","Xiaotao Shen","Daniel Hornburg","Rene Hoffman","Stephanie Nevins","Xun Cheng","Michael Snyder"]
+          },{
+            title: "A serum metabolomics analysis reveals a panel of screening metabolic biomarkers for esophageal squamous cell carcinoma",
+            url: "/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/",
+            year: "2021",
+            authors: ["Jiali Lv","Jialin Wang","Xiaotao Shen","Jia Liu","Deli Zhao","Mengke Wei","Xia Li","Bingbing Fan","Yawen Sun","Fuzhong Xue","Zheng‐Jiang Zhu","Tao Zhang"]
+          },{
+            title: "The mediation effect of serum metabolites on the relationship between long-term smoking exposure and esophageal squamous cell carcinoma",
+            url: "/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/",
+            year: "2021",
+            authors: ["Mengke Wei","Lihong Zhao","Jiali Lv","Xia Li","Guangshuai Zhou","Bingbing Fan","Xiaotao Shen","Deli Zhao","Fuzhong Xue","Jialin Wang","Tao Zhang"]
+          },{
+            title: "Serum metabolomics analysis for the progression of esophageal squamous cell carcinoma",
+            url: "/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/",
+            year: "2021",
+            authors: ["Xia Li","Lihong Zhao","Mengke Wei","Jiali Lv","Yawen Sun","Xiaotao Shen","Deli Zhao","Fuzhong Xue","Tao Zhang","Jialin Wang"]
+          },{
+            title: "Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women",
+            url: "/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/",
+            year: "2020",
+            authors: ["Liang Liang","Marie-Louise Hee Rasmussen","Brian Piening","Xiaotao Shen","Songjie Chen","Hannes Röst","John K Snyder","Robert Tibshirani","Line Skotte","Norman CY Lee","Kévin Contrepois","Bjarke Feenstra","Hanyah Zackriah","Michael Snyder","Mads Melbye"]
+          },{
+            title: "MetFlow: an interactive and integrated workflow for metabolomics data cleaning and differential metabolite discovery",
+            url: "/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/",
+            year: "2019",
+            authors: ["Xiaotao Shen","Zheng-Jiang Zhu"]
+          },{
+            title: "Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics",
+            url: "/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/",
+            year: "2019",
+            authors: ["Xiaotao Shen","Ruohong Wang","Xin Xiong","Yandong Yin","Yuping Cai","Zaijun Ma","Nan Liu","Zheng-Jiang Zhu"]
+          },{
+            title: "LipidIMMS Analyzer integrating multi-dimensional information to support lipid identification in ion mobility—mass spectrometry based lipidomics",
+            url: "/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/",
+            year: "2019",
+            authors: ["Zhiwei Zhou","Xiaotao Shen","Xi Chen","Jia Tu","Xin Xiong","Zheng-Jiang Zhu"]
+          },{
+            title: "Development of a correlative strategy to discover colorectal tumor tissue derived metabolite biomarkers in plasma using untargeted metabolomics",
+            url: "/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/",
+            year: "2018",
+            authors: ["Zhuozhong Wang","Binbin Cui","Fan Zhang","Yue Yang","Xiaotao Shen","Zhong Li","Weiwei Zhao","Yuanyuan Zhang","Kui Deng","Zhiwei Rong","Kai Yang","Xiwen Yu","Kang Li","Peng Han","Zheng-Jiang Zhu"]
+          },{
+            title: "Predicting the pathological response to neoadjuvant chemoradiation using untargeted metabolomics in locally advanced rectal cancer",
+            url: "/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/",
+            year: "2018",
+            authors: ["Huixun Jia","Xiaotao Shen","Yun Guan","Meimei Xu","Jia Tu","Miao Mo","Li Xie","Jing Yuan","Zhen Zhang","Sanjun Cai","Ji Zhu","ZhengJiang Zhu"]
+          },{
+            title: "Metabolic reaction network-based recursive metabolite identification for untargeted metabolomics",
+            url: "/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/",
+            year: "2018",
+            authors: ["Xiaotao Shen","Xin XIONG","Ruohong WANG","Yandong YIN","Yuping CAI","Zaijun MA","Nan LIU","Zheng-Jiang ZHU"]
+          },{
+            title: "LipidCCS prediction of collision cross-section values for lipids with high precision to support ion mobility–mass spectrometry-based lipidomics",
+            url: "/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/",
+            year: "2017",
+            authors: ["Zhiwei Zhou","Jia Tu","Xin Xiong","Xiaotao Shen","Zheng-Jiang Zhu"]
+          },{
+            title: "Large-Scale Prediction of Collision Cross-Section Values for Metabolites in Ion Mobility-Mass Spectrometry",
+            url: "/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/",
+            year: "2016",
+            authors: ["Zhou Zhiwei","Xiaotao Shen","Tu Jia","Zhu Zheng-Jiang"]
+          },{
+            title: "Serum metabolomics for early diagnosis of esophageal squamous cell carcinoma by UHPLC-QTOF/MS",
+            url: "/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/",
+            year: "2016",
+            authors: ["Jialin Wang","Tao Zhang","Xiaotao Shen","Jia Liu","Deli Zhao","Yawen Sun","Lu Wang","Yingjun Liu","Xiaoyun Gong","Yanxun Liu","Zheng-Jiang Zhu","Fuzhong Xue"]
+          },{
+            title: "Normalization and integration of large-scale metabolomics data using support vector regression",
+            url: "/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/",
+            year: "2016",
+            authors: ["Xiaotao Shen","Xiaoyun Gong","Yuping Cai","Yuan Guo","Jia Tu","Hao Li","Tao Zhang","Jialin Wang","Fuzhong Xue","Zheng-Jiang Zhu"]
+          }];
+
     var fallbackData = [
       { city: "Palo Alto", country: "USA", lat: 37.4419, lng: -122.1430, count: 3, collaborators: [
         { name: "Prof. Michael SNYDER", institution: "Stanford University" },
@@ -2407,6 +3083,141 @@
       }
     }
 
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>"']/g, function (m) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[m];
+      });
+    }
+
+    function normalizeName(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/\b(professor|prof|dr|mr|mrs|ms|phd|md)\b\.?/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim()
+        .replace(/\s+/g, " ");
+    }
+
+    function nameKeys(value) {
+      var normalized = normalizeName(value);
+      if (!normalized) return [];
+      var parts = normalized.split(" ");
+      var keys = [normalized];
+      if (parts.length >= 2) {
+        keys.push(parts[0].charAt(0) + " " + parts[parts.length - 1]);
+        keys.push(parts[0].charAt(0) + parts[parts.length - 1]);
+      }
+      return keys;
+    }
+
+    function namesMatch(a, b) {
+      var aKeys = nameKeys(a);
+      var bKeys = nameKeys(b);
+      return aKeys.some(function (aKey) {
+        return bKeys.some(function (bKey) {
+          return aKey === bKey || aKey.indexOf(bKey) >= 0 || bKey.indexOf(aKey) >= 0;
+        });
+      });
+    }
+
+    var profileIndex = {};
+    profilePages.forEach(function (profile) {
+      nameKeys(profile.name).forEach(function (key) {
+        if (!profileIndex[key]) profileIndex[key] = profile.url;
+      });
+    });
+
+    function findProfile(name) {
+      var keys = nameKeys(name);
+      for (var i = 0; i < keys.length; i += 1) {
+        if (profileIndex[keys[i]]) return profileIndex[keys[i]];
+      }
+      return "";
+    }
+
+    function uniqueCollaborators(items) {
+      var seen = {};
+      return (items || []).filter(function (item) {
+        var key = normalizeName(item.name) + "|" + normalizeName(item.institution);
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+      });
+    }
+
+    var publicationCache = {};
+    function collaboratorPublications(name) {
+      var key = normalizeName(name);
+      if (publicationCache[key]) return publicationCache[key];
+      var matches = publicationPages.filter(function (publication) {
+        return (publication.authors || []).some(function (author) {
+          return namesMatch(name, author);
+        });
+      });
+      publicationCache[key] = matches;
+      return matches;
+    }
+
+    function publicationAuthorForFilter(name, papers) {
+      for (var i = 0; i < papers.length; i += 1) {
+        var authors = papers[i].authors || [];
+        for (var j = 0; j < authors.length; j += 1) {
+          if (namesMatch(name, authors[j])) return authors[j];
+        }
+      }
+      return name;
+    }
+
+    function filteredPublicationUrl(name, papers) {
+      return "/publication/?author=" + encodeURIComponent(publicationAuthorForFilter(name, papers || []));
+    }
+
+    function renderPapers(name) {
+      var papers = collaboratorPublications(name);
+      if (!papers.length) {
+        return "<div class='collab-map-detail__papers'>"
+          + "<strong>Recent collaborative papers</strong>"
+          + "<p class='collab-map-detail__no-papers'>No matched publication data yet.</p>"
+          + "</div>";
+      }
+      var paperRows = papers.slice(0, 5).map(function (paper) {
+        return "<li>"
+          + "<a class='collab-map-detail__paper' href='" + escapeHtml(paper.url) + "'>" + escapeHtml(paper.title) + "</a>"
+          + "<span class='collab-map-detail__paper-year'>" + escapeHtml(paper.year) + "</span>"
+          + "</li>";
+      }).join("");
+      var more = papers.length > 5
+        ? "<a class='collab-map-detail__more' href='" + filteredPublicationUrl(name, papers) + "'>More papers (" + papers.length + ")</a>"
+        : "";
+      return "<div class='collab-map-detail__papers'>"
+        + "<strong>Recent collaborative papers</strong>"
+        + "<ol>" + paperRows + "</ol>"
+        + more
+        + "</div>";
+    }
+
+    function renderDetail(region) {
+      var panel = document.getElementById("collaborator-map-detail");
+      if (!panel) return;
+      var people = uniqueCollaborators(region.collaborators);
+      var rows = people.map(function (person) {
+        var profile = findProfile(person.name);
+        var name = escapeHtml(person.name);
+        var institution = escapeHtml(person.institution || "Institution not listed");
+        var action = profile
+          ? "<a href='" + profile + "'>" + name + "</a>"
+          : "<button type='button' class='collab-profile-missing' data-name='" + name + "'>" + name + "</button>";
+        return "<li class='collab-map-detail__person'>" + action + "<span>" + institution + "</span>" + renderPapers(person.name) + "</li>";
+      }).join("");
+      panel.innerHTML = ""
+        + "<div class='collab-map-detail__header'>"
+        + "<div><p>Selected region</p><h4>" + escapeHtml(region.city) + ", " + escapeHtml(region.country) + "</h4></div>"
+        + "<span class='collab-map-detail__count'>" + people.length + " collaborator" + (people.length === 1 ? "" : "s") + "</span>"
+        + "</div>"
+        + "<ul class='collab-map-detail__list'>" + rows + "</ul>";
+    }
+
     function drawMarkers(map, data) {
       var maxCount = data.reduce(function (m, d) { return Math.max(m, d.count || 1); }, 1);
       data.forEach(function (d) {
@@ -2417,21 +3228,27 @@
         }).join("");
         var popup = ""
           + "<div class='collab-popup'>"
-          + "<div><strong>" + d.city + ", " + d.country + "</strong> (" + d.count + ")</div>"
+          + "<div class='collab-popup__title'><strong>" + d.city + ", " + d.country + "</strong><span>" + d.count + "</span></div>"
           + "<ul>" + popupRows + "</ul>"
           + "</div>";
 
         L.circleMarker([d.lat, d.lng], {
           radius: radius,
-          color: "rgba(178,31,47,0.95)",
-          fillColor: "rgba(178,31,47,0.45)",
-          weight: 1.5,
-          fillOpacity: 0.5
+          color: "rgba(255,255,255,0.92)",
+          fillColor: "rgba(20,184,166,0.72)",
+          weight: 2,
+          fillOpacity: 0.78,
+          className: "collab-marker"
         }).bindTooltip(popup, {
           direction: "top",
           sticky: true,
           opacity: 0.98,
           className: "collab-tooltip"
+        }).on("click", function () {
+          renderDetail(d);
+          map.flyTo([d.lat, d.lng], Math.max(map.getZoom(), 3), { duration: 0.65 });
+          var panel = document.getElementById("collaborator-map-detail");
+          if (panel) panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
         }).addTo(map);
       });
     }
@@ -2442,12 +3259,21 @@
       if (!el || el.dataset.ready === "1") return true;
       el.dataset.ready = "1";
 
+      var worldBounds = L.latLngBounds([[-85, -180], [85, 180]]);
+      var minZoom = window.matchMedia("(max-width: 768px)").matches ? 1 : 2;
       var map = L.map(el, {
         zoomControl: true,
-        worldCopyJump: true
-      }).setView([20, 10], 2);
+        worldCopyJump: false,
+        maxBounds: worldBounds,
+        maxBoundsViscosity: 1.0,
+        minZoom: minZoom,
+        maxZoom: 8
+      }).setView([20, 10], minZoom);
 
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        noWrap: true,
+        bounds: worldBounds,
+        minZoom: minZoom,
         maxZoom: 8,
         attribution: "&copy; OpenStreetMap contributors"
       }).addTo(map);
@@ -2466,6 +3292,12 @@
     }
 
     ensureLeaflet();
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".collab-profile-missing");
+      if (!button) return;
+      event.preventDefault();
+      window.alert("No profile found for " + (button.dataset.name || "this collaborator") + ".");
+    });
     if (!initMap()) {
       var tries = 0;
       var timer = setInterval(function () {
