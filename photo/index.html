@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.cd76763f694588ff51c09349259fcf35.css" />
+  <link rel="stylesheet" href="/css/wowchemy.ff9f43548cda7378716b2788aa83fb6b.css" />
 
   
   
@@ -848,25 +848,44 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#contact"><span>CONTACT</span></a>
+            <a class="nav-link " href="/#photo"><span>PHOTOS</span></a>
           </li>
 
           
           
 
           
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>PHOTOS</span><span class="caret"></span>
-            </a>
-            <div class="dropdown-menu">
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
               
-                <a class="dropdown-item" href="/photo-2026"><span>2026</span></a>
               
-                <a class="dropdown-item" href="/photo-2025"><span>2025</span></a>
+            
+            
               
-                <a class="dropdown-item" href="/photo-2024"><span>2024</span></a>
               
-            </div>
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>CONTACT</span></a>
           </li>
 
           
@@ -1064,174 +1083,250 @@
 
 
   <div class="col-12">
-    <style>
-.photo-album-hero {
-  margin: 0 auto 34px;
-  max-width: 1180px;
-}
+    <section class="photo-archive">
+  <div class="photo-archive__hero">
+    <p class="photo-archive__eyebrow">Shen Lab Albums</p>
+    <h2>Photos by Year</h2>
+    <p>Conference moments, lab dinners, visits, presentations, and everyday memories from Shen Lab.</p>
+  </div>
 
-.photo-album-hero__eyebrow {
-  margin: 0 0 10px;
-  color: #14b8a6;
-  font-size: 0.86rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.photo-album-hero h2 {
-  margin: 0 0 12px;
-  font-size: clamp(2.4rem, 6vw, 5.2rem);
-  line-height: 0.98;
-  font-weight: 850;
-}
-
-.photo-album-hero p {
-  max-width: 760px;
-  margin: 0;
-  color: rgba(148, 163, 184, 0.94);
-  font-size: clamp(1rem, 1.7vw, 1.2rem);
-  line-height: 1.65;
-}
-
-.photo-album-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
-  max-width: 1180px;
-  margin: 0 auto;
-}
-
-.photo-album-card {
-  position: relative;
-  min-height: 500px;
-  overflow: hidden;
-  border: 1px solid rgba(148, 163, 184, 0.18);
-  border-radius: 28px;
-  background: #0b1220;
-  box-shadow: 0 24px 70px rgba(2, 6, 23, 0.24);
-  color: #fff !important;
-  text-decoration: none !important;
-  isolation: isolate;
-}
-
-.photo-album-card img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.82;
-  transform: scale(1.01);
-  transition: transform 0.48s ease, opacity 0.48s ease, filter 0.48s ease;
-}
-
-.photo-album-card::after {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  content: "";
-  background:
-    linear-gradient(180deg, rgba(2, 6, 23, 0.08), rgba(2, 6, 23, 0.84)),
-    radial-gradient(circle at top left, rgba(20, 184, 166, 0.34), transparent 38%);
-}
-
-.photo-album-card__content {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  padding: 24px;
-}
-
-.photo-album-card__year {
-  display: block;
-  margin-bottom: 8px;
-  color: #fff;
-  font-size: clamp(3.2rem, 7vw, 5.4rem);
-  line-height: 0.88;
-  font-weight: 900;
-}
-
-.photo-album-card__meta {
-  display: inline-flex;
-  margin-bottom: 14px;
-  padding: 6px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 999px;
-  background: rgba(15, 23, 42, 0.52);
-  color: #99f6e4;
-  font-size: 0.8rem;
-  font-weight: 900;
-  backdrop-filter: blur(12px);
-}
-
-.photo-album-card h3 {
-  margin: 0 0 8px;
-  color: #fff;
-  font-size: 1.35rem;
-  line-height: 1.15;
-}
-
-.photo-album-card p {
-  margin: 0;
-  color: rgba(226, 232, 240, 0.9);
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.photo-album-card:hover img,
-.photo-album-card:focus img {
-  opacity: 0.96;
-  transform: scale(1.07);
-  filter: saturate(1.08) contrast(1.04);
-}
-
-@media (max-width: 991.98px) {
-  .photo-album-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .photo-album-card {
-    min-height: 360px;
-  }
-}
-</style>
-<section class="photo-album-hero">
-  <p class="photo-album-hero__eyebrow">Shen Lab Albums</p>
-  <h2>Life in Pictures</h2>
-  <p>Conference moments, lab dinners, visits, presentations, and everyday memories from Shen Lab.</p>
+  <div class="photo-archive__years"><details class="photo-year" open>
+        <summary>
+          <span class="photo-year__number">2026</span>
+          <span class="photo-year__meta">11 photos</span>
+          <span class="photo-year__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="photo-year__grid"><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-6-1-xiaotao-present-asms.jpeg" alt="2026 6 1 xiaotao present asms" loading="lazy">
+              <span>2026 6 1 xiaotao present asms</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-5-5-yijiang-QE.jpeg" alt="2026 5 5 yijiang qe" loading="lazy">
+              <span>2026 5 5 yijiang qe</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-5-30-visit-westlake-fengwen-zhanglab.jpeg" alt="2026 5 30 visit westlake fengwen zhanglab" loading="lazy">
+              <span>2026 5 30 visit westlake fengwen zhanglab</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-3-23-Ireland.jpeg" alt="2026 3 23 ireland" loading="lazy">
+              <span>2026 3 23 ireland</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-3-17-chunlei.jpg" alt="2026 3 17 chunlei" loading="lazy">
+              <span>2026 3 17 chunlei</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-2-5-SPC.jpeg" alt="2026 2 5 spc" loading="lazy">
+              <span>2026 2 5 spc</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-2-19-lucie.jpeg" alt="2026 2 19 lucie" loading="lazy">
+              <span>2026 2 19 lucie</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-2-1-visit%20HK.jpeg" alt="2026 2 1 visit hk" loading="lazy">
+              <span>2026 2 1 visit hk</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-1-22-Prof.%20Jun%20Xia.jpeg" alt="2026 1 22 prof. jun xia" loading="lazy">
+              <span>2026 1 22 prof. jun xia</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-1-19-shaoguang%20li.jpeg" alt="2026 1 19 shaoguang li" loading="lazy">
+              <span>2026 1 19 shaoguang li</span>
+            </a><a class="photo-year__item" href="/photo-2026/">
+              <img src="/photo-2026/lab/2026-1-13-Neena%20Modi.jpeg" alt="2026 1 13 neena modi" loading="lazy">
+              <span>2026 1 13 neena modi</span>
+            </a></div>
+      </details><details class="photo-year" >
+        <summary>
+          <span class="photo-year__number">2025</span>
+          <span class="photo-year__meta">51 photos</span>
+          <span class="photo-year__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="photo-year__grid"><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/lab-dinner-2024-9-17.jpg" alt="Lab dinner 2024 9 17" loading="lazy">
+              <span>Lab dinner 2024 9 17</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/lab-2024-12-19.jpg" alt="Lab 2024 12 19" loading="lazy">
+              <span>Lab 2024 12 19</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-8-DISCOVERY%20&amp;%20DEVELOPMENT%20SUMMIT%20ASIA3.jpg" alt="2025 9 8 discovery &amp; development summit asia3" loading="lazy">
+              <span>2025 9 8 discovery &amp; development summit asia3</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-8-DISCOVERY%20&amp;%20DEVELOPMENT%20SUMMIT%20ASIA2.jpg" alt="2025 9 8 discovery &amp; development summit asia2" loading="lazy">
+              <span>2025 9 8 discovery &amp; development summit asia2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-8-DISCOVERY%20&amp;%20DEVELOPMENT%20SUMMIT%20ASIA1.jpg" alt="2025 9 8 discovery &amp; development summit asia1" loading="lazy">
+              <span>2025 9 8 discovery &amp; development summit asia1</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-27-shenyang-xiaotao.jpg" alt="2025 9 27 shenyang xiaotao" loading="lazy">
+              <span>2025 9 27 shenyang xiaotao</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-25-toiber.jpg" alt="2025 9 25 toiber" loading="lazy">
+              <span>2025 9 25 toiber</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-19-lab-dinner.jpg" alt="2025 9 19 lab dinner" loading="lazy">
+              <span>2025 9 19 lab dinner</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-9-12-hkbu.jpeg" alt="2025 9 12 hkbu" loading="lazy">
+              <span>2025 9 12 hkbu</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-zijing-farewell3.jpg" alt="2025 8 zijing farewell3" loading="lazy">
+              <span>2025 8 zijing farewell3</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-zijing-farewell2.jpg" alt="2025 8 zijing farewell2" loading="lazy">
+              <span>2025 8 zijing farewell2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-zijing-farewell.jpg" alt="2025 8 zijing farewell" loading="lazy">
+              <span>2025 8 zijing farewell</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-shenyu-farewell2.jpg" alt="2025 8 shenyu farewell2" loading="lazy">
+              <span>2025 8 shenyu farewell2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-ke-farewell.jpg" alt="2025 8 ke farewell" loading="lazy">
+              <span>2025 8 ke farewell</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-5-lab-photo.jpg" alt="2025 8 5 lab photo" loading="lazy">
+              <span>2025 8 5 lab photo</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-3-yifei-yuting.jpg" alt="2025 8 3 yifei yuting" loading="lazy">
+              <span>2025 8 3 yifei yuting</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-15-lab-dinner.jpg" alt="2025 8 15 lab dinner" loading="lazy">
+              <span>2025 8 15 lab dinner</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-8-1-steven.jpg" alt="2025 8 1 steven" loading="lazy">
+              <span>2025 8 1 steven</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-7-22-sundara.jpg" alt="2025 7 22 sundara" loading="lazy">
+              <span>2025 7 22 sundara</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-7-2-yijiang-presentation.jpg" alt="2025 7 2 yijiang presentation" loading="lazy">
+              <span>2025 7 2 yijiang presentation</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-7-2-xiaotao-fudan.jpg" alt="2025 7 2 xiaotao fudan" loading="lazy">
+              <span>2025 7 2 xiaotao fudan</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-7-11-guiyang.jpg" alt="2025 7 11 guiyang" loading="lazy">
+              <span>2025 7 11 guiyang</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-6-5-ASMS2.jpeg" alt="2025 6 5 asms2" loading="lazy">
+              <span>2025 6 5 asms2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-6-5-ASMS1.jpeg" alt="2025 6 5 asms1" loading="lazy">
+              <span>2025 6 5 asms1</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-8-Yifei-presentation.jpg" alt="2025 5 8 yifei presentation" loading="lazy">
+              <span>2025 5 8 yifei presentation</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-19-new%20member%20Chloe.jpeg" alt="2025 5 19 new member chloe" loading="lazy">
+              <span>2025 5 19 new member chloe</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-14-Sundara.jpg" alt="2025 5 14 sundara" loading="lazy">
+              <span>2025 5 14 sundara</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-11-Jingxiang%20presentation3.jpg" alt="2025 5 11 jingxiang presentation3" loading="lazy">
+              <span>2025 5 11 jingxiang presentation3</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-11-Jingxiang%20presentation2.jpg" alt="2025 5 11 jingxiang presentation2" loading="lazy">
+              <span>2025 5 11 jingxiang presentation2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-11-Jingxiang%20presentation1.jpg" alt="2025 5 11 jingxiang presentation1" loading="lazy">
+              <span>2025 5 11 jingxiang presentation1</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-5-10-lab-lunch.jpeg" alt="2025 5 10 lab lunch" loading="lazy">
+              <span>2025 5 10 lab lunch</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-4-30-jinzhuo-wang-visit-ntu-2.jpeg" alt="2025 4 30 jinzhuo wang visit ntu 2" loading="lazy">
+              <span>2025 4 30 jinzhuo wang visit ntu 2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-4-30-jinzhuo-wang-visit-ntu-1.jpeg" alt="2025 4 30 jinzhuo wang visit ntu 1" loading="lazy">
+              <span>2025 4 30 jinzhuo wang visit ntu 1</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-4-24-xiaotao-visit-sjtu-fudan-2.jpeg" alt="2025 4 24 xiaotao visit sjtu fudan 2" loading="lazy">
+              <span>2025 4 24 xiaotao visit sjtu fudan 2</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-4-24-xiaotao-visit-sjtu-fudan-1.jpeg" alt="2025 4 24 xiaotao visit sjtu fudan 1" loading="lazy">
+              <span>2025 4 24 xiaotao visit sjtu fudan 1</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-7-Dr.%20Fen%20Pan-arrival.jpeg" alt="2025 3 7 dr. fen pan arrival" loading="lazy">
+              <span>2025 3 7 dr. fen pan arrival</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-27-mike-spc.jpg" alt="2025 3 27 mike spc" loading="lazy">
+              <span>2025 3 27 mike spc</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-27-mike-shen-lab.jpg" alt="2025 3 27 mike shen lab" loading="lazy">
+              <span>2025 3 27 mike shen lab</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-26-fireside%20chat%20with%20mike.jpg" alt="2025 3 26 fireside chat with mike" loading="lazy">
+              <span>2025 3 26 fireside chat with mike</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-21-SPC.jpeg" alt="2025 3 21 spc" loading="lazy">
+              <span>2025 3 21 spc</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-3-19-metanotitia-visited-spc.jpeg" alt="2025 3 19 metanotitia visited spc" loading="lazy">
+              <span>2025 3 19 metanotitia visited spc</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-2-14-welcome-dr.shaoguang-li.jpg" alt="2025 2 14 welcome dr.shaoguang li" loading="lazy">
+              <span>2025 2 14 welcome dr.shaoguang li</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-12-8-conference-yijiang.jpg" alt="2025 12 8 conference yijiang" loading="lazy">
+              <span>2025 12 8 conference yijiang</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-12-8-conference-yijiang-yifei-jingxiang.jpg" alt="2025 12 8 conference yijiang yifei jingxiang" loading="lazy">
+              <span>2025 12 8 conference yijiang yifei jingxiang</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-12-8-conference-yifei.jpg" alt="2025 12 8 conference yifei" loading="lazy">
+              <span>2025 12 8 conference yifei</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-12-20-lab%20dinner.jpg" alt="2025 12 20 lab dinner" loading="lazy">
+              <span>2025 12 20 lab dinner</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-11-29-yifei%20and%20chloe.jpg" alt="2025 11 29 yifei and chloe" loading="lazy">
+              <span>2025 11 29 yifei and chloe</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-10-1-jian%20xu.jpg" alt="2025 10 1 jian xu" loading="lazy">
+              <span>2025 10 1 jian xu</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-1-24-lab-lunch.jpg" alt="2025 1 24 lab lunch" loading="lazy">
+              <span>2025 1 24 lab lunch</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-1-14-lab.jpeg" alt="2025 1 14 lab" loading="lazy">
+              <span>2025 1 14 lab</span>
+            </a><a class="photo-year__item" href="/photo-2025/">
+              <img src="/photo-2025/lab/2025-1-14-first-lab-meeting.jpeg" alt="2025 1 14 first lab meeting" loading="lazy">
+              <span>2025 1 14 first lab meeting</span>
+            </a></div>
+      </details><details class="photo-year" >
+        <summary>
+          <span class="photo-year__number">2024</span>
+          <span class="photo-year__meta">9 photos</span>
+          <span class="photo-year__toggle" aria-hidden="true"></span>
+        </summary>
+        <div class="photo-year__grid"><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/lab-2024-12-19.jpg" alt="Lab 2024 12 19" loading="lazy">
+              <span>Lab 2024 12 19</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-9-21-bar.jpeg" alt="2024 9 21 bar" loading="lazy">
+              <span>2024 9 21 bar</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-9-17-lab-dinner.jpg" alt="2024 9 17 lab dinner" loading="lazy">
+              <span>2024 9 17 lab dinner</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-9-17-lab-dinner.jpeg" alt="2024 9 17 lab dinner" loading="lazy">
+              <span>2024 9 17 lab dinner</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-5-21-first-day-in-office.jpg" alt="2024 5 21 first day in office" loading="lazy">
+              <span>2024 5 21 first day in office</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-12-4-xiaotao.jpeg" alt="2024 12 4 xiaotao" loading="lazy">
+              <span>2024 12 4 xiaotao</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-11-19-editor-visiting.jpg" alt="2024 11 19 editor visiting" loading="lazy">
+              <span>2024 11 19 editor visiting</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-10-31-visiting%20westlake%20university.jpeg" alt="2024 10 31 visiting westlake university" loading="lazy">
+              <span>2024 10 31 visiting westlake university</span>
+            </a><a class="photo-year__item" href="/photo-2024/">
+              <img src="/photo-2024/lab/2024-10-14-jingxiang-arrival.jpg" alt="2024 10 14 jingxiang arrival" loading="lazy">
+              <span>2024 10 14 jingxiang arrival</span>
+            </a></div>
+      </details></div>
 </section>
-<section class="photo-album-grid">
-  <a class="photo-album-card" href="/photo-2026/">
-    <img src="/photo-2026/lab/2026-6-1-xiaotao-present-asms.jpeg" alt="Shen Lab photos 2026">
-    <div class="photo-album-card__content">
-      <span class="photo-album-card__year">2026</span>
-      <span class="photo-album-card__meta">11 photos</span>
-      <h3>Research in Motion</h3>
-      <p>ASMS, research visits, lab milestones, and early-year moments.</p>
-    </div>
-  </a>
-  <a class="photo-album-card" href="/photo-2025/">
-    <img src="/photo-2025/lab/2025-8-5-lab-photo.jpg" alt="Shen Lab photos 2025">
-    <div class="photo-album-card__content">
-      <span class="photo-album-card__year">2025</span>
-      <span class="photo-album-card__meta">45 photos</span>
-      <h3>Lab Life Expanded</h3>
-      <p>Group photos, conferences, visitors, farewells, and team meals.</p>
-    </div>
-  </a>
-  <a class="photo-album-card" href="/photo-2024/">
-    <img src="/photo-2024/lab/lab-2024-12-19.jpg" alt="Shen Lab photos 2024">
-    <div class="photo-album-card__content">
-      <span class="photo-album-card__year">2024</span>
-      <span class="photo-album-card__meta">9 photos</span>
-      <h3>NTU Beginnings</h3>
-      <p>The first office days, meetings, visitors, and lab gatherings.</p>
-    </div>
-  </a>
-</section>
+
 
   </div>
 
@@ -1360,7 +1455,7 @@
 
   
   <script src="/js/team_membership_stats.js"></script>
-  <script src="/js/team_collaboration_network.js?v=20260614-profile"></script>
+  <script src="/js/team_collaboration_network.js?v=20260614-labels"></script>
   
 </footer>
 

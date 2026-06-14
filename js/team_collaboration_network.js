@@ -61,9 +61,11 @@
   }
 
   function getThemeColors() {
-    const isDark = document.documentElement.classList.contains('dark');
+    const isDark = document.documentElement.classList.contains('dark') ||
+      document.body.classList.contains('dark') ||
+      document.body.classList.contains('dark-mode');
     return {
-      label: isDark ? '#e5eefc' : '#1f2937',
+      label: isDark ? '#f8fafc' : '#1f2937',
       muted: isDark ? 'rgba(226,232,240,0.68)' : 'rgba(71,85,105,0.72)',
       line: isDark ? 'rgba(148,163,184,0.33)' : 'rgba(100,116,139,0.34)',
       lineActive: isDark ? 'rgba(153,246,228,0.88)' : 'rgba(15,118,110,0.72)',
@@ -501,7 +503,12 @@
         label.setAttribute('text-anchor', 'middle');
         label.setAttribute('fill', colors.label);
         label.setAttribute('font-size', '12');
+        label.setAttribute('font-weight', '800');
         label.setAttribute('font-family', 'Manrope, sans-serif');
+        label.setAttribute('paint-order', 'stroke');
+        label.setAttribute('stroke', document.documentElement.classList.contains('dark') || document.body.classList.contains('dark') || document.body.classList.contains('dark-mode') ? 'rgba(2, 6, 23, 0.86)' : 'rgba(255, 255, 255, 0.78)');
+        label.setAttribute('stroke-width', '3');
+        label.classList.add('team-collab-node__label');
         label.textContent = node.label;
         g.appendChild(label);
         g.addEventListener('mousemove', (evt) => showTip(evt, `<strong>${escapeHtml(node.label)}</strong><br>${escapeHtml(node.category)}<br>${node.value} publications`));
