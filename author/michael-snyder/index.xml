@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Michael Snyder | Shen lab</title>
+    <title>Michael SNYDER | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/michael-snyder/</link>
       <atom:link href="https://shen-lab.org/author/michael-snyder/index.xml" rel="self" type="application/rss+xml" />
-    <description>Michael Snyder</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <description>Michael SNYDER</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
-      <title>Michael Snyder</title>
+      <url>https://shen-lab.org/author/michael-snyder/avatar_hu527448401235e03aef8528dedc285b73_1061381_270x270_fill_lanczos_center_3.png</url>
+      <title>Michael SNYDER</title>
       <link>https://shen-lab.org/author/michael-snyder/</link>
     </image>
+    
+    <item>
+      <title>Cross-body site microbial interactions influence the human plasma metabolome</title>
+      <link>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insulin resistance modifies longitudinal multi-omics responses to habitual diet</title>
+      <link>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal Urine Metabolic Profiling and Gestational Age Prediction in Pregnancy</title>
+      <link>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
@@ -53,6 +85,14 @@
     </item>
     
     <item>
+      <title>Semi-supervised Cooperative Learning</title>
+      <link>https://shen-lab.org/publication/semi-supervised-cooperative-learning/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/semi-supervised-cooperative-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>massDatabase utilities for the operation of the public compound and pathway database</title>
       <link>https://shen-lab.org/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
@@ -81,14 +121,6 @@
       <link>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Longitudinal Urine Metabolic Profiling and Gestational Age Prediction in Pregnancy</title>
-      <link>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</link>
-      <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</guid>
       <description></description>
     </item>
     

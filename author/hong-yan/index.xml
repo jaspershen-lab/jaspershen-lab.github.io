@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hong Yan | Shen lab</title>
+    <title>Hong YAN | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/hong-yan/</link>
       <atom:link href="https://shen-lab.org/author/hong-yan/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hong Yan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <description>Hong YAN</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
-      <title>Hong Yan</title>
+      <url>https://shen-lab.org/author/hong-yan/avatar_hu45d38ff4d4e74a740d7f10284ea7432f_1758691_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Hong YAN</title>
       <link>https://shen-lab.org/author/hong-yan/</link>
     </image>
+    
+    <item>
+      <title>TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis</title>
+      <link>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>

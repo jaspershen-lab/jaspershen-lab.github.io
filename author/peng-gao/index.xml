@@ -1,16 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peng Gao | Shen lab</title>
+    <title>Peng GAO | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/peng-gao/</link>
       <atom:link href="https://shen-lab.org/author/peng-gao/index.xml" rel="self" type="application/rss+xml" />
-    <description>Peng Gao</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <description>Peng GAO</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
-      <title>Peng Gao</title>
+      <url>https://shen-lab.org/author/peng-gao/avatar_hu341f7fb1919ebf9d4454f59bfa2eb30c_68321_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Peng GAO</title>
       <link>https://shen-lab.org/author/peng-gao/</link>
     </image>
+    
+    <item>
+      <title>Cross-body site microbial interactions influence the human plasma metabolome</title>
+      <link>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis</title>
+      <link>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetaNet: a scalable and integrated tool for reproducible omics network analysis</title>
+      <link>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A multistage, multitask transformer-based framework for multi-disease diagnosis and prediction using personal proteomes</title>
+      <link>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/a-multistage-multitask-transformer-based-framework-for-multi-disease-diagnosis-and-prediction-using-personal-proteomes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity</title>

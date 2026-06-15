@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chuchu Wang | Shen lab</title>
+    <title>Chuchu Wang | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/chuchu-wang/</link>
       <atom:link href="https://shen-lab.org/author/chuchu-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chuchu Wang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/author/chuchu-wang/avatar_hu51215c0a8bbc964456e2ad085fdf2525_17439_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Chuchu Wang</title>
       <link>https://shen-lab.org/author/chuchu-wang/</link>
     </image>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Structure and topography of the synaptic V-ATPase–synaptophysin complex</title>
+      <link>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>

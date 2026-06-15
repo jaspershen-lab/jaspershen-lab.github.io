@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xin Zhou | Shen lab</title>
+    <title>Xin ZHOU | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/xin-zhou/</link>
       <atom:link href="https://shen-lab.org/author/xin-zhou/index.xml" rel="self" type="application/rss+xml" />
-    <description>Xin Zhou</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <description>Xin ZHOU</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
-      <title>Xin Zhou</title>
+      <url>https://shen-lab.org/author/xin-zhou/avatar_hue0c7f45ce0c502a486c8f4a6a1ad5513_31184_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Xin ZHOU</title>
       <link>https://shen-lab.org/author/xin-zhou/</link>
     </image>
+    
+    <item>
+      <title>Cross-body site microbial interactions influence the human plasma metabolome</title>
+      <link>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>

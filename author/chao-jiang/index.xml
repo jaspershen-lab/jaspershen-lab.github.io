@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chao Jiang | Shen lab</title>
+    <title>Chao Jiang | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/chao-jiang/</link>
       <atom:link href="https://shen-lab.org/author/chao-jiang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chao Jiang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/author/chao-jiang/avatar_huf395fd4e711ade5d4c1a7064c9254d7d_138176_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Chao Jiang</title>
       <link>https://shen-lab.org/author/chao-jiang/</link>
     </image>
+    
+    <item>
+      <title>Cross-body site microbial interactions influence the human plasma metabolome</title>
+      <link>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis</title>
+      <link>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kun-peng enables scalable and accurate pan-domain metagenomic classification</title>
+      <link>https://shen-lab.org/publication/kun-peng-enables-scalable-and-accurate-pan-domain-metagenomic-classification/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/kun-peng-enables-scalable-and-accurate-pan-domain-metagenomic-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetaNet: a scalable and integrated tool for reproducible omics network analysis</title>
+      <link>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging Large Language Models for Redundancy-Aware Pathway Analysis and Deep Biological Interpretation</title>
+      <link>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Generalized reporter score-based enrichment analysis for omics data</title>
@@ -25,6 +65,14 @@
       <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kun-peng: an ultra-memory-efficient, fast, and accurate pan-domain taxonomic classifier for all</title>
+      <link>https://shen-lab.org/publication/kun-peng-an-ultra-memory-efficient-fast-and-accurate-pan-domain-taxonomic-classifier-for-all/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/kun-peng-an-ultra-memory-efficient-fast-and-accurate-pan-domain-taxonomic-classifier-for-all/</guid>
       <description></description>
     </item>
     

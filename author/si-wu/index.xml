@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Si Wu | Shen lab</title>
+    <title>Si Wu | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/si-wu/</link>
       <atom:link href="https://shen-lab.org/author/si-wu/index.xml" rel="self" type="application/rss+xml" />
     <description>Si Wu</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/media/logo_hu06fc20569b9259aa510071f01e9718c9_56731_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/author/si-wu/avatar_hueb8f0222422bdc5434ae1397d262f29c_40353_270x270_fill_q75_lanczos_center.jpeg</url>
       <title>Si Wu</title>
       <link>https://shen-lab.org/author/si-wu/</link>
     </image>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>metID: an R package for automatable compound annotation for LC− MS-based data</title>
