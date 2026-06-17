@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.a1fb0297f7d6e9525ee559779ac155f4.css" />
+  <link rel="stylesheet" href="/css/wowchemy.3a8fabae881ca46cb5b15a3b545c576f.css" />
 
   
   
@@ -3420,17 +3420,94 @@
 
 <script>
 (function () {
+  document.documentElement.classList.add('has-team-reveal-js');
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setPanelInitialState(panel) {
+    if (!panel) return;
+    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : 'auto';
+  }
+
+  function expandPanel(panel) {
+    if (!panel) return;
+    if (reduceMotion) {
+      panel.classList.remove('is-collapsed');
+      panel.style.height = 'auto';
+      return;
+    }
+
+    panel.classList.remove('is-collapsed');
+    panel.classList.add('is-animating');
+    panel.style.height = '0px';
+    panel.offsetHeight;
+    panel.style.height = panel.scrollHeight + 'px';
+
+    panel.addEventListener('transitionend', function onExpand(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onExpand);
+      panel.classList.remove('is-animating');
+      panel.style.height = 'auto';
+    });
+  }
+
+  function collapsePanel(panel) {
+    if (!panel) return;
+    if (reduceMotion) {
+      panel.classList.add('is-collapsed');
+      panel.style.height = '0px';
+      return;
+    }
+
+    panel.classList.add('is-animating');
+    panel.style.height = panel.scrollHeight + 'px';
+    panel.offsetHeight;
+    panel.style.height = '0px';
+
+    panel.addEventListener('transitionend', function onCollapse(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onCollapse);
+      panel.classList.add('is-collapsed');
+      panel.classList.remove('is-animating');
+    });
+  }
+
   document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
     if (toggle.dataset.ready === '1') return;
     toggle.dataset.ready = '1';
+    var targetId = toggle.getAttribute('aria-controls');
+    var panel = targetId ? document.getElementById(targetId) : null;
+    setPanelInitialState(panel);
+
     toggle.addEventListener('click', function () {
       var expanded = toggle.getAttribute('aria-expanded') === 'true';
-      var targetId = toggle.getAttribute('aria-controls');
-      var panel = targetId ? document.getElementById(targetId) : null;
       toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-      if (panel) panel.classList.toggle('is-collapsed', expanded);
+      if (expanded) collapsePanel(panel);
+      else expandPanel(panel);
     });
   });
+
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.people-widget .people-person'));
+  cards.forEach(function (card, index) {
+    card.style.setProperty('--team-reveal-delay', Math.min(index * 45, 360) + 'ms');
+  });
+
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+
+    cards.forEach(function (card) {
+      observer.observe(card);
+    });
+  } else {
+    cards.forEach(function (card) {
+      card.classList.add('is-visible');
+    });
+  }
 })();
 </script>
 
@@ -6416,7 +6493,7 @@
 
   
   <script src="/js/team_membership_stats.js"></script>
-  <script src="/js/team_collaboration_network.js?v=20260614-labels"></script>
+  <script src="/js/team_collaboration_network.js?v=20260617-motion"></script>
   
 </footer>
 

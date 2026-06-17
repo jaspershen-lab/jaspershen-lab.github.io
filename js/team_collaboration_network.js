@@ -226,6 +226,26 @@
       ].map(([label, value]) => `<span><strong>${value}</strong>${label}</span>`).join('');
     }
 
+    function setPanelContent(html) {
+      if (!panel) return;
+
+      const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      panel.classList.remove('is-panel-visible');
+      panel.classList.add('is-panel-updating');
+      panel.innerHTML = html;
+
+      if (reduceMotion) {
+        panel.classList.remove('is-panel-updating');
+        panel.classList.add('is-panel-visible');
+        return;
+      }
+
+      window.requestAnimationFrame(() => {
+        panel.classList.remove('is-panel-updating');
+        panel.classList.add('is-panel-visible');
+      });
+    }
+
     function layoutNodes(nodes, edges, width, height) {
       const cx = width / 2;
       const cy = height / 2;
@@ -339,7 +359,7 @@
         </li>`).join('');
       const collabs = topCollaborators(node, state) || '<p class="team-collab-profile__empty">No shared-paper links in current view.</p>';
       const initial = escapeHtml((node.label || '?').trim().charAt(0));
-      panel.innerHTML = `
+      setPanelContent(`
         <article class="team-collab-profile" style="--profile-accent: ${node.color || '#14b8a6'};">
           <div class="team-collab-profile__hero">
             <div class="team-collab-profile__glow" aria-hidden="true"></div>
@@ -364,7 +384,7 @@
             <ul class="team-collab-profile__papers">${pubs || '<li><span>No publications in current data.</span></li>'}</ul>
           </section>
           <a class="team-collab-profile__button" href="${node.url}">Open full profile</a>
-        </article>`;
+        </article>`);
     }
 
     function showEdgePanel(edge, state) {
@@ -372,18 +392,18 @@
       const a = state.nodes.find(node => node.id === edge.from);
       const b = state.nodes.find(node => node.id === edge.to);
       const pubs = (edge.visiblePubs || edge.pubs).slice(0, 6).map(pub => `<li><a href="${pub.permalink}">${escapeHtml(pub.title)}</a><span>${escapeHtml(pub.year)}</span></li>`).join('');
-      panel.innerHTML = `
+      setPanelContent(`
         <div class="team-collab-detail">
           <p class="team-collab-detail__kicker">Shared publications</p>
           <h3>${escapeHtml(a ? a.label : edge.from)} + ${escapeHtml(b ? b.label : edge.to)}</h3>
           <div class="team-collab-detail__section"><strong>${edge.count} shared paper${edge.count === 1 ? '' : 's'}</strong><ul>${pubs}</ul></div>
           <a class="team-collab-detail__button" href="${edge.pairUrl}">View all publications</a>
-        </div>`;
+        </div>`);
     }
 
     function resetPanel() {
       if (!panel) return;
-      panel.innerHTML = '<div class="team-collab-network__panel-empty"><i class="fas fa-circle-nodes" aria-hidden="true"></i><p>Select a member or collaboration link to explore details.</p></div>';
+      setPanelContent('<div class="team-collab-network__panel-empty"><i class="fas fa-circle-nodes" aria-hidden="true"></i><p>Select a member or collaboration link to explore details.</p></div>');
     }
 
     function render() {

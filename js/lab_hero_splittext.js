@@ -22,6 +22,85 @@
     return;
   }
 
+  function setupHeroInteractions() {
+    if (!window.gsap) {
+      return;
+    }
+
+    var content = hero.querySelector(".lab-hero__content");
+    var network = hero.querySelector(".lab-hero__network");
+    var buttons = hero.querySelectorAll(".lab-hero__button");
+    var ticking = false;
+
+    buttons.forEach(function (button) {
+      button.addEventListener("pointermove", function (event) {
+        var rect = button.getBoundingClientRect();
+        var x = (event.clientX - rect.left - rect.width / 2) * 0.18;
+        var y = (event.clientY - rect.top - rect.height / 2) * 0.26;
+
+        gsap.to(button, {
+          x: x,
+          y: y,
+          duration: 0.34,
+          ease: "power3.out",
+          overwrite: "auto"
+        });
+      });
+
+      button.addEventListener("pointerleave", function () {
+        gsap.to(button, {
+          x: 0,
+          y: 0,
+          duration: 0.48,
+          ease: "elastic.out(1, 0.45)",
+          overwrite: "auto"
+        });
+      });
+    });
+
+    function updateScrollFade() {
+      ticking = false;
+
+      if (!content) {
+        return;
+      }
+
+      var heroRect = hero.getBoundingClientRect();
+      var heroHeight = Math.max(hero.offsetHeight, window.innerHeight || 1);
+      var progress = Math.min(Math.max(-heroRect.top / (heroHeight * 0.62), 0), 1);
+
+      gsap.to(content, {
+        y: -58 * progress,
+        autoAlpha: 1 - progress * 0.84,
+        duration: 0.18,
+        ease: "power1.out",
+        overwrite: "auto"
+      });
+
+      if (network) {
+        gsap.to(network, {
+          y: 28 * progress,
+          autoAlpha: 0.92 - progress * 0.32,
+          duration: 0.22,
+          ease: "power1.out",
+          overwrite: "auto"
+        });
+      }
+    }
+
+    function requestScrollFade() {
+      if (ticking) {
+        return;
+      }
+      ticking = true;
+      window.requestAnimationFrame(updateScrollFade);
+    }
+
+    updateScrollFade();
+    window.addEventListener("scroll", requestScrollFade, { passive: true });
+    window.addEventListener("resize", requestScrollFade);
+  }
+
   function initHeroSplitText() {
     if (!window.gsap || !window.SplitText) {
       revealStaticHero();
@@ -96,6 +175,7 @@
       }, "-=0.16");
 
       revealStaticHero();
+      setupHeroInteractions();
     }, hero);
 
     window.addEventListener("pagehide", function () {

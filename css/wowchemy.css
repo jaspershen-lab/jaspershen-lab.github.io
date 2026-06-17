@@ -11482,6 +11482,9 @@ section#software .col-12:has(> .software-card) > :not(.software-card) {
   border-bottom-color: rgba(148, 163, 184, 0.18); }
 
 /* Publication filters */
+.publication-directory {
+  max-width: 1240px; }
+
 .publication-filter-panel {
   margin: 0 0 1.6rem;
   padding: 1.2rem;
