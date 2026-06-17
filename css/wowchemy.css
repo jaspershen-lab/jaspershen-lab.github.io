@@ -7296,7 +7296,7 @@ ul.task-list li input[type='checkbox'] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizelegibility; }
@@ -7308,7 +7308,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -9092,7 +9092,7 @@ html[dir='rtl'] body {
 
 .section-subheading {
   font-size: 1.25rem;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.5rem; }
@@ -9772,12 +9772,21 @@ section#lab_hero .col-12 {
   letter-spacing: 0.08em;
   text-transform: uppercase; }
 
-.lab-hero__eyebrow::before {
-  content: "";
+.lab-hero__eyebrow-line {
+  display: inline-block;
+  flex: 0 0 auto;
   width: 34px;
   height: 2px;
   border-radius: 999px;
-  background: currentColor; }
+  background: currentColor;
+  transform-origin: left center; }
+
+.has-lab-hero-animation .lab-hero__eyebrow-line,
+.has-lab-hero-animation .lab-hero__split--eyebrow,
+.has-lab-hero-animation .lab-hero__split--title,
+.has-lab-hero-animation .lab-hero__split--subtitle,
+.has-lab-hero-animation .lab-hero__actions .lab-hero__button {
+  visibility: hidden; }
 
 .lab-hero h1 {
   margin: 0;
