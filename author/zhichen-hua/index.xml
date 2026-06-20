@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhichen HUA | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/zhichen-hua/</link>
+      <atom:link href="https://shen-lab.org/author/zhichen-hua/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhichen HUA</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/zhichen-hua/avatar_hu008e3985d98bb5e05293c9f8f0495974_155501_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Zhichen HUA</title>
+      <link>https://shen-lab.org/author/zhichen-hua/</link>
+    </image>
+    
+  </channel>
+</rss>
