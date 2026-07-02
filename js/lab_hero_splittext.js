@@ -16,8 +16,11 @@
 
   var prefersReducedMotion = window.matchMedia &&
     window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var isCompactViewport = window.matchMedia &&
+    window.matchMedia("(max-width: 575.98px)").matches;
+  var isNarrowViewport = window.innerWidth && window.innerWidth <= 575;
 
-  if (prefersReducedMotion) {
+  if (prefersReducedMotion || isCompactViewport || isNarrowViewport) {
     revealStaticHero();
     return;
   }
@@ -28,7 +31,6 @@
     }
 
     var content = hero.querySelector(".lab-hero__content");
-    var network = hero.querySelector(".lab-hero__network");
     var buttons = hero.querySelectorAll(".lab-hero__button");
     var ticking = false;
 
@@ -77,15 +79,6 @@
         overwrite: "auto"
       });
 
-      if (network) {
-        gsap.to(network, {
-          y: 28 * progress,
-          autoAlpha: 0.92 - progress * 0.32,
-          duration: 0.22,
-          ease: "power1.out",
-          overwrite: "auto"
-        });
-      }
     }
 
     function requestScrollFade() {
