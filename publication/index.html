@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.59957b5a9b4c3c68aedc7c336d4d9e75.css" />
+  <link rel="stylesheet" href="/css/wowchemy.7ba0046b222313c36cc42d478b2d5fa0.css" />
 
   
   
@@ -8887,7 +8887,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2025" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2025" open>
             <summary>
               <span class="photo-year__number">2025</span>
               <span class="photo-year__meta">10 articles</span>
@@ -10791,7 +10791,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2024" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2024" open>
             <summary>
               <span class="photo-year__number">2024</span>
               <span class="photo-year__meta">6 articles</span>
@@ -11952,7 +11952,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2023" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2023" open>
             <summary>
               <span class="photo-year__number">2023</span>
               <span class="photo-year__meta">7 articles</span>
@@ -13108,7 +13108,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2022" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2022" open>
             <summary>
               <span class="photo-year__number">2022</span>
               <span class="photo-year__meta">9 articles</span>
@@ -14722,7 +14722,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2021" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2021" open>
             <summary>
               <span class="photo-year__number">2021</span>
               <span class="photo-year__meta">5 articles</span>
@@ -15717,7 +15717,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2020" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2020" open>
             <summary>
               <span class="photo-year__number">2020</span>
               <span class="photo-year__meta">1 article</span>
@@ -15939,7 +15939,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2019" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2019" open>
             <summary>
               <span class="photo-year__number">2019</span>
               <span class="photo-year__meta">3 articles</span>
@@ -16430,7 +16430,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2018" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2018" open>
             <summary>
               <span class="photo-year__number">2018</span>
               <span class="photo-year__meta">3 articles</span>
@@ -16999,7 +16999,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2017" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2017" open>
             <summary>
               <span class="photo-year__number">2017</span>
               <span class="photo-year__meta">1 article</span>
@@ -17171,7 +17171,7 @@
 
           
           
-          <details class="photo-year publication-year-block" data-year="2016" >
+          <details class="photo-year publication-year-block is-collapsed" data-year="2016" open>
             <summary>
               <span class="photo-year__number">2016</span>
               <span class="photo-year__meta">3 articles</span>
@@ -17748,6 +17748,7 @@
 
           function updateGroups(active) {
             yearBlocks.forEach(function (block, index) {
+              var content = block.querySelector('.publication-year-block__list');
               var visibleRows = Array.prototype.slice.call(block.querySelectorAll('.grid-sizer')).filter(function (row) {
                 return row.getAttribute('data-filter-match') !== 'false';
               });
@@ -17767,11 +17768,17 @@
               }
 
               if (active) {
-                block.open = visible;
+                block.open = true;
+                block.classList.toggle('is-collapsed', !visible);
               } else {
                 block.style.display = '';
                 block.classList.remove('is-filter-empty');
-                block.open = index === 0;
+                block.open = true;
+                block.classList.toggle('is-collapsed', index !== 0);
+              }
+
+              if (content) {
+                content.style.height = block.classList.contains('is-collapsed') ? '0px' : content.scrollHeight + 'px';
               }
 
               if (prev && prev.classList.contains('pub-era-heading')) {
@@ -17866,46 +17873,67 @@
             if (!summary || !content) return;
 
             var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            block.open = true;
+            content.style.height = block.classList.contains('is-collapsed') ? '0px' : content.scrollHeight + 'px';
+
+            function clearTransition() {
+              if (!content._publicationTransitionHandler) return;
+              content.removeEventListener('transitionend', content._publicationTransitionHandler);
+              content._publicationTransitionHandler = null;
+            }
 
             summary.addEventListener('click', function (event) {
               if (reduceMotion) return;
 
               event.preventDefault();
               if (block.classList.contains('is-animating')) return;
+              clearTransition();
 
               block.classList.add('is-animating');
 
-              if (block.open) {
+              if (!block.classList.contains('is-collapsed')) {
                 content.style.height = content.scrollHeight + 'px';
                 content.offsetHeight;
                 content.style.height = '0px';
-                block.classList.add('is-closing');
+                block.classList.add('is-collapsed', 'is-closing');
 
-                content.addEventListener('transitionend', function onClose(event) {
+                content._publicationTransitionHandler = function onClose(event) {
                   if (event.target !== content || event.propertyName !== 'height') return;
                   content.removeEventListener('transitionend', onClose);
-                  block.open = false;
+                  content._publicationTransitionHandler = null;
                   block.classList.remove('is-animating', 'is-closing');
-                  content.style.height = '';
-                });
+                  content.style.height = '0px';
+                };
+                content.addEventListener('transitionend', content._publicationTransitionHandler);
                 return;
               }
 
               block.open = true;
+              block.classList.remove('is-collapsed');
               content.style.height = '0px';
               content.offsetHeight;
               content.style.height = content.scrollHeight + 'px';
 
-              content.addEventListener('transitionend', function onOpen(event) {
+              content._publicationTransitionHandler = function onOpen(event) {
                 if (event.target !== content || event.propertyName !== 'height') return;
                 content.removeEventListener('transitionend', onOpen);
+                content._publicationTransitionHandler = null;
                 block.classList.remove('is-animating');
-                content.style.height = '';
-              });
+                content.style.height = content.scrollHeight + 'px';
+              };
+              content.addEventListener('transitionend', content._publicationTransitionHandler);
             });
           }
 
           yearBlocks.forEach(setupYearBlockAnimation);
+
+          window.addEventListener('resize', function () {
+            yearBlocks.forEach(function (block) {
+              if (!block.open) return;
+              var content = block.querySelector('.publication-year-block__list');
+              if (content) content.style.height = content.scrollHeight + 'px';
+            });
+          });
 
           [searchInput, authorInput, yearSelect, typeSelect].forEach(function (el) {
             if (!el) return;

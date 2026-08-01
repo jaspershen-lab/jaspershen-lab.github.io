@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.59957b5a9b4c3c68aedc7c336d4d9e75.css" />
+  <link rel="stylesheet" href="/css/wowchemy.7ba0046b222313c36cc42d478b2d5fa0.css" />
 
   
   
@@ -1134,7 +1134,7 @@
               <img src="/photo-2026/lab/2026-1-13-Neena%20Modi.jpeg" alt="2026 1 13 neena modi" loading="lazy">
               <span>2026 1 13 neena modi</span>
             </a></div>
-      </details><details class="photo-year" >
+      </details><details class="photo-year is-collapsed" open>
         <summary>
           <span class="photo-year__number">2025</span>
           <span class="photo-year__meta">51 photos</span>
@@ -1294,10 +1294,10 @@
               <img src="/photo-2025/lab/2025-1-14-first-lab-meeting.jpeg" alt="2025 1 14 first lab meeting" loading="lazy">
               <span>2025 1 14 first lab meeting</span>
             </a></div>
-      </details><details class="photo-year" >
+      </details><details class="photo-year is-collapsed" open>
         <summary>
           <span class="photo-year__number">2024</span>
-          <span class="photo-year__meta">10 photos</span>
+          <span class="photo-year__meta">9 photos</span>
           <span class="photo-year__toggle" aria-hidden="true"></span>
         </summary>
         <div class="photo-year__grid"><a class="photo-year__item" href="/photo-2024/">
@@ -1318,9 +1318,6 @@
             </a><a class="photo-year__item" href="/photo-2024/">
               <img src="/photo-2024/lab/2024-12-4-xiaotao.jpeg" alt="2024 12 4 xiaotao" loading="lazy">
               <span>2024 12 4 xiaotao</span>
-            </a><a class="photo-year__item" href="/photo-2024/">
-              <img src="/photo-2024/lab/2024-11-2-aging-conference.jpeg" alt="2024 11 2 aging conference" loading="lazy">
-              <span>2024 11 2 aging conference</span>
             </a><a class="photo-year__item" href="/photo-2024/">
               <img src="/photo-2024/lab/2024-11-19-editor-visiting.jpg" alt="2024 11 19 editor visiting" loading="lazy">
               <span>2024 11 19 editor visiting</span>
@@ -1370,47 +1367,67 @@
     var grid = year.querySelector('.photo-year__grid');
     if (!summary || !grid) return;
 
-    grid.style.height = year.open ? 'auto' : '0px';
+    year.open = true;
+    grid.style.height = year.classList.contains('is-collapsed') ? '0px' : grid.scrollHeight + 'px';
+
+    function clearTransition() {
+      if (!grid._photoTransitionHandler) return;
+      grid.removeEventListener('transitionend', grid._photoTransitionHandler);
+      grid._photoTransitionHandler = null;
+    }
 
     summary.addEventListener('click', function (event) {
       if (reduceMotion) return;
 
       event.preventDefault();
       if (year.classList.contains('is-animating')) return;
+      clearTransition();
 
       year.classList.add('is-animating');
 
-      if (year.open) {
+      if (!year.classList.contains('is-collapsed')) {
         grid.style.height = grid.scrollHeight + 'px';
         grid.offsetHeight;
         grid.style.height = '0px';
-        year.classList.add('is-closing');
+        year.classList.add('is-collapsed', 'is-closing');
 
-        grid.addEventListener('transitionend', function onClose(evt) {
+        grid._photoTransitionHandler = function onClose(evt) {
           if (evt.target !== grid || evt.propertyName !== 'height') return;
           grid.removeEventListener('transitionend', onClose);
-          year.open = false;
+          grid._photoTransitionHandler = null;
           year.classList.remove('is-animating', 'is-closing');
-          grid.style.height = '';
-        });
+          grid.style.height = '0px';
+        };
+        grid.addEventListener('transitionend', grid._photoTransitionHandler);
         return;
       }
 
       year.open = true;
+      year.classList.remove('is-collapsed');
       grid.style.height = '0px';
       grid.offsetHeight;
       grid.style.height = grid.scrollHeight + 'px';
 
-      grid.addEventListener('transitionend', function onOpen(evt) {
+      grid._photoTransitionHandler = function onOpen(evt) {
         if (evt.target !== grid || evt.propertyName !== 'height') return;
         grid.removeEventListener('transitionend', onOpen);
+        grid._photoTransitionHandler = null;
         year.classList.remove('is-animating');
-        grid.style.height = 'auto';
-      });
+        grid.style.height = grid.scrollHeight + 'px';
+      };
+      grid.addEventListener('transitionend', grid._photoTransitionHandler);
     });
   }
 
   years.forEach(setupYear);
+
+  window.addEventListener('resize', function () {
+    years.forEach(function (year) {
+      if (year.classList.contains('is-collapsed')) return;
+      var grid = year.querySelector('.photo-year__grid');
+      if (grid) grid.style.height = grid.scrollHeight + 'px';
+    });
+  });
 })();
 </script>
 

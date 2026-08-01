@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.59957b5a9b4c3c68aedc7c336d4d9e75.css" />
+  <link rel="stylesheet" href="/css/wowchemy.7ba0046b222313c36cc42d478b2d5fa0.css" />
 
   
   
@@ -3078,81 +3078,6 @@
 
 <div class="view-list view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/news/2024-8-14-nature-aging/" >2024-08-14 Paper accepted in Nature Aging</a>
-
-  
-
-  
-
-  
-  <div class="btn-links">
-    
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://pubmed.ncbi.nlm.nih.gov/39143318/" target="_blank" rel="noopener">
-    <i class="fas fa-link mr-1"></i>Link</a>
-
-
-
-
-
-  </div>
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="view-list view-list-item">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
   <a href="/news/2024-7-5-american-heart-journal-plus-cardiology-research-and-practice/" >2024-07-05 Paper accepted in American Heart Journal Plus Cardiology Research and Practice</a>
 
   
@@ -3332,7 +3257,7 @@
 
 <div class="view-list view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/news/2023-bamm/" >2023-09-08 Xiaotao Shen presented on 2023 BAMM.</a>
+  <a href="/news/2023-casms-talk/" >2023-8-29 Xiaotao Shen presented on CASMS2023.</a>
 
   
 
@@ -3358,7 +3283,7 @@
 
 <div class="view-list view-list-item">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  <a href="/news/2023-stanford-biox/" >2023-9-1 Xiaotao Shen presented the nonlinear aging work on 2023 Stanford University Biox Symposium.</a>
+  <a href="/news/2023-casms-yia/" >2023-8-29 Xiaotao Shen received the CASMS Young Investigator Award!😀</a>
 
   
 
@@ -3374,28 +3299,6 @@
 
   
   
-  
-
-    
-    
-      
-    
-
-    
-    
-    
-    
-      
-    
-
-    
-
-    <div class="see-all">
-      <a href="/news/">
-        See all
-        <i class="fas fa-angle-right"></i>
-      </a>
-    </div>
   
 
 </div>
@@ -4438,11 +4341,18 @@
 
   function setPanelInitialState(panel) {
     if (!panel) return;
-    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : 'auto';
+    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : panel.scrollHeight + 'px';
+  }
+
+  function clearPanelTransition(panel) {
+    if (!panel || !panel._teamTransitionHandler) return;
+    panel.removeEventListener('transitionend', panel._teamTransitionHandler);
+    panel._teamTransitionHandler = null;
   }
 
   function expandPanel(panel) {
     if (!panel) return;
+    clearPanelTransition(panel);
     if (reduceMotion) {
       panel.classList.remove('is-collapsed');
       panel.style.height = 'auto';
@@ -4455,16 +4365,19 @@
     panel.offsetHeight;
     panel.style.height = panel.scrollHeight + 'px';
 
-    panel.addEventListener('transitionend', function onExpand(event) {
+    panel._teamTransitionHandler = function onExpand(event) {
       if (event.target !== panel || event.propertyName !== 'height') return;
       panel.removeEventListener('transitionend', onExpand);
+      panel._teamTransitionHandler = null;
       panel.classList.remove('is-animating');
-      panel.style.height = 'auto';
-    });
+      panel.style.height = panel.scrollHeight + 'px';
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
   }
 
   function collapsePanel(panel) {
     if (!panel) return;
+    clearPanelTransition(panel);
     if (reduceMotion) {
       panel.classList.add('is-collapsed');
       panel.style.height = '0px';
@@ -4476,12 +4389,14 @@
     panel.offsetHeight;
     panel.style.height = '0px';
 
-    panel.addEventListener('transitionend', function onCollapse(event) {
+    panel._teamTransitionHandler = function onCollapse(event) {
       if (event.target !== panel || event.propertyName !== 'height') return;
       panel.removeEventListener('transitionend', onCollapse);
+      panel._teamTransitionHandler = null;
       panel.classList.add('is-collapsed');
       panel.classList.remove('is-animating');
-    });
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
   }
 
   document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
@@ -4496,6 +4411,12 @@
       toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
       if (expanded) collapsePanel(panel);
       else expandPanel(panel);
+    });
+  });
+
+  window.addEventListener('resize', function () {
+    document.querySelectorAll('.team-group-panel:not(.is-collapsed)').forEach(function (panel) {
+      panel.style.height = panel.scrollHeight + 'px';
     });
   });
 
@@ -5004,30 +4925,16 @@
             loading="lazy"
             data-href="/photo-2025/"
             data-label="Conference poster"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2024/lab/2024-11-2-aging-conference.jpeg"
-            alt="Aging conference"
-            loading="lazy"
-            data-href="/photo-2024/"
-            data-label="Aging conference"
           ><span>Conference</span>
       </a><a
         class="life-lab-photo  life-lab-photo--fade"
-        href="/photo-2024/"
-        aria-label="Open Aging conference photo album"
+        href="/photo-2025/"
+        aria-label="Open Presentation photo album"
         data-current="0"
         data-delay="3100"
         data-interval="5900"
       ><img
             class="life-lab-slide is-active"
-            src="/photo-2024/lab/2024-11-2-aging-conference.jpeg"
-            alt="Aging conference"
-            loading="lazy"
-            data-href="/photo-2024/"
-            data-label="Aging conference"
-          ><img
-            class="life-lab-slide"
             src="/photo-2025/lab/2025-7-2-yijiang-presentation.jpg"
             alt="Presentation"
             loading="lazy"
@@ -5040,7 +4947,7 @@
             loading="lazy"
             data-href="/photo-2025/"
             data-label="Research talk"
-          ><span>Aging conference</span>
+          ><span>Presentation</span>
       </a><a
         class="life-lab-photo  life-lab-photo--left"
         href="/photo-2025/"

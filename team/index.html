@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.59957b5a9b4c3c68aedc7c336d4d9e75.css" />
+  <link rel="stylesheet" href="/css/wowchemy.7ba0046b222313c36cc42d478b2d5fa0.css" />
 
   
   
@@ -3536,11 +3536,18 @@
 
   function setPanelInitialState(panel) {
     if (!panel) return;
-    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : 'auto';
+    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : panel.scrollHeight + 'px';
+  }
+
+  function clearPanelTransition(panel) {
+    if (!panel || !panel._teamTransitionHandler) return;
+    panel.removeEventListener('transitionend', panel._teamTransitionHandler);
+    panel._teamTransitionHandler = null;
   }
 
   function expandPanel(panel) {
     if (!panel) return;
+    clearPanelTransition(panel);
     if (reduceMotion) {
       panel.classList.remove('is-collapsed');
       panel.style.height = 'auto';
@@ -3553,16 +3560,19 @@
     panel.offsetHeight;
     panel.style.height = panel.scrollHeight + 'px';
 
-    panel.addEventListener('transitionend', function onExpand(event) {
+    panel._teamTransitionHandler = function onExpand(event) {
       if (event.target !== panel || event.propertyName !== 'height') return;
       panel.removeEventListener('transitionend', onExpand);
+      panel._teamTransitionHandler = null;
       panel.classList.remove('is-animating');
-      panel.style.height = 'auto';
-    });
+      panel.style.height = panel.scrollHeight + 'px';
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
   }
 
   function collapsePanel(panel) {
     if (!panel) return;
+    clearPanelTransition(panel);
     if (reduceMotion) {
       panel.classList.add('is-collapsed');
       panel.style.height = '0px';
@@ -3574,12 +3584,14 @@
     panel.offsetHeight;
     panel.style.height = '0px';
 
-    panel.addEventListener('transitionend', function onCollapse(event) {
+    panel._teamTransitionHandler = function onCollapse(event) {
       if (event.target !== panel || event.propertyName !== 'height') return;
       panel.removeEventListener('transitionend', onCollapse);
+      panel._teamTransitionHandler = null;
       panel.classList.add('is-collapsed');
       panel.classList.remove('is-animating');
-    });
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
   }
 
   document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
@@ -3594,6 +3606,12 @@
       toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
       if (expanded) collapsePanel(panel);
       else expandPanel(panel);
+    });
+  });
+
+  window.addEventListener('resize', function () {
+    document.querySelectorAll('.team-group-panel:not(.is-collapsed)').forEach(function (panel) {
+      panel.style.height = panel.scrollHeight + 'px';
     });
   });
 
@@ -4155,12 +4173,6 @@
 
   <div class="col-12">
     
-
-  
-
-  
-
-  
 
   
 
