@@ -31,34 +31,7 @@
     }
 
     var content = hero.querySelector(".lab-hero__content");
-    var buttons = hero.querySelectorAll(".lab-hero__button");
     var ticking = false;
-
-    buttons.forEach(function (button) {
-      button.addEventListener("pointermove", function (event) {
-        var rect = button.getBoundingClientRect();
-        var x = (event.clientX - rect.left - rect.width / 2) * 0.18;
-        var y = (event.clientY - rect.top - rect.height / 2) * 0.26;
-
-        gsap.to(button, {
-          x: x,
-          y: y,
-          duration: 0.34,
-          ease: "power3.out",
-          overwrite: "auto"
-        });
-      });
-
-      button.addEventListener("pointerleave", function () {
-        gsap.to(button, {
-          x: 0,
-          y: 0,
-          duration: 0.48,
-          ease: "elastic.out(1, 0.45)",
-          overwrite: "auto"
-        });
-      });
-    });
 
     function updateScrollFade() {
       ticking = false;
@@ -160,7 +133,6 @@
         stagger: 0.065
       }, "-=0.18")
       .from(".lab-hero__actions .lab-hero__button", {
-        y: 18,
         autoAlpha: 0,
         duration: 0.45,
         ease: "power2.out",
