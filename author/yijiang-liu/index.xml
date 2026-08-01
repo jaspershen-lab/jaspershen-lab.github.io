@@ -7,7 +7,7 @@
     <description>Yijiang LIU</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://shen-lab.org/author/yijiang-liu/avatar_hu_ee43d1b8da55be0d.jpg</url>
+      <url>https://shen-lab.org/author/yijiang-liu/avatar_hu5c7d4ed84ff27017aee363ec01d6dd80_159866_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Yijiang LIU</title>
       <link>https://shen-lab.org/author/yijiang-liu/</link>
     </image>
@@ -25,6 +25,14 @@
       <link>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FeatureMSEA: Metabolic Feature-based Metabolite Set Enrichment Analysis</title>
+      <link>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</guid>
       <description></description>
     </item>
     

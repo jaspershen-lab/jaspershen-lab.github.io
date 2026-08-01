@@ -7,7 +7,7 @@
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
       <title>2</title>
       <link>https://shen-lab.org/publication-type/2/</link>
     </image>
@@ -77,6 +77,14 @@
     </item>
     
     <item>
+      <title>FeatureMSEA: Metabolic Feature-based Metabolite Set Enrichment Analysis</title>
+      <link>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Identification of antimicrobial peptides from ancient gut microbiomes</title>
       <link>https://shen-lab.org/publication/identification-of-antimicrobial-peptides-from-ancient-gut-microbiomes/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -117,6 +125,14 @@
     </item>
     
     <item>
+      <title>LOESS and DE-SWAN can induce artifactual &#34;waves&#34; of molecular aging</title>
+      <link>https://shen-lab.org/publication/loess-and-de-swan-can-induce-artifactual-waves-of-molecular-aging/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/loess-and-de-swan-can-induce-artifactual-waves-of-molecular-aging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MetaNet: a scalable and integrated tool for reproducible omics network analysis</title>
       <link>https://shen-lab.org/publication/metanet-a-scalable-and-integrated-tool-for-reproducible-omics-network-analysis/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -129,6 +145,14 @@
       <link>https://shen-lab.org/publication/microbial-dark-matter-a-multi-layer-mystery/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/microbial-dark-matter-a-multi-layer-mystery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nanopore direct RNA sequencing and the epitranscriptome: Advances in mapping native RNA landscapes</title>
+      <link>https://shen-lab.org/publication/nanopore-direct-rna-sequencing-and-the-epitranscriptome-advances-in-mapping-native-rna-landscapes/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/nanopore-direct-rna-sequencing-and-the-epitranscriptome-advances-in-mapping-native-rna-landscapes/</guid>
       <description></description>
     </item>
     
@@ -401,6 +425,14 @@
       <link>https://shen-lab.org/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</guid>
       <description></description>
     </item>
     
