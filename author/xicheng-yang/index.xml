@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xicheng Yang | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/xicheng-yang/</link>
+      <atom:link href="https://shen-lab.org/author/xicheng-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xicheng Yang</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/xicheng-yang/avatar_hu2e071cbc239cccda9d87f422446b61e0_273384_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Xicheng Yang</title>
+      <link>https://shen-lab.org/author/xicheng-yang/</link>
+    </image>
+    
+  </channel>
+</rss>
