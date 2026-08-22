@@ -42,7 +42,7 @@
     },
     {
       "year": 2025,
-      "count": 10
+      "count": 11
     },
     {
       "year": 2026,
@@ -52,23 +52,23 @@
   "citation_per_year": [
     {
       "year": 2017,
-      "count": 32
+      "count": 33
     },
     {
       "year": 2018,
-      "count": 69
+      "count": 65
     },
     {
       "year": 2019,
-      "count": 113
+      "count": 112
     },
     {
       "year": 2020,
-      "count": 155
+      "count": 161
     },
     {
       "year": 2021,
-      "count": 263
+      "count": 258
     },
     {
       "year": 2022,
@@ -76,19 +76,19 @@
     },
     {
       "year": 2023,
-      "count": 412
+      "count": 411
     },
     {
       "year": 2024,
-      "count": 616
+      "count": 615
     },
     {
       "year": 2025,
-      "count": 802
+      "count": 785
     },
     {
       "year": 2026,
-      "count": 546
+      "count": 630
     }
   ]
 }
