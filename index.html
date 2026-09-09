@@ -2639,7 +2639,7 @@
         bar.style.opacity = "0";
         bar.setAttribute("data-value", (r.count || 0) + " " + suffix);
         bar.addEventListener("mouseenter", function (e) {
-          showTooltip(e, (r.year + ": " + (r.count || 0) + " " + suffix));
+          showTooltip(e, String(r.count || 0));
         });
         bar.addEventListener("mousemove", moveTooltip);
         bar.addEventListener("mouseleave", hideTooltip);
