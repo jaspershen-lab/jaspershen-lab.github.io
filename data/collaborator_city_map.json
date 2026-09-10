@@ -45,6 +45,47 @@
     ]
   },
   {
+    "city": "Tan Tock Seng Hospital",
+    "country": "",
+    "lat": 1.3213,
+    "lng": 103.8467,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Chuanhui Xu",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ying Jie Chee",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ai Ying Teh",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Claire Min-Li Teo",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Justina Wei Lyn Tan",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ee Tzun Koh",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Khai Pang Leong",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Rinkoo Dalan",
+        "institution": "Tan Tock Seng Hospital"
+      }
+    ]
+  },
+  {
     "city": "Stanford University",
     "country": "",
     "lat": 37.4313,
