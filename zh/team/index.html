@@ -1,0 +1,4352 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 2026年9月10日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1d2e7a243b7b377962de8b7f9bdfa6c3.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=143314205"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));
+  }
+
+  gtag('js', new Date());
+  gtag('config', '143314205', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://shen-lab.org/team/" />
+
+<link rel="alternate" hreflang="zh-Hans" href="https://shen-lab.org/zh/team/" />
+<link rel="canonical" href="https://shen-lab.org/zh/team/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#0f766e" />
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://shen-lab.org/zh/team/featured.jpg" />
+<meta property="og:site_name" content="Shen Lab @ NTU" />
+<meta property="og:url" content="https://shen-lab.org/zh/team/" />
+<meta property="og:title" content="团队成员 | Shen Lab @ NTU" />
+<meta property="og:description" content="" /><meta property="og:image" content="https://shen-lab.org/zh/team/featured.jpg" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2022-10-24T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-10-24T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0f766e",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#0f766e"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "本网站使用cookies来确保您在本网站上获得最佳体验。",
+        "dismiss": "知道了!",
+        "link": "了解更多",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>团队成员 | Shen Lab @ NTU</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6ddefaa79eda0645db488e06bc4e9a6c" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9bea46edcb38fd3e5ca990d375972e9f.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#lab_hero"><span>首页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#latest_highlights"><span>亮点</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#research"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#software"><span>软件</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#news"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#team"><span>团队</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#photo"><span>相册</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>更多</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="https://www.ntu.edu.sg/spc"><span>Singapore Phenome Center</span></a>
+              
+                <a class="dropdown-item" href="/zh/collaborators"><span>合作者</span></a>
+              
+                <a class="dropdown-item" href="https://www.shen-lab.org/shen-lab-handbook/"><span>实验室手册</span></a>
+              
+                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1yHT4RLa-TOh6a4TbNtEu2wCJvrUo51L28XbHHk9nvVs/edit?usp=sharing"><span>组会表</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          
+          <a href="#" class="nav-link lab-language-toggle dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="语言">
+            <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+            <span class="sr-only">中文 (简体)</span>
+          </a>
+          <div class="dropdown-menu lab-language-menu">
+            <div class="dropdown-item dropdown-item-active lab-language-item" aria-current="true">
+              <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="sr-only">中文 (简体)</span>
+            </div>
+            
+            
+            <a class="dropdown-item lab-language-item" href="https://shen-lab.org/team/" aria-label="English">
+              <span class="lab-language-flag" aria-hidden="true">🇺🇸</span>
+              <span class="sr-only">English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-about-biography" class="home-section wg-about-biography  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+
+      <div class="portrait-title">
+
+        <h2>admin</h2>
+
+        
+
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>课题组负责人</h1>
+
+    
+
+    <div class="row">
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-people" class="home-section wg-people  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">团队成员</h1>
+      
+    </div>
+  
+
+  
+
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-postdocs">
+          <span class="team-group-toggle__label">Postdocs</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-postdocs" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/jingxiang-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/jingxiang-zhang/avatar_hufaf2750b8588b0590ee60619dd4f0d38_281933_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/jingxiang-zhang/">Jingxiang ZHANG</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>Research Fellow (2024-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>📱 Microbiome</li>
+                  
+                    <li>🖥️ Bioinformatics</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/jingxiang-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-phd-students">
+          <span class="team-group-toggle__label">PhD Students</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-phd-students" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yifei-ge/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yifei-ge/avatar_huc334777183e9dd1871ae6155184ca31e_730046_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yifei-ge/">Yifei GE</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Biostatistics</li>
+                  
+                    <li>💰 Mathematics</li>
+                  
+                    <li>💻 Microbiome</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yifei-ge/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/chi-fang-hsu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/chi-fang-hsu/avatar_hu621b85a2532302d074a73fefe88ac9c5_105160_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/chi-fang-hsu/">Chi Fang HSU</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Gut Microbiome</li>
+                  
+                    <li>🖥 Toxicology</li>
+                  
+                    <li>💻 Multi-Omics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/chi-fang-hsu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/jiramet-kinchagawat/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/jiramet-kinchagawat/avatar_hu80f3e11b6a4fe5f2a545b3cc7860f38e_6080437_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/jiramet-kinchagawat/">Jiramet KINCHAGAWAT</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Artificial Intelligence</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/jiramet-kinchagawat/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yijiang-liu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yijiang-liu/avatar_hu5c7d4ed84ff27017aee363ec01d6dd80_159866_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yijiang-liu/">Yijiang LIU</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💰 Biostatistics</li>
+                  
+                    <li>💻 Population Health</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yijiang-liu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yuting-wang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yuting-wang/avatar_hu4191d85b75c91ff2e4b8cf8b6beb5aca_76005_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yuting-wang/">Yuting WANG</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥️ Bioinformatics</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>👴 Aging and Aging related diseases</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yuting-wang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/xicheng-yang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/xicheng-yang/avatar_hu2e071cbc239cccda9d87f422446b61e0_273384_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/xicheng-yang/">Xicheng Yang</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2026-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Artificial Intelligence</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/xicheng-yang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/feifan-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/feifan-zhang/avatar_hu59d50993104a1968f9dd97aac72ac593_31449_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/feifan-zhang/">Feifan ZHANG</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Artificial Intelligence</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/feifan-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-co-supervised-students">
+          <span class="team-group-toggle__label">Co-supervised Students</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-co-supervised-students" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/kajal-agrawal/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/kajal-agrawal/avatar_hue39222668f4c89aeab08b80545970825_106526_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/kajal-agrawal/">Kajal AGRAWAL</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (Co-supervised with Prof. Sunny Wong)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🧫 Oral and Gut Microbiome</li>
+                  
+                    <li>🦷 Periodontal Disease,  Oral systemic disease</li>
+                  
+                    <li>🌱 Population Health</li>
+                  
+                    <li>🔬 Translational Research</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/kajal-agrawal/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/xiaoyu-xu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/xiaoyu-xu/avatar_hu4207593750996aeae170a24215a45187_5328882_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/xiaoyu-xu/">Xiaoyu XU</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (Co-supervised with Prof. Kun Qian)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 renal cell carcinoma</li>
+                  
+                    <li>💰 Biostatistics</li>
+                  
+                    <li>💻 Multi-Omics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/xiaoyu-xu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/ruwen-zhou/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/ruwen-zhou/avatar_hu8e80ff8c982f92fb456742272ac9eb80_3043899_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/ruwen-zhou/">Ruwen ZHOU</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>PhD Candidate (Co-supervised with Prof. Sunny Wong)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Biostatistics</li>
+                  
+                    <li>💰 Mathematics</li>
+                  
+                    <li>💻 Microbiome</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/ruwen-zhou/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-visiting-phd-students">
+          <span class="team-group-toggle__label">Visiting PhD Students</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-visiting-phd-students" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/shuli-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/shuli-zhang/avatar_hu4925c0621bfd8dc95072a453343058be_136439_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/shuli-zhang/">Shuli ZHANG</a></h2>
+          <h3>Northeastern University</h3>
+          <h3>Visiting PhD Student (2026-2027)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>🫀 Cardiovascular diseases</li>
+                  
+                    <li>🔬 Molecular genetics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/shuli-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/junqi-zhao/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/junqi-zhao/avatar_hu6c11080c614f99d3cc3c121bc7d68807_173586_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/junqi-zhao/">Junqi ZHAO</a></h2>
+          <h3>Fudan University</h3>
+          <h3>Visiting PhD Student (2026–2027)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🥗 Nutritional Epidemiology</li>
+                  
+                    <li>🧠 Neurodegenerative Diseases</li>
+                  
+                    <li>🩸 Multi-omics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/junqi-zhao/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-visiting-scholar">
+          <span class="team-group-toggle__label">Visiting Scholar</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-visiting-scholar" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/si-si-liu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/si-si-liu/avatar_hu6bf67a329ecd48cd70dbb24a56ec952d_259949_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/si-si-liu/">Si-Si LIU</a></h2>
+          <h3>School of Environment, South China Normal University</h3>
+          <h3>Visiting Scholar (2026-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Exposome, Mass Spectrometry</li>
+                  
+                    <li>🌐 Machine Learning</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/si-si-liu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yuanming-yang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yuanming-yang/avatar_hu8d1d26427d7f0724b1cc1edc10803b54_60718_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yuanming-yang/">Yuanming YANG</a></h2>
+          <h3>The First Affiliated Hospital of Guangzhou University of Chinese Medicine</h3>
+          <h3>Visiting Scholar (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 scRNA-seq</li>
+                  
+                    <li>🌐 multi-omics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yuanming-yang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+
+    
+
+    
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="false" aria-controls="people-group-alumni">
+          <span class="team-group-toggle__label">Alumni</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-alumni" class="col-12 team-group-panel is-collapsed">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/sahana-rahim/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/sahana-rahim/avatar_huee795ce67de03a9e08e1ac103904525b_175915_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/sahana-rahim/">Sahana RAHIM</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>URECA Student (2024-2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💰 Data Science</li>
+                  
+                    <li>💻 Biology</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/sahana-rahim/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/vaisnavi-arumugam/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/vaisnavi-arumugam/avatar_hu9c3293c2a104c32de3d9b63cef3cbb52_953002_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/vaisnavi-arumugam/">Vaisnavi ARUMUGAM</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>FYP Undergraduate (2024-2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>🔬 Molecular Biology</li>
+                  
+                    <li>💻 Population Health</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/vaisnavi-arumugam/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/shunpeng-bai/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/shunpeng-bai/avatar_hu29ec5805b8ad9c99f5eca7c398fa5b5a_29186_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/shunpeng-bai/">Shunpeng BAI</a></h2>
+          <h3>Huazhong Agricultural University</h3>
+          <h3>Remote Intern (2025-2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>⛏  Embedded Dev</li>
+                  
+                    <li>💰  Multi-omics</li>
+                  
+                    <li>🧬  Quantum Biology</li>
+                  
+                    <li>💊  AIDD</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/shunpeng-bai/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/lucie-benoit/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/lucie-benoit/avatar_hu30596e0049e0c3b93a26d983b6fc476a_186003_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/lucie-benoit/">Lucie BENOIT</a></h2>
+          <h3>ISEN Lille</h3>
+          <h3>Exchange student (2025-2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💊 Drug design</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/lucie-benoit/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yiying-chen/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yiying-chen/avatar_hu607bdafb98374c492faada91b455da5e_386516_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yiying-chen/">Yiying CHEN</a></h2>
+          <h3>National University of Singapore</h3>
+          <h3>Intern Master student (2024-2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🧩 Bioinformatics</li>
+                  
+                    <li>🧠 Mult-omics</li>
+                  
+                    <li>💻 Deep learning</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yiying-chen/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/jaewon-chung/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/jaewon-chung/avatar_hu322aa3354cf72832243c980990efc621_187175_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/jaewon-chung/">Jaewon CHUNG</a></h2>
+          <h3>Korea Advanced Institute of Science and Technology, South Korea</h3>
+          <h3>Summer Intern (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>📂 Bioinformatics (Multi-omics)</li>
+                  
+                    <li>💻 Machine Learning</li>
+                  
+                    <li>🩺 Human Physiology and Pathology</li>
+                  
+                    <li>🧠 Neurodegenerative Disease and Psychiatric Illness</li>
+                  
+                    <li>🤖 Biomedical AI</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/jaewon-chung/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/ha-lan-do/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/ha-lan-do/avatar_hu4e523ac4a81921d8427693d71dae93f5_426958_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/ha-lan-do/">Ha Lan DO</a></h2>
+          <h3>VNU University of Science</h3>
+          <h3>Summer Intern (2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🧠 Gut-Brain Axis</li>
+                  
+                    <li>🦠 Gut Microbiome</li>
+                  
+                    <li>💡 Multi-omics</li>
+                  
+                    <li>💻 Bioinformatics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/ha-lan-do/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/zijing-du/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/zijing-du/avatar_hu51114b5c41a5d66bb0bf39562b0ccaa6_1634250_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/zijing-du/">Zijing DU</a></h2>
+          <h3>Southern Medical University</h3>
+          <h3>Visiting PhD Student (2024-2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>⌚️ Wearable devices</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>🌐 Epidemiology</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/zijing-du/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/zhichen-hua/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/zhichen-hua/avatar_hu008e3985d98bb5e05293c9f8f0495974_155501_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/zhichen-hua/">Zhichen HUA</a></h2>
+          <h3>City University of Hong Kong</h3>
+          <h3>Summer Intern (2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>⛏  Artificial intelligence</li>
+                  
+                    <li>💰  Wearable devices</li>
+                  
+                    <li>🧬  Bioinformatics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/zhichen-hua/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/sundara-ganapathy-letchimanan/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/sundara-ganapathy-letchimanan/avatar_hu2389fe7314ad5234df38edee4c70f82c_30953_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/sundara-ganapathy-letchimanan/">Sundara Ganapathy LETCHIMANAN</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>FYP Undergraduate (2024-2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Population Health</li>
+                  
+                    <li>📊 Biostatistics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/sundara-ganapathy-letchimanan/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/diyan-li/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/diyan-li/avatar_huf3f319328e570a0d86e4ae692e49f98c_23109_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/diyan-li/">Diyan LI</a></h2>
+          <h3>Chengdu University</h3>
+          <h3>Visiting Scholar (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Metagenomics</li>
+                  
+                    <li>🌐 Infertility</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/diyan-li/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/meilun-li/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/meilun-li/avatar_hu1788a4baacb7dfe46c687d0163cfc8bf_69790_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/meilun-li/">Meilun LI</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>Master Student (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Artificial Intelligence</li>
+                  
+                    <li>🧠 Large Language Models</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/meilun-li/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/minghang-li/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/minghang-li/avatar_hu3fd1b4ec575b11a09c732ed91ffac960_16076_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/minghang-li/">Minghang LI</a></h2>
+          <h3>ETH Zurich</h3>
+          <h3>Remote Intern (2024)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>⌚️ Wearable devices</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>💻 Algorithmic design</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/minghang-li/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/shaoguang-li/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/shaoguang-li/avatar_huf46c263e1adc65590904613a79d70a96_710632_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/shaoguang-li/">Shaoguang LI</a></h2>
+          <h3>Fujian Medical University</h3>
+          <h3>Visiting Scholar (2025-2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Proteomics</li>
+                  
+                    <li>🌐 Metabolomics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/shaoguang-li/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/fen-pan/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/fen-pan/avatar_hu4b8b2fe96b2581a66d72208bed14f7de_48685_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/fen-pan/">Fen PAN</a></h2>
+          <h3>Zhejiang University</h3>
+          <h3>Visiting Scholar (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Psychiatry</li>
+                  
+                    <li>🌐 Metabolomics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/fen-pan/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yuxu-pan/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yuxu-pan/avatar_hu3721a971863538691f1704115ee513ec_146181_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yuxu-pan/">Yuxu PAN</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>Master Student (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Mathematics</li>
+                  
+                    <li>🖥 Bioinformatics</li>
+                  
+                    <li>💻 Artificial Intelligence</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yuxu-pan/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/ke-pang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/ke-pang/avatar_huc47904c1381a9c72a0cbac5d63d7d8b3_280644_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/ke-pang/">Ke PANG</a></h2>
+          <h3>Chinese Academy of Medical Sciences &amp; Peking Union Medical College</h3>
+          <h3>Visiting PhD Student (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🩺 Clinical Gastroenterology</li>
+                  
+                    <li>🦠 Multi-omics</li>
+                  
+                    <li>🌐 Epidemiology</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/ke-pang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/qi-qi/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/qi-qi/avatar_huc73c9f6262c512fb5f886fb087e716b1_85871_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/qi-qi/">Qi QI</a></h2>
+          <h3>Xi’an Jiaotong-Liverpool University</h3>
+          <h3>Remote Intern (2024)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥️ Bioinformatics</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>💻 Deep learning</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/qi-qi/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/zirui-qiang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/zirui-qiang/avatar_hu1bbc7d8af2b1a00137f376648ce5567a_1294626_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/zirui-qiang/">Zirui QIANG</a></h2>
+          <h3>Harbin Institute of Technology</h3>
+          <h3>Intern (2024)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥️ Bioinformatics</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>💻 Deep learning</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/zirui-qiang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yuchen-shen/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yuchen-shen/avatar_hu6a2facf45b0e18b0216f206b6557bc19_227830_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yuchen-shen/">Yuchen SHEN</a></h2>
+          <h3>Zhejiang University</h3>
+          <h3>Remote Intern (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>📉 Statistics</li>
+                  
+                    <li>💰 Multi-omics</li>
+                  
+                    <li>🤰 Human Physiology</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yuchen-shen/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/shenyu-wang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/shenyu-wang/avatar_hue08638655580245d639d09d397c0703d_86916_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/shenyu-wang/">Shenyu WANG</a></h2>
+          <h3>The Chinese University of Hong Kong, Shenzhen</h3>
+          <h3>Remote Intern (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>📂 Bioinformatics (Multi-omics)</li>
+                  
+                    <li>💻 Machine Learning</li>
+                  
+                    <li>🩺 Human Physiology and Pathology</li>
+                  
+                    <li>🧠 Neurodegenerative Disease and Psychiatric Illness</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/shenyu-wang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/tong-wu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/tong-wu/avatar_hu881bcbf0c8f504850ac2a4e8aace8eeb_125264_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/tong-wu/">Tong WU</a></h2>
+          <h3>Tianjin University of Traditional Chinese Medicine</h3>
+          <h3>Visiting PhD Student (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💻 AI-driven drug design</li>
+                  
+                    <li>🌐 Deep learning for drug discovery</li>
+                  
+                    <li>🌱 Traditional Chinese Medicine</li>
+                  
+                    <li>🦠 Virtual screening</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/tong-wu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/yitong-wu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/yitong-wu/avatar_hu378a6987b548f5523431840b30a45024_1354651_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/yitong-wu/">Yitong WU</a></h2>
+          <h3>The University of Hong Kong</h3>
+          <h3>Remote Intern (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>Biotechnology</li>
+                  
+                    <li>Biochemistry</li>
+                  
+                    <li>Multi-omics</li>
+                  
+                    <li>Human Physiology and pathology</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/yitong-wu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/chunlei-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/chunlei-zhang/avatar_hue15b46f76d6bac001c3728ca17365555_152999_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/chunlei-zhang/">Chunlei ZHANG</a></h2>
+          <h3>Nanjing Agricultural University</h3>
+          <h3>Visiting PhD Student (2025-2026)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>⌚️ Multi-omics</li>
+                  
+                    <li>💰 Diabetes</li>
+                  
+                    <li>🌐 Molecular genetics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/chunlei-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/xin-yue-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/xin-yue-zhang/avatar_hu4631b9b20b09b6e6642139625f3fdf4d_178668_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/xin-yue-zhang/">Xin-Yue ZHANG</a></h2>
+          <h3>Nanyang Technological University</h3>
+          <h3>Master Student (2025)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>🖥 Artificial intelligence for healthcare</li>
+                  
+                    <li>💻 Bioinformatics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/xin-yue-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/hua-zhao/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/hua-zhao/avatar_hu6a09b3d69c5f954cce2bb0420d2878c8_27413_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/hua-zhao/">Hua ZHAO</a></h2>
+          <h3>Reproductive Medical Center, People&#39;s Hospital of Zhengzhou University and Henan Provincial People&#39;s Hospital</h3>
+          <h3>Visiting Scholar (2025-)</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <ul>
+                  
+                    <li>💰 Proteomics</li>
+                  
+                    <li>🌐 Metabolomics</li>
+                  
+                </ul>
+              
+              
+                <a class="people-interests__profile" href="/author/hua-zhao/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+</div>
+
+<script>
+(function () {
+  document.documentElement.classList.add('has-team-reveal-js');
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setPanelInitialState(panel) {
+    if (!panel) return;
+    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : panel.scrollHeight + 'px';
+  }
+
+  function clearPanelTransition(panel) {
+    if (!panel || !panel._teamTransitionHandler) return;
+    panel.removeEventListener('transitionend', panel._teamTransitionHandler);
+    panel._teamTransitionHandler = null;
+  }
+
+  function expandPanel(panel) {
+    if (!panel) return;
+    clearPanelTransition(panel);
+    if (reduceMotion) {
+      panel.classList.remove('is-collapsed');
+      panel.style.height = 'auto';
+      return;
+    }
+
+    panel.classList.remove('is-collapsed');
+    panel.classList.add('is-animating');
+    panel.style.height = '0px';
+    panel.offsetHeight;
+    panel.style.height = panel.scrollHeight + 'px';
+
+    panel._teamTransitionHandler = function onExpand(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onExpand);
+      panel._teamTransitionHandler = null;
+      panel.classList.remove('is-animating');
+      panel.style.height = panel.scrollHeight + 'px';
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
+  }
+
+  function collapsePanel(panel) {
+    if (!panel) return;
+    clearPanelTransition(panel);
+    if (reduceMotion) {
+      panel.classList.add('is-collapsed');
+      panel.style.height = '0px';
+      return;
+    }
+
+    panel.classList.add('is-animating');
+    panel.style.height = panel.scrollHeight + 'px';
+    panel.offsetHeight;
+    panel.style.height = '0px';
+
+    panel._teamTransitionHandler = function onCollapse(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onCollapse);
+      panel._teamTransitionHandler = null;
+      panel.classList.add('is-collapsed');
+      panel.classList.remove('is-animating');
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
+  }
+
+  document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
+    if (toggle.dataset.ready === '1') return;
+    toggle.dataset.ready = '1';
+    var targetId = toggle.getAttribute('aria-controls');
+    var panel = targetId ? document.getElementById(targetId) : null;
+    setPanelInitialState(panel);
+
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      if (expanded) collapsePanel(panel);
+      else expandPanel(panel);
+    });
+  });
+
+  window.addEventListener('resize', function () {
+    document.querySelectorAll('.team-group-panel:not(.is-collapsed)').forEach(function (panel) {
+      panel.style.height = panel.scrollHeight + 'px';
+    });
+  });
+
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.people-widget .people-person'));
+  cards.forEach(function (card, index) {
+    card.style.setProperty('--team-reveal-delay', Math.min(index * 45, 360) + 'ms');
+  });
+
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+
+    cards.forEach(function (card) {
+      observer.observe(card);
+    });
+  } else {
+    cards.forEach(function (card) {
+      card.classList.add('is-visible');
+    });
+  }
+})();
+</script>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Alumni Timeline</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="alumni-gantt" style="--min-year: 2024; --max-year: 2026;">
+  <div class="gantt-legend">
+    
+  </div>
+
+  <div class="gantt-axis"><span style="left: 0%;">2024</span><span style="left: 50%;">2025</span><span style="left: 100%;">2026</span></div>
+
+  
+</div>
+
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Lab Collaboration Network</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<div class="team-collab-network" id="team-collab-network-root">
+  <div class="team-collab-network__card">
+    <div class="team-collab-network__intro">
+      <p class="team-collab-network__lede">
+        A live map of shared papers and mentoring connections across Shen Lab.
+      </p>
+      <div class="team-collab-network__stats" id="team-collab-network-stats"></div>
+      <div class="team-collab-network__toolbar">
+        <label class="team-collab-network__search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input id="team-collab-search" type="search" placeholder="Search member..." autocomplete="off">
+        </label>
+        <label>
+          <span>Group</span>
+          <select id="team-collab-category">
+            <option value="">All members</option>
+            <option value="PI">PI</option>
+            <option value="Researchers">Researchers</option>
+            <option value="Students">Students</option>
+            <option value="Co-supervised Students">Co-supervised Students</option>
+            <option value="Intern">Intern</option>
+          </select>
+        </label>
+        <label>
+          <span>Year</span>
+          <select id="team-collab-year">
+            <option value="">All years</option>
+          </select>
+        </label>
+        <label>
+          <span>Min links</span>
+          <select id="team-collab-weight">
+            <option value="1">>= 1 paper</option>
+            <option value="2">>= 2 papers</option>
+            <option value="3">>= 3 papers</option>
+          </select>
+        </label>
+        <button type="button" id="team-collab-reset">
+          <i class="fas fa-rotate-left" aria-hidden="true"></i>
+          Reset
+        </button>
+      </div>
+      <div class="team-collab-network__legend" id="team-collab-network-legend">
+        <span class="team-collab-network__legend-item"><span class="team-collab-network__dot team-collab-network__dot--pi"></span>PI</span>
+        <span class="team-collab-network__legend-item"><span class="team-collab-network__dot team-collab-network__dot--researchers"></span>Researchers</span>
+        <span class="team-collab-network__legend-item"><span class="team-collab-network__dot team-collab-network__dot--students"></span>Students</span>
+        <span class="team-collab-network__legend-item"><span class="team-collab-network__dot team-collab-network__dot--cosup"></span>Co-supervised Students</span>
+        <span class="team-collab-network__legend-item"><span class="team-collab-network__dot team-collab-network__dot--intern"></span>Intern</span>
+      </div>
+    </div>
+    <div class="team-collab-network__workspace">
+      <div class="team-collab-network__canvas" id="team-collab-network-canvas"></div>
+      <aside class="team-collab-network__panel" id="team-collab-network-panel">
+        <div class="team-collab-network__panel-empty">
+          <i class="fas fa-circle-nodes" aria-hidden="true"></i>
+          <p>Select a member or collaboration link to explore details.</p>
+        </div>
+      </aside>
+    </div>
+    <div class="team-collab-network__hint">Member profiles and shared publications are connected in this map.</div>
+  </div>
+
+  <script type="application/json" id="team-collab-members-data">"[]"</script>
+  <script type="application/json" id="team-collab-publications-data">"[]"</script>
+</div>
+
+
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">Alumni Summary</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <iframe width='100%' height='700' src="https://docs.google.com/spreadsheets/d/1yHT4RLa-TOh6a4TbNtEu2wCJvrUo51L28XbHHk9nvVs/edit?usp=sharing"></iframe>
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  <div class="custom-footer-shell">
+    <div class="custom-footer-grid">
+      <section class="custom-footer-panel custom-footer-support" aria-labelledby="footer-support-title">
+        <h2 id="footer-support-title">Honored supported by</h2>
+        <div class="custom-footer-logo-grid">
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener" aria-label="Nanyang Technological University">
+            <img src="/image/ntu_logo.png" alt="Nanyang Technological University">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/medicine" target="_blank" rel="noopener" aria-label="Lee Kong Chian School of Medicine">
+            <img src="/image/lkcmedicine.png" alt="Lee Kong Chian School of Medicine">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener" aria-label="School of Chemistry, Chemical Engineering and Biotechnology">
+            <img src="/image/cceb_logo.png" alt="School of Chemistry, Chemical Engineering and Biotechnology">
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Connect with Shen Lab</h2>
+        <div class="custom-footer-link-list">
+          <a href="https://github.com/jaspershen-lab" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-weixin" aria-hidden="true"></i>
+            <span>WeChat</span>
+          </a>
+          <a href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://jaspershen.github.io/#contact" target="_blank" rel="noopener">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
+          <a class="custom-footer-address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>59 Nanyang Dr, Singapore 636921</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-visitors" aria-labelledby="footer-visitors-title">
+        <h2 id="footer-visitors-title">Global reach</h2>
+        <div class="custom-footer-globe">
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=xgKXZDRqP3B4_zVrtEfgkE6zTvADm5-NjBIt4rfdTzk&cl=ffffff&w=a"></script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">View visitor map</a>
+          </noscript>
+        </div>
+      </section>
+    </div>
+  </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2026 Shen Lab @ <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>
+  </p>
+  
+
+
+
+
+  
+  <script src="/js/team_membership_stats.js"></script>
+  <script src="/js/team_collaboration_network.js?v=20260617-motion"></script>
+  
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://blog-at8qrhng8b.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.09ae9115b27a4e440245b78a395f42c2.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

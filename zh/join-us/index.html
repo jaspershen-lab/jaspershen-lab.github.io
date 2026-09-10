@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 2026年9月10日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1d2e7a243b7b377962de8b7f9bdfa6c3.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=143314205"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));
+  }
+
+  gtag('js', new Date());
+  gtag('config', '143314205', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="Shen Lab 面向博士生、博士后、本科生、访问学者、访问博士生和暑期实习生的招聘信息。" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://shen-lab.org/join-us/" />
+
+<link rel="alternate" hreflang="zh-Hans" href="https://shen-lab.org/zh/join-us/" />
+<link rel="canonical" href="https://shen-lab.org/zh/join-us/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#0f766e" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" />
+<meta property="og:site_name" content="Shen Lab @ NTU" />
+<meta property="og:url" content="https://shen-lab.org/zh/join-us/" />
+<meta property="og:title" content="加入我们 | Shen Lab @ NTU" />
+<meta property="og:description" content="Shen Lab 面向博士生、博士后、本科生、访问学者、访问博士生和暑期实习生的招聘信息。" /><meta property="og:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2026-09-10T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2026-09-10T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0f766e",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#0f766e"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "本网站使用cookies来确保您在本网站上获得最佳体验。",
+        "dismiss": "知道了!",
+        "link": "了解更多",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>加入我们 | Shen Lab @ NTU</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="e7ff29ee4a62d8402c3b2eb6f55068bb" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9bea46edcb38fd3e5ca990d375972e9f.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#lab_hero"><span>首页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#latest_highlights"><span>亮点</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#research"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#software"><span>软件</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#news"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#team"><span>团队</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#photo"><span>相册</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>更多</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="https://www.ntu.edu.sg/spc"><span>Singapore Phenome Center</span></a>
+              
+                <a class="dropdown-item" href="/zh/collaborators"><span>合作者</span></a>
+              
+                <a class="dropdown-item" href="https://www.shen-lab.org/shen-lab-handbook/"><span>实验室手册</span></a>
+              
+                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1yHT4RLa-TOh6a4TbNtEu2wCJvrUo51L28XbHHk9nvVs/edit?usp=sharing"><span>组会表</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          
+          <a href="#" class="nav-link lab-language-toggle dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="语言">
+            <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+            <span class="sr-only">中文 (简体)</span>
+          </a>
+          <div class="dropdown-menu lab-language-menu">
+            <div class="dropdown-item dropdown-item-active lab-language-item" aria-current="true">
+              <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="sr-only">中文 (简体)</span>
+            </div>
+            
+            
+            <a class="dropdown-item lab-language-item" href="https://shen-lab.org/join-us/" aria-label="English">
+              <span class="lab-language-flag" aria-hidden="true">🇺🇸</span>
+              <span class="sr-only">English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>加入我们</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<section class="join-page">
+  <div class="join-page__hero">
+    <p class="join-page__eyebrow">Open Opportunities</p>
+    <h1>加入 Shen Lab</h1>
+    <p>我们欢迎希望发展计算方法、数据驱动生物学发现和多组学研究的同学与研究人员。研究方向包括代谢组学、微生物组、衰老、妊娠、精准健康和 AI for Science。</p>
+    <a class="join-page__contact" href="mailto:xiaotao.shen@ntu.edu.sg">发送 CV 联系我们</a>
+  </div>
+
+  <div class="join-page__note">
+    奖学金、申请截止日期和申请条件可能会变化。申请前请以 NTU 和 LKCMedicine 官方页面为准。
+  </div>
+
+  <div class="join-page__list">
+    <article class="join-role">
+      <span class="join-role__number">01</span>
+      <h2>博士生 PhD Student</h2>
+      <p>适合具有定量思维、编程能力和生物医学兴趣的申请者。欢迎 bioinformatics、computational biology、computer science、statistics、biomedical engineering、analytical chemistry、life sciences、medicine 等背景。</p>
+      <h3>我们看重的背景</h3>
+      <ul>
+        <li>熟悉 R 或 Python，愿意做可复现的数据分析。</li>
+        <li>对多组学整合、LC-MS 数据分析、微生物组-代谢组互作、因果推断或生物医学 AI 感兴趣。</li>
+        <li>有清晰的科学写作能力和长期科研投入意愿。</li>
+      </ul>
+      <h3>申请和资助</h3>
+      <p>博士申请通常通过 LKCMedicine PhD by Research Programme。请关注一月和八月入学批次，以及官方公布的具体截止日期和条件。</p>
+      <div class="join-role__links">
+        <a href="https://www.ntu.edu.sg/medicine/education/graduate-programmes/phd-by-research-programme/admissions-applications" target="_blank" rel="noopener">LKCMedicine PhD admissions</a>
+        <a href="https://www.ntu.edu.sg/medicine/education/graduate-programmes/phd-by-research-programme/scholarships---funding-opportunities" target="_blank" rel="noopener">LKCMedicine scholarships</a>
+        <a href="https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships" target="_blank" rel="noopener">NTU postgraduate scholarships</a>
+      </div>
+    </article>
+
+    <article class="join-role">
+      <span class="join-role__number">02</span>
+      <h2>Research Fellow / 博士后</h2>
+      <p>欢迎能够独立推进项目、发表论文并开发可复用方法或软件的博士后申请者。相关方向包括生物信息学、计算生物学、统计、计算机科学、代谢组学、微生物组、系统生物学和分析化学。</p>
+      <h3>相关 Fellowship</h3>
+      <p>鼓励有独立 fellowship 计划的申请者尽早联系。可关注 NTU AI-for-X Postdoctoral Fellowship、Presidential Postdoctoral Fellowship、Lee Kuan Yew Postdoctoral Fellowship 和 Schmidt AI in Science Postdoctoral Fellowship 等机会。</p>
+      <div class="join-role__links">
+        <a href="https://www.ntu.edu.sg/research/research-careers/ntu-ai-for-x-postdoctoral-fellowship" target="_blank" rel="noopener">NTU AI-for-X Postdoctoral Fellowship</a>
+        <a href="https://www.ntu.edu.sg/research/research-careers" target="_blank" rel="noopener">NTU research careers</a>
+        <a href="https://www.ntu.edu.sg/research/research-careers/presidential-postdoctoral-fellowship-(ppf)" target="_blank" rel="noopener">Presidential Postdoctoral Fellowship</a>
+      </div>
+    </article>
+
+    <article class="join-role">
+      <span class="join-role__number">03</span>
+      <h2>本科生 Undergraduate Student</h2>
+      <p>欢迎 NTU 本科生通过 URECA、FYP、课程研究项目或非正式 research attachment 加入。项目可包括组学数据分析、生物医学 AI、可复现编程、网页工具和数据可视化。</p>
+    </article>
+
+    <article class="join-role">
+      <span class="join-role__number">04</span>
+      <h2>访问学者 Visiting Scholar</h2>
+      <p>访问学者需要有外部资助或所在机构支持，覆盖工资、旅行、签证、保险和生活费用。请发送 CV、访问时间、资助来源和简短研究计划。</p>
+    </article>
+
+    <article class="join-role">
+      <span class="join-role__number">05</span>
+      <h2>访问博士生 Visiting PhD Student</h2>
+      <p>欢迎与课题组方向匹配且有外部资助的访问博士生，例如 CSC 或学校资助项目。请提供 CV、博士课题、导师信息、访问时间、资助计划和一页研究计划。</p>
+    </article>
+
+    <article class="join-role">
+      <span class="join-role__number">06</span>
+      <h2>暑期实习 Summer Intern</h2>
+      <p>在项目明确且有足够指导时间的情况下，我们接受暑期实习和远程实习。远程项目通常要求更强的独立性、稳定沟通和清楚的代码或分析产出。</p>
+    </article>
+  </div>
+</section>
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F&amp;text=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F&amp;t=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC&amp;body=https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F&amp;title=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC%20https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fshen-lab.org%2Fzh%2Fjoin-us%2F&amp;title=%E5%8A%A0%E5%85%A5%E6%88%91%E4%BB%AC" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  <div class="custom-footer-shell">
+    <div class="custom-footer-grid">
+      <section class="custom-footer-panel custom-footer-support" aria-labelledby="footer-support-title">
+        <h2 id="footer-support-title">Honored supported by</h2>
+        <div class="custom-footer-logo-grid">
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener" aria-label="Nanyang Technological University">
+            <img src="/image/ntu_logo.png" alt="Nanyang Technological University">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/medicine" target="_blank" rel="noopener" aria-label="Lee Kong Chian School of Medicine">
+            <img src="/image/lkcmedicine.png" alt="Lee Kong Chian School of Medicine">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener" aria-label="School of Chemistry, Chemical Engineering and Biotechnology">
+            <img src="/image/cceb_logo.png" alt="School of Chemistry, Chemical Engineering and Biotechnology">
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Connect with Shen Lab</h2>
+        <div class="custom-footer-link-list">
+          <a href="https://github.com/jaspershen-lab" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-weixin" aria-hidden="true"></i>
+            <span>WeChat</span>
+          </a>
+          <a href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://jaspershen.github.io/#contact" target="_blank" rel="noopener">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
+          <a class="custom-footer-address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>59 Nanyang Dr, Singapore 636921</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-visitors" aria-labelledby="footer-visitors-title">
+        <h2 id="footer-visitors-title">Global reach</h2>
+        <div class="custom-footer-globe">
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=xgKXZDRqP3B4_zVrtEfgkE6zTvADm5-NjBIt4rfdTzk&cl=ffffff&w=a"></script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">View visitor map</a>
+          </noscript>
+        </div>
+      </section>
+    </div>
+  </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2026 Shen Lab @ <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>
+  </p>
+  
+
+
+
+
+  
+  <script src="/js/team_membership_stats.js"></script>
+  <script src="/js/team_collaboration_network.js?v=20260617-motion"></script>
+  
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://blog-at8qrhng8b.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.09ae9115b27a4e440245b78a395f42c2.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

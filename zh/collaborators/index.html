@@ -1,0 +1,3486 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: 2026年9月10日 --><html lang="zh-Hans" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.css" integrity="" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.1d2e7a243b7b377962de8b7f9bdfa6c3.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=143314205"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));
+  }
+
+  gtag('js', new Date());
+  gtag('config', '143314205', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<meta name="description" content="" />
+
+
+
+  <link rel="alternate" hreflang="en" href="https://shen-lab.org/collaborators/" />
+
+<link rel="alternate" hreflang="zh-Hans" href="https://shen-lab.org/zh/collaborators/" />
+<link rel="canonical" href="https://shen-lab.org/zh/collaborators/" />
+
+
+
+  <link rel="manifest" href="/zh/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#0f766e" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" />
+<meta property="og:site_name" content="Shen Lab @ NTU" />
+<meta property="og:url" content="https://shen-lab.org/zh/collaborators/" />
+<meta property="og:title" content="合作者 | Shen Lab @ NTU" />
+<meta property="og:description" content="" /><meta property="og:image" content="https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="zh-Hans" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2022-10-24T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-10-24T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    <script src="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/osano/cookieconsent@3.1.1/build/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#0f766e",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "#0f766e"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "本网站使用cookies来确保您在本网站上获得最佳体验。",
+        "dismiss": "知道了!",
+        "link": "了解更多",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
+
+
+  
+  <title>合作者 | Shen Lab @ NTU</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="4d995cf7d9ec2d941140904c68fcb9cb" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.9bea46edcb38fd3e5ca990d375972e9f.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="搜索...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="切换导航">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/zh/"><img src="/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_0x70_resize_lanczos_3.png" alt="Shen Lab @ NTU"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#lab_hero"><span>首页</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#latest_highlights"><span>亮点</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#research"><span>研究</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#software"><span>软件</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#publication"><span>论文</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#news"><span>新闻</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#team"><span>团队</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#photo"><span>相册</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/zh/#contact"><span>联系</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>更多</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="https://www.ntu.edu.sg/spc"><span>Singapore Phenome Center</span></a>
+              
+                <a class="dropdown-item" href="/zh/collaborators"><span>合作者</span></a>
+              
+                <a class="dropdown-item" href="https://www.shen-lab.org/shen-lab-handbook/"><span>实验室手册</span></a>
+              
+                <a class="dropdown-item" href="https://docs.google.com/spreadsheets/d/1yHT4RLa-TOh6a4TbNtEu2wCJvrUo51L28XbHHk9nvVs/edit?usp=sharing"><span>组会表</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="搜索"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>浅色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>深色</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>自动</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown i18n-dropdown">
+          
+          <a href="#" class="nav-link lab-language-toggle dropdown-toggle" data-toggle="dropdown"
+             aria-haspopup="true" aria-label="语言">
+            <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+            <span class="sr-only">中文 (简体)</span>
+          </a>
+          <div class="dropdown-menu lab-language-menu">
+            <div class="dropdown-item dropdown-item-active lab-language-item" aria-current="true">
+              <span class="lab-language-flag" aria-hidden="true">🇨🇳</span>
+              <span class="sr-only">中文 (简体)</span>
+            </div>
+            
+            
+            <a class="dropdown-item lab-language-item" href="https://shen-lab.org/collaborators/" aria-label="English">
+              <span class="lab-language-flag" aria-hidden="true">🇺🇸</span>
+              <span class="sr-only">English</span>
+            </a>
+            
+          </div>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+<span class="js-widget-page d-none"></span>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-people" class="home-section wg-people  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+
+    
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+    <div class="section-heading col-12 mb-3 text-center">
+      <h1 class="mb-0">合作者</h1>
+      
+    </div>
+  
+
+  
+
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-academia">
+          <span class="team-group-toggle__label">Academia</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-academia" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/caroline-johnson/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/caroline-johnson/avatar_hu86fef025ff10a1eeaf460664009c02a7_26653_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/caroline-johnson/">Caroline JOHNSON</a></h2>
+          <h3>Yale University</h3>
+          <h3>Associate Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/caroline-johnson/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/chao-jiang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/chao-jiang/avatar_huf395fd4e711ade5d4c1a7064c9254d7d_138176_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/chao-jiang/">Chao Jiang</a></h2>
+          <h3>Zhejiang University</h3>
+          <h3>Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/chao-jiang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/chuchu-wang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/chuchu-wang/avatar_hu51215c0a8bbc964456e2ad085fdf2525_17439_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/chuchu-wang/">Chuchu Wang</a></h2>
+          <h3>Nanyang Technological University Singapore</h3>
+          <h3>Nanyang Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/chuchu-wang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/daniel-panyard/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/daniel-panyard/avatar_hub2fd2aa0b5c33b63aab0a1a1fe2899fd_31896_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/daniel-panyard/">Daniel Panyard</a></h2>
+          <h3>Stanford University</h3>
+          <h3>Postdoc</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/daniel-panyard/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/hong-yan/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/hong-yan/avatar_hu45d38ff4d4e74a740d7f10284ea7432f_1758691_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/hong-yan/">Hong YAN</a></h2>
+          <h3>Hong Kong Baptist University</h3>
+          <h3>Research Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/hong-yan/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/liang-liang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/liang-liang/avatar_hu5cb9b7160f58bbc21780834a2e931c13_3805_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/liang-liang/">Liang LIANG</a></h2>
+          <h3>Medical College of Wisconsin</h3>
+          <h3>Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/liang-liang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/michael-snyder/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/michael-snyder/avatar_hu527448401235e03aef8528dedc285b73_1061381_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/michael-snyder/">Michael SNYDER</a></h2>
+          <h3>Stanford University</h3>
+          <h3>Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/michael-snyder/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/nasim-barapour/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/nasim-barapour/avatar_huf9d8aaa917ed1af7b8d4e072ed99acca_33624_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/nasim-barapour/">Nasim BARAPOUR</a></h2>
+          <h3>Stanford University</h3>
+          <h3>Postdoc</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/nasim-barapour/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/peng-gao/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/peng-gao/avatar_hu341f7fb1919ebf9d4454f59bfa2eb30c_68321_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/peng-gao/">Peng GAO</a></h2>
+          <h3>Harvard University</h3>
+          <h3>Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/peng-gao/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/sai-zhang/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/sai-zhang/avatar_hue421ce9906e5e788975855947cdf783b_407632_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/sai-zhang/">Sai ZHANG</a></h2>
+          <h3>Yale University</h3>
+          <h3>Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/sai-zhang/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/wei-shao/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/wei-shao/avatar_hu04516df682871f3124bf92a18ba9a5c8_12024_270x270_fill_q75_lanczos_center.jpg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/wei-shao/">Wei SHAO</a></h2>
+          <h3>University of Florida</h3>
+          <h3>Assistant Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/wei-shao/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/xin-zhou/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/xin-zhou/avatar_hue0c7f45ce0c502a486c8f4a6a1ad5513_31184_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/xin-zhou/">Xin ZHOU</a></h2>
+          <h3>Fudan University</h3>
+          <h3>Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/xin-zhou/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/zheng-jiang-zhu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/zheng-jiang-zhu/avatar_hub1c377cb92b3c9a8c67f3cb45ed791bd_308041_270x270_fill_lanczos_center_3.png" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/zheng-jiang-zhu/">Zheng-Jiang ZHU</a></h2>
+          <h3>Chinese Academy of Sciences</h3>
+          <h3>Professor</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/zheng-jiang-zhu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+
+    
+      
+      
+      <div class="col-md-12">
+        <button class="team-group-toggle" type="button" aria-expanded="true" aria-controls="people-group-industry">
+          <span class="team-group-toggle__label">Industry</span>
+          <span class="team-group-toggle__icon"></span>
+        </button>
+      </div>
+      <div id="people-group-industry" class="col-12 team-group-panel">
+        <div class="row justify-content-center team-group-panel__inner">
+    
+
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/daniel-hornburg/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/daniel-hornburg/avatar_hu515484b38b0273dc622d3dee0ce1a944_31760_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/daniel-hornburg/">Daniel Hornburg</a></h2>
+          <h3>Bruker</h3>
+          <h3>Vice President</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/daniel-hornburg/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/ryan-kellogg/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/ryan-kellogg/avatar_hub4f01a54b6bbf4e36c2fc921c2a11b12_20644_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/ryan-kellogg/">Ryan KELLOGG</a></h2>
+          <h3>RTHM</h3>
+          <h3>Founder/CEO</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/ryan-kellogg/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/si-wu/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/si-wu/avatar_hueb8f0222422bdc5434ae1397d262f29c_40353_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/si-wu/">Si Wu</a></h2>
+          <h3>AbbVie</h3>
+          <h3>Research Scientist</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/si-wu/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+      
+      
+      
+      
+      <div class="col-12 col-sm-auto people-person">
+        <div class="people-person__card" tabindex="0">
+          <div class="people-person__face people-person__face--front">
+        
+        
+          
+          
+        
+        
+          
+          <a href="/author/songjie-chen/"><img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/author/songjie-chen/avatar_huefa385f0c60fdd570a5c9d9133721878_6040_270x270_fill_q75_lanczos_center.jpeg" alt="Avatar"></a>
+        
+
+        <div class="portrait-title">
+          <h2><a href="/author/songjie-chen/">Songjie Chen</a></h2>
+          <h3>Merck</h3>
+          <h3>Research Scientist</h3>
+          
+        </div>
+          </div>
+          
+          <div class="people-person__face people-person__face--back">
+            <div class="people-interests">
+              <span>Research interests</span>
+              
+                <p>Multi-omics and precision health research at Shen Lab.</p>
+              
+              
+                <a class="people-interests__profile" href="/author/songjie-chen/">
+                  <span>View profile</span>
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    
+
+    </div></div>
+  
+</div>
+
+<script>
+(function () {
+  document.documentElement.classList.add('has-team-reveal-js');
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setPanelInitialState(panel) {
+    if (!panel) return;
+    panel.style.height = panel.classList.contains('is-collapsed') ? '0px' : panel.scrollHeight + 'px';
+  }
+
+  function clearPanelTransition(panel) {
+    if (!panel || !panel._teamTransitionHandler) return;
+    panel.removeEventListener('transitionend', panel._teamTransitionHandler);
+    panel._teamTransitionHandler = null;
+  }
+
+  function expandPanel(panel) {
+    if (!panel) return;
+    clearPanelTransition(panel);
+    if (reduceMotion) {
+      panel.classList.remove('is-collapsed');
+      panel.style.height = 'auto';
+      return;
+    }
+
+    panel.classList.remove('is-collapsed');
+    panel.classList.add('is-animating');
+    panel.style.height = '0px';
+    panel.offsetHeight;
+    panel.style.height = panel.scrollHeight + 'px';
+
+    panel._teamTransitionHandler = function onExpand(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onExpand);
+      panel._teamTransitionHandler = null;
+      panel.classList.remove('is-animating');
+      panel.style.height = panel.scrollHeight + 'px';
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
+  }
+
+  function collapsePanel(panel) {
+    if (!panel) return;
+    clearPanelTransition(panel);
+    if (reduceMotion) {
+      panel.classList.add('is-collapsed');
+      panel.style.height = '0px';
+      return;
+    }
+
+    panel.classList.add('is-animating');
+    panel.style.height = panel.scrollHeight + 'px';
+    panel.offsetHeight;
+    panel.style.height = '0px';
+
+    panel._teamTransitionHandler = function onCollapse(event) {
+      if (event.target !== panel || event.propertyName !== 'height') return;
+      panel.removeEventListener('transitionend', onCollapse);
+      panel._teamTransitionHandler = null;
+      panel.classList.add('is-collapsed');
+      panel.classList.remove('is-animating');
+    };
+    panel.addEventListener('transitionend', panel._teamTransitionHandler);
+  }
+
+  document.querySelectorAll('.team-group-toggle').forEach(function (toggle) {
+    if (toggle.dataset.ready === '1') return;
+    toggle.dataset.ready = '1';
+    var targetId = toggle.getAttribute('aria-controls');
+    var panel = targetId ? document.getElementById(targetId) : null;
+    setPanelInitialState(panel);
+
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      if (expanded) collapsePanel(panel);
+      else expandPanel(panel);
+    });
+  });
+
+  window.addEventListener('resize', function () {
+    document.querySelectorAll('.team-group-panel:not(.is-collapsed)').forEach(function (panel) {
+      panel.style.height = panel.scrollHeight + 'px';
+    });
+  });
+
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.people-widget .people-person'));
+  cards.forEach(function (card, index) {
+    card.style.setProperty('--team-reveal-delay', Math.min(index * 45, 360) + 'ms');
+  });
+
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+
+    cards.forEach(function (card) {
+      observer.observe(card);
+    });
+  } else {
+    cards.forEach(function (card) {
+      card.classList.add('is-visible');
+    });
+  }
+})();
+</script>
+
+
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+      
+        <div class="section-heading col-12 mb-3 text-center">
+          <h1 class="mb-0">合作者地图</h1>
+          
+        </div>
+      
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <div class="collab-map-wrap">
+  <div class="collab-map-heading">
+    <div>
+      <p>Global collaboration network</p>
+      <h3>Collaborator Map</h3>
+    </div>
+    <span>Drag, zoom, and hover city nodes</span>
+  </div>
+  <div id="collaborator-map" class="collab-map"></div>
+  <div id="collaborator-map-detail" class="collab-map-detail" aria-live="polite">
+    <div class="collab-map-detail__empty">
+      <i class="fas fa-location-dot" aria-hidden="true"></i>
+      <p>Click a city node to view collaborators in that region.</p>
+    </div>
+  </div>
+</div>
+<style>
+  .collab-map-wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 26px;
+    background:
+      radial-gradient(circle at 10% 0%, rgba(20, 184, 166, 0.11), transparent 30%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(15, 23, 42, 0.035));
+    box-shadow: 0 20px 54px rgba(15, 23, 42, 0.10);
+  }
+
+  .collab-map-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.25rem 0.25rem 1rem;
+  }
+
+  .collab-map-heading p {
+    margin: 0 0 0.25rem;
+    color: #14b8a6;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-heading h3 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.6rem);
+    font-weight: 900;
+    line-height: 0.98;
+  }
+
+  .collab-map-heading span {
+    color: rgba(148, 163, 184, 0.95);
+    font-size: 0.92rem;
+    font-weight: 800;
+  }
+
+  .collab-map {
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 22px;
+    background: #0b1220;
+  }
+
+  .collab-map .leaflet-tile-pane {
+    filter: saturate(0.88) contrast(1.03);
+  }
+
+  .collab-marker {
+    filter: drop-shadow(0 8px 18px rgba(2, 6, 23, 0.34));
+    opacity: 1;
+    transition:
+      filter 0.22s ease,
+      opacity 0.22s ease;
+  }
+
+  .collab-marker.is-hovered {
+    filter:
+      drop-shadow(0 0 10px rgba(153, 246, 228, 0.72))
+      drop-shadow(0 12px 22px rgba(2, 6, 23, 0.40));
+  }
+
+  .collab-tooltip {
+    max-width: 390px;
+    border: 0 !important;
+    border-radius: 16px !important;
+    background: rgba(15, 23, 42, 0.94) !important;
+    color: #f8fafc !important;
+    box-shadow: 0 20px 44px rgba(2, 6, 23, 0.28) !important;
+    padding: 0.8rem 0.95rem !important;
+    transform: translateY(-4px);
+  }
+
+  .collab-tooltip::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    width: 1px;
+    height: 18px;
+    background: linear-gradient(180deg, rgba(153, 246, 228, 0.72), transparent);
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+
+  .collab-popup__title {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.45rem;
+    color: #fff;
+    font-weight: 900;
+  }
+
+  .collab-popup__title span {
+    flex: 0 0 auto;
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.16);
+    padding: 0.18rem 0.45rem;
+    color: #99f6e4;
+    font-size: 0.78rem;
+  }
+
+  .collab-tooltip ul {
+    display: grid;
+    gap: 0.35rem;
+    max-height: 220px;
+    overflow: auto;
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .collab-tooltip li {
+    margin: 0;
+    color: rgba(226, 232, 240, 0.9);
+    line-height: 1.35;
+  }
+
+  .collab-tooltip strong {
+    color: #f8fafc;
+  }
+
+  .collab-map .leaflet-control-zoom a {
+    border-color: rgba(148, 163, 184, 0.2);
+    background: rgba(15, 23, 42, 0.86);
+    color: #e5eefc;
+  }
+
+  .collab-map .leaflet-control-attribution {
+    border-radius: 999px 0 0 0;
+    background: rgba(15, 23, 42, 0.72);
+    color: rgba(226, 232, 240, 0.78);
+  }
+
+  .collab-map .leaflet-control-attribution a {
+    color: #99f6e4;
+  }
+
+  .collab-map-detail {
+    margin-top: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.16);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.54);
+    padding: 1rem;
+    overflow: hidden;
+  }
+
+  .collab-map-detail > * {
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+      opacity 0.26s ease,
+      transform 0.36s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .collab-map-detail.is-updating > * {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+
+  .collab-map-detail__empty {
+    display: grid;
+    min-height: 96px;
+    place-items: center;
+    align-content: center;
+    gap: 0.55rem;
+    color: rgba(100, 116, 139, 0.78);
+    text-align: center;
+  }
+
+  .collab-map-detail__empty i {
+    color: #14b8a6;
+    font-size: 1.5rem;
+  }
+
+  .collab-map-detail__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .collab-map-detail__header p {
+    margin: 0 0 0.25rem;
+    color: #14b8a6;
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-detail__header h4 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.8vw, 2.3rem);
+    font-weight: 900;
+    line-height: 1.05;
+  }
+
+  .collab-map-detail__count {
+    flex: 0 0 auto;
+    border: 1px solid rgba(20, 184, 166, 0.22);
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.09);
+    padding: 0.45rem 0.72rem;
+    color: #0f766e;
+    font-size: 0.86rem;
+    font-weight: 900;
+  }
+
+  .collab-map-detail__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .collab-map-detail__person {
+    display: grid;
+    gap: 0.25rem;
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.58);
+    padding: 0.8rem 0.9rem;
+  }
+
+  .collab-map-detail__person a,
+  .collab-map-detail__person button {
+    width: fit-content;
+    border: 0;
+    background: transparent;
+    color: #0f766e;
+    padding: 0;
+    font: inherit;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .collab-map-detail__person a:hover,
+  .collab-map-detail__person button:hover {
+    color: #2563eb;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .collab-map-detail__person span {
+    color: rgba(71, 85, 105, 0.82);
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .collab-map-detail__papers {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.45rem;
+    padding-top: 0.55rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.14);
+  }
+
+  .collab-map-detail__papers strong {
+    color: rgba(15, 23, 42, 0.92);
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .collab-map-detail__papers ol {
+    display: grid;
+    gap: 0.38rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .collab-map-detail__papers li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.55rem;
+    align-items: start;
+  }
+
+  .collab-map-detail__paper {
+    width: auto !important;
+    color: #334155 !important;
+    font-size: 0.86rem !important;
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+  }
+
+  .collab-map-detail__paper-year {
+    border-radius: 999px;
+    background: rgba(20, 184, 166, 0.10);
+    padding: 0.12rem 0.38rem;
+    color: #0f766e !important;
+    font-size: 0.72rem !important;
+    font-weight: 900;
+  }
+
+  .collab-map-detail__more {
+    width: fit-content !important;
+    border-radius: 999px !important;
+    background: rgba(37, 99, 235, 0.10) !important;
+    padding: 0.26rem 0.58rem !important;
+    color: #2563eb !important;
+    font-size: 0.78rem !important;
+    font-weight: 900 !important;
+    text-decoration: none !important;
+  }
+
+  .collab-map-detail__more:hover {
+    background: rgba(37, 99, 235, 0.16) !important;
+    text-decoration: none !important;
+  }
+
+  .collab-map-detail__no-papers {
+    margin: 0;
+    color: rgba(100, 116, 139, 0.78);
+    font-size: 0.84rem;
+    line-height: 1.35;
+  }
+
+  .dark .collab-map-wrap {
+    border-color: rgba(148, 163, 184, 0.14);
+    background:
+      radial-gradient(circle at 8% 0%, rgba(45, 212, 191, 0.10), transparent 30%),
+      linear-gradient(180deg, rgba(15, 23, 42, 0.92), rgba(11, 18, 32, 0.96));
+    box-shadow: 0 22px 58px rgba(0, 0, 0, 0.24);
+  }
+
+  .dark .collab-map-detail {
+    border-color: rgba(148, 163, 184, 0.14);
+    background: rgba(15, 23, 42, 0.58);
+  }
+
+  .dark .collab-map-detail__person {
+    border-color: rgba(148, 163, 184, 0.13);
+    background: rgba(15, 23, 42, 0.62);
+  }
+
+  .dark .collab-map-detail__person a,
+  .dark .collab-map-detail__person button {
+    color: #99f6e4;
+  }
+
+  .dark .collab-map-detail__person span,
+  .dark .collab-map-detail__empty {
+    color: rgba(226, 232, 240, 0.72);
+  }
+
+  .dark .collab-map-detail__papers {
+    border-top-color: rgba(148, 163, 184, 0.16);
+  }
+
+  .dark .collab-map-detail__papers strong {
+    color: rgba(226, 232, 240, 0.92);
+  }
+
+  .dark .collab-map-detail__paper {
+    color: rgba(226, 232, 240, 0.9) !important;
+  }
+
+  .dark .collab-map-detail__no-papers {
+    color: rgba(226, 232, 240, 0.62);
+  }
+
+  @media (max-width: 768px) {
+    .collab-map-wrap { padding: 0.75rem; border-radius: 22px; }
+    .collab-map-heading { align-items: flex-start; flex-direction: column; }
+    .collab-map { height: 460px; border-radius: 18px; }
+    .collab-map-detail__header { align-items: flex-start; flex-direction: column; }
+    .collab-map-detail__list { grid-template-columns: 1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .collab-marker,
+    .collab-map-detail > * {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+<script>
+  (function () {
+    var collaboratorCityData = [
+  {
+    "city": "มหาวิทยาลัยมหิดล",
+    "country": "",
+    "lat": 13.7947,
+    "lng": 100.3219,
+    "count": 9,
+    "collaborators": [
+      {
+        "name": "Sophida Suta",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Bonggochpass Pinsawas",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Apinya Surawit",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Suphawan Ophakas",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Phongthana Pasookhush",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Pichanun Mongkolsucharitkul",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Thananya Soonkum",
+        "institution": "Mahidol University (Salaya Campus)"
+      },
+      {
+        "name": "Sureeporn Pumeiam",
+        "institution": "Mahidol University"
+      },
+      {
+        "name": "Korapat Mayurasakorn",
+        "institution": "Mahidol University"
+      }
+    ]
+  },
+  {
+    "city": "Tan Tock Seng Hospital",
+    "country": "",
+    "lat": 1.3213,
+    "lng": 103.8467,
+    "count": 8,
+    "collaborators": [
+      {
+        "name": "Chuanhui Xu",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ying Jie Chee",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ai Ying Teh",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Claire Min-Li Teo",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Justina Wei Lyn Tan",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Ee Tzun Koh",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Khai Pang Leong",
+        "institution": "Tan Tock Seng Hospital"
+      },
+      {
+        "name": "Rinkoo Dalan",
+        "institution": "Tan Tock Seng Hospital"
+      }
+    ]
+  },
+  {
+    "city": "Stanford University",
+    "country": "",
+    "lat": 37.4313,
+    "lng": -122.1694,
+    "count": 4,
+    "collaborators": [
+      {
+        "name": "Chuchu Wang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Peng Gao",
+        "institution": "Stanford University"
+      }
+    ]
+  },
+  {
+    "city": "Harvard Medical School",
+    "country": "",
+    "lat": 42.3369,
+    "lng": -71.1039,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Morgan L Turner",
+        "institution": "Harvard Medical School"
+      }
+    ]
+  },
+  {
+    "city": "Radboud Universitair Medisch Centrum",
+    "country": "",
+    "lat": 51.8228,
+    "lng": 5.8622,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Thomas C Smits",
+        "institution": "Radboudumc"
+      }
+    ]
+  },
+  {
+    "city": "Knox Selfie Lab",
+    "country": "",
+    "lat": 35.9684,
+    "lng": -83.9211,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "George Weinstock",
+        "institution": "The Jackson Lab"
+      }
+    ]
+  },
+  {
+    "city": "The Ohio State University",
+    "country": "",
+    "lat": 40.0057,
+    "lng": -83.0287,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Daniel J Spakowicz",
+        "institution": "The Ohio State University"
+      }
+    ]
+  },
+  {
+    "city": "University of Connecticut Health Center",
+    "country": "",
+    "lat": 41.7334,
+    "lng": -72.7923,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Yanjiao Zhou",
+        "institution": "UCONN HEALTH"
+      }
+    ]
+  }
+]
+;
+
+    var profilePages = [{ name: "admin", url: "/zh/author/admin/" }];
+
+    var publicationPages = [];
+
+    var fallbackData = [
+      { city: "Palo Alto", country: "USA", lat: 37.4419, lng: -122.1430, count: 3, collaborators: [
+        { name: "Prof. Michael SNYDER", institution: "Stanford University" },
+        { name: "Dr. Daniel Panyard", institution: "Stanford University" },
+        { name: "Dr. Nasim BARAPOUR", institution: "Stanford University" }
+      ]},
+      { city: "Gainesville", country: "USA", lat: 29.6516, lng: -82.3248, count: 2, collaborators: [
+        { name: "Prof. Sai ZHANG", institution: "University of Florida" },
+        { name: "Prof. Wei SHAO", institution: "University of Florida" }
+      ]},
+      { city: "New Haven", country: "USA", lat: 41.3083, lng: -72.9279, count: 1, collaborators: [
+        { name: "Prof. Caroline JOHNSON", institution: "Yale University" }
+      ]},
+      { city: "Hangzhou", country: "China", lat: 30.2741, lng: 120.1551, count: 1, collaborators: [
+        { name: "Prof. Chao Jiang", institution: "Zhejiang University" }
+      ]},
+      { city: "Singapore", country: "Singapore", lat: 1.3521, lng: 103.8198, count: 1, collaborators: [
+        { name: "Prof. Chuchu Wang", institution: "Nanyang Technological University Singapore" }
+      ]},
+      { city: "Redwood City", country: "USA", lat: 37.4852, lng: -122.2364, count: 1, collaborators: [
+        { name: "Dr. Daniel Hornburg", institution: "Seer" }
+      ]},
+      { city: "Hong Kong", country: "China", lat: 22.3193, lng: 114.1694, count: 1, collaborators: [
+        { name: "Dr. Hong YAN", institution: "Hong Kong Baptist University" }
+      ]},
+      { city: "Milwaukee", country: "USA", lat: 43.0389, lng: -87.9065, count: 1, collaborators: [
+        { name: "Prof. Liang LIANG", institution: "Medical College of Wisconsin" }
+      ]},
+      { city: "Cambridge", country: "USA", lat: 42.3736, lng: -71.1097, count: 1, collaborators: [
+        { name: "Prof. Peng GAO", institution: "Harvard University" }
+      ]},
+      { city: "Los Angeles", country: "USA", lat: 34.0522, lng: -118.2437, count: 1, collaborators: [
+        { name: "Dr. Ryan KELLOGG", institution: "RTHM" }
+      ]},
+      { city: "North Chicago", country: "USA", lat: 42.3256, lng: -87.8412, count: 1, collaborators: [
+        { name: "Dr. Si Wu", institution: "AbbVie" }
+      ]},
+      { city: "Rahway", country: "USA", lat: 40.6082, lng: -74.2776, count: 1, collaborators: [
+        { name: "Dr. Songjie Chen", institution: "Merck" }
+      ]},
+      { city: "Shanghai", country: "China", lat: 31.2304, lng: 121.4737, count: 1, collaborators: [
+        { name: "Prof. Xin ZHOU", institution: "Fudan University" }
+      ]},
+      { city: "Beijing", country: "China", lat: 39.9042, lng: 116.4074, count: 1, collaborators: [
+        { name: "Prof. Zheng-Jiang ZHU", institution: "Chinese Academy of Sciences" }
+      ]}
+    ];
+
+    function ensureLeaflet() {
+      if (window.L) return;
+      if (!document.querySelector("link[data-collab-leaflet='1']")) {
+        var css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.href = "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css";
+        css.setAttribute("data-collab-leaflet", "1");
+        document.head.appendChild(css);
+      }
+      if (!document.querySelector("script[data-collab-leaflet='1']")) {
+        var js = document.createElement("script");
+        js.src = "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js";
+        js.setAttribute("data-collab-leaflet", "1");
+        document.body.appendChild(js);
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[&<>"']/g, function (m) {
+        return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;" }[m];
+      });
+    }
+
+    function normalizeName(value) {
+      return String(value || "")
+        .toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/\b(professor|prof|dr|mr|mrs|ms|phd|md)\b\.?/g, "")
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim()
+        .replace(/\s+/g, " ");
+    }
+
+    function nameKeys(value) {
+      var normalized = normalizeName(value);
+      if (!normalized) return [];
+      var parts = normalized.split(" ");
+      var keys = [normalized];
+      if (parts.length >= 2) {
+        keys.push(parts[0].charAt(0) + " " + parts[parts.length - 1]);
+        keys.push(parts[0].charAt(0) + parts[parts.length - 1]);
+      }
+      return keys;
+    }
+
+    function namesMatch(a, b) {
+      var aKeys = nameKeys(a);
+      var bKeys = nameKeys(b);
+      return aKeys.some(function (aKey) {
+        return bKeys.some(function (bKey) {
+          return aKey === bKey || aKey.indexOf(bKey) >= 0 || bKey.indexOf(aKey) >= 0;
+        });
+      });
+    }
+
+    var profileIndex = {};
+    profilePages.forEach(function (profile) {
+      nameKeys(profile.name).forEach(function (key) {
+        if (!profileIndex[key]) profileIndex[key] = profile.url;
+      });
+    });
+
+    function findProfile(name) {
+      var keys = nameKeys(name);
+      for (var i = 0; i < keys.length; i += 1) {
+        if (profileIndex[keys[i]]) return profileIndex[keys[i]];
+      }
+      return "";
+    }
+
+    function uniqueCollaborators(items) {
+      var seen = {};
+      return (items || []).filter(function (item) {
+        var key = normalizeName(item.name) + "|" + normalizeName(item.institution);
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+      });
+    }
+
+    var publicationCache = {};
+    function collaboratorPublications(name) {
+      var key = normalizeName(name);
+      if (publicationCache[key]) return publicationCache[key];
+      var matches = publicationPages.filter(function (publication) {
+        return (publication.authors || []).some(function (author) {
+          return namesMatch(name, author);
+        });
+      });
+      publicationCache[key] = matches;
+      return matches;
+    }
+
+    function publicationAuthorForFilter(name, papers) {
+      for (var i = 0; i < papers.length; i += 1) {
+        var authors = papers[i].authors || [];
+        for (var j = 0; j < authors.length; j += 1) {
+          if (namesMatch(name, authors[j])) return authors[j];
+        }
+      }
+      return name;
+    }
+
+    function filteredPublicationUrl(name, papers) {
+      return "/publication/?author=" + encodeURIComponent(publicationAuthorForFilter(name, papers || []));
+    }
+
+    function renderPapers(name) {
+      var papers = collaboratorPublications(name);
+      if (!papers.length) {
+        return "<div class='collab-map-detail__papers'>"
+          + "<strong>Recent collaborative papers</strong>"
+          + "<p class='collab-map-detail__no-papers'>No matched publication data yet.</p>"
+          + "</div>";
+      }
+      var paperRows = papers.slice(0, 5).map(function (paper) {
+        return "<li>"
+          + "<a class='collab-map-detail__paper' href='" + escapeHtml(paper.url) + "'>" + escapeHtml(paper.title) + "</a>"
+          + "<span class='collab-map-detail__paper-year'>" + escapeHtml(paper.year) + "</span>"
+          + "</li>";
+      }).join("");
+      var more = papers.length > 5
+        ? "<a class='collab-map-detail__more' href='" + filteredPublicationUrl(name, papers) + "'>More papers (" + papers.length + ")</a>"
+        : "";
+      return "<div class='collab-map-detail__papers'>"
+        + "<strong>Recent collaborative papers</strong>"
+        + "<ol>" + paperRows + "</ol>"
+        + more
+        + "</div>";
+    }
+
+    function renderDetail(region) {
+      var panel = document.getElementById("collaborator-map-detail");
+      if (!panel) return;
+      panel.classList.add("is-updating");
+      var people = uniqueCollaborators(region.collaborators);
+      var rows = people.map(function (person) {
+        var profile = findProfile(person.name);
+        var name = escapeHtml(person.name);
+        var institution = escapeHtml(person.institution || "Institution not listed");
+        var action = profile
+          ? "<a href='" + profile + "'>" + name + "</a>"
+          : "<button type='button' class='collab-profile-missing' data-name='" + name + "'>" + name + "</button>";
+        return "<li class='collab-map-detail__person'>" + action + "<span>" + institution + "</span>" + renderPapers(person.name) + "</li>";
+      }).join("");
+      var html = ""
+        + "<div class='collab-map-detail__header'>"
+        + "<div><p>Selected region</p><h4>" + escapeHtml(region.city) + ", " + escapeHtml(region.country) + "</h4></div>"
+        + "<span class='collab-map-detail__count'>" + people.length + " collaborator" + (people.length === 1 ? "" : "s") + "</span>"
+        + "</div>"
+        + "<ul class='collab-map-detail__list'>" + rows + "</ul>";
+
+      window.setTimeout(function () {
+        panel.innerHTML = html;
+        window.requestAnimationFrame(function () {
+          panel.classList.remove("is-updating");
+        });
+      }, window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 120);
+    }
+
+    function drawMarkers(map, data) {
+      var maxCount = data.reduce(function (m, d) { return Math.max(m, d.count || 1); }, 1);
+      var markerBounds = [];
+      data.forEach(function (d, index) {
+        var lat = Number(d.lat);
+        var lng = Number(d.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+        markerBounds.push([lat, lng]);
+        var ratio = (d.count || 1) / maxCount;
+        var radius = 7 + Math.sqrt(ratio) * 15;
+        var hoverRadius = radius * 1.25;
+        var popupRows = (d.collaborators || []).map(function (c) {
+          return "<li><strong>" + c.name + "</strong> (" + c.institution + ")</li>";
+        }).join("");
+        var popup = ""
+          + "<div class='collab-popup'>"
+          + "<div class='collab-popup__title'><strong>" + d.city + ", " + d.country + "</strong><span>" + d.count + "</span></div>"
+          + "<ul>" + popupRows + "</ul>"
+          + "</div>";
+
+        var marker = L.circleMarker([lat, lng], {
+          radius: radius,
+          color: "rgba(255,255,255,0.92)",
+          fillColor: "rgba(20,184,166,0.82)",
+          weight: 2,
+          fillOpacity: 0.86,
+          className: "collab-marker"
+        }).bindTooltip(popup, {
+          direction: "top",
+          sticky: true,
+          opacity: 0.98,
+          className: "collab-tooltip"
+        }).on("add", function () {
+          if (marker._path) {
+            marker._path.style.setProperty("--collab-marker-delay", Math.min(index * 60, 900) + "ms");
+          }
+        }).on("mouseover", function () {
+          marker.setRadius(hoverRadius);
+          if (marker._path) marker._path.classList.add("is-hovered");
+          marker.openTooltip();
+        }).on("mouseout", function () {
+          marker.setRadius(radius);
+          if (marker._path) marker._path.classList.remove("is-hovered");
+        }).on("click", function () {
+          renderDetail(d);
+          map.flyTo([lat, lng], Math.max(map.getZoom(), 3), { duration: 0.65 });
+          var panel = document.getElementById("collaborator-map-detail");
+          if (panel) panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        }).addTo(map);
+      });
+
+      if (markerBounds.length > 1) {
+        map.fitBounds(markerBounds, {
+          padding: [36, 36],
+          maxZoom: window.matchMedia("(max-width: 768px)").matches ? 1 : 2
+        });
+      }
+    }
+
+    function initMap() {
+      if (!window.L) return false;
+      var el = document.getElementById("collaborator-map");
+      if (!el || el.dataset.ready === "1") return true;
+      el.dataset.ready = "1";
+
+      var worldBounds = L.latLngBounds([[-85, -180], [85, 180]]);
+      var minZoom = window.matchMedia("(max-width: 768px)").matches ? 1 : 2;
+      var map = L.map(el, {
+        zoomControl: true,
+        worldCopyJump: false,
+        maxBounds: worldBounds,
+        maxBoundsViscosity: 1.0,
+        minZoom: minZoom,
+        maxZoom: 8
+      }).setView([20, 10], minZoom);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        noWrap: true,
+        bounds: worldBounds,
+        minZoom: minZoom,
+        maxZoom: 8,
+        attribution: "&copy; OpenStreetMap contributors"
+      }).addTo(map);
+
+      if (Array.isArray(collaboratorCityData) && collaboratorCityData.length) {
+        drawMarkers(map, collaboratorCityData);
+      } else {
+        drawMarkers(map, fallbackData);
+      }
+
+      return true;
+    }
+
+    ensureLeaflet();
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".collab-profile-missing");
+      if (!button) return;
+      event.preventDefault();
+      window.alert("No profile found for " + (button.dataset.name || "this collaborator") + ".");
+    });
+    if (!initMap()) {
+      var tries = 0;
+      var timer = setInterval(function () {
+        tries += 1;
+        if (initMap() || tries > 20) clearInterval(timer);
+      }, 250);
+    }
+  })();
+</script>
+
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="section-markdown" class="home-section wg-markdown  "  >
+ <div class="home-section-bg " >
+   
+ </div>
+  <div class="container">
+
+  
+    <div class="row  justify-content-center">
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+  <div class="col-12">
+    <section class="collaborator-logo-wall" aria-label="Collaborator institution logos">
+  <div class="collaborator-logo-wall__head">
+    <div>
+      <p>Collaborator institutions</p>
+      <h3>Our global collaboration network</h3>
+    </div>
+    <span>Selected institutions from shared publications</span>
+  </div>
+
+  <div class="collaborator-logo-wall__grid">
+    
+      <a class="collaborator-logo-wall__item" href="https://www.stanford.edu/" target="_blank" rel="noopener" aria-label="Stanford University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/stanford-university.png" alt="Stanford University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Stanford University</strong>
+          <em>85 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener" aria-label="Nanyang Technological University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/nanyang-technological-university.png" alt="Nanyang Technological University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Nanyang Technological University</strong>
+          <em>21 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener" aria-label="Zhejiang University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/zhejiang-university.svg" alt="Zhejiang University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Zhejiang University</strong>
+          <em>9 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.cuhk.edu.hk/" target="_blank" rel="noopener" aria-label="Chinese University of Hong Kong">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/chinese-university-of-hong-kong.svg" alt="Chinese University of Hong Kong logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Chinese University of Hong Kong</strong>
+          <em>7 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.ufl.edu/" target="_blank" rel="noopener" aria-label="University of Florida">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/university-of-florida.svg" alt="University of Florida logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>University of Florida</strong>
+          <em>7 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.upenn.edu/" target="_blank" rel="noopener" aria-label="University of Pennsylvania">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/university-of-pennsylvania.svg" alt="University of Pennsylvania logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>University of Pennsylvania</strong>
+          <em>7 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.harvard.edu/" target="_blank" rel="noopener" aria-label="Harvard University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/harvard-university.png" alt="Harvard University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Harvard University</strong>
+          <em>6 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.vanderbilt.edu/" target="_blank" rel="noopener" aria-label="Vanderbilt University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/vanderbilt-university.svg" alt="Vanderbilt University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Vanderbilt University</strong>
+          <em>5 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.fudan.edu.cn/en/" target="_blank" rel="noopener" aria-label="Fudan University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/fudan-university.png" alt="Fudan University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Fudan University</strong>
+          <em>4 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.mit.edu/" target="_blank" rel="noopener" aria-label="Massachusetts Institute of Technology">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/massachusetts-institute-of-technology.png" alt="Massachusetts Institute of Technology logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Massachusetts Institute of Technology</strong>
+          <em>2 collaborators</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://nus.edu.sg/" target="_blank" rel="noopener" aria-label="National University of Singapore">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/national-university-of-singapore.png" alt="National University of Singapore logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>National University of Singapore</strong>
+          <em>1 collaborator</em>
+        </span>
+      </a>
+    
+      <a class="collaborator-logo-wall__item" href="https://www.yale.edu/" target="_blank" rel="noopener" aria-label="Yale University">
+        <span class="collaborator-logo-wall__logo">
+          <img src="/image/collaborators/yale-university.png" alt="Yale University logo" loading="lazy">
+        </span>
+        <span class="collaborator-logo-wall__meta">
+          <strong>Yale University</strong>
+          <em>1 collaborator</em>
+        </span>
+      </a>
+    
+  </div>
+</section>
+
+
+  </div>
+
+
+
+  
+    </div>
+  
+
+  </div>
+</section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  <div class="custom-footer-shell">
+    <div class="custom-footer-grid">
+      <section class="custom-footer-panel custom-footer-support" aria-labelledby="footer-support-title">
+        <h2 id="footer-support-title">Honored supported by</h2>
+        <div class="custom-footer-logo-grid">
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener" aria-label="Nanyang Technological University">
+            <img src="/image/ntu_logo.png" alt="Nanyang Technological University">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/medicine" target="_blank" rel="noopener" aria-label="Lee Kong Chian School of Medicine">
+            <img src="/image/lkcmedicine.png" alt="Lee Kong Chian School of Medicine">
+          </a>
+          <a class="custom-footer-logo-card" href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener" aria-label="School of Chemistry, Chemical Engineering and Biotechnology">
+            <img src="/image/cceb_logo.png" alt="School of Chemistry, Chemical Engineering and Biotechnology">
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Connect with Shen Lab</h2>
+        <div class="custom-footer-link-list">
+          <a href="https://github.com/jaspershen-lab" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+            <span>GitHub</span>
+          </a>
+          <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-weixin" aria-hidden="true"></i>
+            <span>WeChat</span>
+          </a>
+          <a href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://jaspershen.github.io/#contact" target="_blank" rel="noopener">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>Email</span>
+          </a>
+          <a class="custom-footer-address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>59 Nanyang Dr, Singapore 636921</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="custom-footer-panel custom-footer-visitors" aria-labelledby="footer-visitors-title">
+        <h2 id="footer-visitors-title">Global reach</h2>
+        <div class="custom-footer-globe">
+          <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=xgKXZDRqP3B4_zVrtEfgkE6zTvADm5-NjBIt4rfdTzk&cl=ffffff&w=a"></script>
+          <noscript>
+            <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener">View visitor map</a>
+          </noscript>
+        </div>
+      </section>
+    </div>
+  </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2026 Shen Lab @ <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener">Nanyang Technological University</a>
+  </p>
+  
+
+
+
+
+  
+  <script src="/js/team_membership_stats.js"></script>
+  <script src="/js/team_collaboration_network.js?v=20260617-motion"></script>
+  
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.32ee83730ed883becad04bc5170512cc.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.min.js" integrity="" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://blog-at8qrhng8b.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/zh/js/wowchemy.min.09ae9115b27a4e440245b78a395f42c2.js"></script>
+
+
+
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
