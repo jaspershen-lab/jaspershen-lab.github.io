@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fangqing ZHAO | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/fangqing-zhao/</link>
+      <atom:link href="https://shen-lab.org/author/fangqing-zhao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fangqing ZHAO</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <title>Fangqing ZHAO</title>
+      <link>https://shen-lab.org/author/fangqing-zhao/</link>
+    </image>
+    
+    <item>
+      <title>MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data</title>
+      <link>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
