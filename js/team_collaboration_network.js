@@ -1,10 +1,10 @@
 (function () {
   const CATEGORY_COLORS = {
     PI: '#d7263d',
-    Researchers: '#3367d6',
-    Students: '#7c3aed',
-    'Co-supervised Students': '#f59e0b',
-    Intern: '#22b981'
+    Researchers: '#c64d64',
+    Students: '#a73c5a',
+    'Co-supervised Students': '#d9828b',
+    Intern: '#a87880'
   };
 
   function parseMaybeJson(id) {
@@ -66,10 +66,10 @@
       document.body.classList.contains('dark-mode');
     return {
       label: isDark ? '#f8fafc' : '#1f2937',
-      muted: isDark ? 'rgba(226,232,240,0.68)' : 'rgba(71,85,105,0.72)',
-      line: isDark ? 'rgba(148,163,184,0.33)' : 'rgba(100,116,139,0.34)',
-      lineActive: isDark ? 'rgba(153,246,228,0.88)' : 'rgba(15,118,110,0.72)',
-      ring: isDark ? 'rgba(255,255,255,0.12)' : 'rgba(15,23,42,0.08)'
+      muted: isDark ? 'rgba(226, 232, 240,0.68)' : 'rgba(71, 85, 105,0.72)',
+      line: isDark ? 'rgba(148, 163, 184,0.33)' : 'rgba(100, 116, 139,0.34)',
+      lineActive: isDark ? 'rgba(255, 158, 172,0.88)' : 'rgba(178, 31, 47,0.72)',
+      ring: isDark ? 'rgba(255, 255, 255,0.12)' : 'rgba(15, 23, 42,0.08)'
     };
   }
 
@@ -154,7 +154,7 @@
       color: CATEGORY_COLORS[member.category] || '#64748b',
       url: member.permalink,
       pubs: publicationsByMember.get(slug) || []
-    })).sort((a, b) => {
+    })).filter(node => node.value > 0).sort((a, b) => {
       const order = ['PI', 'Researchers', 'Students', 'Co-supervised Students', 'Intern'];
       return order.indexOf(a.category) - order.indexOf(b.category) || a.label.localeCompare(b.label);
     });
@@ -360,7 +360,7 @@
       const collabs = topCollaborators(node, state) || '<p class="team-collab-profile__empty">No shared-paper links in current view.</p>';
       const initial = escapeHtml((node.label || '?').trim().charAt(0));
       setPanelContent(`
-        <article class="team-collab-profile" style="--profile-accent: ${node.color || '#14b8a6'};">
+        <article class="team-collab-profile" style="--profile-accent: ${node.color || '#c62d43'};">
           <div class="team-collab-profile__hero">
             <div class="team-collab-profile__glow" aria-hidden="true"></div>
             <div class="team-collab-profile__avatar-wrap">

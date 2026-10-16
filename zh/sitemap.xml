@@ -72,20 +72,6 @@
                 href="https://shen-lab.org/zh/research/"
                 />
   </url><url>
-    <loc>https://shen-lab.org/zh/contact/</loc>
-    <lastmod>2026-09-10T12:27:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://shen-lab.org/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://shen-lab.org/zh/contact/"
-                />
-  </url><url>
     <loc>https://shen-lab.org/zh/</loc>
     <lastmod>2026-09-17T23:27:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -179,6 +165,20 @@
                 rel="alternate"
                 hreflang="zh-Hans"
                 href="https://shen-lab.org/zh/news/"
+                />
+  </url><url>
+    <loc>https://shen-lab.org/zh/contact/</loc>
+    <lastmod>2026-09-10T12:27:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://shen-lab.org/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://shen-lab.org/zh/contact/"
                 />
   </url><url>
     <loc>https://shen-lab.org/zh/publication/</loc>

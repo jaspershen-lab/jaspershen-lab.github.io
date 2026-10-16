@@ -5,10 +5,10 @@
 
     var colors = {
       'PI': '#d7263d',
-      'Researchers': '#2563eb',
-      'Students': '#7c3aed',
-      'Co-supervised Students': '#f59e0b',
-      'Intern': '#10b981'
+      'Researchers': '#c64d64',
+      'Students': '#a73c5a',
+      'Co-supervised Students': '#d9828b',
+      'Intern': '#a87880'
     };
 
     root.querySelectorAll('.team-donut-legend__item').forEach(function (el) {
@@ -42,22 +42,16 @@
         if (ib === -1) ib = 999;
         return ia - ib;
       });
-    var barData = parseMaybeDoubleEncodedJSON((root.querySelector('.team-stats-bar-data') || {}).textContent || '[]', []);
     var svg = root.querySelector('.team-donut-svg');
     var tooltip = root.querySelector('.team-stats-tooltip');
     var totalValue = root.querySelector('.team-donut-total__num');
     var totalTarget = Number((totalValue && totalValue.dataset.totalTarget) || 0);
     var hoveredArc = -1;
     var animated = false;
-    var inView = false;
     var currentDonutProgress = 0;
-    var donutAnimFrame = null;
-    var barTimers = [];
-    var startDelayTimer = null;
-    var DONUT_DURATION = 7000;
-    var COUNT_DURATION = 5000;
-    var BAR_STAGGER = 60;
-    var DONUT_FADE_DURATION = 900;
+    var animationFrame = null;
+    var motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var ANIMATION_DURATION = 900;
 
     function polar(cx, cy, r, deg) {
       var rad = (deg - 90) * Math.PI / 180;
@@ -93,7 +87,7 @@
       track.setAttribute('cy', '160');
       track.setAttribute('r', String((outer + inner) / 2));
       track.setAttribute('fill', 'none');
-      track.setAttribute('stroke', document.body.classList.contains('dark') ? 'rgba(148,163,184,0.18)' : 'rgba(148,163,184,0.22)');
+      track.setAttribute('stroke', document.body.classList.contains('dark') ? 'rgba(148, 163, 184,0.18)' : 'rgba(148, 163, 184,0.22)');
       track.setAttribute('stroke-width', String(outer - inner));
       svg.appendChild(track);
       donutData.forEach(function (d, idx) {
@@ -113,9 +107,9 @@
           var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
           path.setAttribute('d', donutArcPath(cx, cy, outer + (idx === hoveredArc ? 10 : 0), inner, angle, angle + sweep));
           path.setAttribute('fill', d.color);
-          path.addEventListener('mouseenter', function (e) { hoveredArc = idx; renderDonut(progress); positionTooltip(e, d.label + ': ' + d.count); });
+          path.addEventListener('mouseenter', function (e) { hoveredArc = idx; renderDonut(currentDonutProgress); positionTooltip(e, d.label + ': ' + d.count); });
           path.addEventListener('mousemove', function (e) { positionTooltip(e, d.label + ': ' + d.count); });
-          path.addEventListener('mouseleave', function () { hoveredArc = -1; renderDonut(progress); hideTooltip(); });
+          path.addEventListener('mouseleave', function () { hoveredArc = -1; renderDonut(currentDonutProgress); hideTooltip(); });
           svg.appendChild(path);
         }
         angle += sliceFrac * 360;
@@ -124,7 +118,7 @@
       hole.setAttribute('cx', '160');
       hole.setAttribute('cy', '160');
       hole.setAttribute('r', '72');
-      hole.setAttribute('fill', document.body.classList.contains('dark') ? 'rgba(23,28,41,0.98)' : '#ffffff');
+      hole.setAttribute('fill', document.body.classList.contains('dark') ? 'rgba(23, 28, 41,0.98)' : '#ffffff');
       svg.appendChild(hole);
     }
     function resetDonutHover() {
@@ -132,85 +126,62 @@
       hideTooltip();
       renderDonut(currentDonutProgress);
     }
-    function animateCount(el, target, duration) {
-      if (!el) return;
-      var start = performance.now();
-      function step(ts) {
-        var p = Math.min(1, (ts - start) / duration);
-        el.textContent = String(Math.round(target * (1 - Math.pow(1 - p, 3))));
-        if (p < 1) requestAnimationFrame(step);
+    // Both charts and the total use one clock and one easing curve.
+    var rows = Array.prototype.slice.call(root.querySelectorAll('.team-bar-row'));
+    var maxCount = rows.reduce(function (max, row) {
+      return Math.max(max, Number(row.dataset.count || 0));
+    }, 1);
+    var bars = rows.map(function (row) {
+      var count = Number(row.dataset.count || 0);
+      var bar = row.querySelector('.team-bar-row__bar');
+      var value = row.querySelector('.team-bar-row__value');
+      row.style.transition = 'none';
+      row.classList.add('is-revealed');
+      if (bar) {
+        bar.style.width = (count / maxCount * 100) + '%';
+        bar.style.transformOrigin = 'left center';
+        bar.style.transition = 'none';
+        bar.style.transform = 'scaleX(0)';
       }
-      requestAnimationFrame(step);
-    }
-    function animateBars() {
-      var rows = Array.prototype.slice.call(root.querySelectorAll('.team-bar-row'));
-      if (!rows.length && Array.isArray(barData)) return;
-      var max = rows.reduce(function (m, row) { return Math.max(m, Number(row.dataset.count || 0)); }, 1);
-      rows.forEach(function (row, i) {
-        var count = Number(row.dataset.count || 0);
-        var bar = row.querySelector('.team-bar-row__bar');
-        var value = row.querySelector('.team-bar-row__value');
-        var pct = max ? (count / max) * 100 : 0;
-        var timer = setTimeout(function () {
-          row.classList.add('is-revealed');
-          if (bar) bar.style.width = pct + '%';
-          if (value) value.style.opacity = '1';
-        }, i * BAR_STAGGER);
-        barTimers.push(timer);
-        row.addEventListener('mouseenter', function (e) { row.classList.add('is-hover'); positionTooltip(e, count + ' publications'); });
-        row.addEventListener('mousemove', function (e) { positionTooltip(e, count + ' publications'); });
-        row.addEventListener('mouseleave', function () { row.classList.remove('is-hover'); hideTooltip(); });
+      if (value) { value.style.transition = 'none'; value.style.opacity = '1'; }
+      row.addEventListener('mouseenter', function (e) {
+        row.classList.add('is-hover'); positionTooltip(e, count + ' publications');
       });
+      row.addEventListener('mousemove', function (e) { positionTooltip(e, count + ' publications'); });
+      row.addEventListener('mouseleave', function () { row.classList.remove('is-hover'); hideTooltip(); });
+      return bar;
+    });
+    function renderProgress(progress) {
+      renderDonut(progress);
+      bars.forEach(function (bar) { if (bar) bar.style.transform = 'scaleX(' + progress + ')'; });
+      if (totalValue) totalValue.textContent = String(Math.round(totalTarget * progress));
     }
-    function resetBars() {
-      barTimers.forEach(clearTimeout);
-      barTimers = [];
-      root.querySelectorAll('.team-bar-row').forEach(function (row) {
-        row.classList.remove('is-revealed', 'is-hover');
-        var bar = row.querySelector('.team-bar-row__bar');
-        var value = row.querySelector('.team-bar-row__value');
-        if (bar) bar.style.width = '0%';
-        if (value) value.style.opacity = '0';
-      });
-    }
-    function resetAll() {
-      animated = false;
-      if (startDelayTimer) {
-        clearTimeout(startDelayTimer);
-        startDelayTimer = null;
-      }
-      if (donutAnimFrame) {
-        cancelAnimationFrame(donutAnimFrame);
-        donutAnimFrame = null;
-      }
-      resetDonutHover();
-      renderDonut(0);
-      if (svg) svg.style.opacity = '0';
-      if (totalValue) totalValue.textContent = '0';
-      resetBars();
+    function finish() {
+      cancelAnimationFrame(animationFrame);
+      animationFrame = null;
+      renderProgress(1);
     }
     function start() {
       if (animated) return;
       animated = true;
-      if (svg) {
-        svg.style.transition = 'opacity ' + DONUT_FADE_DURATION + 'ms ease';
-        svg.style.opacity = '1';
+      if (svg) { svg.style.transition = 'none'; svg.style.opacity = '1'; }
+      if (motionPreference.matches) { finish(); return; }
+      var startTime = null;
+      function tick(now) {
+        if (startTime === null) startTime = now;
+        var progress = Math.min(1, (now - startTime) / ANIMATION_DURATION);
+        renderProgress(1 - Math.pow(1 - progress, 3));
+        if (progress < 1) animationFrame = requestAnimationFrame(tick);
+        else animationFrame = null;
       }
-      startDelayTimer = setTimeout(function () {
-        if (!inView || !animated) return;
-        var startTs = performance.now();
-        var duration = DONUT_DURATION;
-        function tick(ts) {
-          var p = Math.min(1, (ts - startTs) / duration);
-          renderDonut(p);
-          if (p < 1) donutAnimFrame = requestAnimationFrame(tick);
-          else donutAnimFrame = null;
-        }
-        donutAnimFrame = requestAnimationFrame(tick);
-        animateCount(totalValue, totalTarget, COUNT_DURATION);
-        animateBars();
-      }, DONUT_FADE_DURATION + 80);
+      animationFrame = requestAnimationFrame(tick);
     }
+    motionPreference.addEventListener('change', function () {
+      if (motionPreference.matches && animated) finish();
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden && animated) finish();
+    });
 
     renderDonut(0);
     if (svg) {
@@ -226,22 +197,14 @@
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            if (!inView) {
-              inView = true;
-              resetAll();
-              startDelayTimer = setTimeout(function () {
-                if (inView) start();
-              }, 120);
-            }
-          } else if (inView) {
-            inView = false;
-            resetAll();
+            start();
+            io.unobserve(root);
           }
         });
       }, { threshold: 0.1 });
       io.observe(root);
     } else {
-      setTimeout(start, 100);
+      start();
     }
   }
 

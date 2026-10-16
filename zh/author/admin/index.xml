@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>admin | Shen Lab @ NTU</title>
+    <title>Admin | Shen Lab @ NTU</title>
     <link>https://shen-lab.org/zh/author/admin/</link>
       <atom:link href="https://shen-lab.org/zh/author/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>admin</description>
+    <description>Admin</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
-      <title>admin</title>
+      <url>https://shen-lab.org/author/xiaotao-shen/avatar_hu_93beed354b5ff1db.png</url>
+      <title>Admin</title>
       <link>https://shen-lab.org/zh/author/admin/</link>
     </image>
     
@@ -17,164 +17,163 @@
       <link>https://shen-lab.org/zh/research/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/zh/research/</guid>
-      <description>&lt;p&gt;Shen Lab 的总体研究方向是开发用于多组学和可穿戴数据分析的生物信息学算法，并将这些方法应用于精准医学和重要生物学问题。&lt;/p&gt;
-&lt;h1 id=&#34;多组学与可穿戴数据的方法开发&#34;&gt;多组学与可穿戴数据的方法开发&lt;/h1&gt;
-&lt;h2 id=&#34;质谱数据&#34;&gt;质谱数据&lt;/h2&gt;
-&lt;p&gt;质谱是测量离子质荷比的核心分析技术，可用于研究生物样本中的小分子、蛋白质、肽段、脂质和其他生物分子。我们关注质谱数据处理和分析中的生物信息学方法与算法开发，包括 LC-MS 数据处理流程、代谢网络分析，以及与转录组、蛋白组、微生物组等数据的整合。&lt;/p&gt;
-&lt;p&gt;
+      <description>
+
+&lt;div class=&#34;research-program&#34;&gt;
+  &lt;nav class=&#34;research-program__nav&#34; aria-label=&#34;研究主题&#34;&gt;
+    &lt;a href=&#34;#metabolomics&#34;&gt;从质谱信号到代谢功能&lt;/a&gt;&lt;a href=&#34;#networks&#34;&gt;AI 与网络驱动的多组学解释&lt;/a&gt;&lt;a href=&#34;#microbiome&#34;&gt;微生物群落与宿主代谢&lt;/a&gt;&lt;a href=&#34;#longitudinal&#34;&gt;以纵向轨迹理解健康&lt;/a&gt;&lt;a href=&#34;#pregnancy&#34;&gt;妊娠过程中的代谢轨迹&lt;/a&gt;
+  &lt;/nav&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;metabolomics&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;从质谱信号到代谢功能&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;如何让代谢组分析可复现，并产生可解释的生物学结果？&lt;/p&gt;
+      &lt;p&gt;我们开发用于 LC–MS 数据处理、化合物注释和功能分析的开源工具。TidyMass 提供模块化、可追溯的分析流程，metID 实现自动化化合物注释，TidyMass2 将分析拓展到代谢物来源与功能模块，利用尚未完成注释的代谢特征所携带的信息。&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/metabolomics_hu_380d48195746a06f.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;从样本、质谱信号到代谢通路。概念示意图。&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;从样本、质谱信号到代谢通路。概念示意图。&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;代表性论文&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/&#34;&gt;TidyMass an object-oriented reproducible analysis framework for LC–MS data&lt;/a&gt;&lt;span&gt;Nature Communications&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/&#34;&gt;TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis&lt;/a&gt;&lt;span&gt;Nature Communications&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/&#34;&gt;metID: an R package for automatable compound annotation for LC− MS-based data&lt;/a&gt;&lt;span&gt;Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;networks&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;AI 与网络驱动的多组学解释&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;哪些分子协同变化，它们的关系如何随时间演变？&lt;/p&gt;
+      &lt;p&gt;我们结合生物网络、统计建模和 AI，将多组学测量转化为可检验的假设。MAPA 发现功能模块，并利用文献支持的语言模型进行解释，已应用于衰老相关数据。lagCI 分析高频分子与可穿戴时间序列中的时滞关系。这些推断用于指导后续实验，本身并不能确立因果机制。&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/networks_hu_5d318e888142f6fb.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;整合多层分子信息，识别可解释的功能模块。概念示意图。&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;整合多层分子信息，识别可解释的功能模块。概念示意图。&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;代表性论文&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/&#34;&gt;MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data&lt;/a&gt;&lt;span&gt;Advanced Science&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/lagci-enables-inference-of-temporal-causal-relationships-from-dense-multi-omic-time-series/&#34;&gt;LagCI Enables Inference of Temporal Causal Relationships from Dense Multi-Omic Time Series&lt;/a&gt;&lt;span&gt;Briefings in Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;microbiome&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;微生物群落与宿主代谢&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;不同身体部位的微生物群落如何与人体生理状态关联？&lt;/p&gt;
+      &lt;p&gt;我们的合作研究将微生物动态与宿主分子和临床测量相联系。覆盖四个身体部位的纵向研究揭示了稳定、具有个体特征的微生物群落，以及与健康和疾病相关的变化。相关工作进一步研究跨部位微生物互作及其与循环代谢组的联系。&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/microbiome_hu_79b9bfbca43f47e2.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;微生物群落与宿主代谢之间的联系。概念示意图。&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;微生物群落与宿主代谢之间的联系。概念示意图。&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;代表性论文&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/&#34;&gt;Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease&lt;/a&gt;&lt;span&gt;Cell Host Microbe&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/&#34;&gt;Cross-body site microbial interactions influence the human plasma metabolome&lt;/a&gt;&lt;span&gt;Microbiome&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;longitudinal&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;以纵向轨迹理解健康&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;重复的分子测量能揭示哪些单次采样无法捕捉的信息？&lt;/p&gt;
+      &lt;p&gt;我们研究分子谱如何随日常生活和环境暴露而变化。多组学微量采样支持高频测量与生活方式相关的变化，纵向暴露组分析则探索外界暴露与体内分子响应的联系。结合可穿戴数据，这些方法为考虑个体基线与变异的个性化监测提供研究基础。&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/longitudinal_hu_6152086eb1759fa1.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;重复采样与可穿戴测量帮助刻画健康轨迹。概念示意图。&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;重复采样与可穿戴测量帮助刻画健康轨迹。概念示意图。&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;代表性论文&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/&#34;&gt;Multi-omics microsampling for the profiling of lifestyle-associated changes in health&lt;/a&gt;&lt;span&gt;Nature Biomedical Engineering&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/&#34;&gt;Precision environmental health monitoring by longitudinal exposome and multi-omics profiling&lt;/a&gt;&lt;span&gt;Genome Research&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;pregnancy&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;妊娠过程中的代谢轨迹&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;代谢变化能否帮助刻画妊娠进程？&lt;/p&gt;
+      &lt;p&gt;我们的妊娠研究通过纵向血液和尿液样本刻画协调的代谢变化，开发并评估孕周与分娩时间预测模型，同时研究妊娠过程中变化的代谢通路。目标是从分子层面理解母体生理，并为后续生物标志物验证奠定基础。&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/pregnancy_hu_f909ebddc4cc40e2.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;追踪妊娠过程中的代谢变化。概念示意图。&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;追踪妊娠过程中的代谢变化。概念示意图。&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;代表性论文&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/&#34;&gt;Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women&lt;/a&gt;&lt;span&gt;Cell&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/&#34;&gt;Longitudinal urine metabolic profiling and gestational age prediction in human pregnancy&lt;/a&gt;&lt;span&gt;Briefings in Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;footer class=&#34;research-program__resources&#34;&gt;
+    &lt;div&gt;&lt;h2&gt;探索论文与工具&lt;/h2&gt;&lt;p&gt;这里精选了支撑各研究方向的论文；完整成果和开源工具见下方。&lt;/p&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;a href=&#34;https://shen-lab.org/zh/publication/&#34;&gt;全部论文 →&lt;/a&gt;&lt;a href=&#34;https://shen-lab.org/zh/software/&#34;&gt;软件与工具 →&lt;/a&gt;&lt;/div&gt;
+  &lt;/footer&gt;
+&lt;/div&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_61a913da140bcdd85b5f22489ca194c8.webp 400w,
-               /zh/research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_d5e5a309786755657596f0e0b76a97c5.webp 760w,
-               /zh/research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/zh/research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_61a913da140bcdd85b5f22489ca194c8.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;305&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;微生物组数据&#34;&gt;微生物组数据&lt;/h2&gt;
-&lt;p&gt;我们研究微生物组数据的统计建模、特征解释、跨身体部位关联，以及微生物组与代谢组之间的相互作用。重点问题包括如何从复杂、高维、异质的数据中得到可复现、可解释的生物学发现。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_df3ca90c9853a8ca59616ddaf5dc54a7.webp 400w,
-               /zh/research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_a49debf4539c5c1330970ee3c5b90879.webp 760w,
-               /zh/research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/zh/research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_df3ca90c9853a8ca59616ddaf5dc54a7.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;可穿戴数据&#34;&gt;可穿戴数据&lt;/h2&gt;
-&lt;p&gt;可穿戴设备提供连续、纵向、个体化的健康信息。我们关注如何将可穿戴数据与多组学数据整合，用于健康状态监测、疾病风险评估和个体化医学研究。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_b98e30db0f216582c51b33b93f6de5ed.webp 400w,
-               /zh/research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_2aec29619929add138ec9913c745cfef.webp 760w,
-               /zh/research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/zh/research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_b98e30db0f216582c51b33b93f6de5ed.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;509&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;多组学整合与健康应用&#34;&gt;多组学整合与健康应用&lt;/h1&gt;
-&lt;h2 id=&#34;精准医学和生物学问题&#34;&gt;精准医学和生物学问题&lt;/h2&gt;
-&lt;p&gt;我们希望通过多组学整合，把分子层面的变化与个体健康、疾病风险、生活方式和环境因素联系起来。&lt;/p&gt;
-&lt;h2 id=&#34;衰老&#34;&gt;衰老&lt;/h2&gt;
-&lt;p&gt;我们关注人类衰老过程中多组学分子的动态变化，以及如何用计算方法识别非线性变化、转折点和潜在机制。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/research/aging_hufb011f6191f69f7272c34644b78a3084_255788_acebf8fbe89a320cec3f55d2819a8f45.webp 400w,
-               /zh/research/aging_hufb011f6191f69f7272c34644b78a3084_255788_7c5c22e35172e9f1ed10650234777564.webp 760w,
-               /zh/research/aging_hufb011f6191f69f7272c34644b78a3084_255788_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/zh/research/aging_hufb011f6191f69f7272c34644b78a3084_255788_acebf8fbe89a320cec3f55d2819a8f45.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;480&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;妊娠&#34;&gt;妊娠&lt;/h2&gt;
-&lt;p&gt;我们研究妊娠相关的代谢组、微生物组和其他组学变化，探索其与母婴健康、妊娠阶段和疾病风险之间的关系。&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /zh/research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_87d9139bbd3b6e63a44c28afd0f938fe.webp 400w,
-               /zh/research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_20a41ca3142b0052323b7f519686d691.webp 760w,
-               /zh/research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/zh/research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_87d9139bbd3b6e63a44c28afd0f938fe.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;507&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;个人健康监测和疾病早期诊断&#34;&gt;个人健康监测和疾病早期诊断&lt;/h2&gt;
-&lt;p&gt;通过多组学、临床指标和可穿戴数据的整合，我们希望发展更早、更个体化、更可解释的健康监测方法。&lt;/p&gt;
 </description>
     </item>
     

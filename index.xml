@@ -7,7 +7,7 @@
     <description>Shen Lab@NTU</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shen-lab.org/media/logo_hu5606885a69ebc720faad867579aa5b55_46386_300x300_fit_lanczos_3.png</url>
+      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
       <title>Shen Lab@NTU</title>
       <link>https://shen-lab.org/</link>
     </image>
@@ -58,13 +58,31 @@
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/join-us/</guid>
       <description>
-&lt;section class=&#34;join-page&#34;&gt;
+&lt;div class=&#34;join-page&#34;&gt;
   &lt;div class=&#34;join-page__hero&#34;&gt;
     &lt;p class=&#34;join-page__eyebrow&#34;&gt;Open Opportunities&lt;/p&gt;
-    &lt;h1&gt;Join Shen Lab&lt;/h1&gt;
+    &lt;h2&gt;Join Shen Lab&lt;/h2&gt;
     &lt;p&gt;We welcome motivated people who want to develop computational methods and data-driven biological insights for multi-omics, microbiome, metabolomics, ageing, pregnancy, and precision health.&lt;/p&gt;
     &lt;a class=&#34;join-page__contact&#34; href=&#34;mailto:xiaotao.shen@ntu.edu.sg&#34;&gt;Contact us with your CV&lt;/a&gt;
   &lt;/div&gt;
+
+
+
+
+&lt;section class=&#34;join-apply&#34; aria-labelledby=&#34;join-apply-title&#34;&gt;
+  &lt;h2 id=&#34;join-apply-title&#34;&gt;How to enquire&lt;/h2&gt;
+  &lt;p&gt;We welcome enquiries from prospective PhD students, research fellows, undergraduates, visiting scholars, visiting PhD students and summer interns. See the role descriptions below for backgrounds and funding requirements.&lt;/p&gt;
+  &lt;h3&gt;For your first email, please include&lt;/h3&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Your CV, the role you are interested in and your preferred start date.&lt;/li&gt;
+    &lt;li&gt;A short introduction to your research interests, relevant experience and why you would like to join Shen Lab.&lt;/li&gt;
+    &lt;li&gt;Relevant publications, GitHub or project links, if available; students may also include a transcript.&lt;/li&gt;
+    &lt;li&gt;For visits, include your proposed dates, funding plan and research plan. Visiting PhD students should also include supervisor details and a one-page proposal.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Recruitment enquiries&lt;/strong&gt;&lt;br&gt;&lt;a href=&#34;mailto:xiaotao.shen@ntu.edu.sg?subject=Shen%20Lab%20application%20enquiry&#34;&gt;xiaotao.shen@ntu.edu.sg&lt;/a&gt;&lt;/p&gt;
+  &lt;p class=&#34;join-apply__note&#34;&gt;Suggested subject: Role — Your name — Preferred start date. Formal admission and employment follow university procedures.&lt;/p&gt;
+&lt;/section&gt;
+
 
   &lt;div class=&#34;join-page__note&#34;&gt;
     Funding schemes, deadlines, and eligibility rules change regularly. Please check the official NTU and LKCMedicine pages before applying.
@@ -153,7 +171,7 @@
       &lt;/ul&gt;
     &lt;/article&gt;
   &lt;/div&gt;
-&lt;/section&gt;
+&lt;/div&gt;
 
 
 </description>
@@ -463,14 +481,6 @@
     </item>
     
     <item>
-      <title>Longitudinal Urine Metabolic Profiling and Gestational Age Prediction in Pregnancy</title>
-      <link>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</link>
-      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Food recommendation towards personalized wellbeing</title>
       <link>https://shen-lab.org/publication/food-recommendation-towards-personalized-wellbeing/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
@@ -550,10 +560,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /event/2024-12-04-enable-conference/featured_hub484fa88e41818203f9138faa7681294_321055_66dc57a4a8cd139ab6963cb889839825.webp 400w,
-               /event/2024-12-04-enable-conference/featured_hub484fa88e41818203f9138faa7681294_321055_6c016836af808486509010fbe1e22db8.webp 760w,
-               /event/2024-12-04-enable-conference/featured_hub484fa88e41818203f9138faa7681294_321055_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/event/2024-12-04-enable-conference/featured_hub484fa88e41818203f9138faa7681294_321055_66dc57a4a8cd139ab6963cb889839825.webp&#34;
+               /event/2024-12-04-enable-conference/featured_hu_4feb4eacbd0ae08d.webp 400w,
+               /event/2024-12-04-enable-conference/featured_hu_c9328b78a709c958.webp 760w,
+               /event/2024-12-04-enable-conference/featured_hu_a49d0baef198a79e.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-12-04-enable-conference/featured_hu_4feb4eacbd0ae08d.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -616,10 +626,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /event/2024-7-19-hkbu/featured_hub484fa88e41818203f9138faa7681294_321055_66dc57a4a8cd139ab6963cb889839825.webp 400w,
-               /event/2024-7-19-hkbu/featured_hub484fa88e41818203f9138faa7681294_321055_6c016836af808486509010fbe1e22db8.webp 760w,
-               /event/2024-7-19-hkbu/featured_hub484fa88e41818203f9138faa7681294_321055_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/event/2024-7-19-hkbu/featured_hub484fa88e41818203f9138faa7681294_321055_66dc57a4a8cd139ab6963cb889839825.webp&#34;
+               /event/2024-7-19-hkbu/featured_hu_4feb4eacbd0ae08d.webp 400w,
+               /event/2024-7-19-hkbu/featured_hu_c9328b78a709c958.webp 760w,
+               /event/2024-7-19-hkbu/featured_hu_a49d0baef198a79e.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-7-19-hkbu/featured_hu_4feb4eacbd0ae08d.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -729,10 +739,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_b53052ab6c2e74c885ad1fae975bdfa2.webp 400w,
-               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_89d9542397d7e2686a26f9993f22a456.webp 760w,
-               /event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/event/2024-asms/figure1_hu96a5ab8e0364e843af4687201b687892_249234_b53052ab6c2e74c885ad1fae975bdfa2.webp&#34;
+               /event/2024-asms/figure1_hu_cb1cc018b9d5c8fc.webp 400w,
+               /event/2024-asms/figure1_hu_a3a6485785ef7da1.webp 760w,
+               /event/2024-asms/figure1_hu_1c4cf9733b8d89a1.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-asms/figure1_hu_cb1cc018b9d5c8fc.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -757,10 +767,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_3810850b4ac2fc48b7f3abf48fe9afa7.webp 400w,
-               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_4b1a9d4ba01f5c93c0d15cf8f25f985f.webp 760w,
-               /event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/event/2024-asms/figure2_hud4f9a659192453ac7c88fa1e2b492400_307275_3810850b4ac2fc48b7f3abf48fe9afa7.webp&#34;
+               /event/2024-asms/figure2_hu_d90ecae2642aa10a.webp 400w,
+               /event/2024-asms/figure2_hu_6b34ac0527b0ca7f.webp 760w,
+               /event/2024-asms/figure2_hu_9092378b3f178efc.webp 1200w&#34;
+               src=&#34;https://shen-lab.org/event/2024-asms/figure2_hu_d90ecae2642aa10a.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -949,171 +959,164 @@
       <link>https://shen-lab.org/research/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/research/</guid>
-      <description>&lt;p&gt;Our overarching research interests are bioinformatics algorithms development for multi-omics and wearable data, and their application to precision medicine and biological questions.&lt;/p&gt;
-&lt;h1 id=&#34;-method-development-for-multi-omics-and-wearable-data&#34;&gt;💻 Method Development For Multi-Omics and Wearable Data&lt;/h1&gt;
-&lt;h2 id=&#34;-mass-spectrometry-data&#34;&gt;🧬 Mass Spectrometry Data&lt;/h2&gt;
-&lt;p&gt;Mass spectrometry (MS) is an analytical technique used to measure the mass-to-charge ratio (m/z) of ions. It is a powerful tool for identifying the chemical structure of molecules in biological samples, including small molecules (metabolomics), proteins (proteomics), peptides (proteomics), and other biomolecules (lipidomics). We are working on the bioinformatics method and algorithm development (Deep Learning and Maching Learning) for Mass Spectrometry data processing and analysis, including whhole workflow of MS data, and metabolic network analysis. We are also working on the integration of MS data with other omics data, such as transcriptomics, proteomics and microbiome data (see below for more).&lt;/p&gt;
-&lt;p&gt;
+      <description>
+
+&lt;div class=&#34;research-program&#34;&gt;
+  &lt;nav class=&#34;research-program__nav&#34; aria-label=&#34;Research themes&#34;&gt;
+    &lt;a href=&#34;#metabolomics&#34;&gt;From mass spectra to metabolic function&lt;/a&gt;&lt;a href=&#34;#networks&#34;&gt;AI and networks for multi-omics interpretation&lt;/a&gt;&lt;a href=&#34;#microbiome&#34;&gt;Microbial communities and host metabolism&lt;/a&gt;&lt;a href=&#34;#longitudinal&#34;&gt;Measuring health as a trajectory&lt;/a&gt;&lt;a href=&#34;#pregnancy&#34;&gt;Metabolic trajectories of pregnancy&lt;/a&gt;
+  &lt;/nav&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;metabolomics&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;From mass spectra to metabolic function&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;How can we make metabolomics reproducible and biologically interpretable?&lt;/p&gt;
+      &lt;p&gt;We develop open computational tools for LC–MS data processing, compound annotation and functional analysis. TidyMass provides a modular, traceable workflow; metID automates compound annotation; TidyMass2 extends analysis to metabolite origins and functional modules, including information carried by unannotated features.&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/metabolomics_hu_380d48195746a06f.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;From samples and mass spectra to metabolic pathways. Conceptual illustration.&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;From samples and mass spectra to metabolic pathways. Conceptual illustration.&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;Selected publications&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/&#34;&gt;TidyMass an object-oriented reproducible analysis framework for LC–MS data&lt;/a&gt;&lt;span&gt;Nature Communications&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/&#34;&gt;TidyMass2 Advancing LC-MS Untargeted Metabolomics Through Metabolite Origin Inference and Metabolic Feature-based Functional Module Analysis&lt;/a&gt;&lt;span&gt;Nature Communications&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/&#34;&gt;metID: an R package for automatable compound annotation for LC− MS-based data&lt;/a&gt;&lt;span&gt;Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;networks&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;AI and networks for multi-omics interpretation&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;Which molecules act together, and how do their relationships change over time?&lt;/p&gt;
+      &lt;p&gt;We combine biological networks, statistical modelling and AI to turn multi-omics measurements into testable hypotheses. MAPA discovers functional modules and uses literature-grounded language models to interpret them, with applications to aging-related datasets. lagCI examines time-lagged relationships in dense molecular and wearable time series. These inferred relationships guide follow-up experiments rather than establishing causality on their own.&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/networks_hu_5d318e888142f6fb.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;Integrating molecular layers into interpretable functional modules. Conceptual illustration.&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;Integrating molecular layers into interpretable functional modules. Conceptual illustration.&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;Selected publications&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/&#34;&gt;MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data&lt;/a&gt;&lt;span&gt;Advanced Science&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/lagci-enables-inference-of-temporal-causal-relationships-from-dense-multi-omic-time-series/&#34;&gt;LagCI Enables Inference of Temporal Causal Relationships from Dense Multi-Omic Time Series&lt;/a&gt;&lt;span&gt;Briefings in Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;microbiome&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;Microbial communities and host metabolism&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;How do microbial communities across the body relate to human physiology?&lt;/p&gt;
+      &lt;p&gt;Our collaborative studies connect microbial dynamics with host molecular and clinical measurements. Longitudinal profiling across four body sites reveals both stable, individual-specific communities and changes associated with health and disease. Related work examines cross-body-site microbial interactions and their links to the circulating metabolome.&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/microbiome_hu_79b9bfbca43f47e2.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;Connections between microbial communities and host metabolism. Conceptual illustration.&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;Connections between microbial communities and host metabolism. Conceptual illustration.&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;Selected publications&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/&#34;&gt;Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease&lt;/a&gt;&lt;span&gt;Cell Host Microbe&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/&#34;&gt;Cross-body site microbial interactions influence the human plasma metabolome&lt;/a&gt;&lt;span&gt;Microbiome&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;longitudinal&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;Measuring health as a trajectory&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;What can repeated molecular measurements reveal beyond a single snapshot?&lt;/p&gt;
+      &lt;p&gt;We study how molecular profiles vary with daily life and environmental exposure. Multi-omics microsampling supports frequent measurements of lifestyle-associated changes, while longitudinal exposome profiling links external exposures with internal molecular responses. Together with wearable data, these approaches motivate personalized monitoring that accounts for each person’s baseline and variability.&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/longitudinal_hu_6152086eb1759fa1.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;Repeated sampling and wearable sensing reveal health trajectories. Conceptual illustration.&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;Repeated sampling and wearable sensing reveal health trajectories. Conceptual illustration.&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;Selected publications&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/&#34;&gt;Multi-omics microsampling for the profiling of lifestyle-associated changes in health&lt;/a&gt;&lt;span&gt;Nature Biomedical Engineering&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/&#34;&gt;Precision environmental health monitoring by longitudinal exposome and multi-omics profiling&lt;/a&gt;&lt;span&gt;Genome Research&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;section class=&#34;research-program__theme&#34; id=&#34;pregnancy&#34;&gt;
+    &lt;div class=&#34;research-program__copy&#34;&gt;
+      &lt;h2&gt;Metabolic trajectories of pregnancy&lt;/h2&gt;
+      &lt;p class=&#34;research-program__question&#34;&gt;Can metabolic changes help characterize gestational progression?&lt;/p&gt;
+      &lt;p&gt;Our pregnancy studies characterize coordinated metabolic changes in longitudinal blood and urine samples. We develop and evaluate models of gestational age and time to delivery, and examine pathways that change across pregnancy. The aim is to build a molecular understanding of maternal physiology and a foundation for future biomarker validation.&lt;/p&gt;
+      
+      
+        
+        &lt;figure class=&#34;research-program__figure&#34;&gt;
+          &lt;img src=&#34;https://shen-lab.org/research/illustrations/pregnancy_hu_f909ebddc4cc40e2.webp&#34; width=&#34;1200&#34; height=&#34;800&#34; alt=&#34;Following metabolic changes throughout pregnancy. Conceptual illustration.&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;
+          &lt;figcaption&gt;Following metabolic changes throughout pregnancy. Conceptual illustration.&lt;/figcaption&gt;
+        &lt;/figure&gt;
+      
+    &lt;/div&gt;
+    &lt;aside class=&#34;research-program__evidence&#34;&gt;
+      &lt;h3&gt;Selected publications&lt;/h3&gt;
+      &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/&#34;&gt;Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women&lt;/a&gt;&lt;span&gt;Cell&lt;/span&gt;&lt;/li&gt;
+        
+      
+        
+        &lt;li&gt;&lt;a href=&#34;https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/&#34;&gt;Longitudinal urine metabolic profiling and gestational age prediction in human pregnancy&lt;/a&gt;&lt;span&gt;Briefings in Bioinformatics&lt;/span&gt;&lt;/li&gt;
+        
+      &lt;/ul&gt;
+    &lt;/aside&gt;
+  &lt;/section&gt;
+  
+  &lt;footer class=&#34;research-program__resources&#34;&gt;
+    &lt;div&gt;&lt;h2&gt;Explore the work&lt;/h2&gt;&lt;p&gt;The papers above illustrate our research directions. Explore the full publication collection and our open-source tools below.&lt;/p&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;a href=&#34;https://shen-lab.org/publication/&#34;&gt;All publications →&lt;/a&gt;&lt;a href=&#34;https://shen-lab.org/software/&#34;&gt;Software &amp; tools →&lt;/a&gt;&lt;/div&gt;
+  &lt;/footer&gt;
+&lt;/div&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_61a913da140bcdd85b5f22489ca194c8.webp 400w,
-               /research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_d5e5a309786755657596f0e0b76a97c5.webp 760w,
-               /research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/research/tidymass_hu8e0ee36e6082fa90f613ca1e27c82609_267302_61a913da140bcdd85b5f22489ca194c8.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;305&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;-microbiome-data&#34;&gt;🦠 Microbiome Data&lt;/h2&gt;
-&lt;p&gt;Research is defined as the creation of new knowledge and/or the use of existing knowledge in a new and creative way so as to generate new concepts, methodologies and understandings. This could include synthesis and analysis of previous research to the extent that it leads to new and creative outcomes.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_df3ca90c9853a8ca59616ddaf5dc54a7.webp 400w,
-               /research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_a49debf4539c5c1330970ee3c5b90879.webp 760w,
-               /research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/research/microbiome_hu5c66fdf1a9d9c8bd9d9c57995ac5d1e9_375650_df3ca90c9853a8ca59616ddaf5dc54a7.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;380&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;-wearable-data&#34;&gt;⌚ Wearable Data&lt;/h2&gt;
-&lt;p&gt;Research is defined as the creation of new knowledge and/or the use of existing knowledge in a new and creative way so as to generate new concepts, methodologies and understandings. This could include synthesis and analysis of previous research to the extent that it leads to new and creative outcomes.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_b98e30db0f216582c51b33b93f6de5ed.webp 400w,
-               /research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_2aec29619929add138ec9913c745cfef.webp 760w,
-               /research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/research/wearable_hu469f4e61ddd77a939173bdd29fbadf73_1423236_b98e30db0f216582c51b33b93f6de5ed.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;509&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;multi-omics-and-wearable-data-integration&#34;&gt;Multi-Omics and Wearable Data Integration&lt;/h1&gt;
-&lt;h2 id=&#34;precisione-medicine-and-biological-questions&#34;&gt;Precisione Medicine and Biological Questions&lt;/h2&gt;
-&lt;h2 id=&#34;-aging&#34;&gt;🧑 Aging&lt;/h2&gt;
-&lt;p&gt;Research is defined as the creation of new knowledge and/or the use of existing knowledge in a new and creative way so as to generate new concepts, methodologies and understandings. This could include synthesis and analysis of previous research to the extent that it leads to new and creative outcomes.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /research/aging_hufb011f6191f69f7272c34644b78a3084_255788_acebf8fbe89a320cec3f55d2819a8f45.webp 400w,
-               /research/aging_hufb011f6191f69f7272c34644b78a3084_255788_7c5c22e35172e9f1ed10650234777564.webp 760w,
-               /research/aging_hufb011f6191f69f7272c34644b78a3084_255788_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/research/aging_hufb011f6191f69f7272c34644b78a3084_255788_acebf8fbe89a320cec3f55d2819a8f45.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;480&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;-pregnancy&#34;&gt;🤰 Pregnancy&lt;/h2&gt;
-&lt;p&gt;Research is defined as the creation of new knowledge and/or the use of existing knowledge in a new and creative way so as to generate new concepts, methodologies and understandings. This could include synthesis and analysis of previous research to the extent that it leads to new and creative outcomes.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_87d9139bbd3b6e63a44c28afd0f938fe.webp 400w,
-               /research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_20a41ca3142b0052323b7f519686d691.webp 760w,
-               /research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://shen-lab.org/research/pregnancy_hu147228133437fd25987ff12bd176783c_150086_87d9139bbd3b6e63a44c28afd0f938fe.webp&#34;
-               width=&#34;760&#34;
-               height=&#34;507&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;h2 id=&#34;personal-health-monitoring-and-disease-early-diagnosis&#34;&gt;Personal Health Monitoring and Disease Early Diagnosis&lt;/h2&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://shen-lab.org/contact/</link>
-      <pubDate>Mon, 20 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/contact/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -1491,14 +1494,6 @@
     </item>
     
     <item>
-      <title>Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics</title>
-      <link>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</link>
-      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>LipidIMMS Analyzer integrating multi-dimensional information to support lipid identification in ion mobility—mass spectrometry based lipidomics</title>
       <link>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
@@ -1643,7 +1638,7 @@
       <link>https://shen-lab.org/tour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/tour/</guid>
-      <description>&lt;h1 id=&#34;---&#34;&gt;&amp;mdash;&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;heading&#34;&gt;&amp;mdash;&lt;/h1&gt;
 &lt;h1 id=&#34;date-2023-08-01&#34;&gt;date: &amp;ldquo;2023-08-01&amp;rdquo;&lt;/h1&gt;
 &lt;h1 id=&#34;sections&#34;&gt;sections:&lt;/h1&gt;
 &lt;h1 id=&#34;--block-slider&#34;&gt;- block: slider&lt;/h1&gt;
@@ -1692,7 +1687,39 @@
 &lt;h1 id=&#34;slide_height-&#34;&gt;slide_height: &amp;quot;&amp;quot;&lt;/h1&gt;
 &lt;h1 id=&#34;title-tour&#34;&gt;title: Tour&lt;/h1&gt;
 &lt;h1 id=&#34;type-landing&#34;&gt;type: landing&lt;/h1&gt;
-&lt;h1 id=&#34;----1&#34;&gt;&amp;mdash;&lt;/h1&gt;
+&lt;h1 id=&#34;heading-1&#34;&gt;&amp;mdash;&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://shen-lab.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/contact/</guid>
+      <description>
+&lt;div class=&#34;contact-directory&#34;&gt;
+  &lt;section aria-labelledby=&#34;contact-email-title&#34;&gt;
+    &lt;h2 id=&#34;contact-email-title&#34;&gt;&lt;i class=&#34;fas fa-envelope&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Email&lt;/h2&gt;
+    &lt;p&gt;Collaborations, research discussions and general enquiries&lt;/p&gt;
+    &lt;a class=&#34;contact-directory__email&#34; href=&#34;mailto:xiaotao.shen@ntu.edu.sg&#34;&gt;xiaotao.shen@ntu.edu.sg&lt;/a&gt;
+    &lt;h3&gt;Join our team&lt;/h3&gt;
+    &lt;p&gt;Find role descriptions, suggested application materials and the recruitment contact.&lt;/p&gt;
+    &lt;a class=&#34;contact-directory__cta&#34; href=&#34;https://shen-lab.org/join-us/&#34;&gt;Join us →&lt;/a&gt;
+  &lt;/section&gt;
+  &lt;section aria-labelledby=&#34;contact-address-title&#34;&gt;
+    &lt;h2 id=&#34;contact-address-title&#34;&gt;&lt;i class=&#34;fas fa-map-marker-alt&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Address&lt;/h2&gt;
+    &lt;address&gt;Shen Lab&lt;br&gt;Nanyang Technological University&lt;br&gt;59 Nanyang Drive&lt;br&gt;Singapore 636921&lt;/address&gt;
+    &lt;a href=&#34;https://maps.app.goo.gl/pcizQc8QdorHMMvB6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open map ↗&lt;/a&gt;
+    &lt;h3&gt;Connect with us&lt;/h3&gt;
+    &lt;div class=&#34;contact-directory__links&#34;&gt;
+      &lt;a href=&#34;https://github.com/jaspershen-lab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; GitHub&lt;/a&gt;
+      &lt;a href=&#34;https://www.linkedin.com/in/shenxt/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fab fa-linkedin&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; LinkedIn&lt;/a&gt;
+      &lt;a href=&#34;https://jaspershen.github.io/image/wechat_QR.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;i class=&#34;fab fa-weixin&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; WeChat&lt;/a&gt;
+      &lt;a href=&#34;https://shen-lab.org/software/&#34;&gt;&lt;i class=&#34;fas fa-code&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; Software &amp; documentation&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/section&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
