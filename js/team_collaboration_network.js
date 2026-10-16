@@ -348,25 +348,14 @@
     function showNodePanel(node, state) {
       if (!panel) return;
       const links = state.edges.filter(edge => edge.from === node.id || edge.to === node.id);
-      const interests = (node.member.interests || [])
-        .slice(0, 6)
-        .map(interest => `<span>${escapeHtml(interest)}</span>`)
-        .join('');
-      const pubs = node.pubs.slice(0, 5).map(pub => `
-        <li>
-          <a href="${pub.permalink}">${escapeHtml(pub.title)}</a>
-          <span>${escapeHtml(pub.year)}</span>
-        </li>`).join('');
       const collabs = topCollaborators(node, state) || '<p class="team-collab-profile__empty">No shared-paper links in current view.</p>';
       const initial = escapeHtml((node.label || '?').trim().charAt(0));
       setPanelContent(`
         <article class="team-collab-profile" style="--profile-accent: ${node.color || '#c62d43'};">
           <div class="team-collab-profile__hero">
-            <div class="team-collab-profile__glow" aria-hidden="true"></div>
             <div class="team-collab-profile__avatar-wrap">
               ${node.member.avatar ? `<img src="${node.member.avatar}" alt="${escapeHtml(node.label)}">` : `<div class="team-collab-profile__avatar">${initial}</div>`}
             </div>
-            <span class="team-collab-profile__badge">${escapeHtml(node.category)}</span>
             <h3>${escapeHtml(node.label)}</h3>
             <p>${escapeHtml(node.member.role || 'Shen Lab member')}</p>
           </div>
@@ -374,14 +363,9 @@
             <div><strong>${node.value}</strong><span>Publications</span></div>
             <div><strong>${links.length}</strong><span>Collaborators</span></div>
           </div>
-          ${interests ? `<section class="team-collab-profile__block"><h4>Research interests</h4><div class="team-collab-profile__chips">${interests}</div></section>` : ''}
           <section class="team-collab-profile__block">
             <h4>Top collaborators</h4>
             <div class="team-collab-profile__collabs">${collabs}</div>
-          </section>
-          <section class="team-collab-profile__block">
-            <h4>Recent papers</h4>
-            <ul class="team-collab-profile__papers">${pubs || '<li><span>No publications in current data.</span></li>'}</ul>
           </section>
           <a class="team-collab-profile__button" href="${node.url}">Open full profile</a>
         </article>`);

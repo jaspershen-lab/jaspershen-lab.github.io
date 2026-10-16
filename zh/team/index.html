@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.e979181e8116d1b64fdc241228ee0784.css" />
+  <link rel="stylesheet" href="/css/wowchemy.c0b6c16b640bf4b5cec532e9415103e0.css" />
 
   
   
@@ -369,7 +369,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2026-09-10T12:27:01&#43;08:00">
+    <meta property="article:modified_time" content="2026-10-16T18:10:44&#43;08:00">
   
 
 
@@ -953,15 +953,7 @@
     
 
     
-    <header class="lab-section-header universal-wrapper">
-  <h1>团队成员</h1>
-  
-    <div class="lab-section-header__intro">认识参与实验室研究的团队成员。</div>
-  
-</header>
-
-    <div class="lab-directory-landing">
-      
+    
 
 <span class="js-widget-page d-none"></span>
 
@@ -1073,9 +1065,12 @@
         
       </div>
 
-      <ul class="network-icon" aria-hidden="true">
-        
-      </ul>
+      <div class="author-profile__social">
+        <ul class="network-icon">
+  
+</ul>
+
+      </div>
 
     </div>
   </div>
@@ -2802,7 +2797,8 @@
 
 
   <div class="col-12">
-    <div class="alumni-gantt" style="--min-year: 2024; --max-year: 2026;">
+    <div class="alumni-timeline">
+<div class="alumni-gantt" style="--min-year: 2024; --max-year: 2026;">
   <div class="gantt-legend">
     
   </div>
@@ -2811,6 +2807,35 @@
 
   
 </div>
+
+
+</div>
+<script>
+(function () {
+  const root = document.currentScript.previousElementSibling;
+  const rows = Array.from(root.querySelectorAll('.gantt-row'));
+  const controls = root.querySelector('.alumni-timeline__controls');
+  if (!controls) return;
+  const button = controls.querySelector('button');
+  const mobile = window.matchMedia('(max-width: 767.98px)');
+  let expanded = false;
+  function update() {
+    const limit = mobile.matches ? 5 : 10;
+    rows.forEach((row, index) => { row.hidden = !expanded && index >= limit; });
+    controls.hidden = rows.length <= limit;
+    button.setAttribute('aria-expanded', String(expanded));
+    button.textContent = expanded ? button.dataset.collapse : button.dataset.expand;
+  }
+  button.addEventListener('click', () => {
+    const top = button.getBoundingClientRect().top;
+    expanded = !expanded;
+    update();
+    if (!expanded) window.scrollBy(0, button.getBoundingClientRect().top - top);
+  });
+  mobile.addEventListener('change', update);
+  update();
+})();
+</script>
 
 
   </div>
@@ -2989,108 +3014,7 @@
 </section>
 
 
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="section-markdown" class="home-section wg-markdown  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-    <div class="row  justify-content-center">
-    
-      
-        <div class="section-heading col-12 mb-3 text-center">
-          <h1 class="mb-0">Alumni Summary</h1>
-          
-        </div>
-      
-    
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-  <div class="col-12">
-    <iframe width='100%' height='700' src="https://docs.google.com/spreadsheets/d/1yHT4RLa-TOh6a4TbNtEu2wCJvrUo51L28XbHHk9nvVs/edit?usp=sharing"></iframe>
-  </div>
-
-
-
-  
-    </div>
-  
-
-  </div>
-</section>
-
-
-
-    </div>
   
     
 
@@ -3117,9 +3041,9 @@
         <a class="lab-footer__email" href="mailto:xiaotao.shen@ntu.edu.sg">xiaotao.shen@ntu.edu.sg</a>
         <address><a class="lab-footer__address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>59 Nanyang Drive<br>Singapore 636921 <span aria-hidden="true">↗</span></span></a></address>
         <nav class="lab-footer__social" aria-label="社交平台">
-          <a href="https://github.com/jaspershen-lab" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub ↗</span></a>
-          <a href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn ↗</span></a>
-          <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener"><i class="fab fa-weixin" aria-hidden="true"></i><span>WeChat ↗</span></a>
+          <a class="software-card__button software-card__button--ghost resource-icon-link" title="GitHub" aria-label="GitHub" href="https://github.com/jaspershen-lab" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a class="software-card__button software-card__button--ghost resource-icon-link" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a class="software-card__button software-card__button--ghost resource-icon-link" title="WeChat" aria-label="WeChat" href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener"><i class="fab fa-weixin" aria-hidden="true"></i></a>
         </nav>
       </section>
     </div>
@@ -3180,7 +3104,7 @@
 
   
   <script src="/js/team_membership_stats.js?v=20261016-red"></script>
-  <script src="/js/team_collaboration_network.js?v=20261016-red"></script>
+  <script src="/js/team_collaboration_network.js?v=aff5d56a804d7a362eff457589bed790"></script>
   
 </footer>
 
