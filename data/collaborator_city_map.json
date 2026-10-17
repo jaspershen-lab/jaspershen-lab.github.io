@@ -7,39 +7,39 @@
     "count": 9,
     "collaborators": [
       {
-        "name": "Sophida Suta",
+        "name": "Sophida SUTA",
         "institution": "Mahidol University"
       },
       {
-        "name": "Bonggochpass Pinsawas",
+        "name": "Bonggochpass PINSAWAS",
         "institution": "Mahidol University"
       },
       {
-        "name": "Apinya Surawit",
+        "name": "Apinya SURAWIT",
         "institution": "Mahidol University"
       },
       {
-        "name": "Suphawan Ophakas",
+        "name": "Suphawan OPHAKAS",
         "institution": "Mahidol University"
       },
       {
-        "name": "Phongthana Pasookhush",
+        "name": "Phongthana PASOOKHUSH",
         "institution": "Mahidol University"
       },
       {
-        "name": "Pichanun Mongkolsucharitkul",
+        "name": "Pichanun MONGKOLSUCHARITKUL",
         "institution": "Mahidol University"
       },
       {
-        "name": "Thananya Soonkum",
+        "name": "Thananya SOONKUM",
         "institution": "Mahidol University (Salaya Campus)"
       },
       {
-        "name": "Sureeporn Pumeiam",
+        "name": "Sureeporn PUMEIAM",
         "institution": "Mahidol University"
       },
       {
-        "name": "Korapat Mayurasakorn",
+        "name": "Korapat MAYURASAKORN",
         "institution": "Mahidol University"
       }
     ]
@@ -52,11 +52,11 @@
     "count": 4,
     "collaborators": [
       {
-        "name": "Chuchu Wang",
+        "name": "Chuchu WANG",
         "institution": "Stanford University"
       },
       {
-        "name": "Peng Gao",
+        "name": "Peng GAO",
         "institution": "Stanford University"
       }
     ]
@@ -69,7 +69,7 @@
     "count": 2,
     "collaborators": [
       {
-        "name": "Morgan L Turner",
+        "name": "Morgan L TURNER",
         "institution": "Harvard Medical School"
       }
     ]
@@ -82,7 +82,7 @@
     "count": 2,
     "collaborators": [
       {
-        "name": "Thomas C Smits",
+        "name": "Thomas C SMITS",
         "institution": "Radboudumc"
       }
     ]
@@ -95,7 +95,7 @@
     "count": 1,
     "collaborators": [
       {
-        "name": "George Weinstock",
+        "name": "George WEINSTOCK",
         "institution": "The Jackson Lab"
       }
     ]
@@ -108,7 +108,7 @@
     "count": 1,
     "collaborators": [
       {
-        "name": "Daniel J Spakowicz",
+        "name": "Daniel J SPAKOWICZ",
         "institution": "The Ohio State University"
       }
     ]
@@ -121,8 +121,77 @@
     "count": 1,
     "collaborators": [
       {
-        "name": "Yanjiao Zhou",
+        "name": "Yanjiao ZHOU",
         "institution": "UCONN HEALTH"
+      }
+    ]
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "lat": 22.3193,
+    "lng": 114.1694,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Qi SU",
+        "institution": "The Chinese University of Hong Kong"
+      }
+    ]
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "lat": 1.3521,
+    "lng": 103.8198,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Sunny WONG",
+        "institution": "Nanyang Technological University Singapore"
+      },
+      {
+        "name": "Seung-Min PARK",
+        "institution": "Nanyang Technological University Singapore"
+      }
+    ]
+  },
+  {
+    "city": "Baltimore",
+    "country": "USA",
+    "lat": 39.2904,
+    "lng": -76.6122,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Heyjun PARK",
+        "institution": "Johns Hopkins Bloomberg School of Public Health"
+      }
+    ]
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "lat": 31.2304,
+    "lng": 121.4737,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Yi-Xin WANG",
+        "institution": "Shanghai Jiao Tong University School of Medicine"
+      }
+    ]
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "lat": 49.2827,
+    "lng": -123.1207,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Tao HUAN",
+        "institution": "The University of British Columbia"
       }
     ]
   }

@@ -1,3 +1,5 @@
 # Netlify redirects
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
+/zh/author/sunny-hei-wong/ /author/sunny-wong/
+/zh/author/sunny-h-wong/ /author/sunny-wong/

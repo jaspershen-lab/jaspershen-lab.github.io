@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yi Xu | Shen Lab@NTU</title>
+    <title>Yi XU | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/yi-xu/</link>
       <atom:link href="https://shen-lab.org/author/yi-xu/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yi Xu</description>
+    <description>Yi XU</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
-      <title>Yi Xu</title>
+      <title>Yi XU</title>
       <link>https://shen-lab.org/author/yi-xu/</link>
     </image>
     

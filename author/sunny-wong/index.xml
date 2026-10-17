@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sunny Wong | Shen Lab@NTU</title>
+    <title>Sunny WONG | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/sunny-wong/</link>
       <atom:link href="https://shen-lab.org/author/sunny-wong/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sunny Wong</description>
+    <description>Sunny WONG</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
-      <title>Sunny Wong</title>
+      <url>https://shen-lab.org/author/sunny-wong/avatar_hu_fe95607f1df5f1ba.png</url>
+      <title>Sunny WONG</title>
       <link>https://shen-lab.org/author/sunny-wong/</link>
     </image>
     
@@ -25,6 +25,22 @@
       <link>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/tidymass2-advancing-lc-ms-untargeted-metabolomics-through-metabolite-origin-inference-and-metabolic-feature-based-functional-module-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deployment of a cloud-based passive defecation monitoring system for continuous gut health monitoring</title>
+      <link>https://shen-lab.org/publication/deployment-of-a-cloud-based-passive-defecation-monitoring-system-for-continuous-gut-health-monitoring/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deployment-of-a-cloud-based-passive-defecation-monitoring-system-for-continuous-gut-health-monitoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distinct Gut Microbiome Signatures in Ethnically Diverse Populations within a Shared Urban Asian Geography</title>
+      <link>https://shen-lab.org/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/</guid>
       <description></description>
     </item>
     
