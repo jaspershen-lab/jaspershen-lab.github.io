@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.c0b6c16b640bf4b5cec532e9415103e0.css" />
+  <link rel="stylesheet" href="/css/wowchemy.d3abe0ce3d4de246f779b117fe781fed.css" />
 
   
   
@@ -1251,38 +1251,16 @@
     
 
     
-      
-      
-        
-      
-      
-        
-      
-   
 
-  <div class="carousel-item active fullscreen" style=" background-color: #666;background-image: url(&#39;https://shen-lab.org/media/mapa-advanced-science-2026.png&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
-    <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.62); backdrop-filter: brightness(0.62);">
-      
-      <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
-          <div class="highlight-heading-row">
-          <h1 class="hero-title ">
-            MAPA video
-          </h1>
-          
-            
-              
-              <a href="https://youtu.be/eS3hR8jROdA?si=AksPmU4fR9oIJHoR" class="btn highlight-icon-link" title="Watch video" aria-label="Watch video">
-                <i class="fas fa-video" aria-hidden="true"></i>
-              </a>
-            
-            </div>
-          
-
-          
-
-          
-        </div>
+  <div class="carousel-item active fullscreen" style=" background-color: #000;">
+    
+    <div class="highlight-video">
+      <iframe src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?playsinline=1&rel=0"
+        data-video-src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?playsinline=1&rel=0"
+        title="MAPA video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
+    
   </div>
   
 
@@ -1309,6 +1287,7 @@
    
 
   <div class="carousel-item fullscreen" style=" background-color: #666;background-image: url(&#39;https://shen-lab.org/media/mapa-advanced-science-2026.png&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    
     <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.62); backdrop-filter: brightness(0.62);">
       
       <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
@@ -1331,6 +1310,7 @@
           
         </div>
     </div>
+    
   </div>
   
 
@@ -1357,6 +1337,7 @@
    
 
   <div class="carousel-item fullscreen" style=" background-color: #666;background-image: url(&#39;https://shen-lab.org/media/bib-2026-lagci.png&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    
     <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.62); backdrop-filter: brightness(0.62);">
       
       <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
@@ -1379,6 +1360,7 @@
           
         </div>
     </div>
+    
   </div>
   
 
@@ -1405,6 +1387,7 @@
    
 
   <div class="carousel-item fullscreen" style=" background-color: #666;background-image: url(&#39;https://shen-lab.org/media/microbiome-2026.png&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    
     <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.62); backdrop-filter: brightness(0.62);">
       
       <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
@@ -1427,6 +1410,7 @@
           
         </div>
     </div>
+    
   </div>
   
 
@@ -1453,6 +1437,7 @@
    
 
   <div class="carousel-item fullscreen" style=" background-color: #666;background-image: url(&#39;https://shen-lab.org/media/nc-2026-tidymass2.png&#39;); background-repeat: no-repeat; background-position: center; background-size: cover; ">
+    
     <div class="position-absolute d-flex w-100 h-100 justify-content-center align-items-center" style="-webkit-backdrop-filter: brightness(0.62); backdrop-filter: brightness(0.62);">
       
       <div class="wg-hero dark container" style="margin-left: 6rem; margin-right: 6rem; text-align: center;">
@@ -1475,6 +1460,7 @@
           
         </div>
     </div>
+    
   </div>
   
 </div>
@@ -1484,6 +1470,25 @@
   <span class="carousel-control-prev-icon"></span>
   <span class="sr-only">Previous</span>
 </a>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var carousel = document.getElementById("latest_highlights");
+  if (!carousel) return;
+  carousel.querySelectorAll('.highlight-video iframe').forEach(function (frame) {
+    var slide = frame.closest('.carousel-item');
+    function syncVideo() {
+      if (slide.classList.contains('active')) {
+        if (!frame.hasAttribute('src')) frame.src = frame.dataset.videoSrc;
+      } else {
+        
+        frame.removeAttribute('src');
+      }
+    }
+    new MutationObserver(syncVideo).observe(slide, { attributes: true, attributeFilter: ['class'] });
+    syncVideo();
+  });
+});
+</script>
 <a class="carousel-control-next" href="#latest_highlights" data-slide="next">
   <span class="carousel-control-next-icon"></span>
   <span class="sr-only">Next</span>
@@ -2882,21 +2887,6 @@
 
 
 
-  
-  
-  
-    
-    
-      
-    
-    
-  
-  
-  
-
-
-
-  
 
 
 
@@ -2925,8 +2915,9 @@
 
 
 
-<section id="news" class="home-section wg-collection dark "  >
- <div class="home-section-bg  bg-image parallax" style="background-image: url(&#39;https://shen-lab.org/media/news_hu_16e1feba106b015c.webp&#39;);filter: brightness(0.5);">
+
+<section id="news" class="home-section wg-collection  "  >
+ <div class="home-section-bg " >
    
  </div>
   <div class="container">
@@ -3000,6 +2991,32 @@
 <div class="col-12 col-lg-8">
 
   
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="view-list view-list-item">
+  
+  <a href="/news/2026-9-30-hupo-presentations/" >2026-09-30 Yifei GE and Feifan ZHANG present at HUPO 2026</a>
+
+  
+
+  
+
+  
+
+</div>
 
   
     
@@ -3544,32 +3561,6 @@
 <div class="view-list view-list-item">
   
   <a href="/news/2024-3-27-bib/" >2024-03-27 Paper accepted in Briefings in Bioinformatics</a>
-
-  
-
-  
-
-  
-
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="view-list view-list-item">
-  
-  <a href="/news/2023-11-23-recruitment/" >2023-11-23 Opportunities in Shen Lab</a>
 
   
 
@@ -5375,8 +5366,8 @@
       </section>
       <section class="lab-footer__contact" aria-labelledby="lab-footer-contact">
         <h2 id="lab-footer-contact">Contact</h2>
-        <a class="lab-footer__email" href="mailto:xiaotao.shen@ntu.edu.sg">xiaotao.shen@ntu.edu.sg</a>
-        <address><a class="lab-footer__address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>59 Nanyang Drive<br>Singapore 636921 <span aria-hidden="true">↗</span></span></a></address>
+        <a class="lab-footer__email" href="mailto:xiaotao.shen@ntu.edu.sg"><i class="fas fa-envelope" aria-hidden="true"></i><span>xiaotao.shen@ntu.edu.sg</span></a>
+        <address><a class="lab-footer__address" href="https://maps.app.goo.gl/pcizQc8QdorHMMvB6" target="_blank" rel="noopener"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span>59 Nanyang Drive, Singapore 636921</span></a></address>
         <nav class="lab-footer__social" aria-label="Social links">
           <a class="software-card__button software-card__button--ghost resource-icon-link" title="GitHub" aria-label="GitHub" href="https://github.com/jaspershen-lab" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i></a>
           <a class="software-card__button software-card__button--ghost resource-icon-link" title="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -5387,9 +5378,16 @@
     <div class="lab-footer__affiliations">
       <h2>Affiliations</h2>
       <div class="lab-footer__logos">
-        <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><img src="/image/ntu_logo.png" alt="Nanyang Technological University" loading="lazy"></a>
-        <a href="https://www.ntu.edu.sg/medicine" target="_blank" rel="noopener"><img src="/image/lkcmedicine.png" alt="Lee Kong Chian School of Medicine" loading="lazy"></a>
-        <a href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener"><img src="/image/cceb_logo.png" alt="School of Chemistry, Chemical Engineering and Biotechnology" loading="lazy"></a>
+        <a href="https://www.ntu.edu.sg/" target="_blank" rel="noopener"><span class="lab-footer__ntu-logo"><img src="/image/ntu_logo.png" alt="Nanyang Technological University" loading="lazy"><img class="lab-footer__ntu-light-text" src="/image/ntu_logo.png" alt="" aria-hidden="true" loading="lazy"></span></a>
+        <a href="https://www.ntu.edu.sg/medicine" target="_blank" rel="noopener"><img class="lab-footer__school-logo" src="/image/lkcmedicine.png" alt="Lee Kong Chian School of Medicine" loading="lazy"></a>
+        <a href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener"><svg class="lab-footer__school-logo lab-footer__cceb-logo" viewBox="0 0 150 50" role="img" aria-label="School of Chemistry, Chemical Engineering and Biotechnology" xmlns="http://www.w3.org/2000/svg">
+          <rect width="150" height="50" rx="6" fill="#181c62"/>
+          <g fill="#fff" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+            <text x="75" y="15">School of Chemistry,</text>
+            <text x="75" y="28">Chemical Engineering</text>
+            <text x="75" y="41">and Biotechnology</text>
+          </g>
+        </svg></a>
       </div>
     </div>
     <details class="lab-footer__visitors">
