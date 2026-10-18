@@ -3,6 +3,9 @@
     if (!root || root.dataset.ready === '1') return;
     root.dataset.ready = '1';
 
+    var charts = root.querySelector('.team-stats-grid');
+    var toggle = root.querySelector('.team-stats-toggle');
+
     var colors = {
       'PI': '#d7263d',
       'Researchers': '#c64d64',
@@ -162,7 +165,7 @@
       renderProgress(1);
     }
     function start() {
-      if (animated) return;
+      if (animated || charts.hidden) return;
       animated = true;
       if (svg) { svg.style.transition = 'none'; svg.style.opacity = '1'; }
       if (motionPreference.matches) { finish(); return; }
@@ -181,6 +184,19 @@
     });
     document.addEventListener('visibilitychange', function () {
       if (document.hidden && animated) finish();
+    });
+
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      toggle.setAttribute('aria-label', (expanded ? 'Collapse' : 'Expand') + ' Team Summary');
+      toggle.querySelector('i').className = expanded ? 'fas fa-minus' : 'fas fa-plus';
+      charts.hidden = !expanded;
+      if (expanded) start();
+      else {
+        hideTooltip();
+        if (animated) finish();
+      }
     });
 
     renderDonut(0);

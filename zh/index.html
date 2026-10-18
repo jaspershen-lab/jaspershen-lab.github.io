@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.ef09e6ecf04b1ffc03f4adead275f0b8.css" />
+  <link rel="stylesheet" href="/css/wowchemy.18dd7ba2b2bbb66fd641c7e2a35a7a02.css" />
 
   
   
@@ -1214,9 +1214,10 @@
         <div class="highlight-flow__media">
           
             <img class="highlight-flow__video-poster" src="/media/mapa-advanced-science-2026.png" alt="MAPA video introduction" draggable="false">
-            <iframe src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?playsinline=1&rel=0&mute=1&enablejsapi=1"
-              data-src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?playsinline=1&rel=0&mute=1&enablejsapi=1"
-              title="MAPA video introduction" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <button type="button" class="highlight-flow__load-video" aria-label="Load MAPA video player"><i class="fas fa-play" aria-hidden="true"></i></button>
+            <iframe hidden sandbox="allow-scripts allow-same-origin allow-presentation"
+              data-src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?autoplay=0&playsinline=1&rel=0&mute=1&enablejsapi=1"
+              title="MAPA video introduction" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           
           <button type="button" class="highlight-flow__select" aria-label="MAPA — Video introduction"></button>
         </div>
@@ -1324,7 +1325,21 @@
       if (root.dataset.ready) return;
       root.dataset.ready = 'true';
       var cards = Array.from(root.querySelectorAll('.highlight-flow__card'));
-      var current = 0, start = null;
+      var current = 0, start = null, advanceTimer;
+      function scheduleAdvance() {
+        window.clearTimeout(advanceTimer);
+        if (document.hidden || cards.length < 2) return;
+        advanceTimer = window.setTimeout(function () {
+          
+          var frame = cards[current].querySelector('iframe');
+          if (frame && frame.hasAttribute('src')) {
+            scheduleAdvance();
+            return;
+          }
+          show(current + 1);
+        }, 5000);
+      }
+      document.addEventListener('visibilitychange', scheduleAdvance);
       function show(index) {
         current = (index + cards.length) % cards.length;
         cards.forEach(function (card, i) {
@@ -1338,16 +1353,29 @@
           select.tabIndex = Math.abs(offset) === 1 ? 0 : -1;
           var frame = card.querySelector('iframe');
           if (frame) {
-            if (offset === 0 && !frame.hasAttribute('src')) frame.src = frame.dataset.src;
-            if (offset !== 0) frame.removeAttribute('src');
+            if (offset !== 0) {
+              frame.removeAttribute('src');
+              frame.hidden = true;
+              card.querySelector('.highlight-flow__load-video').hidden = false;
+            }
           }
         });
         root.querySelector('.highlight-flow__count').textContent = (current + 1) + ' / ' + cards.length;
+        scheduleAdvance();
       }
       root.querySelectorAll('[data-step]').forEach(function (button) {
         button.addEventListener('click', function () { show(current + Number(button.dataset.step)); });
       });
       cards.forEach(function (card, i) {
+        var loadVideo = card.querySelector('.highlight-flow__load-video');
+        if (loadVideo) loadVideo.addEventListener('click', function () {
+          if (i !== current) return;
+          var frame = card.querySelector('iframe');
+          frame.src = frame.dataset.src;
+          frame.hidden = false;
+          loadVideo.hidden = true;
+          scheduleAdvance();
+        });
         card.querySelector('.highlight-flow__select').addEventListener('click', function () { show(i); });
       });
       root.addEventListener('keydown', function (event) {
@@ -2593,8 +2621,8 @@
 
   
     <div class="publication-summary-section">
-  <h2 class="pub-year-heading">Publication Summary</h2>
-  <div class="pub-summary-grid">
+  <h2 class="pub-year-heading pub-summary-heading"><span>Publication Summary</span><button type="button" class="pub-summary-toggle" aria-expanded="false" aria-controls="publication-summary-charts" aria-label="Expand Publication Summary"><i class="fas fa-plus" aria-hidden="true"></i></button></h2>
+  <div class="pub-summary-grid" id="publication-summary-charts" hidden>
     <div class="pub-summary-card">
       <h3 class="pub-summary-title">Publications Per Year</h3>
       <div id="pub-count-chart" class="pub-bars-chart"></div>
@@ -2613,6 +2641,18 @@
     }
     if (!section || section.dataset.pubSummaryInit === "1") return;
     section.dataset.pubSummaryInit = "1";
+
+    var toggle = section.querySelector('.pub-summary-toggle');
+    var charts = section.querySelector('.pub-summary-grid');
+    toggle.addEventListener('click', function () {
+      var expanded = toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(expanded));
+      toggle.setAttribute('aria-label', (expanded ? 'Collapse' : 'Expand') + ' Publication Summary');
+      toggle.querySelector('i').className = expanded ? 'fas fa-minus' : 'fas fa-plus';
+      charts.hidden = !expanded;
+      if (expanded && state.ready) runAnimation();
+      if (!expanded) hideTooltip();
+    });
 
     var tooltip = document.querySelector(".pub-floating-tooltip");
     if (!tooltip) {
@@ -2721,6 +2761,7 @@
       });
 
     function runAnimation() {
+      if (charts.hidden) return;
       resetBars(state.countBars);
       resetBars(state.citeBars);
       setTimeout(function () {
@@ -4346,7 +4387,11 @@
   <script type="application/json" class="team-stats-donut-data">"[{\"count\":1,\"label\":\"PI\"},{\"count\":3,\"label\":\"Researchers\"},{\"count\":10,\"label\":\"Students\"},{\"count\":3,\"label\":\"Co-supervised Students\"},{\"count\":0,\"label\":\"Intern\"}]"</script>
   <script type="application/json" class="team-stats-bar-data">"[{\"category\":\"PI\",\"count\":64,\"name\":\"Xiaotao SHEN\",\"url\":\"/author/xiaotao-shen/\"},{\"category\":\"Students\",\"count\":8,\"name\":\"Yijiang LIU\",\"url\":\"/author/yijiang-liu/\"},{\"category\":\"Students\",\"count\":6,\"name\":\"Yifei GE\",\"url\":\"/author/yifei-ge/\"},{\"category\":\"Students\",\"count\":5,\"name\":\"Feifan ZHANG\",\"url\":\"/author/feifan-zhang/\"},{\"category\":\"Researchers\",\"count\":2,\"name\":\"Jingxiang ZHANG\",\"url\":\"/author/jingxiang-zhang/\"},{\"category\":\"Co-supervised Students\",\"count\":1,\"name\":\"Ruwen ZHOU\",\"url\":\"/author/ruwen-zhou/\"},{\"category\":\"Students\",\"count\":1,\"name\":\"Yuting WANG\",\"url\":\"/author/yuting-wang/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Chi Fang HSU\",\"url\":\"/author/chi-fang-hsu/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Donghwee YUN\",\"url\":\"/author/donghwee-yun/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Jiramet KINCHAGAWAT\",\"url\":\"/author/jiramet-kinchagawat/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Junqi ZHAO\",\"url\":\"/author/junqi-zhao/\"},{\"category\":\"Co-supervised Students\",\"count\":0,\"name\":\"Kajal AGRAWAL\",\"url\":\"/author/kajal-agrawal/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Shuli ZHANG\",\"url\":\"/author/shuli-zhang/\"},{\"category\":\"Researchers\",\"count\":0,\"name\":\"Si-Si LIU\",\"url\":\"/author/si-si-liu/\"},{\"category\":\"Co-supervised Students\",\"count\":0,\"name\":\"Xiaoyu XU\",\"url\":\"/author/xiaoyu-xu/\"},{\"category\":\"Students\",\"count\":0,\"name\":\"Xicheng YANG\",\"url\":\"/author/xicheng-yang/\"},{\"category\":\"Researchers\",\"count\":0,\"name\":\"Yuanming YANG\",\"url\":\"/author/yuanming-yang/\"}]"</script>
 
-  <div class="team-stats-grid">
+  <h2 class="pub-year-heading pub-summary-heading">
+    <span>Team Summary</span>
+    <button type="button" class="pub-summary-toggle team-stats-toggle" aria-expanded="false" aria-controls="team-membership-stats-charts" aria-label="Expand Team Summary"><i class="fas fa-plus" aria-hidden="true"></i></button>
+  </h2>
+  <div class="team-stats-grid" id="team-membership-stats-charts" hidden>
     <section class="team-stats-card team-stats-card--donut">
       <div class="team-stats-card__title">Current Lab Member Distribution</div>
       <div class="team-donut-wrap">
@@ -4535,7 +4580,7 @@
   <div class="team-stats-tooltip" hidden></div>
 </div>
 
-<script src="/js/team_membership_stats.js?v=20261016-red"></script>
+<script src="/js/team_membership_stats.js?v=20261018-fold"></script>
 
 
   </div>
@@ -4637,357 +4682,250 @@
 
 
   <div class="col-12">
-    <script>document.documentElement.classList.add("has-life-lab-motion");</script>
-<div class="life-lab-wall"><a
-        class="life-lab-photo life-lab-photo--wide life-lab-photo--left"
-        href="/photo-2025/"
-        aria-label="Open Lab photo photo album"
-        data-current="0"
-        data-delay="0"
-        data-interval="5200"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-8-5-lab-photo.jpg"
-            alt="Lab photo"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab photo"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-1-14-lab.jpeg"
-            alt="Lab gathering"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab gathering"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2024/lab/lab-2024-12-19.jpg"
-            alt="Team moment"
-            loading="lazy"
-            data-href="/photo-2024/"
-            data-label="Team moment"
-          ><span>Lab photo</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--right"
-        href="/photo-2025/"
-        aria-label="Open Lab dinner photo album"
-        data-current="0"
-        data-delay="900"
-        data-interval="6100"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-8-15-lab-dinner.jpg"
-            alt="Lab dinner"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab dinner"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-9-19-lab-dinner.jpg"
-            alt="Team dinner"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Team dinner"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2024/lab/2024-9-17-lab-dinner.jpg"
-            alt="Dinner"
-            loading="lazy"
-            data-href="/photo-2024/"
-            data-label="Dinner"
-          ><span>Lab dinner</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--up"
-        href="/photo-2025/"
-        aria-label="Open ASMS photo album"
-        data-current="0"
-        data-delay="1600"
-        data-interval="5700"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-6-5-ASMS1.jpeg"
-            alt="ASMS"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="ASMS"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-6-5-ASMS2.jpeg"
-            alt="ASMS poster"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="ASMS poster"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2026/lab/2026-6-1-xiaotao-present-asms.jpeg"
-            alt="ASMS talk"
-            loading="lazy"
-            data-href="/photo-2026/"
-            data-label="ASMS talk"
-          ><span>ASMS</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--down"
-        href="/photo-2025/"
-        aria-label="Open Conference photo album"
-        data-current="0"
-        data-delay="2300"
-        data-interval="6400"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-12-8-conference-yijiang-yifei-jingxiang.jpg"
-            alt="Conference"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Conference"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-12-8-conference-yifei.jpg"
-            alt="Conference poster"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Conference poster"
-          ><span>Conference</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--fade"
-        href="/photo-2025/"
-        aria-label="Open Presentation photo album"
-        data-current="0"
-        data-delay="3100"
-        data-interval="5900"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-7-2-yijiang-presentation.jpg"
-            alt="Presentation"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Presentation"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-5-8-Yifei-presentation.jpg"
-            alt="Research talk"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Research talk"
-          ><span>Presentation</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--left"
-        href="/photo-2025/"
-        aria-label="Open Lab lunch photo album"
-        data-current="0"
-        data-delay="4200"
-        data-interval="6800"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-5-10-lab-lunch.jpeg"
-            alt="Lab lunch"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab lunch"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-1-24-lab-lunch.jpg"
-            alt="Lab lunch"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab lunch"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-12-20-lab%20dinner.jpg"
-            alt="Lab dinner"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Lab dinner"
-          ><span>Lab lunch</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--right"
-        href="/photo-2026/"
-        aria-label="Open Research visit photo album"
-        data-current="0"
-        data-delay="1200"
-        data-interval="5500"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2026/lab/2026-3-23-Ireland.jpeg"
-            alt="Research visit"
-            loading="lazy"
-            data-href="/photo-2026/"
-            data-label="Research visit"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2026/lab/2026-2-1-visit%20HK.jpeg"
-            alt="HK visit"
-            loading="lazy"
-            data-href="/photo-2026/"
-            data-label="HK visit"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-4-24-xiaotao-visit-sjtu-fudan-1.jpeg"
-            alt="Research visit"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Research visit"
-          ><span>Research visit</span>
-      </a><a
-        class="life-lab-photo  life-lab-photo--up"
-        href="/photo-2025/"
-        aria-label="Open First lab meeting photo album"
-        data-current="0"
-        data-delay="2800"
-        data-interval="6200"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-1-14-first-lab-meeting.jpeg"
-            alt="First lab meeting"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="First lab meeting"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2024/lab/2024-5-21-first-day-in-office.jpg"
-            alt="First office day"
-            loading="lazy"
-            data-href="/photo-2024/"
-            data-label="First office day"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2026/lab/2026-3-17-chunlei.jpg"
-            alt="Lab discussion"
-            loading="lazy"
-            data-href="/photo-2026/"
-            data-label="Lab discussion"
-          ><span>First lab meeting</span>
-      </a><a
-        class="life-lab-photo life-lab-photo--wide life-lab-photo--down"
-        href="/photo-2025/"
-        aria-label="Open Team dinner photo album"
-        data-current="0"
-        data-delay="3600"
-        data-interval="6600"
-      ><img
-            class="life-lab-slide is-active"
-            src="/photo-2025/lab/2025-9-19-lab-dinner.jpg"
-            alt="Team dinner"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Team dinner"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-8-zijing-farewell.jpg"
-            alt="Farewell"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Farewell"
-          ><img
-            class="life-lab-slide"
-            src="/photo-2025/lab/2025-8-shenyu-farewell2.jpg"
-            alt="Team moment"
-            loading="lazy"
-            data-href="/photo-2025/"
-            data-label="Team moment"
-          ><span>Team dinner</span>
-      </a></div>
-
+    <div class="photo-flow" role="region" aria-label="Lab photos" aria-roledescription="carousel" tabindex="0">
+  <div class="highlight-flow__stage">
+    
+    <article class="highlight-flow__card is-current" data-position="0">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab photo — 2025">
+        <img src="/photo-2025/lab/2025-8-5-lab-photo.jpg" alt="Lab photo" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab photo</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="1">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab gathering — 2025">
+        <img src="/photo-2025/lab/2025-1-14-lab.jpeg" alt="Lab gathering" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab gathering</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="2">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Team moment — 2024">
+        <img src="/photo-2024/lab/lab-2024-12-19.jpg" alt="Team moment" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2024</p><h2>Team moment</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="3">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab dinner — 2025">
+        <img src="/photo-2025/lab/2025-8-15-lab-dinner.jpg" alt="Lab dinner" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab dinner</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="4">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Team dinner — 2025">
+        <img src="/photo-2025/lab/2025-9-19-lab-dinner.jpg" alt="Team dinner" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Team dinner</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="5">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Dinner — 2024">
+        <img src="/photo-2024/lab/2024-9-17-lab-dinner.jpg" alt="Dinner" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2024</p><h2>Dinner</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="6">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show ASMS — 2025">
+        <img src="/photo-2025/lab/2025-6-5-ASMS1.jpeg" alt="ASMS" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>ASMS</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="7">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show ASMS poster — 2025">
+        <img src="/photo-2025/lab/2025-6-5-ASMS2.jpeg" alt="ASMS poster" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>ASMS poster</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="8">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show ASMS talk — 2026">
+        <img src="/photo-2026/lab/2026-6-1-xiaotao-present-asms.jpeg" alt="ASMS talk" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2026</p><h2>ASMS talk</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="9">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Conference — 2025">
+        <img src="/photo-2025/lab/2025-12-8-conference-yijiang-yifei-jingxiang.jpg" alt="Conference" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Conference</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="10">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Conference poster — 2025">
+        <img src="/photo-2025/lab/2025-12-8-conference-yifei.jpg" alt="Conference poster" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Conference poster</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="11">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Presentation — 2025">
+        <img src="/photo-2025/lab/2025-7-2-yijiang-presentation.jpg" alt="Presentation" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Presentation</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="12">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Research talk — 2025">
+        <img src="/photo-2025/lab/2025-5-8-Yifei-presentation.jpg" alt="Research talk" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Research talk</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="13">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab lunch — 2025">
+        <img src="/photo-2025/lab/2025-5-10-lab-lunch.jpeg" alt="Lab lunch" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab lunch</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="14">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab lunch — 2025">
+        <img src="/photo-2025/lab/2025-1-24-lab-lunch.jpg" alt="Lab lunch" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab lunch</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="15">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab dinner — 2025">
+        <img src="/photo-2025/lab/2025-12-20-lab%20dinner.jpg" alt="Lab dinner" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Lab dinner</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="16">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Research visit — 2026">
+        <img src="/photo-2026/lab/2026-3-23-Ireland.jpeg" alt="Research visit" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2026</p><h2>Research visit</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="17">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show HK visit — 2026">
+        <img src="/photo-2026/lab/2026-2-1-visit%20HK.jpeg" alt="HK visit" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2026</p><h2>HK visit</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="18">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Research visit — 2025">
+        <img src="/photo-2025/lab/2025-4-24-xiaotao-visit-sjtu-fudan-1.jpeg" alt="Research visit" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Research visit</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="19">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show First lab meeting — 2025">
+        <img src="/photo-2025/lab/2025-1-14-first-lab-meeting.jpeg" alt="First lab meeting" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>First lab meeting</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="20">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show First office day — 2024">
+        <img src="/photo-2024/lab/2024-5-21-first-day-in-office.jpg" alt="First office day" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2024</p><h2>First office day</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="21">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Lab discussion — 2026">
+        <img src="/photo-2026/lab/2026-3-17-chunlei.jpg" alt="Lab discussion" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2026</p><h2>Lab discussion</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="22">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Farewell — 2025">
+        <img src="/photo-2025/lab/2025-8-zijing-farewell.jpg" alt="Farewell" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Farewell</h2></div>
+    </article>
+    
+    <article class="highlight-flow__card" data-position="23">
+      <button type="button" class="highlight-flow__media photo-flow__select" aria-label="Show Team moment — 2025">
+        <img src="/photo-2025/lab/2025-8-shenyu-farewell2.jpg" alt="Team moment" loading="lazy" draggable="false">
+      </button>
+      <div class="highlight-flow__caption"><p>2025</p><h2>Team moment</h2></div>
+    </article>
+    
+  </div>
+  <div class="highlight-flow__controls">
+    <button type="button" data-step="-1" aria-label="Previous photo"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+    <span class="highlight-flow__count" aria-live="polite"></span>
+    <button type="button" data-step="1" aria-label="Next photo"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+</div>
 <script>
 (function () {
-  var tiles = document.querySelectorAll('.life-lab-photo');
-  if (!tiles.length) return;
-
-  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  tiles.forEach(function (tile, tileIndex) {
-    tile.style.setProperty('--life-reveal-delay', Math.min(tileIndex * 70, 560) + 'ms');
-  });
-
-  if ('IntersectionObserver' in window && !reduceMotion) {
-    var revealObserver = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add('is-revealed');
-        revealObserver.unobserve(entry.target);
+  document.querySelectorAll('.photo-flow').forEach(function (root) {
+    if (root.dataset.ready) return;
+    root.dataset.ready = 'true';
+    var cards = Array.from(root.querySelectorAll('.highlight-flow__card'));
+    var current = 0, timer, start, dragged = false, inView = true;
+    function schedule() {
+      clearTimeout(timer);
+      if (document.hidden || !inView || cards.length < 2) return;
+      timer = setTimeout(function () { show(current + 1); }, 5000);
+    }
+    function show(index) {
+      current = (index + cards.length) % cards.length;
+      cards.forEach(function (card, i) {
+        var offset = (i - current + cards.length) % cards.length;
+        if (offset > cards.length / 2) offset -= cards.length;
+        card.dataset.position = offset;
+        card.classList.toggle('is-current', offset === 0);
+        card.style.zIndex = cards.length - Math.abs(offset);
+        card.querySelector('.photo-flow__select').tabIndex = Math.abs(offset) <= 1 ? 0 : -1;
       });
-    }, { threshold: 0.18, rootMargin: '0px 0px -6% 0px' });
-
-    tiles.forEach(function (tile) {
-      revealObserver.observe(tile);
-    });
-  } else {
-    tiles.forEach(function (tile) {
-      tile.classList.add('is-revealed');
-    });
-  }
-
-  if (reduceMotion) return;
-
-  tiles.forEach(function (tile, tileIndex) {
-    if (tile.dataset.carouselReady === '1') return;
-    tile.dataset.carouselReady = '1';
-    var slides = tile.querySelectorAll('.life-lab-slide');
-    var label = tile.querySelector('span');
-    if (slides.length < 2) return;
-
-    var interval = parseInt(tile.dataset.interval || '6000', 10);
-    var delay = parseInt(tile.dataset.delay || '0', 10) + tileIndex * 220;
-
-    var busy = false;
-    var inView = false;
-    var motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    if ('IntersectionObserver' in window) {
-      var visibilityObserver = new IntersectionObserver(function (entries) {
-        inView = entries[0].isIntersecting;
-      }, { threshold: 0.1 });
-      visibilityObserver.observe(tile);
-    } else {
-      inView = true;
+      root.querySelector('.highlight-flow__count').textContent = (current + 1) + ' / ' + cards.length;
+      schedule();
     }
-
-    async function nextSlide() {
-      if (busy || !inView || document.hidden || motionPreference.matches ||
-          tile.matches(':hover, :focus-within')) return;
-      busy = true;
-      var current = parseInt(tile.dataset.current || '0', 10);
-      var next = (current + 1) % slides.length;
-      var currentSlide = slides[current];
-      var nextSlideEl = slides[next];
-      try {
-        
-        await nextSlideEl.decode();
-        if (!inView || document.hidden || motionPreference.matches) return;
-        nextSlideEl.classList.add('is-entering');
-        var fade = nextSlideEl.animate(
-          [{ opacity: 0 }, { opacity: 1 }],
-          { duration: 1600, easing: 'cubic-bezier(0.45, 0, 0.55, 1)', fill: 'forwards' }
-        );
-        await fade.finished;
-        
-        nextSlideEl.classList.add('is-active');
-        currentSlide.classList.remove('is-active');
-        fade.cancel();
-        nextSlideEl.classList.remove('is-entering');
-        tile.dataset.current = String(next);
-        tile.href = nextSlideEl.dataset.href || tile.href;
-        tile.setAttribute('aria-label', 'Open ' + (nextSlideEl.dataset.label || 'photo') + ' photo album');
-        if (label) label.textContent = nextSlideEl.dataset.label || label.textContent;
-      } catch (error) {
-        
-        nextSlideEl.classList.remove('is-entering');
-      } finally {
-        busy = false;
+    cards.forEach(function (card, i) {
+      card.querySelector('.photo-flow__select').addEventListener('click', function () { show(i); });
+    });
+    root.querySelectorAll('[data-step]').forEach(function (button) {
+      button.addEventListener('click', function () { show(current + Number(button.dataset.step)); });
+    });
+    root.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        event.preventDefault(); show(current + (event.key === 'ArrowRight' ? 1 : -1));
       }
+    });
+    root.addEventListener('pointerdown', function (event) {
+      dragged = false;
+      start = {x: event.clientX, y: event.clientY};
+      clearTimeout(timer);
+    });
+    root.addEventListener('pointerup', function (event) {
+      if (!start) return;
+      var dx = event.clientX - start.x, dy = event.clientY - start.y;
+      start = null;
+      if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) {
+        dragged = true; show(current + (dx < 0 ? 1 : -1));
+      } else schedule();
+    });
+    root.addEventListener('click', function (event) {
+      if (dragged) { event.preventDefault(); event.stopPropagation(); dragged = false; }
+    }, true);
+    root.addEventListener('pointercancel', function () { start = null; schedule(); });
+    document.addEventListener('visibilitychange', schedule);
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (entries) {
+        inView = entries[0].isIntersecting; schedule();
+      }, {threshold: 0.1}).observe(root);
     }
-
-    function scheduleNext(wait) {
-      window.setTimeout(async function () {
-        await nextSlide();
-        scheduleNext(interval);
-      }, wait);
-    }
-    scheduleNext(interval + delay);
+    show(0);
   });
 })();
 </script>
 
 <div class="see-all">
-  <a href="./photo/">
+  <a href="/photo-2026/">
     查看全部
     <i class="fas fa-angle-right"></i>
   </a>

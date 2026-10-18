@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.ef09e6ecf04b1ffc03f4adead275f0b8.css" />
+  <link rel="stylesheet" href="/css/wowchemy.18dd7ba2b2bbb66fd641c7e2a35a7a02.css" />
 
   
   
@@ -1067,7 +1067,15 @@
 
 
   <div class="col-12">
-    <style>
+    <nav class="photo-year-picker" aria-label="Photo album year">
+  <a class="photo-year-picker__arrow" href="/photo-2026/" aria-label="View 2026 album"><i class="fas fa-chevron-left" aria-hidden="true"></i></a>
+  <select aria-label="Select photo album year" onchange="window.location.assign(this.value)">
+    <option value="/photo-2026/">2026</option><option value="/photo-2025/">2025</option><option value="/photo-2024/" selected>2024</option>
+  </select>
+  <a class="photo-year-picker__arrow" href="/photo-2025/" aria-label="View 2025 album"><i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+</nav>
+
+<style>
 .photo-spotlight {
   position: relative;
   min-height: 440px;
