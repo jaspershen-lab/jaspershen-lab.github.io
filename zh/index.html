@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: 2026年10月18日 --><html lang="zh-Hans" >
+<!-- Last Published: 2026年10月22日 --><html lang="zh-Hans" >
 
 
 <head>
@@ -217,7 +217,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.294d78dff44d70daa40ec4ce811858a8.css" />
+  <link rel="stylesheet" href="/css/wowchemy.ff52251dfce50bbe5573f5c3bc850073.css" />
 
   
   
@@ -1213,10 +1213,8 @@
       <article class="highlight-flow__card is-current" data-index="0" aria-label="MAPA — Video introduction">
         <div class="highlight-flow__media">
           
-            <img class="highlight-flow__video-poster" src="/media/mapa-advanced-science-2026.png" alt="MAPA video introduction" draggable="false">
-            <button type="button" class="highlight-flow__load-video" aria-label="Load MAPA video player"><i class="fas fa-play" aria-hidden="true"></i></button>
-            <iframe hidden sandbox="allow-scripts allow-same-origin allow-presentation"
-              data-src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?autoplay=0&playsinline=1&rel=0&mute=1&enablejsapi=1"
+            <iframe sandbox="allow-scripts allow-same-origin allow-presentation"
+              src="https://www.youtube-nocookie.com/embed/eS3hR8jROdA?autoplay=0&playsinline=1&rel=0&mute=1&enablejsapi=1"
               title="MAPA video introduction" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           
           <button type="button" class="highlight-flow__select" aria-label="MAPA — Video introduction"></button>
@@ -1325,14 +1323,20 @@
       if (root.dataset.ready) return;
       root.dataset.ready = 'true';
       var cards = Array.from(root.querySelectorAll('.highlight-flow__card'));
-      var current = 0, start = null, advanceTimer;
+      var current = 0, start = null, advanceTimer, videoInteracted = false;
+      window.addEventListener('blur', function () {
+        window.setTimeout(function () {
+          var frame = cards[current].querySelector('iframe');
+          if (frame && document.activeElement === frame) videoInteracted = true;
+        }, 0);
+      });
       function scheduleAdvance() {
         window.clearTimeout(advanceTimer);
         if (document.hidden || cards.length < 2) return;
         advanceTimer = window.setTimeout(function () {
           
           var frame = cards[current].querySelector('iframe');
-          if (frame && frame.hasAttribute('src')) {
+          if (frame && (videoInteracted || document.activeElement === frame)) {
             scheduleAdvance();
             return;
           }
@@ -1341,7 +1345,18 @@
       }
       document.addEventListener('visibilitychange', scheduleAdvance);
       function show(index) {
-        current = (index + cards.length) % cards.length;
+        var next = (index + cards.length) % cards.length;
+        if (next !== current) {
+          var previousFrame = cards[current].querySelector('iframe');
+          
+          if (previousFrame && previousFrame.contentWindow) {
+            previousFrame.contentWindow.postMessage(JSON.stringify({
+              event: 'command', func: 'pauseVideo', args: []
+            }), 'https://www.youtube-nocookie.com');
+          }
+          videoInteracted = false;
+        }
+        current = next;
         cards.forEach(function (card, i) {
           var offset = (i - current + cards.length) % cards.length;
           if (offset > cards.length / 2) offset -= cards.length;
@@ -1351,14 +1366,7 @@
           card.querySelectorAll('a, iframe').forEach(function (el) { el.tabIndex = offset === 0 ? 0 : -1; });
           var select = card.querySelector('.highlight-flow__select');
           select.tabIndex = Math.abs(offset) === 1 ? 0 : -1;
-          var frame = card.querySelector('iframe');
-          if (frame) {
-            if (offset !== 0) {
-              frame.removeAttribute('src');
-              frame.hidden = true;
-              card.querySelector('.highlight-flow__load-video').hidden = false;
-            }
-          }
+
         });
         root.querySelector('.highlight-flow__count').textContent = (current + 1) + ' / ' + cards.length;
         scheduleAdvance();
@@ -1367,15 +1375,6 @@
         button.addEventListener('click', function () { show(current + Number(button.dataset.step)); });
       });
       cards.forEach(function (card, i) {
-        var loadVideo = card.querySelector('.highlight-flow__load-video');
-        if (loadVideo) loadVideo.addEventListener('click', function () {
-          if (i !== current) return;
-          var frame = card.querySelector('iframe');
-          frame.src = frame.dataset.src;
-          frame.hidden = false;
-          loadVideo.hidden = true;
-          scheduleAdvance();
-        });
         card.querySelector('.highlight-flow__select').addEventListener('click', function () { show(i); });
       });
       root.addEventListener('keydown', function (event) {
