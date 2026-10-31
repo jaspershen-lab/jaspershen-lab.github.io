@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yi-Xin WANG | Shen Lab@NTU</title>
+    <title>Yi-Xin WANG* | Shen Lab@NTU</title>
     <link>https://shen-lab.org/author/yi-xin-wang/</link>
       <atom:link href="https://shen-lab.org/author/yi-xin-wang/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yi-Xin WANG</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <description>Yi-Xin WANG*</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://shen-lab.org/author/yi-xin-wang/avatar_hu_213dc0a683604541.jpg</url>
-      <title>Yi-Xin WANG</title>
+      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
+      <title>Yi-Xin WANG*</title>
       <link>https://shen-lab.org/author/yi-xin-wang/</link>
     </image>
     
     <item>
-      <title>Per-and polyfluoroalkyl substances, seminal plasma metabolome, and sperm telomere length and mitochondrial DNA copy number: a cohort study</title>
-      <link>https://shen-lab.org/publication/per-and-polyfluoroalkyl-substances-seminal-plasma-metabolome-and-sperm-telomere-length-and-mitochondrial-dna-copy-number-a-cohort-study/</link>
+      <title>Trihalomethane Exposure, Seminal Plasma Metabolomics, and Semen Quality in Healthy Men: A Meet-in-the-Middle Approach</title>
+      <link>https://shen-lab.org/publication/trihalomethane-exposure-seminal-plasma-metabolomics-and-semen-quality-in-healthy-men-a-meet-in-the-middle-approach/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/per-and-polyfluoroalkyl-substances-seminal-plasma-metabolome-and-sperm-telomere-length-and-mitochondrial-dna-copy-number-a-cohort-study/</guid>
+      <guid>https://shen-lab.org/publication/trihalomethane-exposure-seminal-plasma-metabolomics-and-semen-quality-in-healthy-men-a-meet-in-the-middle-approach/</guid>
       <description></description>
     </item>
     
   </channel>
+</rss>
+nnel>
 </rss>
