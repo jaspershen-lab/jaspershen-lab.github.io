@@ -45,6 +45,36 @@
     </item>
     
     <item>
+      <title>FeatureMAP</title>
+      <link>https://shen-lab.org/software/featuremap/</link>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/featuremap/</guid>
+      <description>&lt;p&gt;FeatureMAP is a feature-centric, metabolic network-guided framework for interpreting untargeted LC-MS metabolomics data. It integrates feature-to-metabolite annotation, cutoff-free feature weighting, network refinement, and module detection to identify dysregulated metabolic modules. Outputs include refined annotations, statistically supported modules, and LLM-assisted functional interpretation.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://featuremap.jaspershenlab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Launch FeatureMAP&lt;/a&gt; · &lt;a href=&#34;https://github.com/tidymass/featuremap_shiny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FeatureMSEA</title>
+      <link>https://shen-lab.org/software/featuremsea/</link>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/featuremsea/</guid>
+      <description>&lt;p&gt;FeatureMSEA performs metabolite set enrichment directly from LC-MS metabolic features without requiring confident metabolite identification. It combines feature-level enrichment scoring, iterative annotation refinement, permutation-based statistical inference, and optional LLM-assisted interpretation to identify enriched metabolite sets.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://featuremsea.jaspershenlab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Launch FeatureMSEA&lt;/a&gt; · &lt;a href=&#34;https://github.com/tidymass/featuremsea_shiny&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PhenoMAP</title>
+      <link>https://shen-lab.org/software/phenomap/</link>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/phenomap/</guid>
+      <description>&lt;p&gt;PhenoMAP connects phenotypes, metabolomics studies, co-regulated metabolite modules, and individual metabolites in a phenotype-centered knowledge graph. The web platform provides entity search, path queries, module enrichment, and PhenoMAP Chat for exploring connections and asking questions with cited sources.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://phenomap.jaspershenlab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Launch PhenoMAP&lt;/a&gt; · &lt;a href=&#34;https://github.com/tidymass/phenomap&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Source code&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2026-11-08 Xiaotao SHEN and Yijiang LIU present at Metabolomics 2026 in Shanghai</title>
       <link>https://shen-lab.org/news/2026-11-08-metabolomics-shanghai/</link>
       <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>

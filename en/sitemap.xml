@@ -14,12 +14,42 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/software/featuremap/</loc>
+    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/featuremsea/</loc>
+    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tag/metabolomics/</loc>
+    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/phenomap/</loc>
+    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/tags/</loc>
+    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://shen-lab.org/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://shen-lab.org/tags/"
+                />
+  </url><url>
     <loc>https://shen-lab.org/news/2026-11-08-metabolomics-shanghai/</loc>
-    <lastmod>2026-11-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T15:12:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-11T15:12:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -755,7 +785,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/photo-2026/</loc>
-    <lastmod>2026-10-18T11:16:04+08:00</lastmod>
+    <lastmod>2026-11-11T15:12:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/pranav-berry/</loc>
@@ -1186,20 +1216,6 @@
     <lastmod>2026-10-16T18:10:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/tags/</loc>
-    <lastmod>2026-10-16T18:10:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://shen-lab.org/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://shen-lab.org/tags/"
-                />
-  </url><url>
     <loc>https://shen-lab.org/publication-type/3/</loc>
     <lastmod>2026-10-31T16:35:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1330,10 +1346,6 @@
   </url><url>
     <loc>https://shen-lab.org/news/2025-07-02-yijiang-research-presentation/</loc>
     <lastmod>2026-10-17T17:54:15+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/tag/metabolomics/</loc>
-    <lastmod>2026-10-16T18:10:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/tidymasshiny-project/</loc>
