@@ -14,24 +14,42 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/news/2026-11-17-xinwei-joins-shen-lab/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/authors/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://shen-lab.org/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://shen-lab.org/authors/"
+                />
+  </url><url>
     <loc>https://shen-lab.org/software/featuremap/</loc>
-    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/featuremsea/</loc>
-    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/tag/metabolomics/</loc>
-    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/phenomap/</loc>
-    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/tags/</loc>
-    <lastmod>2026-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -47,20 +65,6 @@
     <loc>https://shen-lab.org/news/2026-11-08-metabolomics-shanghai/</loc>
     <lastmod>2026-11-11T15:12:01+08:00</lastmod>
     <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2026-11-11T15:12:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://shen-lab.org/zh/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://shen-lab.org/authors/"
-                />
   </url><url>
     <loc>https://shen-lab.org/news/2026-9-30-hupo-presentations/</loc>
     <lastmod>2026-10-17T17:40:24+08:00</lastmod>
@@ -2556,6 +2560,34 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/nan-liu/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/ruohong-wang/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/xin-xiong/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yandong-yin/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yuping-cai/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/zaijun-ma/</loc>
+    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/author/jia-tu/</loc>
     <lastmod>2026-10-31T16:35:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2566,10 +2598,6 @@
   </url><url>
     <loc>https://shen-lab.org/author/xi-chen/</loc>
     <lastmod>2019-02-15T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/xin-xiong/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhiwei-zhou/</loc>
@@ -2674,30 +2702,6 @@
   </url><url>
     <loc>https://shen-lab.org/event/2018-metabolomics-conference/</loc>
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/metabolic-reaction-network-based-recursive-metabolite-identification-for-untargeted-metabolomics/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/nan-liu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/ruohong-wang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yandong-yin/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yuping-cai/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/zaijun-ma/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</loc>
