@@ -5,12 +5,20 @@
     <link>https://shen-lab.org/author/sara-ahadi/</link>
       <atom:link href="https://shen-lab.org/author/sara-ahadi/index.xml" rel="self" type="application/rss+xml" />
     <description>Sara AHADI</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
       <title>Sara AHADI</title>
       <link>https://shen-lab.org/author/sara-ahadi/</link>
     </image>
+    
+    <item>
+      <title>Decoding personal and population variability in the human multiome</title>
+      <link>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>

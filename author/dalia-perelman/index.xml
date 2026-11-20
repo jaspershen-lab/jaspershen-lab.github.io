@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dalia PERELMAN | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/dalia-perelman/</link>
+      <atom:link href="https://shen-lab.org/author/dalia-perelman/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dalia PERELMAN</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
+      <title>Dalia PERELMAN</title>
+      <link>https://shen-lab.org/author/dalia-perelman/</link>
+    </image>
+    
+    <item>
+      <title>Insulin resistance modifies longitudinal multi-omics responses to habitual diet</title>
+      <link>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

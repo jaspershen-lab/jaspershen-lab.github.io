@@ -5,12 +5,20 @@
     <link>https://shen-lab.org/author/mads-melbye/</link>
       <atom:link href="https://shen-lab.org/author/mads-melbye/index.xml" rel="self" type="application/rss+xml" />
     <description>Mads MELBYE</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
       <title>Mads MELBYE</title>
       <link>https://shen-lab.org/author/mads-melbye/</link>
     </image>
+    
+    <item>
+      <title>Systems and Methods for Evaluating Gestational Progress and Applications Thereof</title>
+      <link>https://shen-lab.org/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women</title>
