@@ -13,6 +13,46 @@
     </image>
     
     <item>
+      <title>scCody distinguishes aging-aligned from divergent disease-associated cellular remodeling</title>
+      <link>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</link>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deciphering the Biological Function of Tandem Mass Spectra Using a Dual-Modal Metabolite Language Model</title>
+      <link>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gut Roseburia hominis-derived 10-hydroxystearic acid alleviates metabolic disorder by restoring hepatic fatty acid metabolism</title>
+      <link>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</link>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FeatureMAP enables network-guided interpretation of untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</link>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoding personal and population variability in the human multiome</title>
+      <link>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</link>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data</title>
       <link>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</link>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
@@ -25,6 +65,22 @@
       <link>https://shen-lab.org/publication/lagci-enables-inference-of-temporal-causal-relationships-from-dense-multi-omic-time-series/</link>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/lagci-enables-inference-of-temporal-causal-relationships-from-dense-multi-omic-time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The gut microbiome organ</title>
+      <link>https://shen-lab.org/publication/the-gut-microbiome-organ/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/the-gut-microbiome-organ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FeatureMSEA: Metabolic Feature-based Metabolite Set Enrichment Analysis</title>
+      <link>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</guid>
       <description></description>
     </item>
     
@@ -61,14 +117,6 @@
     </item>
     
     <item>
-      <title>Decoding personal and population variability in the human multiome</title>
-      <link>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deployment of a cloud-based passive defecation monitoring system for continuous gut health monitoring</title>
       <link>https://shen-lab.org/publication/deployment-of-a-cloud-based-passive-defecation-monitoring-system-for-continuous-gut-health-monitoring/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -89,30 +137,6 @@
       <link>https://shen-lab.org/publication/ebiota-designing-microbial-communities-from-large-seed-pools-with-desired-function-using-rapid-optimization-and-deep-learning/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/ebiota-designing-microbial-communities-from-large-seed-pools-with-desired-function-using-rapid-optimization-and-deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FeatureMAP enables network-guided interpretation of untargeted metabolomics</title>
-      <link>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FeatureMSEA: Metabolic Feature-based Metabolite Set Enrichment Analysis</title>
-      <link>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gut Roseburia hominis-derived 10-hydroxystearic acid alleviates metabolic disorder by restoring hepatic fatty acid metabolism</title>
-      <link>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</guid>
       <description></description>
     </item>
     
@@ -197,26 +221,10 @@
     </item>
     
     <item>
-      <title>scCody distinguishes aging-aligned from divergent disease-associated cellular remodeling</title>
-      <link>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Expanding Landscape of Microbiota Medicine: Indications, Therapeutic Modalities, and the Path Towards Integrative Microbiome‐Targeting Healthcare</title>
       <link>https://shen-lab.org/publication/the-expanding-landscape-of-microbiota-medicine-indications-therapeutic-modalities-and-the-path-towards-integrative-microbiome-targeting-healthcare/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/the-expanding-landscape-of-microbiota-medicine-indications-therapeutic-modalities-and-the-path-towards-integrative-microbiome-targeting-healthcare/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The gut microbiome organ</title>
-      <link>https://shen-lab.org/publication/the-gut-microbiome-organ/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/the-gut-microbiome-organ/</guid>
       <description></description>
     </item>
     

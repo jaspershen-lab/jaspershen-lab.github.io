@@ -13,6 +13,17 @@
     </image>
     
     <item>
+      <title>Spec2Function</title>
+      <link>https://shen-lab.org/software/spec2function/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/software/spec2function/</guid>
+      <description>&lt;p&gt;Spec2Function is a function-centric framework for interpreting tandem mass spectrometry (MS2) spectra without requiring prior structural identification. Its dual-modal model, Spec2Biotext, connects spectra and biological function descriptions in a shared embedding space. Retrieval-augmented generation draws on curated databases and biomedical literature to produce evidence-grounded functional summaries for individual spectra or groups of spectra.&lt;/p&gt;
+&lt;p&gt;The web app provides &lt;strong&gt;Single Spectrum&lt;/strong&gt; and &lt;strong&gt;Metabolite Set&lt;/strong&gt; workflows for exploring the biological functions of metabolomics data.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://spec2function.jaspershenlab.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Launch Spec2Function&lt;/a&gt; · &lt;a href=&#34;https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/&#34;&gt;Read the publication&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>FeatureMAP</title>
       <link>https://shen-lab.org/software/featuremap/</link>
       <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>

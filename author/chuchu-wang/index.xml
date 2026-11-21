@@ -13,26 +13,34 @@
     </image>
     
     <item>
-      <title>MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data</title>
-      <link>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</link>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FeatureMAP enables network-guided interpretation of untargeted metabolomics</title>
-      <link>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</guid>
+      <title>Deciphering the Biological Function of Tandem Mass Spectra Using a Dual-Modal Metabolite Language Model</title>
+      <link>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gut Roseburia hominis-derived 10-hydroxystearic acid alleviates metabolic disorder by restoring hepatic fatty acid metabolism</title>
       <link>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
       <guid>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FeatureMAP enables network-guided interpretation of untargeted metabolomics</title>
+      <link>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</link>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAPA: A Semantic Network Framework for Functional Module Discovery and Interpretation in Multi‐Omics Data</title>
+      <link>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</link>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/mapa-a-semantic-network-framework-for-functional-module-discovery-and-interpretation-in-multi-omics-data/</guid>
       <description></description>
     </item>
     

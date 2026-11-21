@@ -14,12 +14,12 @@
     <lastmod>2024-07-01T21:19:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/news/2026-11-17-xinwei-joins-shen-lab/</loc>
-    <lastmod>2026-11-20T12:11:27+08:00</lastmod>
+    <loc>https://shen-lab.org/news/2026-11-21-hic-singapore/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/authors/</loc>
-    <lastmod>2026-11-20T12:11:27+08:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -32,24 +32,16 @@
                 href="https://shen-lab.org/authors/"
                 />
   </url><url>
-    <loc>https://shen-lab.org/software/featuremap/</loc>
-    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/software/featuremsea/</loc>
-    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/tag/metabolomics/</loc>
-    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/software/phenomap/</loc>
-    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <loc>https://shen-lab.org/software/spec2function/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/tags/</loc>
-    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
@@ -62,8 +54,182 @@
                 href="https://shen-lab.org/tags/"
                 />
   </url><url>
+    <loc>https://shen-lab.org/publication-type/2/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/jinmiao-chen/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication_types/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-Hans"
+                href="https://shen-lab.org/zh/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://shen-lab.org/publication_types/"
+                />
+  </url><url>
+    <loc>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/news/2026-11-17-xinwei-joins-shen-lab/</loc>
+    <lastmod>2026-11-20T12:11:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication-type/3/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/qingpeng-kong/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/wenya-wang/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yifan-fu/</loc>
+    <lastmod>2026-11-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/clare-hsu/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/ju-sheng-zheng/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/kazuyuki-kasahara/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/ling-hu/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/minting-hu/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/nguan-soon-tan/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/rinkoo-dalan/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/shaun-tan/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yusuf-ali/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/featuremap/</loc>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/featuremsea/</loc>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/software/phenomap/</loc>
+    <lastmod>2026-11-11T16:09:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/chang-liu/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/guoping-peng/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/li-zeng/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/lifeng-qiu/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/news/2026-11-08-metabolomics-shanghai/</loc>
     <lastmod>2026-11-11T15:12:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/anisha-jaiswal/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/aubrey-k-roberts/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/daniel-hornburg/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/daniel-j-panyard/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/hirotaka-ieki/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/kevin-contrepois/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/martin-acosta-parra/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/michael-p-snyder/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/sara-ahadi/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/sophia-m-schussler-fiorenza-rose/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/tejaswini-mishra/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/themistocles-l-assimes/</loc>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/news/2026-9-30-hupo-presentations/</loc>
@@ -78,10 +244,6 @@
     <lastmod>2026-10-17T17:54:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication-type/2/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/fangqing-zhao/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -90,26 +252,8 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/nguan-soon-tan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication_types/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-Hans"
-                href="https://shen-lab.org/zh/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://shen-lab.org/publication_types/"
-                />
-  </url><url>
     <loc>https://shen-lab.org/author/qianyi-zhou/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiao-wang/</loc>
@@ -154,6 +298,98 @@
     <lastmod>2026-09-09T21:02:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://shen-lab.org/author/elaine-holmes/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/heng-huang/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/huadong-peng/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/huiru-tang/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/jia-v-li/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/jie-hu/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/jutarop-phetcharaburanin/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/krai-daowtak/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/maria-glymenaki/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/mizu-jiang/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/nick-powell/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/ornuma-haonon/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/shuaishuai-ni/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/the-gut-microbiome-organ/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/victor-w-zhong/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/weibin-song/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/xiru-li/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yang-bi/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yousong-peng/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yulan-wang/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/yunlei-xianyu/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/zhigang-liu/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/author/zhu-liu/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://shen-lab.org/news/2026-07-23-shanghai-environmental-health/</loc>
     <lastmod>2026-10-17T17:54:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -178,6 +414,10 @@
   </url><url>
     <loc>https://shen-lab.org/news/2026-06-01-asms-2026/</loc>
     <lastmod>2026-10-17T17:54:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</loc>
+    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome/</loc>
@@ -209,7 +449,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alessandra-celli/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alexandre-jousset/</loc>
@@ -220,10 +460,6 @@
     <lastmod>2026-10-31T16:35:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/anisha-jaiswal/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/anita-voigt/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -232,12 +468,8 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/aubrey-k-roberts/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/audrey-j-gaskins/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/benjamin-chih-chiang-lam/</loc>
@@ -261,19 +493,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/carmen-messerlian/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/caroline-bejikian/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/chang-liu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chao-tang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chen-peng/</loc>
@@ -281,7 +509,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chengliang-xiong/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chenxiao-shen/</loc>
@@ -297,7 +525,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chong-liu/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chun-pan-cheung/</loc>
@@ -316,24 +544,12 @@
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/clare-hsu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/da-chen/</loc>
     <lastmod>2026-10-31T16:35:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/dalia-perelman/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/daniel-hornburg/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/daniel-j-panyard/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/david-rubin/</loc>
@@ -344,16 +560,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication/decoding-personal-and-population-variability-in-the-human-multiome/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/deployment-of-a-cloud-based-passive-defecation-monitoring-system-for-continuous-gut-health-monitoring/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/dingjie-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/distinct-gut-microbiome-signatures-in-ethnically-diverse-populations-within-a-shared-urban-asian-geography/</loc>
@@ -372,24 +584,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/elaine-holmes/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/enhui-wu/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/eugene-b-chang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/featuremap-enables-network-guided-interpretation-of-untargeted-metabolomics/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/featuremsea-metabolic-feature-based-metabolite-set-enrichment-analysis/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/feng-xia/</loc>
@@ -405,7 +605,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/francis-ka-leung-chan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gianluca-ianiro/</loc>
@@ -413,27 +613,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/guangming-li/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gun-kim/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/guoping-peng/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/gut-roseburia-hominis-derived-10-hydroxystearic-acid-alleviates-metabolic-disorder-by-restoring-hepatic-fatty-acid-metabolism/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/hang-qin/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hao-wu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/haoyu-zhang/</loc>
@@ -441,7 +633,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hein-min-tun/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/helios-study-team/</loc>
@@ -452,24 +644,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/heng-huang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/hirotaka-ieki/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/honghua-yu/</loc>
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hu-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/huadong-peng/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/huaiqiu-zhu/</loc>
@@ -480,16 +660,12 @@
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/huiru-tang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/identification-of-antimicrobial-peptides-from-ancient-gut-microbiomes/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/insulin-resistance-modifies-longitudinal-multi-omics-responses-to-habitual-diet/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/integrated-intraocular-plasma-proteomics-reveals-conserved-biomarkers-for-diabetic-retinopathy-progression-a-multi-fluid-biopsy-study/</loc>
@@ -505,7 +681,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jeffrey-w-miller/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jessica-yl-ching/</loc>
@@ -521,11 +697,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jia-li/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/jia-v-li/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jiaheng-hou/</loc>
@@ -548,16 +720,8 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/jie-hu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/jie-zhang/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/jinmiao-chen/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jinyuan-guo/</loc>
@@ -569,7 +733,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/john-quackenbush/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jonathan-jin-yuan-teo/</loc>
@@ -577,10 +741,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/joseph-jao-yiu-sung/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/ju-sheng-zheng/</loc>
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -592,24 +752,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/jutarop-phetcharaburanin/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/kajal-rupesh-agrawal/</loc>
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/katherine-h-shutta/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/kazuyuki-kasahara/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/kevin-contrepois/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kewin-tien-ho-siah/</loc>
@@ -621,11 +769,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/komivi-dossa/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/krai-daowtak/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/kun-peng-enables-scalable-and-accurate-pan-domain-metagenomic-classification/</loc>
@@ -644,20 +788,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/li-zeng/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/li-li-huang/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/liang-qiao/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/lifeng-qiu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lihui-feng/</loc>
@@ -668,24 +804,20 @@
     <lastmod>2026-10-31T16:35:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/ling-hu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/lingling-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lishan-ding/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/liuyiqi-jiang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/loess-and-de-swan-can-induce-artifactual-waves-of-molecular-aging/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/louis-hs-lau/</loc>
@@ -693,19 +825,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lu-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/madeleine-carbonneau/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/maria-glymenaki/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/martin-acosta-parra/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/meijuan-zhou/</loc>
@@ -717,7 +841,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/mian-li/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/miao-li/</loc>
@@ -726,10 +850,6 @@
   </url><url>
     <loc>https://shen-lab.org/author/michael-j-rosen/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/michael-p-snyder/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/microbial-dark-matter-a-multi-layer-mystery/</loc>
@@ -748,20 +868,12 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/minting-hu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/mizu-jiang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/mo-li/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/muhammad-tahir-ul-qamar/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/munho-kim/</loc>
@@ -769,11 +881,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/nanopore-direct-rna-sequencing-and-the-epitranscriptome-advances-in-mapping-native-rna-landscapes/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/nick-powell/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/nicole-martinez-martin/</loc>
@@ -785,11 +893,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/orlando-deleon/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/ornuma-haonon/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/per-and-polyfluoroalkyl-substances-seminal-plasma-metabolome-and-sperm-telomere-length-and-mitochondrial-dna-copy-number-a-cohort-study/</loc>
@@ -805,7 +909,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/pranav-berry/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/qian-guo/</loc>
@@ -813,7 +917,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/qian-tang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/qing-qing/</loc>
@@ -833,7 +937,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/rachel-battersby/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/rashid-n-lui/</loc>
@@ -848,10 +952,6 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/rinkoo-dalan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/sang-hoon-chae/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -861,15 +961,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sanqi-an/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/sara-ahadi/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/sccody-distinguishes-aging-aligned-from-divergent-disease-associated-cellular-remodeling/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/seong-geon-kim/</loc>
@@ -888,16 +980,12 @@
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/shaun-tan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/shaymaa-a-ismail/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shengli-li/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shin-young-park/</loc>
@@ -905,23 +993,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shiou-yih-lee/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shiwen-gao/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/shuaishuai-ni/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/siew-chien-ng/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sizhe-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/soh-kim/</loc>
@@ -932,12 +1016,8 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/sophia-m-schussler-fiorenza-rose/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/sophia-miryam-schussler-fiorenza-rose/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sridhar-mani/</loc>
@@ -945,27 +1025,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sunjae-lee/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tae-hyung-kwon/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/tejaswini-mishra/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/the-expanding-landscape-of-microbiota-medicine-indications-therapeutic-modalities-and-the-path-towards-integrative-microbiome-targeting-healthcare/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/publication/the-gut-microbiome-organ/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/themistocles-l-assimes/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/theresia-handayani-mina/</loc>
@@ -977,11 +1045,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tianqing-meng/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tianyuan-zhang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ting-su/</loc>
@@ -993,31 +1061,23 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/trihalomethane-exposure-seminal-plasma-metabolomics-and-semen-quality-in-healthy-men-a-meet-in-the-middle-approach/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/vicente-mustieles/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/victor-w-zhong/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/walter-g-park/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/weibin-song/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/xitong-zhu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiang-yu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xianwen-shang/</loc>
@@ -1029,7 +1089,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiaole-yin/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiaopan-ma/</loc>
@@ -1068,28 +1128,20 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/xiru-li/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/xixi-chen/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yang-bi/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yang-dong/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yang-sun/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yanqiang-li/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yao-li/</loc>
@@ -1097,11 +1149,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yaxuan-zhang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ye-peng/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yijun-hu/</loc>
@@ -1113,11 +1165,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yinglei-miao/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yingzhou-lu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yisha-lin/</loc>
@@ -1129,15 +1181,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/you-wu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yousong-peng/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yu-zeng/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuanyuan-guo/</loc>
@@ -1145,11 +1193,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yue-yuan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yulan-wang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yulin-liao/</loc>
@@ -1157,19 +1201,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yun-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yunlei-xianyu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://shen-lab.org/author/yusuf-ali/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhaoyang-tian/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhe-wang/</loc>
@@ -1188,16 +1224,12 @@
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/zhigang-liu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/zhilu-xu/</loc>
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhimin-jiang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhiquan-song/</loc>
@@ -1212,10 +1244,6 @@
     <lastmod>2026-10-17T11:10:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/author/zhu-liu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/author/zhuoting-zhu/</loc>
     <lastmod>2026-11-10T16:25:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1225,7 +1253,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ziyang-luo/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/news/2025-12-08-singapore-science-conference/</loc>
@@ -1244,12 +1272,8 @@
     <lastmod>2026-10-16T18:10:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://shen-lab.org/publication-type/3/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://shen-lab.org/publication/leveraging-large-language-models-for-redundancy-aware-pathway-analysis-and-deep-biological-interpretation/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/software/mapa/</loc>
@@ -1265,107 +1289,107 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chengli-yu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chenwen-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gang-cao/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/haibing-hua/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/haijian-sun/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jingjie-zhou/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jinjun-shan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/junzhi-zhang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kang-ding/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lu-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/metabolomics-and-proteomics-revealblocking-argininosuccinate-synthetase-1alleviates-colitis-in-mice/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/peng-wei/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/qiongzi-he/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shijia-liu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shuai-lu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shusheng-yin/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tongtong-liu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/wei-zhou/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/weichen-xu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xi-guo/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ye-zhang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yi-xu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yongming-li/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yujiao-yan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhimin-fan/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zichen-luo/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/news/2025-07-11-environmental-exposure-health-symposium/</loc>
@@ -1477,19 +1501,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/david-k-stevenson/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gary-l-darmstadt/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gary-m-shaw/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/gwendoline-chimhini/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/han-li/</loc>
@@ -1497,7 +1521,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hanyah-zackriah/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hilda-a-mujuru/</loc>
@@ -1505,15 +1529,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hilda-angela-mujuru/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/identification-of-early-and-mid-pregnancy-maternal-lipidomics-and-metabolomics-signatures-of-preterm-and-small-for-gestational-age-infants-from-low-and-middle-income-countries/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ivana-maric/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ivana-maric/</loc>
@@ -1521,7 +1545,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/john-a-kerner/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/john-kerner/</loc>
@@ -1537,19 +1561,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jonathan-reiss/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kumanan-wilson/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/larry-rand/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/laura-jelliffe-pawlowski/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-human-pregnancy/</loc>
@@ -1573,7 +1597,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/nancy-otieno/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/photo-2024/</loc>
@@ -1585,15 +1609,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ronald-j-wong/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/samir-k-saha/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/samuel-lancaster/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shengquan-chen/</loc>
@@ -1601,7 +1625,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/stephen-hawken/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/steven-hawken/</loc>
@@ -1609,7 +1633,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/victoria-ward/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/william-hay/</loc>
@@ -1617,7 +1641,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/william-w-hay/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xudong-xing/</loc>
@@ -1717,7 +1741,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lihua-jiang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lucas-hampton/</loc>
@@ -1741,7 +1765,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ruiqi-jian/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/structure-and-topography-of-the-synaptic-v-atpasesynaptophysin-complex/</loc>
@@ -1785,103 +1809,103 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alexander-honkala/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/andrew-w-brooks/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/bo-young-hong/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/chenchen-zhu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/daniel-j-spakowicz/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/eddy-j-bautista/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/erica-sodergren/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/faye-chleilat/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/george-m-weinstock/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hoan-nguyen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jethro-s-johnson/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kexin-cha/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lei-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/lin-lyu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/melissa-agnello/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/meng-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/monica-avina/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/paula-b-kavathas/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shana-leopold/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shirley-jingyi-chen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/thi-dong-binh-tran/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/wenyu-zhou/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yair-dorsett/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yanjiao-zhou/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/interindividual-variability-in-postprandial-plasma-fructose-patterns-in-adults/</loc>
@@ -1965,7 +1989,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/robert-tibshirani/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</loc>
@@ -1977,111 +2001,111 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alexandra-naba/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/andrea-radtke/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/brent-r-stockwell/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ernesto-s-nakayasu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/fiona-ginty/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hubmap-consortium/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/huiping-liu/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ioannis-s-vlachos/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/james-p-carson/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/james-s-hagood/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jeffrey-m-spraggins/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/joana-p-goncalves/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/john-w-hickey/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/katy-borner/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/liming-pei/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/louise-c-laurent/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/michael-angelo/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/mowei-zhou/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/neil-l-kelleher/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/nils-gehlenborg/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/paul-robson/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/raf-van-de-plas/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/sanjay-jain/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shin-lin/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/wei-jun-qian/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yiing-lin/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2023-asms/</loc>
@@ -2157,43 +2181,43 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alireza-delfarah/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ariel-ganz/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/basil-michael/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/brittany-lee-mcmullen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/ian-simms/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jessalyn-ubellacker/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/kevin-erazo-castillo/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yael-rosenberg-hasson/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/mads-melbye/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/semi-supervised-cooperative-learning/</loc>
@@ -2201,7 +2225,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/systems-and-methods-for-evaluating-gestational-progress-and-applications-thereof/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/collaborators/</loc>
@@ -2369,11 +2393,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/mirabela-rusu/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</loc>
@@ -2385,7 +2409,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/george-weinstock/</loc>
@@ -2405,7 +2429,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zheng-jiang-zhu/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/alan-tung/</loc>
@@ -2453,27 +2477,27 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/guangwen-wang/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/rene-hoffman/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/shannon-rego/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/stephanie-nevins/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xun-cheng/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</loc>
@@ -2489,7 +2513,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/fuzhong-xue/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jia-liu/</loc>
@@ -2501,7 +2525,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jialin-wang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/mengke-wei/</loc>
@@ -2509,7 +2533,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/tao-zhang/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xia-li/</loc>
@@ -2545,35 +2569,35 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/bjarke-feenstra/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/brian-piening/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hannes-rost/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/john-k-snyder/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/line-skotte/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/marie-louise-hee-rasmussen/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/norman-cy-lee/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/tag/others/</loc>
@@ -2597,11 +2621,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/jia-tu/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</loc>
@@ -2617,7 +2641,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zhiwei-zhou/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/binbin-cui/</loc>
@@ -2737,7 +2761,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuping-cai/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/zaijun-ma/</loc>
@@ -2749,7 +2773,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</loc>
-    <lastmod>2026-10-31T16:35:55+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/event/2016-asms/</loc>
@@ -2761,7 +2785,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/xiaoyun-gong/</loc>
-    <lastmod>2026-11-10T16:25:12+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yanxun-liu/</loc>
@@ -2801,15 +2825,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/hao-li/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/author/yuan-guo/</loc>
-    <lastmod>2026-10-17T11:10:40+08:00</lastmod>
+    <lastmod>2026-11-20T12:47:14+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://shen-lab.org/admin/</loc>

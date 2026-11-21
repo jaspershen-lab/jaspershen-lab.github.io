@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenya WANG | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/wenya-wang/</link>
+      <atom:link href="https://shen-lab.org/author/wenya-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenya WANG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shen-lab.org/media/logo_hu_4c7ba183ca25811e.png</url>
+      <title>Wenya WANG</title>
+      <link>https://shen-lab.org/author/wenya-wang/</link>
+    </image>
+    
+    <item>
+      <title>Deciphering the Biological Function of Tandem Mass Spectra Using a Dual-Modal Metabolite Language Model</title>
+      <link>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</link>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://shen-lab.org/publication/deciphering-the-biological-function-of-tandem-mass-spectra-using-a-dual-modal-metabolite-language-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

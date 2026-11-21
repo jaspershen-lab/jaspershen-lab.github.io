@@ -90,7 +90,7 @@
     "country": "",
     "lat": 37.4313,
     "lng": -122.1694,
-    "count": 2,
+    "count": 4,
     "collaborators": [
       {
         "name": "Chuchu Wang",
@@ -112,19 +112,6 @@
       {
         "name": "Morgan L Turner",
         "institution": "Harvard Medical School"
-      }
-    ]
-  },
-  {
-    "city": "Knox Selfie Lab",
-    "country": "",
-    "lat": 35.9684,
-    "lng": -83.9211,
-    "count": 1,
-    "collaborators": [
-      {
-        "name": "George Weinstock",
-        "institution": "The Jackson Lab"
       }
     ]
   },
@@ -151,32 +138,6 @@
       {
         "name": "Shuyan Zhang",
         "institution": "University of Groningen"
-      }
-    ]
-  },
-  {
-    "city": "The Ohio State University",
-    "country": "",
-    "lat": 40.0057,
-    "lng": -83.0287,
-    "count": 1,
-    "collaborators": [
-      {
-        "name": "Daniel J Spakowicz",
-        "institution": "The Ohio State University"
-      }
-    ]
-  },
-  {
-    "city": "University of Connecticut Health Center",
-    "country": "",
-    "lat": 41.7334,
-    "lng": -72.7923,
-    "count": 1,
-    "collaborators": [
-      {
-        "name": "Yanjiao Zhou",
-        "institution": "UCONN HEALTH"
       }
     ]
   }
