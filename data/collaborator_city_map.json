@@ -45,69 +45,11 @@
     ]
   },
   {
-    "city": "Tan Tock Seng Hospital",
-    "country": "",
-    "lat": 1.3213,
-    "lng": 103.8465,
-    "count": 8,
-    "collaborators": [
-      {
-        "name": "Chuanhui Xu",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Ying Jie Chee",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Ai Ying Teh",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Claire Min-Li Teo",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Justina Wei Lyn Tan",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Ee Tzun Koh",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Khai Pang Leong",
-        "institution": "Tan Tock Seng Hospital"
-      },
-      {
-        "name": "Rinkoo Dalan",
-        "institution": "Tan Tock Seng Hospital"
-      }
-    ]
-  },
-  {
-    "city": "Stanford University",
-    "country": "",
-    "lat": 37.4313,
-    "lng": -122.1694,
-    "count": 4,
-    "collaborators": [
-      {
-        "name": "Chuchu Wang",
-        "institution": "Stanford University"
-      },
-      {
-        "name": "Peng Gao",
-        "institution": "Stanford University"
-      }
-    ]
-  },
-  {
     "city": "Harvard Medical School",
     "country": "",
     "lat": 42.3369,
     "lng": -71.1039,
-    "count": 1,
+    "count": 2,
     "collaborators": [
       {
         "name": "Morgan L Turner",
@@ -120,7 +62,7 @@
     "country": "",
     "lat": 51.8228,
     "lng": 5.8622,
-    "count": 1,
+    "count": 2,
     "collaborators": [
       {
         "name": "Thomas C Smits",
@@ -129,15 +71,58 @@
     ]
   },
   {
-    "city": "Rijksuniversiteit Groningen",
+    "city": "Stanford University",
     "country": "",
-    "lat": 53.2194,
-    "lng": 6.563,
+    "lat": 37.4313,
+    "lng": -122.1694,
+    "count": 2,
+    "collaborators": [
+      {
+        "name": "Chuchu Wang",
+        "institution": "Stanford University"
+      },
+      {
+        "name": "Peng Gao",
+        "institution": "Stanford University"
+      }
+    ]
+  },
+  {
+    "city": "Knox Selfie Lab",
+    "country": "",
+    "lat": 35.9684,
+    "lng": -83.9211,
     "count": 1,
     "collaborators": [
       {
-        "name": "Shuyan Zhang",
-        "institution": "University of Groningen"
+        "name": "George Weinstock",
+        "institution": "The Jackson Lab"
+      }
+    ]
+  },
+  {
+    "city": "The Ohio State University",
+    "country": "",
+    "lat": 40.0057,
+    "lng": -83.0287,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Daniel J Spakowicz",
+        "institution": "The Ohio State University"
+      }
+    ]
+  },
+  {
+    "city": "University of Connecticut Health Center",
+    "country": "",
+    "lat": 41.7334,
+    "lng": -72.7923,
+    "count": 1,
+    "collaborators": [
+      {
+        "name": "Yanjiao Zhou",
+        "institution": "UCONN HEALTH"
       }
     ]
   }
