@@ -1,5 +1,7 @@
 # Netlify redirects
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
+/zh/news/2026-11-23-yi-quan-wang-joins-shen-lab/ /news/2026-11-23-yi-chuan-wang-joins-shen-lab/
 /zh/author/sunny-hei-wong/ /author/sunny-wong/
 /zh/author/sunny-h-wong/ /author/sunny-wong/
+/zh/author/yi-quan-wang/ /author/yi-chuan-wang/

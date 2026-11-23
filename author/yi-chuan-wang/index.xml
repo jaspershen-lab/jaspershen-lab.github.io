@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yi-Chuan WANG | Shen Lab@NTU</title>
+    <link>https://shen-lab.org/author/yi-chuan-wang/</link>
+      <atom:link href="https://shen-lab.org/author/yi-chuan-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yi-Chuan WANG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://shen-lab.org/author/yi-chuan-wang/avatar_hu_49460a9c7e3b4619.jpg</url>
+      <title>Yi-Chuan WANG</title>
+      <link>https://shen-lab.org/author/yi-chuan-wang/</link>
+    </image>
+    
+  </channel>
+</rss>
